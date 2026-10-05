@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frontier Radar Mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f7f6f1; --card:#fffefb; --ink:#1d2230; --soft:#4f5566; --faint:#858b99; --rule:#dcdad2;
+  --claude:#c96442; --grok:#22252c; --gemini:#2f6fde; --gpt:#10875f; --jev:#7a4fd1;
+  --note-bg:#fff4c7; --note-edge:#e2c64f; --note-ink:#5c4a08;
+  --ex:#a43d3d;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Atkinson Hyperlegible",system-ui,sans-serif}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+h1,h2,h3,.brand{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.15;margin:0}
+
+/* Notes band (JJ's explainer, not part of the site) */
+.notes{background:var(--note-bg);border-bottom:3px solid var(--note-edge);color:var(--note-ink);padding:24px 0}
+.notes .tag{display:inline-block;font-weight:700;font-size:13px;letter-spacing:.09em;text-transform:uppercase;background:var(--note-ink);color:var(--note-bg);padding:3px 10px;border-radius:999px;margin-bottom:10px}
+.notes h1{font-size:26px;margin-bottom:12px;color:var(--note-ink)}
+.notes .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px 28px}
+.notes .grid div{font-size:15.5px}
+.notes b{color:#3a2e02}
+.notes .calls{margin-top:16px;background:#fffbe6;border:1px solid var(--note-edge);border-radius:10px;padding:12px 16px;font-size:15.5px}
+.notes ol{margin:6px 0 0;padding-left:22px}
+
+.howlabel{margin:28px auto 10px;font-weight:700;font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint);display:flex;align-items:center;gap:12px}
+.howlabel:after{content:"";flex:1;height:1px;background:var(--rule)}
+
+/* The mocked site */
+.site{background:var(--card);border:1px solid var(--rule);border-radius:16px;overflow:hidden;margin-bottom:48px;box-shadow:0 2px 0 var(--rule)}
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:18px 22px;border-bottom:1px solid var(--rule)}
+.brand{font-size:28px;font-weight:800;letter-spacing:-.02em}
+.brand span{color:var(--gemini)}
+.stamp{font-size:13.5px;color:var(--faint)}
+nav{display:flex;gap:4px;overflow-x:auto;padding:0 14px;border-bottom:1px solid var(--rule);background:var(--paper)}
+nav button{font:700 14.5px "Atkinson Hyperlegible",sans-serif;border:0;background:none;padding:12px 12px;cursor:pointer;color:var(--soft);border-bottom:3px solid transparent;white-space:nowrap}
+nav button.on{color:var(--ink);border-bottom-color:var(--ink)}
+.page{display:none;padding:24px 22px 32px}
+.page.on{display:block}
+.ex{color:var(--ex);font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin-right:6px}
+
+.ai{display:inline-block;font-weight:700;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:#fff;padding:2px 9px;border-radius:999px;vertical-align:middle}
+.c{background:var(--claude)}.g{background:var(--grok)}.ge{background:var(--gemini)}.o{background:var(--gpt)}.j{background:var(--jev)}
+.rumor{display:inline-block;font-weight:700;font-size:12px;border:1.5px dashed var(--ex);color:var(--ex);padding:1px 8px;border-radius:999px;margin-left:6px}
+
+.hero{display:grid;grid-template-columns:1.4fr 1fr;gap:24px;margin-bottom:28px}
+.hero .lead{background:var(--paper);border-radius:12px;padding:22px}
+.hero .lead h2{font-size:clamp(26px,3vw,36px);font-weight:800;margin:10px 0}
+.kicker{font-weight:700;font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint)}
+.why{color:var(--soft)}
+.meta{font-size:13.5px;color:var(--faint)}
+.trend{list-style:none;margin:0;padding:0}
+.trend li{display:flex;gap:12px;padding:11px 0;border-bottom:1px solid var(--rule)}
+.trend .n{font:800 22px "Bricolage Grotesque",sans-serif;color:var(--faint);min-width:26px}
+.trend b{display:block;line-height:1.3;margin:3px 0}
+h3.sec{font-size:22px;margin:6px 0 12px}
+.teasers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.box{border:1px solid var(--rule);border-radius:12px;padding:16px;background:#fff}
+.box h4{margin:0 0 8px;font:700 13px "Atkinson Hyperlegible";letter-spacing:.09em;text-transform:uppercase;color:var(--faint)}
+.box p{margin:0 0 8px;font-size:15.5px}
+.more{font-weight:700;font-size:14.5px;text-decoration:underline}
+
+.status{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:14px 0 22px}
+.status div{background:var(--paper);border-radius:10px;padding:12px}
+.status small{display:block;color:var(--faint);font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.filters span{border:1px solid var(--rule);border-radius:999px;padding:4px 12px;font-size:14px;font-weight:700;color:var(--soft)}
+.filters span.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tl{border-left:3px solid var(--claude);margin-left:6px;padding-left:18px}
+.tl .item{position:relative;padding:0 0 18px}
+.tl .item:before{content:"";position:absolute;left:-26px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--card);border:3px solid var(--claude)}
+.cat{font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--soft);background:var(--paper);padding:2px 8px;border-radius:6px}
+
+.consensus{background:var(--paper);border-radius:12px;padding:18px;margin-bottom:20px}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px}
+blockquote{margin:0;border-left:4px solid var(--rule);padding:4px 0 4px 14px}
+blockquote p{margin:0 0 6px;font-size:16px}
+.who{font-size:14px;color:var(--soft)}
+
+.projects{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.shot{height:110px;border-radius:8px;background:repeating-linear-gradient(45deg,#eceae3,#eceae3 10px,#f4f2ec 10px,#f4f2ec 20px);display:grid;place-items:center;font-size:13px;color:var(--faint);margin-bottom:10px}
+.rank{font:800 18px "Bricolage Grotesque",sans-serif;margin-right:6px}
+
+.course{display:grid;grid-template-columns:1fr auto;gap:8px 16px;align-items:start;padding:14px 0;border-bottom:1px solid var(--rule)}
+.price{font:800 20px "Bricolage Grotesque",sans-serif;text-align:right}
+.vetted{display:inline-block;font-size:12px;font-weight:700;color:var(--gpt);border:1.5px solid var(--gpt);border-radius:999px;padding:1px 8px}
+.empty{color:var(--soft);background:var(--paper);border-radius:10px;padding:14px;font-size:15.5px}
+.ai-group{margin:18px 0 6px;display:flex;align-items:center;gap:10px}
+
+footer{border-top:1px solid var(--rule);padding:16px 22px;font-size:13.5px;color:var(--faint);background:var(--paper)}
+
+@media (max-width:760px){
+  .hero,.vs{grid-template-columns:1fr}
+  .teasers{grid-template-columns:1fr}
+  .status{grid-template-columns:1fr 1fr}
+  .page{padding:18px 14px 26px}
+}
+</style>
+</head>
+<body>
+
+<section class="notes">
+  <div class="wrap">
+    <span class="tag">My notes - not part of the site</span>
+    <h1>Frontier Radar: what the site would look like</h1>
+    <div class="grid">
+      <div><b>Where it goes:</b> a public website, refreshed every morning at 6 AM Mountain. Its own folder, GitHub repo and web address. Repo Radar stays untouched.</div>
+      <div><b>What's real:</b> the layout, the five tabs, the sections on each page, the colored AI tags, and the Rumor, Vetted and "no courses yet" labels.</div>
+      <div><b>What's an example:</b> every headline, quote, project and course below. Anything marked <span class="ex" style="margin:0">Example</span> is made up for the mockup. The real site fills these from linked sources only.</div>
+      <div><b>How to use it:</b> click the tabs in the grey bar under the site name: Today, the five AIs, Experts, Top 20, Courses. It works on your phone too.</div>
+    </div>
+    <div class="calls">
+      <b>The calls you owe me</b>
+      <ol>
+        <li><b>The name.</b> My pick: <b>Frontier Radar</b>. It's a sibling to Repo Radar, says exactly what it tracks, and works when new AIs get added. Say a different name if you have one.</li>
+        <li><b>The layout.</b> Approve it, or tell me what to move, add or cut. After that I write the full plan for your review.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="howlabel">How it would look</div>
+
+  <div class="site">
+    <div class="top">
+      <div class="brand">Frontier<span>Radar</span></div>
+      <div class="stamp">Updated Monday, Oct 5, 2026 · 6:02 AM MT · <a href="#">Yesterday's edition</a></div>
+    </div>
+    <nav id="nav">
+      <button class="on" data-p="today">Today</button>
+      <button data-p="claude">Claude</button>
+      <button data-p="grok">Grok</button>
+      <button data-p="gemini">Gemini</button>
+      <button data-p="gpt">ChatGPT / OpenAI</button>
+      <button data-p="jev">Jev</button>
+      <button data-p="experts">What experts say</button>
+      <button data-p="top20">Top 20 projects</button>
+      <button data-p="courses">Courses</button>
+    </nav>
+
+    <!-- TODAY -->
+    <section class="page on" id="today">
+      <div class="hero">
+        <div class="lead">
+          <div class="kicker">Top story</div>
+          <span class="ai ge">Gemini</span>
+          <h2><span class="ex">Example</span>A new flagship model ships with a much bigger memory</h2>
+          <p class="why"><b>Why it matters:</b> Example of the two plain sentences that explain what changes for a normal user. Then one sentence on what it means for the other four.</p>
+          <div class="meta">Official blog + 6 news outlets · 3h ago · <a href="#">Source</a></div>
+        </div>
+        <div>
+          <h3 class="sec">Trending now</h3>
+          <ol class="trend">
+            <li><span class="n">1</span><div><span class="ai c">Claude</span><b><span class="ex">Example</span>New feature rolls out to all paid plans</b><span class="meta">Official · 5h ago</span></div></li>
+            <li><span class="n">2</span><div><span class="ai o">ChatGPT</span><b><span class="ex">Example</span>Price change for the top plan</b><span class="meta">Official + 4 outlets · 8h ago</span></div></li>
+            <li><span class="n">3</span><div><span class="ai g">Grok</span><span class="rumor">Rumor</span><b><span class="ex">Example</span>Next model reportedly weeks away</b><span class="meta">1 outlet, not confirmed · 10h ago</span></div></li>
+            <li><span class="n">4</span><div><span class="ai j">Jev</span><b><span class="ex">Example</span>Early access opens to more developers</b><span class="meta">Official · 12h ago</span></div></li>
+          </ol>
+          <a class="more" href="#">See all 10</a>
+        </div>
+      </div>
+      <div class="teasers">
+        <div class="box"><h4>What experts say</h4><p><span class="ex">Example</span>"A short real quote goes here, under 25 words."</p><p class="who">Named expert · their blog</p><a class="more" href="#">All expert takes</a></div>
+        <div class="box"><h4>Top 20 this week</h4><p><b>1.</b> <span class="ex">Example</span>An agent that books travel</p><p><b>2.</b> <span class="ex">Example</span>A voice note-taker</p><p><b>3.</b> <span class="ex">Example</span>A coding helper</p><a class="more" href="#">See the full 20</a></div>
+        <div class="box"><h4>New course added</h4><p><span class="ai c">Claude</span> <span class="ex">Example</span>A 6-week live cohort for builders</p><p class="who">Vetted · $X · live cohort</p><a class="more" href="#">All courses</a></div>
+      </div>
+    </section>
+
+    <!-- AI TAB (Claude shown; the other four use the same layout) -->
+    <section class="page" id="claude">
+      <span class="ai c">Claude</span>
+      <h2 style="font-size:32px;margin:8px 0 2px">Claude</h2>
+      <div class="meta">Made by Anthropic · Grok, Gemini, ChatGPT and Jev tabs use this same layout</div>
+      <div class="status">
+        <div><small>Flagship model</small><span class="ex">Example</span>Model name</div>
+        <div><small>Newest release</small><span class="ex">Example</span>3 days ago</div>
+        <div><small>Plans from</small><span class="ex">Example</span>$X / month</div>
+        <div><small>This week</small><span class="ex">Example</span>4 updates</div>
+      </div>
+      <div class="filters"><span class="on">All</span><span>Models</span><span>Features</span><span>Pricing &amp; plans</span><span>Apps &amp; integrations</span><span>Policy, safety &amp; outages</span></div>
+      <div class="tl">
+        <div class="item"><span class="cat">Feature</span> <span class="meta">Oct 4</span><br><b><span class="ex">Example</span>New feature reaches all paid plans</b><br><span class="why">One plain-English line on what you can now do.</span> <a class="more" href="#">Source</a></div>
+        <div class="item"><span class="cat">Model</span> <span class="meta">Oct 1</span><br><b><span class="ex">Example</span>New model version released</b><br><span class="why">What got better, in one line, with the official number.</span> <a class="more" href="#">Source</a></div>
+        <div class="item"><span class="cat">Outage</span> <span class="meta">Sep 29</span><br><b><span class="ex">Example</span>Two-hour slowdown, now fixed</b><br><span class="why">From the official status page.</span> <a class="more" href="#">Source</a></div>
+      </div>
+    </section>
+
+    <section class="page" id="grok"><span class="ai g">Grok</span><h2 style="font-size:32px;margin:8px 0">Grok</h2><p class="empty">Same layout as the Claude tab: the four status boxes, the filters and the update timeline. Click the Claude tab to see it.</p></section>
+    <section class="page" id="gemini"><span class="ai ge">Gemini</span><h2 style="font-size:32px;margin:8px 0">Gemini</h2><p class="empty">Same layout as the Claude tab.</p></section>
+    <section class="page" id="gpt"><span class="ai o">ChatGPT / OpenAI</span><h2 style="font-size:32px;margin:8px 0">ChatGPT / OpenAI</h2><p class="empty">Same layout as the Claude tab.</p></section>
+    <section class="page" id="jev"><span class="ai j">Jev</span><h2 style="font-size:32px;margin:8px 0">Jev</h2><div class="meta">Made by TypeSafe AI · in limited early access since Sep 15, 2026</div><p class="empty" style="margin-top:14px">Same layout as the Claude tab. Jev's timeline will be short for now, because it's three weeks old. The page says so instead of padding it.</p></section>
+
+    <!-- EXPERTS -->
+    <section class="page" id="experts">
+      <div class="consensus">
+        <div class="kicker">Biggest debate this week</div>
+        <h3 style="font-size:22px;margin:6px 0"><span class="ex">Example</span>Is the new model actually better, or just bigger?</h3>
+        <p class="why" style="margin:0"><b>Consensus:</b> most builders say X. The skeptics say Y. Written plainly, with no side taken.</p>
+      </div>
+      <div class="vs">
+        <div><div class="kicker" style="margin-bottom:8px">Impressed</div>
+          <blockquote><p><span class="ex">Example</span>"A real short quote from a named researcher."</p><div class="who">Name · AI researcher · <a href="#">their newsletter</a></div></blockquote></div>
+        <div><div class="kicker" style="margin-bottom:8px">Skeptical</div>
+          <blockquote><p><span class="ex">Example</span>"A real short quote from a named builder who disagrees."</p><div class="who">Name · startup founder · <a href="#">their post</a></div></blockquote></div>
+      </div>
+      <h3 class="sec">More takes</h3>
+      <blockquote style="margin-bottom:14px"><p><span class="ai o">ChatGPT</span> <span class="ex">Example</span>"Quote about a different story."</p><div class="who">Name · YouTube reviewer · <a href="#">video</a></div></blockquote>
+    </section>
+
+    <!-- TOP 20 -->
+    <section class="page" id="top20">
+      <p class="meta" style="margin-top:0">Refreshed every Friday. Every code project passed the Repo Radar security check.</p>
+      <div class="projects">
+        <div class="box"><div class="shot">real screenshot</div><span class="rank">1</span><span class="ai c">Claude</span><p style="margin-top:8px"><b><span class="ex">Example</span>Travel agent</b><br>Books flights and hotels from one message.</p><p class="meta">Why it's here: launched Tuesday, top of Show HN</p></div>
+        <div class="box"><div class="shot">real screenshot</div><span class="rank">2</span><span class="ai ge">Gemini</span><p style="margin-top:8px"><b><span class="ex">Example</span>Voice note-taker</b><br>Turns rambling voice memos into a task list.</p><p class="meta">Why it's here: covered by 3 outlets</p></div>
+        <div class="box"><div class="shot">real screenshot</div><span class="rank">3</span><span class="ai o">ChatGPT</span><p style="margin-top:8px"><b><span class="ex">Example</span>Coding helper</b><br>Reviews your code before you ship it.</p><p class="meta">Why it's here: fast-growing on GitHub</p></div>
+        <div class="box"><div class="shot">no real picture found</div><span class="rank">4</span><span class="ai g">Grok</span><p style="margin-top:8px"><b><span class="ex">Example</span>Market news digest</b><br>Summarizes the day's posts on a topic.</p><p class="meta">Why it's here: builder launch post</p></div>
+      </div>
+      <p class="meta">... continues to 20</p>
+    </section>
+
+    <!-- COURSES -->
+    <section class="page" id="courses">
+      <p class="meta" style="margin-top:0">Refreshed every Friday. A course is listed only after it passes vetting: a real named provider, a working page with the price shown, and independent reviews. No income promises.</p>
+      <div class="ai-group"><span class="ai c">Claude</span></div>
+      <div class="course"><div><b><span class="ex">Example</span>Building agents with Claude</b> <span class="vetted">Vetted</span><br><span class="who">Provider name · live cohort, 6 weeks · You leave with: a working agent</span><br><span class="meta">Reviews: 4.7 from 120 reviews on an independent site</span></div><div class="price">$X</div></div>
+      <div class="ai-group"><span class="ai g">Grok</span></div>
+      <div class="course"><div><b><span class="ex">Example</span>Grok for researchers</b> <span class="vetted">Vetted</span><br><span class="who">Provider name · self-paced · You leave with: a research workflow</span></div><div class="price">$X</div></div>
+      <div class="ai-group"><span class="ai ge">Gemini</span></div>
+      <div class="course"><div><b><span class="ex">Example</span>Gemini in Google Workspace</b> <span class="vetted">Vetted</span><br><span class="who">Provider name · self-paced</span></div><div class="price">$X</div></div>
+      <div class="ai-group"><span class="ai o">ChatGPT / OpenAI</span></div>
+      <div class="course"><div><b><span class="ex">Example</span>Custom GPTs for small business</b> <span class="vetted">Vetted</span><br><span class="who">Provider name · live cohort</span></div><div class="price">$X</div></div>
+      <div class="ai-group"><span class="ai j">Jev</span></div>
+      <p class="empty">No vetted courses yet. Jev has been in early access since Sep 15, 2026. We'll list one when a course passes vetting.</p>
+    </section>
+
+    <footer>Frontier Radar is independent and not affiliated with Anthropic, xAI, Google, OpenAI or TypeSafe AI. Every item links to its source. <a href="#">Corrections</a> · <a href="#">Archive</a></footer>
+  </div>
+</div>
+
+<script>
+document.getElementById('nav').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b) return;
+  document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('on',x===b));
+  document.querySelectorAll('.page').forEach(p=>p.classList.toggle('on',p.id===b.dataset.p));
+});
+</script>
+</body>
+</html>

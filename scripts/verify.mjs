@@ -15,19 +15,12 @@ import { pathToFileURL } from 'node:url';
 import { loadSite, latest } from './lib/data.mjs';
 import { dayProblems, quoteProblems, projectProblems } from './checks.mjs';
 import { courseProblems } from './vetting.mjs';
-import { makeGateFor, blockedRepos } from './gatefor.mjs';
+import { makeGateFor, blockedRepos, ghRepo } from './gatefor.mjs';
 import { isHttps, hasDash } from './lib/text.mjs';
 import { FOOTER_LINE } from './templates.mjs';
 
 export const MAX_BLOCKLIST_AGE_DAYS = 2;
 const SKIP = ['.git', 'node_modules', '.vercel', '.superpowers', 'scripts', 'docs', 'data'];
-// github.com/<owner>/<name> links where the owner is a GitHub section, not a user or org.
-const NOT_REPOS = new Set(['sponsors', 'topics', 'trending', 'collections', 'features', 'about', 'orgs', 'settings', 'marketplace', 'security', 'site', 'pricing', 'login', 'join']);
-// owner/name for a github.com repo link, or null for anything else (a GitHub section, another site).
-export function ghRepo(url) {
-  const m = String(url || '').match(/^https:\/\/github\.com\/([^/#?]+)\/([^/#?]+)/);
-  return m && !NOT_REPOS.has(m[1].toLowerCase()) ? `${m[1]}/${m[2]}`.replace(/\.git$/, '') : null;
-}
 function walk(root, dir = '', out = []) {
   for (const f of readdirSync(join(root, dir))) {
     if (SKIP.includes(f)) continue;

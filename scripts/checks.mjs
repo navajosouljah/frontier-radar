@@ -1,7 +1,7 @@
 // checks.mjs - the content rules (spec section 5). Each function returns a list of plain-English problems.
 import { words, hasDash, isHttps } from './lib/text.mjs';
 import { independentCount } from './rank.mjs';
-import { repoOf, codeHost } from './gatefor.mjs';
+import { repoOf, codeHost, ghRepo } from './gatefor.mjs';
 
 export const CATEGORIES = { model: 'Model', feature: 'Feature', pricing: 'Pricing & plans', apps: 'Apps & integrations', policy: 'Policy, safety & outages' };
 export const KINDS = ['official', 'press', 'expert', 'community'];
@@ -77,12 +77,20 @@ export function projectProblems(p, aiIds, gateFor) {
   out.push(...sourceProblems(p.sources, w));
   if (!['repo', 'app'].includes(p.kind)) out.push(`${w}: kind must be repo or app`);
   const hostOf = codeHost(p.url);
+  const linked = ghRepo(p.url);
   const repo = repoOf(p);
   if (hostOf && hostOf !== 'github.com') out.push(`${w}: ${hostOf} is a code host the gate cannot check; only GitHub repos can be listed as code`);
   else if (p.kind === 'app' && hostOf) out.push(`${w}: an app may not live on a code host (${hostOf}); if it is code, list it as kind repo`);
-  if (p.kind === 'repo' && !repo) out.push(`${w}: a code project must name its GitHub repo (repo "owner/name" or a github.com url)`);
+  if (p.kind === 'repo') {
+    // The link readers click is the repo the gate cleared, nothing else.
+    if (!linked) out.push(`${w}: a code project's url must be its GitHub page (https://github.com/owner/name)`);
+    else if (p.repo && p.repo.toLowerCase() !== linked.toLowerCase()) out.push(`${w}: repo "${p.repo}" does not match the url (${linked})`);
+  }
   if (repo) { const g = gateFor(repo); if (!g.ok) out.push(`${w}: ${repo} is not cleared by the security gate (${g.why})`); }
-  if (p.shot && (!p.shot.src || !p.shot.alt)) out.push(`${w}: a picture needs src and alt`);
+  if (p.shot) {
+    if (!p.shot.src || !p.shot.alt) out.push(`${w}: a picture needs src and alt`);
+    else if (!(isHttps(p.shot.src) || /^(?!\/|\.\.)(?!.*\.\.)[\w./-]+\.(png|jpe?g|webp|gif)$/i.test(p.shot.src))) out.push(`${w}: a picture must be an https link or a local image path inside the site`);
+  }
   for (const f of ['name', 'oneliner', 'why']) if (hasDash(p[f])) out.push(`${w}: ${f} has an em or en dash`);
   return out;
 }

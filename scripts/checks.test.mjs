@@ -44,10 +44,15 @@ test('project rules: every project says what it is, and code is GitHub only, gat
   assert.deepEqual(projectProblems(project(), IDS, never), [], 'a hosted app needs no gate');
   assert.ok(has(projectProblems(project({ kind: undefined }), IDS, ok), /kind must be repo or app/));
   assert.ok(has(projectProblems(project({ kind: 'app', url: 'https://github.com/o/r' }), IDS, ok), /code host/), 'an app may not live on a code host');
-  assert.ok(has(projectProblems(project({ kind: 'repo' }), IDS, ok), /name its GitHub repo/));
+  assert.ok(has(projectProblems(project({ kind: 'repo' }), IDS, ok), /must be its GitHub page/));
   assert.ok(has(projectProblems(project({ kind: 'repo', url: 'https://github.com/o/r' }), IDS, never), /not cleared by the security gate/));
   assert.deepEqual(projectProblems(project({ kind: 'repo', url: 'https://github.com/o/r' }), IDS, ok), []);
-  assert.deepEqual(projectProblems(project({ kind: 'repo', repo: 'o/r', url: 'https://o.github.io/r' }), IDS, ok), [], 'a repo field with a docs site is fine');
+  assert.ok(has(projectProblems(project({ kind: 'repo', repo: 'o/r', url: 'https://o.github.io/r' }), IDS, ok), /must be its GitHub page/), 'a code project links its repo, not a docs site');
+  assert.ok(has(projectProblems(project({ kind: 'repo', repo: 'o/r', url: 'https://github.com/other/thing' }), IDS, ok), /does not match/), 'the link and the repo field must agree');
+  assert.ok(has(projectProblems(project({ kind: 'repo', repo: 'good/repo', url: 'https://evil.example/install.sh' }), IDS, ok), /must be its GitHub page/));
+  assert.ok(has(projectProblems(project({ shot: { src: 'http://tracker.example/p.png', alt: 'x' } }), IDS, ok), /picture.*https/), 'a plain http picture never renders');
+  assert.deepEqual(projectProblems(project({ shot: { src: 'shots/x.png', alt: 'x' } }), IDS, ok), [], 'a local picture is fine');
+  assert.ok(has(projectProblems(project({ shot: { src: '../x.png', alt: 'x' } }), IDS, ok), /picture/), 'no climbing out of the site');
   assert.ok(has(projectProblems(project({ kind: 'repo', url: 'https://gitlab.com/o/r' }), IDS, ok), /only GitHub/));
   assert.ok(has(projectProblems(project({ kind: 'app', url: 'https://pypi.org/project/x' }), IDS, ok), /code host/));
   assert.ok(has(projectProblems(project({ kind: 'app', repo: 'o/r' }), IDS, never), /not cleared/), 'a repo field is gated whatever the kind');

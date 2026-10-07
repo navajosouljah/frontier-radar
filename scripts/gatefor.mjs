@@ -14,14 +14,28 @@ export function makeGateFor(gateLog, blocklists, nowMs = Date.now(), { allowStal
     if (g.verdict !== 'PASS') return { ok: false, why: `gate verdict is ${g.verdict}` };
     const adv = g.checks?.advisories || {};
     if (!adv.source || adv.count == null || !adv.url) return { ok: false, why: 'PASS without advisory evidence' };
+    if ((ghRepo(adv.url) || '').toLowerCase() !== key(repo)) return { ok: false, why: `PASS whose advisory evidence is for ${adv.url}, not this repo` };
     const age = (nowMs - Date.parse(g.checked)) / 864e5;
     if (age > MAX_GATE_AGE_DAYS && !allowStale) return { ok: false, why: `gate is ${Math.round(age)} days old` };
     return { ok: true };
   };
 }
 export const blockedRepos = blocklists => new Set(blocklists.flat().map(b => key(b.repo)));
-// The GitHub repo behind a project: its `repo` field, or a github.com link.
-export const repoOf = p => p.repo || (String(p.url || '').match(/^https:\/\/github\.com\/([^/#?]+\/[^/#?]+)/) || [])[1] || null;
+// github.com/<owner>/<name> links where the owner is a GitHub section, not a user or org.
+const NOT_REPOS = new Set(['sponsors', 'topics', 'trending', 'collections', 'features', 'about', 'orgs', 'settings', 'marketplace', 'security', 'site', 'pricing', 'login', 'join', 'explore', 'events', 'readme', 'apps', 'enterprise', 'contact', 'customer-stories', 'copilot']);
+// owner/name for any form of a GitHub repo address (www., upper case, a port, .git, a deep path), else null.
+// Parsed with URL so a look-alike host (gist.github.com, notgithub.com) or plain http never passes.
+export function ghRepo(url) {
+  let u; try { u = new URL(String(url || '')); } catch { return null; }
+  if (u.protocol !== 'https:') return null;
+  const host = u.hostname.toLowerCase().replace(/^www\./, '');
+  if (host !== 'github.com') return null;
+  const [owner, name] = u.pathname.split('/').filter(Boolean);
+  if (!owner || !name || NOT_REPOS.has(owner.toLowerCase())) return null;
+  return `${owner}/${name.replace(/\.git$/, '')}`;
+}
+// The GitHub repo behind a project: its `repo` field, or its github.com link.
+export const repoOf = p => p.repo || ghRepo(p.url);
 // Places code is downloaded from. Only GitHub can be gated; the rest are refused as code projects.
 export const CODE_HOSTS = ['github.com', 'gitlab.com', 'codeberg.org', 'bitbucket.org', 'huggingface.co', 'npmjs.com', 'pypi.org', 'crates.io', 'sourceforge.net'];
 export function codeHost(url) {

@@ -1,0 +1,19 @@
+// catalog.mjs - every code repo Frontier Radar lists (every Top 20 file, newest first), for gate.mjs
+// --catalog and --recheck. Archived lists are included so a repo that later fails drops out everywhere.
+import { loadSite } from './lib/data.mjs';
+import { repoOf } from './gatefor.mjs';
+
+const s = loadSite(new URL('..', import.meta.url).pathname);
+const seen = new Map();
+for (const t of [...s.top20].reverse()) {
+  for (const p of t.projects || []) {
+    const repo = p.kind === 'repo' ? repoOf(p) : null;
+    if (!repo) continue;
+    const k = repo.toLowerCase();
+    if (!seen.has(k)) seen.set(k, { repo, where: [] });
+    seen.get(k).where.push(`top20 ${t.date}`);
+  }
+}
+const list = [...seen.values()];
+if (process.argv.includes('--json')) console.log(JSON.stringify(list, null, 2));
+else for (const e of list) console.log(`${e.repo}\t${e.where.join(', ')}`);

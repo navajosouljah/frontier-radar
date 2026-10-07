@@ -1,0 +1,6 @@
+scripts/
+docs/
+data/
+*.md
+.vercel
+.superpowers/

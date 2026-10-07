@@ -13,7 +13,7 @@ import { join, dirname, normalize } from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 import { loadSite, latest } from './lib/data.mjs';
-import { dayProblems, quoteProblems, projectProblems } from './checks.mjs';
+import { dayProblems, quoteProblems, projectProblems, trustFrom } from './checks.mjs';
 import { courseProblems } from './vetting.mjs';
 import { makeGateFor, blockedRepos, ghRepo } from './gatefor.mjs';
 import { isHttps, hasDash } from './lib/text.mjs';
@@ -41,7 +41,9 @@ export function verify(root, { nowMs = Date.now() } = {}) {
   for (const [kind, list] of [['days', s.days], ['experts', s.experts], ['top20', s.top20], ['courses', s.courses]]) {
     for (const f of list) if (f.date > today) bad(`data/${kind}/${f.date}`, `is dated in the future (today is ${today})`);
   }
-  for (const day of s.days) problems.push(...dayProblems(day, s.aiIds));
+  if (!s.sources) bad('data/sources.json', 'missing; the source list decides what counts as official, press, a leak tracker or a rumor account');
+  const trust = trustFrom(s.sources || {});
+  for (const day of s.days) problems.push(...dayProblems(day, s.aiIds, trust));
   for (const [id, st] of Object.entries(s.status)) {
     if (!st) continue;
     if (!(st.sources || []).length) bad(`data/ai/${id}.json`, 'status boxes need at least one source');

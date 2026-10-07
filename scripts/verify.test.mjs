@@ -85,6 +85,15 @@ test('a file dated in the future is refused', () => {
   d['docs/reports/2026-10-08.md'] = '## Needs JJ\n';
   assert.ok(has(run(d), /days\/2026-10-08.*future/));
 });
+test('verify applies the source tiers: a leak tracker plus a rumor account cannot be the top story', () => {
+  const s = goodSite();
+  s['data/days/2026-10-07/items.json'].items[0].sources = [{ url: 'https://www.testingcatalog.com/a', outlet: 'TestingCatalog', kind: 'community' }, { url: 'https://x.com/apples_jimmy/status/1', outlet: 'Jimmy Apples', kind: 'community' }];
+  const p = run(s);
+  assert.ok(has(p, /mark it rumor true/), p.join('\n'));
+  const m = goodSite();
+  delete m['data/sources.json'];
+  assert.ok(has(run(m), /data\/sources\.json/), 'no source list, no trust, no ship');
+});
 test('a missing day report is refused', () => {
   const s = goodSite();
   delete s['docs/reports/2026-10-07.md'];

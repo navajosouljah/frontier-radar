@@ -31,9 +31,26 @@ export const project = (over = {}) => ({
   sources: [{ url: 'https://news.ycombinator.com/item?id=1', outlet: 'Hacker News' }],
   ...over,
 });
+export const SOURCES = {
+  official: {
+    claude: [{ name: 'Anthropic news', url: 'https://www.anthropic.com/news' }, { name: 'Claude docs', url: 'https://docs.claude.com/en/release-notes/overview' }],
+    grok: [{ name: 'SpaceXAI news', url: 'https://x.ai/news', reader: true }],
+    gemini: [{ name: 'Google Gemini blog', url: 'https://blog.google/products/gemini/' }, { name: 'Gemini API docs', url: 'https://ai.google.dev/gemini-api/docs/changelog' }],
+    chatgpt: [{ name: 'OpenAI news', url: 'https://openai.com/news/', reader: true }],
+    jev: [{ name: 'TypeSafe AI', url: 'https://typesafe.ai' }],
+  },
+  press: [{ name: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/' }, { name: 'The Verge AI', url: 'https://www.theverge.com/ai-artificial-intelligence' }],
+  insiders: [{ name: 'The Information', url: 'https://www.theinformation.com/', reader: true }],
+  leaks: [{ name: 'TestingCatalog', url: 'https://www.testingcatalog.com/' }],
+  experts: [{ name: 'Simon Willison', url: 'https://simonwillison.net/' }],
+  video: [], communities: [{ name: 'Hacker News', url: 'https://news.ycombinator.com/' }],
+  x: { rumor: ['apples_jimmy'], leaks: ['btibor91'], insiders: ['OfficialLoganK', 'AnthropicAI'] },
+  projects: [],
+};
 export function goodSite() {
   return {
     'data/ai.json': AIS,
+    'data/sources.json': SOURCES,
     'data/days/2026-10-07/items.json': {
       date: '2026-10-07', top: 'claude-feature',
       items: [

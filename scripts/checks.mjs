@@ -1,5 +1,5 @@
 // checks.mjs - the content rules (spec section 5). Each function returns a list of plain-English problems.
-import { words, hasDash, isHttps } from './lib/text.mjs';
+import { words, hasDash, isHttps, ownerOf, host } from './lib/text.mjs';
 import { independentCount } from './rank.mjs';
 import { repoOf, codeHost, ghRepo } from './gatefor.mjs';
 
@@ -17,7 +17,39 @@ function sourceProblems(sources, w) {
   return out;
 }
 
-export function itemProblems(it, aiIds, date) {
+// What the source list (data/sources.json) says about who can be trusted for what. Built once per verify.
+export function trustFrom(sources) {
+  const owners = list => new Set((list || []).map(s => ownerOf(s.url)).filter(Boolean));
+  const handles = list => new Set((list || []).map(h => String(h).toLowerCase()));
+  return {
+    official: owners(Object.values(sources?.official || {}).flat()),
+    press: owners([...(sources?.press || []), ...(sources?.insiders || []), ...(sources?.experts || [])]),
+    leaks: owners(sources?.leaks),
+    insiderHandles: handles(sources?.x?.insiders),
+    rumorHandles: new Set([...handles(sources?.x?.rumor), ...handles(sources?.x?.leaks)]),
+  };
+}
+const xHandle = url => { const h = host(url); return h && /^(x\.com|twitter\.com|mobile\.twitter\.com)$/.test(h) ? (new URL(url).pathname.split('/')[1] || '').toLowerCase() : null; };
+// official | rumor | leak | press | other, judged by where the source lives, never by the kind the run wrote.
+export function sourceTrust(src, trust) {
+  const handle = xHandle(src.url);
+  if (handle !== null) return trust.insiderHandles.has(handle) ? 'official' : trust.rumorHandles.has(handle) ? 'rumor' : 'other';
+  const owner = ownerOf(src.url);
+  if (!owner) return 'other';
+  if (trust.official.has(owner)) return 'official';
+  if (trust.leaks.has(owner)) return 'leak';
+  // Only an outlet on the list counts as press; an unlisted site is "other" until JJ adds it to data/sources.json.
+  return trust.press.has(owner) && ['press', 'expert'].includes(src.kind) ? 'press' : 'other';
+}
+// Confirmed: an official source, or two independent outlets from the press, insider or expert lists (never a
+// leak tracker, a rumor account, an unlisted site or a community post). Copies marked `repeats` never count.
+export function confirmedBy(it, trust) {
+  const srcs = (it.sources || []).filter(s => !s.repeats);
+  if (srcs.some(s => sourceTrust(s, trust) === 'official')) return true;
+  return new Set(srcs.filter(s => sourceTrust(s, trust) === 'press').map(s => ownerOf(s.url))).size >= 2;
+}
+
+export function itemProblems(it, aiIds, date, trust = null) {
   const w = `item ${it.id || '(no id)'}`;
   const out = [];
   if (!/^[a-z0-9-]+$/.test(it.id || '')) out.push(`${w}: id must be lowercase letters, digits and hyphens`);
@@ -30,13 +62,21 @@ export function itemProblems(it, aiIds, date) {
   if (typeof it.rumor !== 'boolean') out.push(`${w}: rumor must be true or false`);
   out.push(...sourceProblems(it.sources, w));
   for (const s of it.sources || []) if (!KINDS.includes(s.kind)) out.push(`${w}: source kind must be one of ${KINDS.join(', ')}`);
-  const confirmed = (it.sources || []).some(s => s.kind === 'official') || independentCount(it) >= 2;
+  if (trust) {
+    for (const s of it.sources || []) {
+      const tr = sourceTrust(s, trust);
+      if (s.kind === 'official' && tr !== 'official') out.push(`${w}: source ${s.url} is not on the official source list (data/sources.json); label it press or community`);
+      if (tr === 'leak' && s.kind !== 'community') out.push(`${w}: source ${s.url} is a leak tracker; its kind must be community`);
+      if (tr === 'rumor' && s.kind !== 'community') out.push(`${w}: source ${s.url} is a rumor account; its kind must be community`);
+    }
+  }
+  const confirmed = trust ? confirmedBy(it, trust) : (it.sources || []).some(s => s.kind === 'official') || independentCount(it) >= 2;
   if (it.rumor === false && !confirmed) out.push(`${w}: not confirmed (no official source and fewer than 2 independent outlets): mark it rumor true`);
   for (const f of ['headline', 'summary', 'why']) if (hasDash(it[f])) out.push(`${w}: ${f} has an em or en dash`);
   return out;
 }
 
-export function dayProblems(day, aiIds) {
+export function dayProblems(day, aiIds, trust = null) {
   const w = `day ${day.date}`;
   if (!Array.isArray(day.items)) return [`${w}: items must be a list`];
   const out = [];
@@ -44,7 +84,7 @@ export function dayProblems(day, aiIds) {
   for (const it of day.items) {
     if (ids.has(it.id)) out.push(`${w}: two items share id ${it.id}`);
     ids.add(it.id);
-    out.push(...itemProblems(it, aiIds, day.date));
+    out.push(...itemProblems(it, aiIds, day.date, trust));
   }
   const top = day.items.find(it => it.id === day.top);
   if (day.top && !top) out.push(`${w}: top "${day.top}" is not one of the items`);

@@ -20,6 +20,7 @@ export function loadSite(root) {
     experts: dated('data/experts').map(d => read(`data/experts/${d}.json`)),
     top20: dated('data/top20').map(d => read(`data/top20/${d}.json`)),
     courses: dated('data/courses').map(d => read(`data/courses/${d}.json`)),
+    sources: read('data/sources.json', null),
     corrections: read('data/corrections.json', []),
     gateLog: read('data/gate-log.json', {}),
     blocklists: [read('data/blocklist.json', []), rrRepos],

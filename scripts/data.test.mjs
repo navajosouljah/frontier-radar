@@ -15,6 +15,7 @@ test('loadSite reads every data file', () => {
   assert.equal(s.blocklists.length, 2);
   assert.equal(s.blocklists[1][0].repo, 'fixture/blocked', 'the Repo Radar copy is read as a plain list');
   assert.equal(s.rrBlocklist.fetched, '2026-10-07T11:00:00Z');
+  assert.equal(s.sources.official.claude[0].url, 'https://www.anthropic.com/news');
 });
 test('a missing Repo Radar copy reads as empty, not a crash', () => {
   const site = goodSite();

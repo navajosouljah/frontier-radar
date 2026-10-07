@@ -66,6 +66,18 @@ test('corrections show on the item', () => {
   assert.match(page(dir, 'ai/grok.html'), /Corrected Oct 7:<\/b> The model name was wrong\./);
   assert.match(page(dir, 'corrections.html'), /The model name was wrong\./);
 });
+test('a story filed on two days shows once on the AI tab, with every source (review fix 6)', () => {
+  const site = goodSite();
+  site['data/days/2026-10-06/items.json'] = { date: '2026-10-06', top: 'claude-feature', items: [item({ why: 'Early why.', published: '2026-10-06T08:00:00Z',
+    sources: [{ url: 'https://techcrunch.com/first-report', outlet: 'TechCrunch', kind: 'press' }, { url: 'https://www.theverge.com/b', outlet: 'The Verge', kind: 'press' }] })] };
+  site['docs/reports/2026-10-06.md'] = '## Needs JJ\n';
+  const dir = writeSite(site);
+  build(dir, { now: NOW });
+  const html = page(dir, 'ai/claude.html');
+  assert.equal((html.match(/Fixture headline about a feature/g) || []).length, 1, 'one timeline entry');
+  assert.match(html, /https:\/\/techcrunch\.com\/first-report/, 'the earliest source is the one linked');
+  assert.equal((html.match(/1 update/g) || []).length, 1, 'the week count sees one story');
+});
 test('orphan pages from an earlier build are removed', () => {
   const dir = writeSite(goodSite());
   for (const p of ['days/2020-01-01/index.html', 'ai/llama.html', 'old-page.html']) {

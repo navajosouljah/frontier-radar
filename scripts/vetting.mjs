@@ -1,18 +1,11 @@
 // vetting.mjs - a course is listed only if it passes docs/COURSE_VETTING.md. Popularity never qualifies it.
-import { isHttps, host, hasDash } from './lib/text.mjs';
+import { isHttps, hasDash, ownerOf } from './lib/text.mjs';
 
 export const HYPE = /guarantee|passive income|\bincome\b|make money|earn \$|\$\s?\d[\d,.]*\s?k?\s*(a|per|\/|each|every)\s*(month|week|day|year|mo\b)|six[- ]figure|\b[5-9][- ]figure|replace your (income|salary)|get rich|quit your job|financial freedom/i;
 export const MIN_REVIEWS = 5;
 export const MAX_CHECK_AGE_DAYS = 14;
 
-// The registrable domain: example.com for reviews.academy.example.com, example.co.uk for its UK cousin.
-const SECOND = new Set(['co', 'com', 'net', 'org', 'gov', 'edu', 'ac']);
-export function ownerOf(url) {
-  const h = host(url);
-  if (!h) return null;
-  const p = h.split('.');
-  return p.length > 2 && SECOND.has(p[p.length - 2]) && p[p.length - 1].length === 2 ? p.slice(-3).join('.') : p.slice(-2).join('.');
-}
+export { ownerOf };
 export const sameOwner = (a, b) => !!ownerOf(a) && ownerOf(a) === ownerOf(b);
 
 export function courseProblems(c, fileDate, aiIds) {

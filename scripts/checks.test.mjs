@@ -1,10 +1,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { item, project, goodSite } from './test-site.mjs';
-import { itemProblems, dayProblems, quoteProblems, projectProblems } from './checks.mjs';
+import { item, project, goodSite, SOURCES } from './test-site.mjs';
+import { itemProblems, dayProblems, quoteProblems, projectProblems, trustFrom, confirmedBy } from './checks.mjs';
 
 const IDS = ['claude', 'grok', 'gemini', 'chatgpt', 'jev'];
 const has = (list, re) => list.some(p => re.test(p));
+const TRUST = trustFrom(SOURCES);
+const src = (url, kind) => ({ url, outlet: 'x', kind });
 
 test('a good item has no problems', () => assert.deepEqual(itemProblems(item(), IDS, '2026-10-07'), []));
 test('item rules', () => {
@@ -19,6 +21,25 @@ test('an unconfirmed item must be a rumor', () => {
   const one = item({ sources: [{ url: 'https://blog.example.com/x', outlet: 'Blog', kind: 'community' }] });
   assert.ok(has(itemProblems(one, IDS, '2026-10-07'), /mark it rumor true/));
   assert.deepEqual(itemProblems({ ...one, rumor: true }, IDS, '2026-10-07'), []);
+});
+test('trust comes from the source list, not from the kind a run writes (review fix 5)', () => {
+  assert.ok(confirmedBy(item(), TRUST), 'anthropic.com is on the official list');
+  assert.ok(confirmedBy(item({ sources: [src('https://support.claude.com/en/articles/1', 'official')] }), TRUST), 'a subdomain of an official site is official');
+  assert.ok(confirmedBy(item({ sources: [src('https://x.com/AnthropicAI/status/1', 'official')] }), TRUST), 'a company insider on X is official');
+  assert.ok(confirmedBy(item({ sources: [src('https://techcrunch.com/a', 'press'), src('https://www.theverge.com/b', 'press')] }), TRUST), 'two press outlets confirm');
+  assert.ok(confirmedBy(item({ sources: [src('https://techcrunch.com/a', 'press'), src('https://simonwillison.net/b', 'expert')] }), TRUST), 'press plus a named expert outlet confirms');
+  assert.ok(!confirmedBy(item({ sources: [src('https://www.testingcatalog.com/a', 'community'), src('https://x.com/apples_jimmy/status/1', 'community')] }), TRUST), 'a leak tracker plus a rumor account is still a rumor');
+  assert.ok(!confirmedBy(item({ sources: [src('https://www.testingcatalog.com/a', 'press'), src('https://9to5google.com/b', 'press')] }), TRUST), 'a leak host labelled press still does not count');
+  assert.ok(!confirmedBy(item({ sources: [src('https://techcrunch.com/a', 'press'), src('https://techcrunch.com/b', 'press')] }), TRUST), 'one outlet twice is one outlet');
+  assert.ok(!confirmedBy(item({ sources: [src('https://techcrunch.com/a', 'press'), src('https://copy.example.com/b', 'press'), src('https://x.com/someone/status/1', 'press')] }), TRUST), 'an unlisted blog and an X post do not confirm');
+  assert.ok(!confirmedBy(item({ sources: [src('https://blog.example.com/x', 'official')] }), TRUST), 'calling a random blog official changes nothing');
+  const bad = itemProblems(item({ sources: [src('https://blog.example.com/x', 'official')] }), IDS, '2026-10-07', TRUST);
+  assert.ok(has(bad, /not on the official source list/), bad.join('\n'));
+  assert.ok(has(itemProblems(item({ sources: [src('https://www.testingcatalog.com/a', 'press')], rumor: true }), IDS, '2026-10-07', TRUST), /leak tracker.*community/));
+  assert.ok(has(itemProblems(item({ sources: [src('https://x.com/apples_jimmy/status/1', 'press')], rumor: true }), IDS, '2026-10-07', TRUST), /rumor account.*community/));
+  assert.deepEqual(itemProblems(item({ sources: [src('https://techcrunch.com/a', 'press')], rumor: true }), IDS, '2026-10-07', TRUST), [], 'a lone press report marked rumor is fine');
+  const day = goodSite()['data/days/2026-10-07/items.json'];
+  assert.deepEqual(dayProblems(day, IDS, TRUST), []);
 });
 test('day rules: top must exist, not be a rumor, and say why', () => {
   const day = goodSite()['data/days/2026-10-07/items.json'];

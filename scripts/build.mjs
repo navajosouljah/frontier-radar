@@ -26,7 +26,8 @@ export function build(root, { now = new Date().toISOString() } = {}) {
   page('index.html', 0, 'Today in AI', 'today', front(today, ''));
   for (const day of s.days) page(`days/${day.date}/index.html`, 2, `AI news, ${day.date}`, 'today', front(day, '../../'), day.date, day !== today);
 
-  const allItems = s.days.flatMap(d => mergeStories(d.items)).sort((a, b) => b.published.localeCompare(a.published));
+  // One story, one timeline entry, however many days it was filed under (the earliest text, every source).
+  const allItems = mergeStories(s.days.flatMap(d => d.items)).sort((a, b) => b.published.localeCompare(a.published));
   for (const ai of s.ais) {
     page(`ai/${ai.id}.html`, 1, ai.name, ai.id, T.aiBody({ ai, items: allItems.filter(it => it.ai === ai.id),
       status: s.status[ai.id], corrections: s.corrections, edition: today.date }));

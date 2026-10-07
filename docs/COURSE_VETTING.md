@@ -10,7 +10,10 @@ enforces what a script can see; the run does the reading. Popularity never quali
    A free course is `amount: 0` with `display: "Free"`; a 0 with any other label fails.
 4. **Independent reviews**: at least 5, with a score, on a site the provider does not run
    (`reviews.score`, `reviews.count`, `reviews.site`, `reviews.url`). "Does not run" is judged by the
-   registrable domain, so `reviews.academy.example.com` is still the provider.
+   registrable domain of `provider_url`, so `reviews.academy.example.com` is still the provider. A course
+   sold on a marketplace (Coursera, Udemy) may use that marketplace's reviews, because the provider does
+   not run the marketplace; `provider_url` must then be the provider's own site, never its marketplace
+   profile page.
 5. **No income or guaranteed-results promises** anywhere on the course page ("guaranteed", "income",
    "earn $5k a month", "make money", "six figures", "quit your job", "financial freedom" and the like).
    The run reads the page and sets `claims_checked: true` only when none appear. The same words in

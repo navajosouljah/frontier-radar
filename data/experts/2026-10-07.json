@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-07",
+  "debate": {
+    "title": "Are OpenAI's 722 machine-written math papers real progress or an unverifiable pile?",
+    "consensus": "Most mathematicians welcome the results in principle. The skeptics say claims from an unreleased model are unverified until others can replicate them.",
+    "story": "openai-math-results"
+  },
+  "quotes": [
+    {
+      "person": "Andrew Sutherland",
+      "role": "mathematician, Massachusetts Institute of Technology",
+      "outlet": "Scientific American",
+      "url": "https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/",
+      "quote": "you should treat any claims about one-shotting problems with a single agent as unverified",
+      "stance": "skeptical",
+      "ai": "chatgpt",
+      "story": "openai-math-results",
+      "said": "2026-10-06"
+    },
+    {
+      "person": "Daniel Litt",
+      "role": "mathematician, University of Toronto",
+      "outlet": "Scientific American",
+      "url": "https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/",
+      "quote": "To me, it's going to be a good thing for mathematics.",
+      "stance": "impressed",
+      "ai": "chatgpt",
+      "story": "openai-math-results",
+      "said": "2026-10-06"
+    },
+    {
+      "person": "Abhishek Saha",
+      "role": "mathematics professor, Queen Mary University of London",
+      "outlet": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+      "quote": "kind of things that mathematicians will generally not do",
+      "stance": "skeptical",
+      "ai": "chatgpt",
+      "story": "openai-math-results",
+      "said": "2026-10-06"
+    },
+    {
+      "person": "Simon Willison",
+      "role": "independent AI researcher and developer",
+      "outlet": "his blog",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "quote": "For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model.",
+      "stance": "impressed",
+      "ai": "gemini",
+      "story": "embeddinggemma-2",
+      "said": "2026-10-06"
+    },
+    {
+      "person": "Simon Willison",
+      "role": "independent AI researcher and developer",
+      "outlet": "his blog",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "quote": "Otherwise the API shape is very similar to Jev, at least conceptually.",
+      "stance": "other",
+      "ai": "jev",
+      "story": "openai-decisions-api",
+      "said": "2026-10-06"
+    }
+  ]
+}

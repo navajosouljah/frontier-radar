@@ -19,6 +19,8 @@ test('a free course says Free; a price of 0 with any other label is refused', ()
 test('reviews must be independent and enough of them', () => {
   assert.ok(has(course({ reviews: { score: 5, count: 3, site: 'R', url: 'https://r.example.net' } }), /at least 5/));
   assert.ok(has(course({ reviews: { score: 5, count: 50, site: 'Own', url: 'https://academy.example.com/reviews' } }), /does not run/));
+  assert.deepEqual(courseProblems(course({ url: 'https://www.coursera.org/learn/x', reviews: { score: 4.3, count: 79, site: 'Coursera', url: 'https://www.coursera.org/learn/x#reviews' } }), '2026-10-02', IDS), [], 'a marketplace course with the marketplace reviews is independent of the provider');
+  assert.ok(has(course({ provider_url: 'https://www.coursera.org/partners/x', url: 'https://www.coursera.org/learn/x', reviews: { score: 4.3, count: 79, site: 'Coursera', url: 'https://www.coursera.org/learn/x#reviews' } }), /does not run/), 'the provider page must be the provider\'s own site');
   assert.ok(has(course({ reviews: { score: 5, count: 50, site: 'Own', url: 'https://reviews.academy.example.com/x' } }), /does not run/), 'a subdomain of the provider is still the provider');
   assert.ok(has(course({ reviews: { score: 5, count: 50, site: 'Own', url: 'https://example.com/reviews' } }), /does not run/), 'the parent domain is the provider too');
   assert.equal(sameOwner('https://reviews.academy.example.co.uk/x', 'https://academy.example.co.uk'), true);

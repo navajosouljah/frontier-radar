@@ -1,0 +1,394 @@
+{
+  "date": "2026-10-07",
+  "top": "openai-math-results",
+  "items": [
+    {
+      "id": "openai-math-results",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "openai-math-results",
+      "headline": "OpenAI publishes 722 machine-written math manuscripts from an unreleased model",
+      "summary": "The papers, grouped into 372 result families, come from an internal model evaluated on about 4,000 open problems. Many proofs ship as Lean formalizations in a public GitHub repo. OpenAI says it is working to release the model responsibly.",
+      "why": "It is the largest batch of machine-written mathematics ever published, and anyone can now check the proofs. The fight over what counts as proof moves from one Navier-Stokes claim to hundreds of ordinary results.",
+      "published": "2026-10-06T22:19:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "outlet": "OpenAI",
+          "kind": "official"
+        },
+        {
+          "url": "https://x.com/OpenAI/status/2107596713791767021",
+          "outlet": "OpenAI on X",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+          "outlet": "The Verge",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/",
+          "outlet": "Scientific American",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.theinformation.com/briefings/openai-publishes-700-new-math-papers-ai-made-solutions",
+          "outlet": "The Information",
+          "kind": "press"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=49984923",
+          "outlet": "Hacker News",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "id": "openai-eu-text-watermark",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-eu-text-watermark",
+      "headline": "OpenAI will watermark ChatGPT and Codex text in the EU, opt-in for API customers worldwide",
+      "summary": "Its textGrain method adds an invisible statistical signal to word choices. OpenAI says detection drops sharply on short or edited text, so only approved researchers get the detector for now. Image and audio verification stays public.",
+      "published": "2026-10-05T15:00:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://openai.com/index/eu-text-provenance",
+          "outlet": "OpenAI",
+          "kind": "official"
+        },
+        {
+          "url": "https://x.com/OpenAI/status/2107164650249101695",
+          "outlet": "OpenAI on X",
+          "kind": "official"
+        },
+        {
+          "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+          "outlet": "Ars Technica",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "outlet": "The Verge",
+          "kind": "press"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+          "outlet": "TechCrunch",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "id": "openai-decisions-api",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-decisions-api",
+      "headline": "OpenAI's Decisions API enters public beta, a typed-answer rival to TypeSafe's Jev",
+      "summary": "Powered by GPT-6 Luna, it returns yes/no, choice or score answers over text and images, up to 10x faster than a normal GPT-6 call, and charges only for input. Simon Willison notes the shape closely matches Jev, which launched three weeks earlier.",
+      "published": "2026-10-06T20:55:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877",
+          "outlet": "OpenAI Developer Community",
+          "kind": "official"
+        },
+        {
+          "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+          "outlet": "Simon Willison",
+          "kind": "expert"
+        },
+        {
+          "url": "https://www.unite.ai/openai-releases-decisions-api-in-public-beta-powered-by-gpt-6-luna/",
+          "outlet": "Unite.AI",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "id": "openai-ironclad-computer-use",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-ironclad-computer-use",
+      "headline": "OpenAI trains computer-use agents on Ironclad's contracting software",
+      "summary": "GPT-6 Astra is the first model trained on 11 real legal-ops tasks built with Ironclad. On OpenAI's evaluation it scored 55% against 41.6% for GPT-5.6 Sol, in about half the time. OpenAI is inviting a few more software companies to join.",
+      "published": "2026-10-06T10:00:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+          "outlet": "OpenAI",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "openai-atlassian-partnership",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-atlassian-partnership",
+      "headline": "Atlassian expands its OpenAI deal: GPT-6 models will power agents across Jira, Confluence and Rovo",
+      "summary": "Under the new agreement OpenAI frontier models, including GPT-6 Astra and the GPT-5.6 series, run Atlassian's Rovo agents on top of its Teamwork Graph. More than 3,000 Atlassian developers already use Codex.",
+      "published": "2026-10-06T16:00:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://openai.com/index/atlassian-partnership",
+          "outlet": "OpenAI",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-audio-uploads",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-audio-uploads",
+      "headline": "ChatGPT can now take audio uploads and turn meetings into transcripts and notes",
+      "summary": "Paid ChatGPT plans and workspaces can attach an audio file and ask for a transcript, a summary or a follow-up draft. OpenAI warns transcripts may contain errors and quality varies by language.",
+      "published": "2026-10-06T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "outlet": "ChatGPT release notes",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-visual-ads",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "chatgpt-visual-ads",
+      "headline": "ChatGPT gets a visual ad format, tested during image generation on Free and Go plans",
+      "summary": "OpenAI says ChatGPT reaches 1.2 billion people a week. The new image ads start testing in the US this month, stay labelled and separate from the generated image, and come with new measurement partners and brand-safety pilots.",
+      "published": "2026-10-05T10:00:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+          "outlet": "OpenAI",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "openai-outages-oct-6",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-outages-oct-6",
+      "headline": "A rough day for OpenAI's status page: 11 incidents on Oct 6",
+      "summary": "Incidents ran from elevated errors across ChatGPT, Codex and the API, including the Agents API, to Computer Use problems and large-PDF failures in the Responses API. Workspace Agents were degraded again early on Oct 7.",
+      "published": "2026-10-06T08:26:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://status.openai.com",
+          "outlet": "OpenAI status",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "claude-cyber-verification",
+      "ai": "claude",
+      "category": "policy",
+      "story": "claude-cyber-verification",
+      "headline": "Anthropic opens its most capable models to verified security teams through a three-tier program",
+      "summary": "The expanded Cyber Verification Program folds in Project Glasswing. Defense, Red Team and Specialized tiers unlock Claude Mythos 5.1, Opus 5.5 and Sonnet 5.5 with fewer cyber blocks, under verification and data retention.",
+      "published": "2026-10-06T19:00:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/cyber-verification-program",
+          "outlet": "Anthropic",
+          "kind": "official"
+        },
+        {
+          "url": "https://x.com/AnthropicAI/status/2107546569654636883",
+          "outlet": "Anthropic on X",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.theinformation.com/briefings/anthropic-expands-cyberdefenders-access-top-models",
+          "outlet": "The Information",
+          "kind": "press"
+        },
+        {
+          "url": "https://aiweekly.co/",
+          "outlet": "AI Weekly",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "id": "claude-google-workspace",
+      "ai": "claude",
+      "category": "apps",
+      "story": "claude-google-workspace",
+      "headline": "Claude now works inside Google Docs, Sheets and Slides, and can open those files from Claude",
+      "summary": "Claude for Google Workspace adds a Claude sidebar to Docs, Sheets and Slides, with edits users approve, plus connectors to create and edit Google files from inside Claude. It is a beta.",
+      "published": "2026-10-06T15:36:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://support.claude.com/en/articles/16951679-use-claude-in-google-docs-sheets-and-slides",
+          "outlet": "Claude Help Center",
+          "kind": "official"
+        },
+        {
+          "url": "https://venturebeat.com/technology/you-can-now-open-claude-directly-in-google-docs-sheets-and-slides-and-vice-versa-open-and-edit-the-files-in-claude",
+          "outlet": "VentureBeat",
+          "kind": "press"
+        },
+        {
+          "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+          "outlet": "9to5Google",
+          "kind": "community"
+        },
+        {
+          "url": "https://runtimewire.com/article/anthropic-claude-google-workspace-docs-sheets-slides",
+          "outlet": "Runtime Wire",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "id": "claude-models-api-thinking-disabled",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-models-api-thinking-disabled",
+      "headline": "Claude's Models API now says which models let you turn thinking off",
+      "summary": "GET /v1/models reports capabilities.thinking.types.disabled, so developers can check whether a model accepts thinking disabled before calling it. It follows the Oct 1 addition of a model line field.",
+      "published": "2026-10-05T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://docs.claude.com/en/release-notes/api",
+          "outlet": "Claude API release notes",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-cuts-claude-spending",
+      "ai": "claude",
+      "category": "apps",
+      "story": "microsoft-cuts-claude-spending",
+      "headline": "Report: Microsoft cut internal Claude spending by a third as it and Meta wean staff off Anthropic",
+      "summary": "The Information reports both companies are steering employees toward their own or other models. One outlet so far, and Anthropic has not commented, so this stays a rumor.",
+      "published": "2026-10-05T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        {
+          "url": "https://www.theinformation.com/articles/meta-microsoft-work-wean-staff-anthropics-claude",
+          "outlet": "The Information",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "id": "embeddinggemma-2",
+      "ai": "gemini",
+      "category": "model",
+      "story": "embeddinggemma-2",
+      "headline": "Google releases EmbeddingGemma 2, a 740M open model that embeds text, images, audio, video and code",
+      "summary": "The Apache 2.0 model runs on-device, needs about 191 MB of RAM and scores 78.68 on the MTEB code benchmark, up nearly 10 points on its predecessor. Weights are on Hugging Face and Kaggle.",
+      "published": "2026-10-06T16:00:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+          "outlet": "Google",
+          "kind": "official"
+        },
+        {
+          "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+          "outlet": "Google DeepMind",
+          "kind": "official"
+        },
+        {
+          "url": "https://x.com/GoogleDeepMind/status/2107502286758895878",
+          "outlet": "Google DeepMind on X",
+          "kind": "official"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=49980487",
+          "outlet": "Hacker News",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "id": "nano-banana-2-1",
+      "ai": "gemini",
+      "category": "model",
+      "story": "nano-banana-2-1",
+      "headline": "Nano Banana 2.1: Google's fast image model gets sharper output, 14 reference images and a lower price",
+      "summary": "The update to Nano Banana 2 improves realism at 1K to 4K, fixes tiling on panoramic ratios, renders text better and adds web grounding. Logan Kilpatrick says it ships in the API, AI Studio and the Gemini app at a new lower price point.",
+      "published": "2026-10-06T16:04:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1",
+          "outlet": "Google AI for Developers",
+          "kind": "official"
+        },
+        {
+          "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+          "outlet": "Google DeepMind model card",
+          "kind": "official"
+        },
+        {
+          "url": "https://x.com/OfficialLoganK/status/2107533224453058731",
+          "outlet": "Logan Kilpatrick, Google",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "spacex-nvidia-chip-financing",
+      "ai": "grok",
+      "category": "policy",
+      "story": "spacex-nvidia-chip-financing",
+      "headline": "SpaceX, SpaceXAI's parent, is in talks to borrow $40B to buy Nvidia chips, reports say",
+      "summary": "The Information reports SpaceX is seeking $40 billion from Apollo as it expands its compute-leasing business; Bloomberg, citing the Financial Times, reports the same figure. Neither company has confirmed it.",
+      "published": "2026-10-06T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        {
+          "url": "https://www.theinformation.com/briefings/spacex-seeks-raise-40-billion-apollo-buy-nvidia-chips",
+          "outlet": "The Information",
+          "kind": "press"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-10-06/spacex-seeking-to-raise-40-billion-to-buy-nvidia-chips-ft-says",
+          "outlet": "Bloomberg",
+          "kind": "press"
+        }
+      ]
+    },
+    {
+      "id": "spacexai-rename-spacexsi",
+      "ai": "grok",
+      "category": "policy",
+      "story": "spacexai-rename-spacexsi",
+      "headline": "Report: Musk plans to rename SpaceXAI again, to SpaceXSI",
+      "summary": "The Information says the Grok maker, which became SpaceXAI when it joined SpaceX in February, is set for another name change. One outlet and no word from the company, so it stays a rumor.",
+      "published": "2026-10-04T16:47:00Z",
+      "rumor": true,
+      "sources": [
+        {
+          "url": "https://www.theinformation.com/briefings/musk-change-spacexais-name-spacexsi",
+          "outlet": "The Information",
+          "kind": "press"
+        }
+      ]
+    }
+  ]
+}

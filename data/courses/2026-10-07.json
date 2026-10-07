@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-07",
+  "courses": [
+    {
+      "name": "Claude Code in Action",
+      "ai": "claude",
+      "provider": "Anthropic",
+      "provider_url": "https://www.anthropic.com",
+      "url": "https://www.coursera.org/learn/claude-code-in-action",
+      "price": {
+        "amount": 0,
+        "currency": "USD",
+        "display": "Free"
+      },
+      "format": "Self-paced",
+      "length": "1 hour, 5 modules",
+      "outcome": "Claude Code's permission modes, hooks, cloud routines, headless mode and automated code review",
+      "reviews": {
+        "score": 4.3,
+        "count": 79,
+        "site": "Coursera",
+        "url": "https://www.coursera.org/learn/claude-code-in-action#reviews"
+      },
+      "page_checked": "2026-10-07",
+      "claims_checked": true
+    },
+    {
+      "name": "Google AI Essentials Specialization",
+      "ai": "gemini",
+      "provider": "Google",
+      "provider_url": "https://grow.google/ai-essentials/",
+      "url": "https://www.coursera.org/specializations/ai-essentials-google",
+      "price": {
+        "amount": 49,
+        "currency": "USD",
+        "display": "$49 / month after a 7-day free trial"
+      },
+      "format": "Self-paced",
+      "length": "5 courses; Coursera lists 4 hours to complete",
+      "outcome": "The basics of working with Gemini and other AI tools at work, with a Google certificate",
+      "reviews": {
+        "score": 4.8,
+        "count": 25738,
+        "site": "Coursera",
+        "url": "https://www.coursera.org/specializations/ai-essentials-google#reviews"
+      },
+      "page_checked": "2026-10-07",
+      "claims_checked": true
+    },
+    {
+      "name": "Prompt Engineering for ChatGPT",
+      "ai": "chatgpt",
+      "provider": "Vanderbilt University",
+      "provider_url": "https://www.vanderbilt.edu",
+      "url": "https://www.coursera.org/learn/prompt-engineering",
+      "price": {
+        "amount": 0,
+        "currency": "USD",
+        "display": "Free"
+      },
+      "format": "Self-paced",
+      "length": "2 weeks at 10 hours a week",
+      "outcome": "Prompt patterns for ChatGPT, from Dr. Jules White; 740K already enrolled",
+      "reviews": {
+        "score": 4.8,
+        "count": 8193,
+        "site": "Coursera",
+        "url": "https://www.coursera.org/learn/prompt-engineering#reviews"
+      },
+      "page_checked": "2026-10-07",
+      "claims_checked": true
+    }
+  ]
+}

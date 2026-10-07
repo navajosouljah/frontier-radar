@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-07",
+  "projects": [
+    {
+      "rank": 1,
+      "kind": "repo",
+      "name": "openai/math",
+      "ai": "chatgpt",
+      "url": "https://github.com/openai/math",
+      "oneliner": "722 machine-written math manuscripts, with Lean proofs for many of them.",
+      "why": "Published Oct 6; the most-discussed AI release of the day (534 points on Hacker News).",
+      "sources": [
+        {
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "outlet": "OpenAI",
+          "kind": "official"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=49984923",
+          "outlet": "Hacker News",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "kind": "repo",
+      "name": "PhotoCraft",
+      "ai": "claude",
+      "url": "https://github.com/storytold/photocraft",
+      "oneliner": "A clean-room Photoshop in pure Rust, with a command registry any agent can drive over MCP.",
+      "why": "8K stars in its first week; 21 of its recent commits are co-authored by Claude Opus 5.5.",
+      "sources": [
+        {
+          "url": "https://github.com/storytold/photocraft/commits/main",
+          "outlet": "PhotoCraft commit history",
+          "kind": "community"
+        },
+        {
+          "url": "https://x.com/kimmonismus/status/2107618163726921853",
+          "outlet": "Chubby on X",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "kind": "repo",
+      "name": "claude-mem",
+      "ai": "claude",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "oneliner": "Persistent memory for Claude Code: captures each session, compresses it, injects what matters next time.",
+      "why": "97K stars and still 534 more on Oct 6; version 13.34.2 shipped the same day.",
+      "sources": [
+        {
+          "url": "https://github.com/trending?since=daily",
+          "outlet": "GitHub trending",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "kind": "repo",
+      "name": "Impeccable",
+      "ai": "claude",
+      "url": "https://github.com/pbakaus/impeccable",
+      "oneliner": "Design guidance for AI coding agents: one skill, 24 commands and 60 detector rules against template-looking frontends.",
+      "why": "Started from Anthropic's frontend-design skill; 616 new stars on Oct 6.",
+      "sources": [
+        {
+          "url": "https://github.com/trending?since=daily",
+          "outlet": "GitHub trending",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "kind": "repo",
+      "name": "Diagram Design",
+      "ai": "claude",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "oneliner": "42 editorial diagram types for Claude Code, Codex and Copilot, as self-contained HTML and SVG.",
+      "why": "Version 2.5.10 added ten layout grammars; trending Oct 6.",
+      "sources": [
+        {
+          "url": "https://github.com/trending?since=daily",
+          "outlet": "GitHub trending",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "kind": "repo",
+      "name": "REA",
+      "ai": "claude",
+      "url": "https://github.com/morluto/rea",
+      "oneliner": "One MCP server for reverse engineering apps, binaries and runtime behavior from Claude Code, Codex, Cursor or Gemini CLI.",
+      "why": "The fastest-rising repo on GitHub on Oct 6, with close to 3K new stars in a day.",
+      "sources": [
+        {
+          "url": "https://github.com/trending?since=daily",
+          "outlet": "GitHub trending",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "kind": "repo",
+      "name": "text-to-cad",
+      "ai": "claude",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "oneliner": "Gives a coding agent CAD skills, built on build123d and Open CASCADE.",
+      "why": "619 new stars on Oct 6; an agent skill with real engineering output.",
+      "sources": [
+        {
+          "url": "https://github.com/trending?since=daily",
+          "outlet": "GitHub trending",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "kind": "repo",
+      "name": "Agency Agents",
+      "ai": "claude",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "oneliner": "A roster of specialist agent prompts, with a desktop app that installs them into Claude Code, Cursor, Codex or Gemini.",
+      "why": "158K stars; the new native app is why it is trending again.",
+      "sources": [
+        {
+          "url": "https://github.com/trending?since=daily",
+          "outlet": "GitHub trending",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "kind": "repo",
+      "name": "i-have-adhd",
+      "ai": "claude",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "oneliner": "A skill that stops a coding agent burying the answer: short, front-loaded output.",
+      "why": "Small, useful and spreading fast: 326 new stars on Oct 6.",
+      "sources": [
+        {
+          "url": "https://github.com/trending?since=daily",
+          "outlet": "GitHub trending",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "kind": "repo",
+      "name": "Vibeconferencing",
+      "ai": "claude",
+      "url": "https://github.com/wanderingstan/vibeconf-app",
+      "oneliner": "Puts your Claude Code, Codex or Grok agent into a Google Meet as a participant that hears, speaks and shares a whiteboard.",
+      "why": "Shown on Hacker News Oct 6; an early, experimental take on agents in meetings.",
+      "sources": [
+        {
+          "url": "https://news.ycombinator.com/item?id=49984253",
+          "outlet": "Hacker News",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "kind": "app",
+      "name": "Jotbus",
+      "ai": "claude",
+      "url": "https://jotbus.com/",
+      "oneliner": "An encrypted shared scratchpad so Claude Code, Codex and other agents can hand off notes and files across machines.",
+      "why": "Shown on Hacker News Oct 6 (22 points); no signup, 60-minute workspaces.",
+      "sources": [
+        {
+          "url": "https://news.ycombinator.com/item?id=49978401",
+          "outlet": "Hacker News",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "kind": "app",
+      "name": "HiddenContent.ai",
+      "ai": "claude",
+      "url": "https://hiddencontent.ai/start/",
+      "oneliner": "An MCP server that reveals the text your agent reads on a page but you cannot see.",
+      "why": "Shown on Hacker News Oct 6; aimed at prompt-injection hidden in web pages.",
+      "sources": [
+        {
+          "url": "https://news.ycombinator.com/item?id=49982817",
+          "outlet": "Hacker News",
+          "kind": "community"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "kind": "repo",
+      "name": "jev-browser-wingman",
+      "ai": "jev",
+      "url": "https://github.com/coderexpert123/jev-browser-wingman",
+      "oneliner": "Hands an agent's browser clicks to TypeSafe's Jev, which picks the element for each step.",
+      "why": "One of the first third-party tools built on Jev; its own 68-run comparison against Playwright alone is in the README.",
+      "sources": [
+        {
+          "url": "https://news.ycombinator.com/item?id=49973266",
+          "outlet": "Hacker News",
+          "kind": "community"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,999 @@
-{}
+{
+  "mattpocock/skills": {
+    "repo": "mattpocock/skills",
+    "checked": "2026-10-07",
+    "verdict": "REVIEW",
+    "reasons": [
+      "5 report(s) to read"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/mattpocock/skills/security/advisories",
+        "count": 0,
+        "latestRelease": "1.3.1",
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "mattpocock/skills CVE",
+          "mattpocock/skills vulnerability",
+          "mattpocock/skills malware",
+          "mattpocock/skills scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [
+          {
+            "query": "mattpocock/skills CVE",
+            "title": "Is mattpocock/skills safe? Security Audit — SAFE (92/100) | Oathe",
+            "url": "https://oathe.ai/report/mattpocock/skills",
+            "published": "2026-03-18",
+            "matched": "exfiltrat",
+            "kind": "scanner"
+          },
+          {
+            "query": "mattpocock/skills CVE",
+            "title": "Security Analysis - mattpocock/skills | RepoRead",
+            "url": "https://www.reporead.com/discover/skills-security-03-apr-26",
+            "published": "2026-04-03",
+            "matched": "compromis",
+            "kind": "report"
+          },
+          {
+            "query": "mattpocock/skills CVE",
+            "title": "skills/to-prd by mattpocock - High Risk | Security Scan | Mondoo AI Agent Security",
+            "url": "https://mondoo.com/ai-agent-security/skills/github/mattpocock/skills/to-prd/6eeb81b5fcfe",
+            "published": "N/A",
+            "matched": "malicious",
+            "kind": "scanner"
+          },
+          {
+            "query": "mattpocock/skills vulnerability",
+            "title": "N/A",
+            "url": "https://www.skills.sh/ninehills/mattpocock-skills/triage/security/agent-trust-hub",
+            "published": "N/A",
+            "matched": "vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "mattpocock/skills malware",
+            "title": "setup-matt-pocock-skills — Agent Skill | SkillsAuth",
+            "url": "https://skillsauth.com/skills/mattpocock/setup-matt-pocock-skills",
+            "published": "2026-04-29",
+            "matched": "malware",
+            "kind": "report"
+          },
+          {
+            "query": "mattpocock/skills malware",
+            "title": "mattpocock-skills — Plugin for Claude Code by mattpocock/skills",
+            "url": "https://agentmods.dev/plugins/mattpocock/skills/skills",
+            "published": "N/A",
+            "matched": "exfiltrat",
+            "kind": "report"
+          },
+          {
+            "query": "mattpocock/skills scam",
+            "title": "skills - AI Agents on GitHub (250.5k★) | SkillsLLM",
+            "url": "https://skillsllm.com/skill/mattpocock-skills",
+            "published": "N/A",
+            "matched": "malicious",
+            "kind": "report"
+          }
+        ],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "mattpocock/skills",
+        "stars": 278278,
+        "forks": 23304,
+        "watchers": 1505,
+        "openIssues": 323,
+        "hasIssues": true,
+        "contributors": 8,
+        "commits": 527,
+        "created": "2026-02-03",
+        "pushed": "2026-10-06",
+        "archived": false,
+        "ageDays": 246,
+        "homepage": "https://aihero.dev/skills",
+        "license": "MIT",
+        "flags": []
+      }
+    }
+  },
+  "pbakaus/impeccable": {
+    "repo": "pbakaus/impeccable",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/pbakaus/impeccable/security/advisories",
+        "count": 0,
+        "latestRelease": "4.5.0",
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "pbakaus/impeccable CVE",
+          "pbakaus/impeccable vulnerability",
+          "pbakaus/impeccable malware",
+          "pbakaus/impeccable scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [
+          {
+            "query": "pbakaus/impeccable CVE",
+            "title": "Security - pbakaus/impeccable",
+            "url": "https://github.com/pbakaus/impeccable/security",
+            "published": "N/A",
+            "matched": "vulnerab",
+            "kind": "own-security-page"
+          },
+          {
+            "query": "pbakaus/impeccable CVE",
+            "title": "impeccable/impeccable by pbakaus - High Risk | Security Scan | Mondoo AI Agent Security",
+            "url": "https://mondoo.com/ai-agent-security/skills/github/pbakaus/impeccable/impeccable/c979ac37c361",
+            "published": "N/A",
+            "matched": "hijack",
+            "kind": "scanner"
+          },
+          {
+            "query": "pbakaus/impeccable malware",
+            "title": "impeccable/impeccable by pbakaus - Medium Risk | Security Scan | Mondoo AI Agent Security",
+            "url": "https://mondoo.com/ai-agent-security/skills/github/pbakaus/impeccable/impeccable/1268f10b7670",
+            "published": "N/A",
+            "matched": "exfiltrat",
+            "kind": "scanner"
+          }
+        ],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "pbakaus/impeccable",
+        "stars": 77773,
+        "forks": 4632,
+        "watchers": 209,
+        "openIssues": 59,
+        "hasIssues": true,
+        "contributors": 54,
+        "commits": 2392,
+        "created": "2025-11-16",
+        "pushed": "2026-10-07",
+        "archived": false,
+        "ageDays": 325,
+        "homepage": "https://impeccable.style",
+        "license": "Apache-2.0",
+        "flags": []
+      }
+    }
+  },
+  "thedotmack/claude-mem": {
+    "repo": "thedotmack/claude-mem",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [
+      "3 report(s) to read"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/thedotmack/claude-mem/security/advisories",
+        "count": 0,
+        "latestRelease": "13.34.2",
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "thedotmack/claude-mem CVE",
+          "thedotmack/claude-mem vulnerability",
+          "thedotmack/claude-mem malware",
+          "thedotmack/claude-mem scam"
+        ],
+        "results": 21,
+        "errors": 0,
+        "hits": [
+          {
+            "query": "thedotmack/claude-mem CVE",
+            "title": "NVD - CVE-2026-11330",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11330",
+            "published": "N/A",
+            "matched": "CVE-2026-11330",
+            "kind": "cve-record"
+          },
+          {
+            "query": "thedotmack/claude-mem CVE",
+            "title": "A weakness has been identified in thedotmack claude-mem... · CVE-2026-11330 · GitHub Advisory Database · GitHub",
+            "url": "https://github.com/advisories/GHSA-5gvr-v6qv-h5mm",
+            "published": "N/A",
+            "matched": "CVE-2026-11330",
+            "kind": "cve-record"
+          },
+          {
+            "query": "thedotmack/claude-mem CVE",
+            "title": "CVE Record: CVE-2026-11330",
+            "url": "https://www.cve.org/CVERecord?id=CVE-2026-11330",
+            "published": "N/A",
+            "matched": "CVE-2026-11330",
+            "kind": "cve-record"
+          },
+          {
+            "query": "thedotmack/claude-mem CVE",
+            "title": "OSV - Open Source Vulnerabilities",
+            "url": "https://osv.dev/vulnerability/CVE-2026-11330",
+            "published": "N/A",
+            "matched": "Vulnerab",
+            "kind": "cve-record"
+          },
+          {
+            "query": "thedotmack/claude-mem CVE",
+            "title": "SECURITY.md at a5bb6b34 · thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem/blob/a5bb6b34/SECURITY.md",
+            "published": "N/A",
+            "matched": "vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "thedotmack/claude-mem vulnerability",
+            "title": "Security Policy - thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem/security",
+            "published": "N/A",
+            "matched": "vulnerab",
+            "kind": "own-security-page"
+          },
+          {
+            "query": "thedotmack/claude-mem malware",
+            "title": "claude-mem Security Audit Report - Score 45/100",
+            "url": "https://www.clawsecure.ai/report/720fb99b0bf12983",
+            "published": "2026-10-03",
+            "matched": "Malicious",
+            "kind": "scanner"
+          },
+          {
+            "query": "thedotmack/claude-mem scam",
+            "title": "thedotmack/claude-mem — Yggdrasil",
+            "url": "https://ygg.codes/catalog/622e40a1-a23f-4ced-8fa4-158753c1ef88",
+            "published": "N/A",
+            "matched": "backdoor",
+            "kind": "report"
+          },
+          {
+            "query": "thedotmack/claude-mem scam",
+            "title": "shauneccles/claude-mem-investigation",
+            "url": "https://github.com/shauneccles/claude-mem-investigation",
+            "published": "N/A",
+            "matched": "malicious",
+            "kind": "report"
+          }
+        ],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 1
+        },
+        "cves": [
+          {
+            "id": "CVE-2026-11330",
+            "ghsa": "GHSA-5gvr-v6qv-h5mm",
+            "severity": "low",
+            "fix": "12.0.0",
+            "status": "patched"
+          },
+          {
+            "id": "GHSA-5gvr-v6qv-h5mm",
+            "ghsa": "GHSA-5gvr-v6qv-h5mm",
+            "severity": "low",
+            "fix": "12.0.0",
+            "status": "patched"
+          }
+        ]
+      },
+      "activity": {
+        "canonical": "thedotmack/claude-mem",
+        "stars": 97241,
+        "forks": 8567,
+        "watchers": 307,
+        "openIssues": 100,
+        "hasIssues": true,
+        "contributors": 249,
+        "commits": 3217,
+        "created": "2025-08-31",
+        "pushed": "2026-10-07",
+        "archived": false,
+        "ageDays": 401,
+        "homepage": "https://claude-mem.ai",
+        "license": "Apache-2.0",
+        "flags": []
+      }
+    },
+    "settled": {
+      "by": "JJ's Mac, dry run Oct 7 2026",
+      "date": "2026-10-07",
+      "note": "CVE-2026-11330 is low severity (hash collision), affects < 12.0.0; latest release 13.34.2 (Oct 6 2026). Other hits are scanner listings and the repo's own security policy.",
+      "reasons": [
+        "3 report(s) to read"
+      ]
+    }
+  },
+  "cathrynlavery/diagram-design": {
+    "repo": "cathrynlavery/diagram-design",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [
+      "1 report(s) to read"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/cathrynlavery/diagram-design/security/advisories",
+        "count": 0,
+        "latestRelease": null,
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "cathrynlavery/diagram-design CVE",
+          "cathrynlavery/diagram-design vulnerability",
+          "cathrynlavery/diagram-design malware",
+          "cathrynlavery/diagram-design scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [
+          {
+            "query": "cathrynlavery/diagram-design CVE",
+            "title": "SECURITY.md",
+            "url": "https://github.com/cathrynlavery/diagram-design/blob/main/SECURITY.md",
+            "published": "N/A",
+            "matched": "vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "cathrynlavery/diagram-design vulnerability",
+            "title": "Overview · cathrynlavery/diagram-design · GitHub",
+            "url": "https://github.com/cathrynlavery/diagram-design/security",
+            "published": "N/A",
+            "matched": "vulnerab",
+            "kind": "own-security-page"
+          }
+        ],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "cathrynlavery/diagram-design",
+        "stars": 44125,
+        "forks": 2843,
+        "watchers": 124,
+        "openIssues": 88,
+        "hasIssues": true,
+        "contributors": 50,
+        "commits": 257,
+        "created": "2026-04-16",
+        "pushed": "2026-10-06",
+        "archived": false,
+        "ageDays": 173,
+        "homepage": "https://cathrynlavery.github.io/diagram-design/",
+        "license": "MIT",
+        "flags": []
+      }
+    },
+    "settled": {
+      "by": "JJ's Mac, dry run Oct 7 2026",
+      "date": "2026-10-07",
+      "note": "The only hit is the repo's own SECURITY.md.",
+      "reasons": [
+        "1 report(s) to read"
+      ]
+    }
+  },
+  "storytold/photocraft": {
+    "repo": "storytold/photocraft",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [
+      "4 report(s) to read"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/storytold/photocraft/security/advisories",
+        "count": 0,
+        "latestRelease": "0.2.0",
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "storytold/photocraft CVE",
+          "storytold/photocraft vulnerability",
+          "storytold/photocraft malware",
+          "storytold/photocraft scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [
+          {
+            "query": "storytold/photocraft CVE",
+            "title": "Some Incredible Code",
+            "url": "https://cephalochromoscope.net/937c3726-d56b-4850-8a06-673d847b2d05",
+            "published": "N/A",
+            "matched": "Vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "storytold/photocraft CVE",
+            "title": "Some Incredible Code",
+            "url": "https://cephalochromoscope.net/d830810f-19c3-4e64-ac1b-795ef266759b",
+            "published": "N/A",
+            "matched": "Vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "storytold/photocraft malware",
+            "title": "Some Incredible Code",
+            "url": "https://cephalochromoscope.net/bc2a89f5-79c9-48e5-9ea1-eb27a47812a9",
+            "published": "N/A",
+            "matched": "malicious",
+            "kind": "report"
+          },
+          {
+            "query": "storytold/photocraft scam",
+            "title": "github.com url scan  | Free Url Scanner & Phishing Detection | CheckPhish",
+            "url": "https://checkphish.bolster.ai/insights/url/1791282159109/22f26b01f8cae575ece52c406bfc6b7b329a5a45f08c8f23475096da44ae41e6",
+            "published": "N/A",
+            "matched": "Phishing",
+            "kind": "report"
+          }
+        ],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "storytold/photocraft",
+        "stars": 8004,
+        "forks": 1009,
+        "watchers": 29,
+        "openIssues": 123,
+        "hasIssues": true,
+        "contributors": 24,
+        "commits": 294,
+        "created": "2026-09-30",
+        "pushed": "2026-10-07",
+        "archived": false,
+        "ageDays": 7,
+        "homepage": "https://getartcraft.com/apps/photocraft",
+        "license": "Apache-2.0",
+        "flags": []
+      }
+    },
+    "settled": {
+      "by": "JJ's Mac, dry run Oct 7 2026",
+      "date": "2026-10-07",
+      "note": "Hits are a code-showcase site quoting its Rust tests and a URL-scanner page; no advisory, no report of harm.",
+      "reasons": [
+        "4 report(s) to read"
+      ]
+    }
+  },
+  "msitarzewski/agency-agents": {
+    "repo": "msitarzewski/agency-agents",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [
+      "2 report(s) to read"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/msitarzewski/agency-agents/security/advisories",
+        "count": 0,
+        "latestRelease": null,
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "msitarzewski/agency-agents CVE",
+          "msitarzewski/agency-agents vulnerability",
+          "msitarzewski/agency-agents malware",
+          "msitarzewski/agency-agents scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [
+          {
+            "query": "msitarzewski/agency-agents CVE",
+            "title": "SECURITY.md",
+            "url": "https://github.com/msitarzewski/agency-agents/blob/main/SECURITY.md",
+            "published": "N/A",
+            "matched": "Vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "msitarzewski/agency-agents CVE",
+            "title": "agency-agents Security Audit Report - Score 55/100",
+            "url": "https://www.clawsecure.ai/report/043e59e21778dd95",
+            "published": "N/A",
+            "matched": "Malicious",
+            "kind": "scanner"
+          },
+          {
+            "query": "msitarzewski/agency-agents malware",
+            "title": "Security - msitarzewski/agency-agents-app",
+            "url": "https://github.com/msitarzewski/agency-agents-app/security",
+            "published": "N/A",
+            "matched": "remote code execution",
+            "kind": "report"
+          }
+        ],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "msitarzewski/agency-agents",
+        "stars": 157894,
+        "forks": 25454,
+        "watchers": 1131,
+        "openIssues": 166,
+        "hasIssues": true,
+        "contributors": 106,
+        "commits": 719,
+        "created": "2025-10-13",
+        "pushed": "2026-10-06",
+        "archived": false,
+        "ageDays": 359,
+        "homepage": null,
+        "license": "MIT",
+        "flags": []
+      }
+    },
+    "settled": {
+      "by": "JJ's Mac, dry run Oct 7 2026",
+      "date": "2026-10-07",
+      "note": "Hits are its own SECURITY.md and a scanner score on markdown agent prompts; no advisory.",
+      "reasons": [
+        "2 report(s) to read"
+      ]
+    }
+  },
+  "earthtojake/text-to-cad": {
+    "repo": "earthtojake/text-to-cad",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [
+      "2 report(s) to read"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/earthtojake/text-to-cad/security/advisories",
+        "count": 0,
+        "latestRelease": "0.7.15",
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "earthtojake/text-to-cad CVE",
+          "earthtojake/text-to-cad vulnerability",
+          "earthtojake/text-to-cad malware",
+          "earthtojake/text-to-cad scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [
+          {
+            "query": "earthtojake/text-to-cad CVE",
+            "title": "Overview · earthtojake/text-to-cad · GitHub",
+            "url": "https://www.webkkk.net/earthtojake/text-to-cad/security",
+            "published": "N/A",
+            "matched": "Vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "earthtojake/text-to-cad vulnerability",
+            "title": "earthtojake/text-to-cad — health index 80/100, Excellent — inspect.software",
+            "url": "https://inspect.software/software/earthtojake/text-to-cad",
+            "published": "N/A",
+            "matched": "Vulnerab",
+            "kind": "report"
+          }
+        ],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "earthtojake/text-to-cad",
+        "stars": 18050,
+        "forks": 1807,
+        "watchers": 93,
+        "openIssues": 37,
+        "hasIssues": true,
+        "contributors": 27,
+        "commits": 1434,
+        "created": "2026-04-22",
+        "pushed": "2026-10-07",
+        "archived": false,
+        "ageDays": 168,
+        "homepage": "https://www.texttocad.dev",
+        "license": "MIT",
+        "flags": []
+      }
+    },
+    "settled": {
+      "by": "JJ's Mac, dry run Oct 7 2026",
+      "date": "2026-10-07",
+      "note": "Hits are a GitHub mirror and a health-index listing (80/100); no advisory.",
+      "reasons": [
+        "2 report(s) to read"
+      ]
+    }
+  },
+  "morluto/rea": {
+    "repo": "morluto/rea",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [
+      "6 report(s) to read"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/morluto/rea/security/advisories",
+        "count": 0,
+        "latestRelease": "4.1.0",
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "morluto/rea CVE",
+          "morluto/rea vulnerability",
+          "morluto/rea malware",
+          "morluto/rea scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [
+          {
+            "query": "morluto/rea CVE",
+            "title": "SECURITY.md",
+            "url": "https://github.com/morluto/rea/blob/main/SECURITY.md",
+            "published": "N/A",
+            "matched": "vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "morluto/rea CVE",
+            "title": "rea by morluto | Glama",
+            "url": "https://glama.ai/mcp/servers/morluto/rea",
+            "published": "N/A",
+            "matched": "vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "morluto/rea CVE",
+            "title": "REA: MCP trust evidence · MCPLookup",
+            "url": "https://mcplookup.com/server/io.github.morluto/rea",
+            "published": "N/A",
+            "matched": "vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "morluto/rea CVE",
+            "title": "rea — MCP server by morluto",
+            "url": "https://agentmods.dev/mcp/morluto/rea/rea",
+            "published": "N/A",
+            "matched": "exfiltrat",
+            "kind": "report"
+          },
+          {
+            "query": "morluto/rea malware",
+            "title": "@morluto/rea 0.2.0 on npm - Libraries.io - security & maintenance data for open source software",
+            "url": "https://libraries.io/npm/@morluto%2Frea",
+            "published": "N/A",
+            "matched": "vulnerab",
+            "kind": "report"
+          },
+          {
+            "query": "morluto/rea scam",
+            "title": "Is REA Safe? Trust Score & Safety Signals | HVTracker",
+            "url": "https://hvtracker.net/agents/rea/",
+            "published": "2026-08-29",
+            "matched": "Vulnerab",
+            "kind": "report"
+          }
+        ],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "morluto/rea",
+        "stars": 9973,
+        "forks": 1111,
+        "watchers": 30,
+        "openIssues": 87,
+        "hasIssues": true,
+        "contributors": 10,
+        "commits": 1082,
+        "created": "2026-04-14",
+        "pushed": "2026-10-07",
+        "archived": false,
+        "ageDays": 176,
+        "homepage": null,
+        "license": "MIT",
+        "flags": []
+      }
+    },
+    "settled": {
+      "by": "JJ's Mac, dry run Oct 7 2026",
+      "date": "2026-10-07",
+      "note": "Hits are MCP directory listings (Glama, MCPLookup, npm); no advisory. Note: it is a reverse-engineering MCP server that runs binaries by design.",
+      "reasons": [
+        "6 report(s) to read"
+      ]
+    }
+  },
+  "ayghri/i-have-adhd": {
+    "repo": "ayghri/i-have-adhd",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [
+      "1 report(s) to read"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/ayghri/i-have-adhd/security/advisories",
+        "count": 0,
+        "latestRelease": null,
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "ayghri/i-have-adhd CVE",
+          "ayghri/i-have-adhd vulnerability",
+          "ayghri/i-have-adhd malware",
+          "ayghri/i-have-adhd scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [
+          {
+            "query": "ayghri/i-have-adhd vulnerability",
+            "title": "i-have-adhd",
+            "url": "https://www.skills.sh/ayghri/i-have-adhd/i-have-adhd/security/socket",
+            "published": "N/A",
+            "matched": "Malicious",
+            "kind": "report"
+          }
+        ],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "ayghri/i-have-adhd",
+        "stars": 54484,
+        "forks": 3129,
+        "watchers": 165,
+        "openIssues": 72,
+        "hasIssues": true,
+        "contributors": 52,
+        "commits": 261,
+        "created": "2026-05-13",
+        "pushed": "2026-10-06",
+        "archived": false,
+        "ageDays": 146,
+        "homepage": null,
+        "license": "MIT",
+        "flags": []
+      }
+    },
+    "settled": {
+      "by": "JJ's Mac, dry run Oct 7 2026",
+      "date": "2026-10-07",
+      "note": "The only hit is a skills.sh Socket scan listing; no advisory.",
+      "reasons": [
+        "1 report(s) to read"
+      ]
+    }
+  },
+  "wanderingstan/vibeconf-app": {
+    "repo": "wanderingstan/vibeconf-app",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/wanderingstan/vibeconf-app/security/advisories",
+        "count": 0,
+        "latestRelease": "0.8.55",
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "wanderingstan/vibeconf-app CVE",
+          "wanderingstan/vibeconf-app vulnerability",
+          "wanderingstan/vibeconf-app malware",
+          "wanderingstan/vibeconf-app scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "wanderingstan/vibeconf-app",
+        "stars": 10,
+        "forks": 1,
+        "watchers": 0,
+        "openIssues": 324,
+        "hasIssues": true,
+        "contributors": 2,
+        "commits": 1603,
+        "created": "2026-07-20",
+        "pushed": "2026-10-06",
+        "archived": false,
+        "ageDays": 79,
+        "homepage": null,
+        "license": "MIT",
+        "flags": []
+      }
+    }
+  },
+  "coderexpert123/jev-browser-wingman": {
+    "repo": "coderexpert123/jev-browser-wingman",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/coderexpert123/jev-browser-wingman/security/advisories",
+        "count": 0,
+        "latestRelease": "0.3.0",
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "coderexpert123/jev-browser-wingman CVE",
+          "coderexpert123/jev-browser-wingman vulnerability",
+          "coderexpert123/jev-browser-wingman malware",
+          "coderexpert123/jev-browser-wingman scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "coderexpert123/jev-browser-wingman",
+        "stars": 1,
+        "forks": 0,
+        "watchers": 0,
+        "openIssues": 0,
+        "hasIssues": true,
+        "contributors": 2,
+        "commits": 252,
+        "created": "2026-09-20",
+        "pushed": "2026-10-07",
+        "archived": false,
+        "ageDays": 17,
+        "homepage": null,
+        "license": "MIT",
+        "flags": []
+      }
+    }
+  },
+  "openai/math": {
+    "repo": "openai/math",
+    "checked": "2026-10-07",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "github-api",
+        "url": "https://github.com/openai/math/security/advisories",
+        "count": 0,
+        "latestRelease": null,
+        "items": []
+      },
+      "searches": {
+        "engine": "exa+nvd",
+        "queries": [
+          "openai/math CVE",
+          "openai/math vulnerability",
+          "openai/math malware",
+          "openai/math scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [
+          {
+            "query": "openai/math CVE",
+            "title": "Symbolic Math Jailbreak | LLM Security Database",
+            "url": "https://www.promptfoo.dev/lm-security-db/vuln/symbolic-math-jailbreak-367a8155/",
+            "published": "2024-09-01",
+            "matched": "vulnerab",
+            "kind": "before-repo"
+          },
+          {
+            "query": "openai/math vulnerability",
+            "title": "OpenAI's Math-Proving Model Kept Escaping Its Sandbox — Then Tried to Cover Its Tracks | BitsMinds",
+            "url": "https://www.bitsminds.com/news/openai-model-escaped-sandbox-safety-incident-2026",
+            "published": "2026-07-23",
+            "matched": "exploit",
+            "kind": "before-repo"
+          }
+        ],
+        "fallbacks": 0,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "canonical": "openai/math",
+        "stars": 3450,
+        "forks": 306,
+        "watchers": 65,
+        "openIssues": 0,
+        "hasIssues": false,
+        "contributors": 1,
+        "commits": 1,
+        "created": "2026-10-06",
+        "pushed": "2026-10-06",
+        "archived": false,
+        "ageDays": 0,
+        "homepage": null,
+        "license": "Apache-2.0",
+        "flags": []
+      }
+    }
+  }
+}

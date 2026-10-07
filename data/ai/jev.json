@@ -1,0 +1,16 @@
+{
+  "flagship": "Jev (the first System One model)",
+  "newest": "2026-09-15",
+  "sources": [
+    {
+      "url": "https://docs.typesafe.ai",
+      "outlet": "TypeSafe AI docs",
+      "kind": "official"
+    },
+    {
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "outlet": "TypeSafe AI",
+      "kind": "official"
+    }
+  ]
+}

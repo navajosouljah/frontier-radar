@@ -1,0 +1,22 @@
+{
+  "flagship": "Gemini 4 Argon",
+  "newest": "2026-10-06",
+  "plans_from": "$20 / month (Google AI Pro)",
+  "sources": [
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "outlet": "Google",
+      "kind": "official"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1",
+      "outlet": "Google AI for Developers",
+      "kind": "official"
+    },
+    {
+      "url": "https://one.google.com/about/google-ai-plans/",
+      "outlet": "Google AI plans",
+      "kind": "official"
+    }
+  ]
+}

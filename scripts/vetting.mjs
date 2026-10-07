@@ -18,7 +18,9 @@ export function courseProblems(c, fileDate, aiIds) {
   else if (c.price.amount === 0 && !/^free$/i.test(c.price.display.trim())) out.push(`${w}: a price of 0 must say Free, nothing else`);
   const r = c.reviews || {};
   if (!(r.count >= MIN_REVIEWS) || typeof r.score !== 'number' || !isHttps(r.url) || !r.site) out.push(`${w}: needs independent reviews (at least ${MIN_REVIEWS}, with score, site and link)`);
-  else if (sameOwner(r.url, c.url) || sameOwner(r.url, c.provider_url)) out.push(`${w}: reviews must be on a site the provider does not run`);
+  // Independent means not the provider's own site. A course sold on a marketplace (Coursera, Udemy) is reviewed on
+  // that marketplace, which the provider does not run; a provider page that is itself a marketplace profile fails.
+  else if (sameOwner(r.url, c.provider_url)) out.push(`${w}: reviews must be on a site the provider does not run`);
   const age = (Date.parse(fileDate) - Date.parse(c.page_checked || '')) / 864e5;
   if (!(age >= 0 && age <= MAX_CHECK_AGE_DAYS)) out.push(`${w}: the course page must have been checked within ${MAX_CHECK_AGE_DAYS} days of ${fileDate}`);
   if (c.claims_checked !== true) out.push(`${w}: claims_checked must be true (the run read the course page and found no income or guaranteed-results promise)`);

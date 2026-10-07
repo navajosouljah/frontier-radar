@@ -1,0 +1,22 @@
+{
+  "flagship": "GPT-6 Astra",
+  "newest": "2026-09-29",
+  "plans_from": "$8 / month (Go); Plus $20",
+  "sources": [
+    {
+      "url": "https://platform.openai.com/docs/models",
+      "outlet": "OpenAI models",
+      "kind": "official"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "outlet": "OpenAI",
+      "kind": "official"
+    },
+    {
+      "url": "https://openai.com/chatgpt/pricing/",
+      "outlet": "ChatGPT pricing",
+      "kind": "official"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "flagship": "Grok 4.7",
+  "newest": "2026-09-21",
+  "plans_from": "$30 / month (SuperGrok)",
+  "sources": [
+    {
+      "url": "https://x.ai/news/grok-4-7",
+      "outlet": "SpaceXAI",
+      "kind": "official"
+    },
+    {
+      "url": "https://x.ai/pricing",
+      "outlet": "SpaceXAI pricing",
+      "kind": "official"
+    }
+  ]
+}

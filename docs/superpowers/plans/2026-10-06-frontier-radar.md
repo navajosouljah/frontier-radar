@@ -68,7 +68,8 @@ form, this section wins.
 - **Task 9b (new, ruling 10 + the weekly re-check).** `scripts/x-scout.mjs` (reads the X accounts with the
   Mac's saved login, writes `data/x/<date>.json`), `scripts/scout.sh` (pull, scout, on Mondays
   `gate.mjs --recheck` + `sync-blocklist`, commit the data files, push; never builds) and the launchd job
-  `~/Library/LaunchAgents/com.jjgilmore.frontier-radar-scout.plist` at 5:30 AM Mountain. The job is loaded
+  `~/Library/LaunchAgents/com.jjgilmore.frontier-radar-scout.plist` at 4:30 AM Mountain (before 12:00 UTC in
+  both MDT and MST). The job is loaded
   only after Task 10, because it pushes to GitHub.
 - **Accepted (finding 5).** Two pushes, one changing a script and one adding the day, pass the fence. Same
   ceiling as Repo Radar. The routine prompt forbids it.

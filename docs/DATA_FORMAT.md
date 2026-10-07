@@ -36,6 +36,10 @@ Grok's maker is SpaceXAI (xAI joined SpaceX on Feb 2 2026); never write "xAI" as
 - `story`: the same key for every item about the same story. Items sharing a key are shown once.
 - `kind`: `official` (the company itself, or a company insider's own X post), `press` (trusted press
   and insider scoops), `expert` or `community`. Leak trackers and rumor accounts are `community`.
+  The checker judges trust by where a source lives, using `data/sources.json`: a source is official only
+  if its site is on the official lists (or an X post from an `x.insiders` account); only outlets on the
+  press, insiders or experts lists count toward "two independent outlets"; a leak-tracker site or a rumor
+  account never confirms anything. An outlet that is not on the list is reported to JJ, who adds it.
 - `repeats`: set it on a source that only repeats another outlet's report. It does not count as independent.
 - `rumor`: must be `true` unless there is an official source or at least 2 independent outlets.
   Everything from a leak tracker or a rumor account starts `true`. The top story can never be a rumor.
@@ -104,9 +108,12 @@ own company's news. If today's file is missing, the report says "X not read toda
 
 ## `data/blocklist.json`, `data/rr-blocklist.json`, `data/gate-log.json`
 
-`data/blocklist.json` is this site's own blocklist (`gate.mjs` adds FAILs; only JJ removes).
+`data/blocklist.json` is this site's own blocklist: `gate.mjs` adds a repo on FAIL and drops it again when a
+later gate finds the fixes shipped (a `conduct` entry is only ever lifted by JJ). In a push that adds a day it may
+only grow.
 `data/rr-blocklist.json` is Repo Radar's, copied by `scripts/sync-blocklist.mjs` as
-`{ fetched, source, repos }`; a copy older than 2 days or empty is refused. `data/gate-log.json` is the
+`{ fetched, source, repos }`; a copy older than 2 days or empty is refused. The cloud run's daily copy is
+grow-only; the Mac scout's Monday copy (`--replace`) is the one that drops entries Repo Radar has lifted. `data/gate-log.json` is the
 gate's evidence, written only by `gate.mjs`. A push that adds a day may add to these files but never
 remove a blocklist entry or turn an existing FAIL or REVIEW into a PASS.
 

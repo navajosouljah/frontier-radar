@@ -137,12 +137,15 @@ An item scores higher with more **independent** sources covering it, an **offici
 ### 4.4 X (Twitter) is read from JJ's Mac: the X scout
 The cloud run cannot sign in to X. JJ's Mac can (the saved X login in `~/.agent-reach/config.yaml`). So a
 small job on the Mac (`scripts/scout.sh`, launchd `com.jjgilmore.frontier-radar-scout`) runs every morning
-at 5:30 AM Mountain, half an hour before the cloud run:
+at 4:30 AM Mountain, which is 10:30 UTC in summer and 11:30 UTC in winter, so always before the 12:00 UTC
+cloud run:
 - `scripts/x-scout.mjs` reads the last day of posts from every X account in `data/sources.json` and writes
   `data/x/<today>.json` (handle, time, text, link, like count; never the login values).
 - On Mondays it also runs the weekly gate re-check (`node scripts/gate.mjs --recheck`, every repo the site
-  lists) and refreshes the Repo Radar blocklist copy.
-- It commits only those data files and pushes `main`. It never builds pages, so the "updated" stamp on the
+  lists) and replaces the Repo Radar blocklist copy (the only place entries are ever dropped; the cloud
+  run's daily copy only grows, so it never collides with the fence).
+- It commits only those data files and pushes `main`, and it stops if JJ's working copy holds unpushed
+  commits, so nothing unchecked ever ships through it. It never builds pages, so the "updated" stamp on the
   live site still belongs to the last real edition. No day is added, so the fence allows the push.
 - The cloud run reads today's X file if it exists. If the Mac was asleep, the day's report says
   "X not read today" and the run carries on without X.

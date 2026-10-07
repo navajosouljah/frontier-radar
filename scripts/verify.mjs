@@ -133,15 +133,20 @@ export function fenceProblems(changes) {
   const out = changes.filter(c => PROTECTED.some(re => re.test(c.path)))
     .map(c => `${c.path} changed in the same push as a new day (${added.path}). A daily run never edits the scripts or the rule files: put the file back, and if a check is blocking you, stop and report it instead`);
   for (const c of changes) {
-    if (c.before == null || c.after == null) continue;
+    if (c.before == null) continue;
+    const after = c.status === 'D' ? '' : c.after; // a deleted file is an empty one
+    if (after == null) continue;
     if (BLOCKLISTS.includes(c.path)) {
-      const was = repoSet(parse(c.before)), now = repoSet(parse(c.after));
-      for (const r of was) if (!now.has(r)) out.push(`${c.path}: ${r} was removed in the same push as a new day (${added.path}). A daily run may add to a blocklist, never remove from it`);
+      const was = repoSet(parse(c.before)), now = repoSet(parse(after));
+      for (const r of was) if (!now.has(r)) out.push(`${c.path}: ${r} was removed${c.status === 'D' ? ' (the file was deleted)' : ''} in the same push as a new day (${added.path}). A daily run may add to a blocklist, never remove from it`);
     }
     if (c.path === 'data/gate-log.json') {
-      const was = parse(c.before) || {}, now = parse(c.after) || {};
-      for (const [k, e] of Object.entries(was)) {
-        if (e?.verdict && e.verdict !== 'PASS' && now[k]?.verdict === 'PASS') out.push(`data/gate-log.json: ${k} went from ${e.verdict} to PASS in the same push as a new day (${added.path}). Only the Mac-side weekly re-check or JJ clears a repo`);
+      if (c.status === 'D') { out.push(`data/gate-log.json was deleted in the same push as a new day (${added.path}). Only gate.mjs writes it; put it back`); continue; }
+      // Records are matched by repo, not by key: gate.mjs re-keys a record when the case of the name changes.
+      const byRepo = log => { const m = new Map(); for (const e of Object.values(parse(log) || {})) if (e?.repo) m.set(String(e.repo).toLowerCase(), e); return m; };
+      const was = byRepo(c.before), now = byRepo(after);
+      for (const [r, e] of was) {
+        if (e.verdict && e.verdict !== 'PASS' && now.get(r)?.verdict === 'PASS') out.push(`data/gate-log.json: ${r} went from ${e.verdict} to PASS in the same push as a new day (${added.path}). Only the Mac-side weekly re-check or JJ clears a repo`);
       }
     }
   }
@@ -161,9 +166,11 @@ function changesVsGitHub(root) {
     ...fresh.stdout.split('\n').filter(Boolean).map(path => ({ status: 'A', path })),
   ];
   for (const c of changes) {
-    if (c.status !== 'M' || !(BLOCKLISTS.includes(c.path) || c.path === 'data/gate-log.json')) continue;
+    if (!['M', 'D'].includes(c.status) || !(BLOCKLISTS.includes(c.path) || c.path === 'data/gate-log.json')) continue;
     const before = git('show', `origin/main:${c.path}`);
-    if (before.status === 0) { c.before = before.stdout; c.after = readFileSync(join(root, c.path), 'utf8'); }
+    if (before.status !== 0) continue;
+    c.before = before.stdout;
+    c.after = existsSync(join(root, c.path)) ? readFileSync(join(root, c.path), 'utf8') : '';
   }
   return { changes };
 }

@@ -1,7 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, mkdtempSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
+import { tmpdir } from 'node:os';
+import { spawnSync } from 'node:child_process';
 import { goodSite, writeSite, course, project, item } from './test-site.mjs';
 import { build } from './build.mjs';
 import { verify, fenceProblems } from './verify.mjs';
@@ -126,4 +128,31 @@ test('the fence: blocklists only grow and gate verdicts never flip to PASS in a 
   const fresh = { status: 'M', path: 'data/gate-log.json', before: J({ 'a/b': { repo: 'a/b', verdict: 'FAIL' } }), after: J({ 'a/b': { repo: 'a/b', verdict: 'FAIL' }, 'c/d': { repo: 'c/d', verdict: 'PASS' } }) };
   assert.deepEqual(fenceProblems([day, fresh]), [], 'a new gate record is fine');
   assert.deepEqual(fenceProblems([shrink, flip]), [], 'without a new day the fence does not apply');
+  const renamed = { status: 'M', path: 'data/gate-log.json', before: J({ 'Owner/Repo': { repo: 'Owner/Repo', verdict: 'REVIEW' } }), after: J({ 'owner/repo': { repo: 'owner/repo', verdict: 'PASS' } }) };
+  assert.match(fenceProblems([day, renamed])[0], /owner\/repo.*REVIEW to PASS/i, 'a re-keyed record is the same repo');
+  const deleted = { status: 'D', path: 'data/blocklist.json', before: J([{ repo: 'a/b', reason: 'x' }]) };
+  assert.match(fenceProblems([day, deleted])[0], /a\/b.*removed/, 'deleting the file removes every entry');
+  const wiped = { status: 'D', path: 'data/gate-log.json', before: J({ 'a/b': { repo: 'a/b', verdict: 'FAIL' } }) };
+  assert.match(fenceProblems([day, wiped])[0], /gate-log.*deleted/, 'the gate log may not be deleted in a day push');
+});
+test('the fence reads real git changes against origin/main (renamed keys, deleted files, new days)', () => {
+  const tmp = mkdtempSync(join(tmpdir(), 'fr-git-'));
+  const origin = join(tmp, 'origin.git'), work = join(tmp, 'work');
+  const sh = (cwd, ...a) => { const r = spawnSync('git', ['-C', cwd, ...a], { encoding: 'utf8' }); if (r.status !== 0) throw new Error(r.stderr); return r.stdout; };
+  spawnSync('git', ['init', '-q', '--bare', '-b', 'main', origin]);
+  spawnSync('git', ['init', '-q', '-b', 'main', work]);
+  sh(work, 'config', 'user.email', 't@t'); sh(work, 'config', 'user.name', 't');
+  writeSite(goodSite(), work);
+  writeFileSync(join(work, 'data/gate-log.json'), JSON.stringify({ 'Owner/Repo': { repo: 'Owner/Repo', verdict: 'REVIEW' } }));
+  writeFileSync(join(work, 'data/blocklist.json'), JSON.stringify([{ repo: 'own/block', date: '2026-09-01', kind: 'conduct', reason: 'malware' }]));
+  sh(work, 'add', '-A'); sh(work, 'commit', '-q', '-m', 'base'); sh(work, 'remote', 'add', 'origin', origin); sh(work, 'push', '-q', 'origin', 'main');
+  build(work, { now: '2026-10-07T12:05:00Z' });
+  assert.deepEqual(verify(work, { nowMs: NOW }).filter(p => p.startsWith('the fence') || /same push/.test(p)), [], 'nothing changed yet');
+  // A new day, a re-keyed PASS and a deleted blocklist, all uncommitted, as a daily run would leave them.
+  writeSite({ 'data/days/2026-10-08/items.json': { date: '2026-10-08', items: [item({ id: 'n', story: 'n', published: '2026-10-08T01:00:00Z' })] }, 'docs/reports/2026-10-08.md': '## Needs JJ\n' }, work);
+  writeFileSync(join(work, 'data/gate-log.json'), JSON.stringify({ 'owner/repo': { repo: 'owner/repo', verdict: 'PASS' } }));
+  rmSync(join(work, 'data/blocklist.json'));
+  const problems = verify(work, { nowMs: Date.parse('2026-10-08T12:05:00Z') });
+  assert.ok(problems.some(p => /owner\/repo.*REVIEW to PASS/i.test(p)), problems.join('\n'));
+  assert.ok(problems.some(p => /blocklist\.json: own\/block was removed \(the file was deleted\)/.test(p)), problems.join('\n'));
 });

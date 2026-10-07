@@ -19,7 +19,7 @@
 - Quotes are 25 words or fewer. Summaries are our own words.
 - The top story is never a rumor. An item with no official source and fewer than 2 independent outlets must be `rumor: true`.
 - No company logos. AI tags are colored text: Claude `#c96442`, Grok `#22252c`, Gemini `#2f6fde`, ChatGPT/OpenAI `#10875f`, Jev `#7a4fd1`.
-- Every page footer says Frontier Radar is "independent and not affiliated with Anthropic, xAI, Google, OpenAI or TypeSafe AI".
+- Every page footer says Frontier Radar is "independent and not affiliated with Anthropic, SpaceXAI, Google, OpenAI or TypeSafe AI".
 - Public address: `frontier-radar-daily.vercel.app`. Never use `frontier-radar.vercel.app` (a stranger's app).
 - Ship only with `scripts/ship.sh`. Never `vercel deploy`.
 - The daily run never edits `scripts/`, `CLAUDE.md`, `docs/SECURITY_GATE.md`, `docs/COURSE_VETTING.md`, `docs/DAILY_PLAYBOOK.md` or `docs/DATA_FORMAT.md`.
@@ -33,6 +33,45 @@
 3. **The same story entered twice, or outlets copying one report:** it must show once, and copies (`repeats`) must not inflate the source count. Test: Task 4 (`mergeStories`, `independentCount ignores repeats`).
 4. **The daily run fails:** pages must show "Not updated today" after 30 hours, and archived days must say they are archived instead. Test: Task 7 (`stale note`).
 5. **Hostile text in a scraped headline or quote** (`<script>`, `javascript:` links): it must be escaped, and only https links may render. Tests: Task 1 (`inline escapes`) and Task 7 (`escapes hostile headline`).
+
+## Amendments (Oct 6 2026, after JJ's three rulings; spec rulings 9 to 12)
+
+The tasks below are executed with these changes folded in. Where a code block below still shows the old
+form, this section wins.
+
+- **SpaceXAI.** xAI joined SpaceX on Feb 2 2026. `maker` for Grok is `SpaceXAI`; the footer line everywhere
+  (templates, verify, every test) is "independent and not affiliated with Anthropic, SpaceXAI, Google,
+  OpenAI or TypeSafe AI". The fixture outlet for x.ai is "SpaceXAI".
+- **Task 2 / Task 3 (fix 7).** `data/rr-blocklist.json` is an object `{ fetched, source, repos }`, written by
+  `sync-blocklist.mjs`. `loadSite` exposes `blocklists` (two lists, as before) and `rrBlocklist` (the object
+  or null). `verify` refuses a copy fetched more than 2 days before now, or with no repos.
+- **Task 3 (fix 1).** `repoOf(project)` returns the GitHub repo from `repo` or a github.com link, as before.
+  `codeHost(url)` names a code host (github, gitlab, codeberg, bitbucket, huggingface, npm, pypi,
+  crates.io) or null. `catalog.mjs` lists the repos of **every** Top 20 file, not just the newest.
+- **Task 5 (fix 1).** Every project needs `kind`: `repo` (must resolve to a GitHub repo, and pass the gate)
+  or `app` (its url must not be on any code host). Any url on a non-GitHub code host is refused.
+- **Task 6 (fix 6).** Review sites are compared by registrable domain (`reviews.academy.example.com` is the
+  provider's own). `HYPE` also catches "earn $5k a month", "$X per month", "make money". A price of 0 needs
+  `display` of "Free". A courses or Top 20 file dated after today is refused (verify passes `nowMs`).
+- **Task 7 (fix 8).** `build` deletes any `days/*/index.html`, `ai/*.html` or root page it did not write.
+- **Task 8 (fixes 2, 3, 4).** Every github.com link on every page must be a repo the gate clears
+  (`makeGateFor`), not only "not blocklisted". Every Top 20 file is checked: the newest with the full gate;
+  older ones with a gate that allows a stale PASS but still refuses blocklisted, never gated, FAIL or REVIEW.
+  `PROTECTED` is unchanged, and `fenceProblems(changes)` also receives `before`/`after` text for
+  `data/blocklist.json`, `data/rr-blocklist.json` and `data/gate-log.json`: in a push that adds a day,
+  a blocklist may only gain entries, and an existing gate record may not change from FAIL/REVIEW to PASS.
+- **Task 9 (ruling 9, 10).** `data/sources.json` carries the tiers of `docs/SOURCES.md` (official per AI with
+  `reader: true` where plain fetches are blocked, press, insiders, leaks, experts, video, communities, x
+  accounts, projects). The playbook reads official pages through the reader where flagged, treats leak
+  trackers and rumor accounts as `rumor: true`, reads `data/x/<today>.json` when present, and reports
+  "X not read today" otherwise.
+- **Task 9b (new, ruling 10 + the weekly re-check).** `scripts/x-scout.mjs` (reads the X accounts with the
+  Mac's saved login, writes `data/x/<date>.json`), `scripts/scout.sh` (pull, scout, on Mondays
+  `gate.mjs --recheck` + `sync-blocklist`, commit the data files, push; never builds) and the launchd job
+  `~/Library/LaunchAgents/com.jjgilmore.frontier-radar-scout.plist` at 5:30 AM Mountain. The job is loaded
+  only after Task 10, because it pushes to GitHub.
+- **Accepted (finding 5).** Two pushes, one changing a script and one adding the day, pass the fence. Same
+  ceiling as Repo Radar. The routine prompt forbids it.
 
 ---
 
@@ -171,7 +210,7 @@ data/
 ```json
 [
   { "id": "claude", "name": "Claude", "maker": "Anthropic", "color": "#c96442" },
-  { "id": "grok", "name": "Grok", "maker": "xAI", "color": "#22252c" },
+  { "id": "grok", "name": "Grok", "maker": "SpaceXAI", "color": "#22252c" },
   { "id": "gemini", "name": "Gemini", "maker": "Google", "color": "#2f6fde" },
   { "id": "chatgpt", "name": "ChatGPT / OpenAI", "maker": "OpenAI", "color": "#10875f" },
   { "id": "jev", "name": "Jev", "maker": "TypeSafe AI", "color": "#7a4fd1", "note": "In limited early access since Sep 15, 2026." }
@@ -245,7 +284,7 @@ import { join, dirname } from 'node:path';
 
 export const AIS = [
   { id: 'claude', name: 'Claude', maker: 'Anthropic', color: '#c96442' },
-  { id: 'grok', name: 'Grok', maker: 'xAI', color: '#22252c' },
+  { id: 'grok', name: 'Grok', maker: 'SpaceXAI', color: '#22252c' },
   { id: 'gemini', name: 'Gemini', maker: 'Google', color: '#2f6fde' },
   { id: 'chatgpt', name: 'ChatGPT / OpenAI', maker: 'OpenAI', color: '#10875f' },
   { id: 'jev', name: 'Jev', maker: 'TypeSafe AI', color: '#7a4fd1', note: 'In limited early access since Sep 15, 2026.' },
@@ -273,7 +312,7 @@ export function goodSite() {
       items: [
         item({ why: 'Fixture reason it matters.' }),
         item({ id: 'grok-model', ai: 'grok', category: 'model', story: 'grok-model', headline: 'Fixture Grok model',
-          sources: [{ url: 'https://x.ai/news/fixture', outlet: 'xAI', kind: 'official' }] }),
+          sources: [{ url: 'https://x.ai/news/fixture', outlet: 'SpaceXAI', kind: 'official' }] }),
       ],
     },
     'data/ai/claude.json': { flagship: 'Fixture Model', newest: '2026-10-07', plans_from: '$20 / month',
@@ -965,7 +1004,7 @@ test('builds every page with the footer', () => {
   for (const p of ['index.html', 'ai/claude.html', 'ai/jev.html', 'experts.html', 'top20.html', 'courses.html', 'archive.html', 'corrections.html', 'days/2026-10-07/index.html']) {
     assert.ok(pages.includes(p), `missing ${p}`);
     assert.ok(existsSync(join(dir, p)));
-    assert.match(page(dir, p), /not affiliated with Anthropic, xAI, Google, OpenAI or TypeSafe AI/);
+    assert.match(page(dir, p), /not affiliated with Anthropic, SpaceXAI, Google, OpenAI or TypeSafe AI/);
   }
   const home = page(dir, 'index.html');
   assert.match(home, /Fixture headline about a feature/);
@@ -1076,7 +1115,7 @@ export function shell({ title, depth, active, updated, edition, archived, ais, b
 ${stale}
 <nav>${nav}</nav>
 <main class="page on">${body}</main>
-<footer>Frontier Radar is independent and not affiliated with Anthropic, xAI, Google, OpenAI or TypeSafe AI. Every item links to its source. <a href="${up}corrections.html">Corrections</a> &middot; <a href="${up}archive.html">Archive</a></footer>
+<footer>Frontier Radar is independent and not affiliated with Anthropic, SpaceXAI, Google, OpenAI or TypeSafe AI. Every item links to its source. <a href="${up}corrections.html">Corrections</a> &middot; <a href="${up}archive.html">Archive</a></footer>
 </div></div>
 ${check}
 </body></html>
@@ -1298,7 +1337,7 @@ test('a missing day report is refused', () => {
 test('a dash in a page is refused', () => {
   const dir = writeSite(goodSite());
   build(dir, { now: '2026-10-07T12:05:00Z' });
-  writeFileSync(join(dir, 'experts.html'), 'a — b <footer>not affiliated with Anthropic, xAI, Google, OpenAI or TypeSafe AI</footer>');
+  writeFileSync(join(dir, 'experts.html'), 'a — b <footer>not affiliated with Anthropic, SpaceXAI, Google, OpenAI or TypeSafe AI</footer>');
   assert.ok(has(verify(dir, { nowMs: NOW }), /em or en dash/));
 });
 test('a correction must point at a real item', () => {
@@ -1392,7 +1431,7 @@ export function verify(root, { nowMs = Date.now() } = {}) {
   for (const f of walk(root).filter(f => f.endsWith('.html'))) {
     const html = readFileSync(join(root, f), 'utf8');
     if (hasDash(html)) bad(f, 'contains an em or en dash');
-    if (!html.includes('not affiliated with Anthropic, xAI, Google, OpenAI or TypeSafe AI')) bad(f, 'is missing the not-affiliated footer');
+    if (!html.includes('not affiliated with Anthropic, SpaceXAI, Google, OpenAI or TypeSafe AI')) bad(f, 'is missing the not-affiliated footer');
     for (const [, href] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
       if (/^(javascript|data):/i.test(href)) { bad(f, `unsafe link ${href.slice(0, 40)}`); continue; }
       const gh = href.match(/^https:\/\/github\.com\/([^/#?]+\/[^/#?]+)/);

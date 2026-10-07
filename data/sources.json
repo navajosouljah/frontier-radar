@@ -1,0 +1,124 @@
+{
+  "_about": "The source list the daily run reads, in trust order. Full notes and verification dates: docs/SOURCES.md. reader: true means the site blocks plain fetches; read it through https://r.jina.ai/<url>. Items from leaks and x.rumor are always rumor: true until an official source or two independent outlets confirm.",
+  "official": {
+    "claude": [
+      { "name": "Anthropic news", "url": "https://www.anthropic.com/news" },
+      { "name": "Anthropic research", "url": "https://www.anthropic.com/research" },
+      { "name": "Anthropic engineering blog", "url": "https://www.anthropic.com/engineering" },
+      { "name": "Claude release notes (all products)", "url": "https://docs.claude.com/en/release-notes/overview" },
+      { "name": "Claude apps release notes", "url": "https://docs.claude.com/en/release-notes/claude-apps" },
+      { "name": "Claude API release notes", "url": "https://docs.claude.com/en/release-notes/api" },
+      { "name": "Claude status", "url": "https://status.claude.com", "rss": "https://status.claude.com/history.rss" },
+      { "name": "Claude pricing", "url": "https://claude.com/pricing" },
+      { "name": "Anthropic pricing", "url": "https://www.anthropic.com/pricing" }
+    ],
+    "grok": [
+      { "name": "SpaceXAI news", "url": "https://x.ai/news", "reader": true },
+      { "name": "SpaceXAI API release notes", "url": "https://docs.x.ai/docs/release-notes" },
+      { "name": "SpaceXAI models and pricing", "url": "https://docs.x.ai/docs/models" },
+      { "name": "SpaceXAI status", "url": "https://status.x.ai", "reader": true },
+      { "name": "Grok app", "url": "https://grok.com" }
+    ],
+    "gemini": [
+      { "name": "Google Gemini blog", "url": "https://blog.google/products/gemini/", "rss": "https://blog.google/products/gemini/rss/" },
+      { "name": "Google DeepMind blog", "url": "https://deepmind.google/discover/blog/", "rss": "https://deepmind.google/blog/rss.xml" },
+      { "name": "Gemini app release notes", "url": "https://gemini.google/release-notes/" },
+      { "name": "Gemini API changelog", "url": "https://ai.google.dev/gemini-api/docs/changelog" },
+      { "name": "Gemini API models", "url": "https://ai.google.dev/gemini-api/docs/models" },
+      { "name": "Gemini API pricing", "url": "https://ai.google.dev/gemini-api/docs/pricing" },
+      { "name": "Google AI plans (consumer)", "url": "https://one.google.com/about/google-ai-plans/" },
+      { "name": "Google Developers blog", "url": "https://developers.googleblog.com/" },
+      { "name": "Google Cloud status", "url": "https://status.cloud.google.com" }
+    ],
+    "chatgpt": [
+      { "name": "OpenAI news", "url": "https://openai.com/news/", "reader": true, "rss": "https://openai.com/news/rss.xml" },
+      { "name": "ChatGPT release notes", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "reader": true },
+      { "name": "OpenAI API changelog", "url": "https://platform.openai.com/docs/changelog" },
+      { "name": "OpenAI API models", "url": "https://platform.openai.com/docs/models" },
+      { "name": "OpenAI status", "url": "https://status.openai.com", "rss": "https://status.openai.com/feed.rss" },
+      { "name": "ChatGPT pricing", "url": "https://openai.com/chatgpt/pricing/", "reader": true },
+      { "name": "OpenAI API pricing", "url": "https://openai.com/api/pricing/", "reader": true }
+    ],
+    "jev": [
+      { "name": "TypeSafe AI", "url": "https://typesafe.ai" },
+      { "name": "TypeSafe AI blog", "url": "https://typesafe.ai/blog" },
+      { "name": "TypeSafe AI docs", "url": "https://docs.typesafe.ai" },
+      { "name": "Jev product site", "url": "https://jev.ai" }
+    ]
+  },
+  "press": [
+    { "name": "The Verge AI", "url": "https://www.theverge.com/ai-artificial-intelligence" },
+    { "name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/" },
+    { "name": "Ars Technica AI", "url": "https://arstechnica.com/ai/" },
+    { "name": "Wired AI", "url": "https://www.wired.com/tag/artificial-intelligence/" },
+    { "name": "MIT Technology Review AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/" },
+    { "name": "The Decoder", "url": "https://the-decoder.com/" },
+    { "name": "CNBC AI", "url": "https://www.cnbc.com/ai-artificial-intelligence/" },
+    { "name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/", "reader": true },
+    { "name": "InfoQ AI", "url": "https://www.infoq.com/ai-ml-data-eng/" }
+  ],
+  "insiders": [
+    { "name": "The Information", "url": "https://www.theinformation.com/", "reader": true, "note": "paywalled; headlines and first lines read" },
+    { "name": "Reuters AI", "url": "https://www.reuters.com/technology/artificial-intelligence/", "reader": true },
+    { "name": "Bloomberg AI", "url": "https://www.bloomberg.com/ai", "reader": true },
+    { "name": "Sources, by Alex Heath", "url": "https://sources.news/" },
+    { "name": "Semafor Tech", "url": "https://www.semafor.com/vertical/tech" },
+    { "name": "Axios AI", "url": "https://www.axios.com/technology/artificial-intelligence", "reader": true },
+    { "name": "Platformer", "url": "https://www.platformer.news/" }
+  ],
+  "leaks": [
+    { "name": "TestingCatalog", "url": "https://www.testingcatalog.com/", "note": "use the .com; testingcatalog.net is a look-alike" },
+    { "name": "9to5Google Gemini", "url": "https://9to5google.com/guides/gemini/" },
+    { "name": "Android Authority Gemini", "url": "https://www.androidauthority.com/google-gemini/", "reader": true },
+    { "name": "ArtificialWatch wire", "url": "https://artificialwatch.com/wire", "note": "directional; cite only with a second source" },
+    { "name": "AI Weekly alerts", "url": "https://aiweekly.co/", "note": "directional" }
+  ],
+  "experts": [
+    { "name": "Simon Willison", "url": "https://simonwillison.net/" },
+    { "name": "Import AI (Jack Clark)", "url": "https://importai.substack.com/" },
+    { "name": "Stratechery", "url": "https://stratechery.com/" },
+    { "name": "AI News by smol.ai", "url": "https://news.smol.ai/" },
+    { "name": "Latent Space", "url": "https://www.latent.space/" },
+    { "name": "Interconnects (Nathan Lambert)", "url": "https://www.interconnects.ai/" },
+    { "name": "The Batch", "url": "https://www.deeplearning.ai/the-batch/" },
+    { "name": "Last Week in AI", "url": "https://lastweekin.ai/" },
+    { "name": "ThursdAI", "url": "https://thursdai.news/" },
+    { "name": "One Useful Thing (Ethan Mollick)", "url": "https://www.oneusefulthing.org/" },
+    { "name": "Don't Worry About the Vase (Zvi)", "url": "https://thezvi.substack.com/" },
+    { "name": "Big Technology (Alex Kantrowitz)", "url": "https://www.bigtechnology.com/" },
+    { "name": "Understanding AI", "url": "https://www.understandingai.org/" },
+    { "name": "Exponential View", "url": "https://www.exponentialview.co/" },
+    { "name": "Every", "url": "https://every.to/" },
+    { "name": "Ben's Bites", "url": "https://www.bensbites.com/" },
+    { "name": "The Neuron", "url": "https://www.theneurondaily.com/" },
+    { "name": "TLDR AI", "url": "https://tldr.tech/ai" }
+  ],
+  "video": [
+    { "name": "AI Explained", "channel": "@aiexplained-official" },
+    { "name": "Matthew Berman", "channel": "@matthew_berman" },
+    { "name": "Wes Roth", "channel": "@WesRoth" },
+    { "name": "The AI Daily Brief", "channel": "@AIDailyBrief" },
+    { "name": "Two Minute Papers", "channel": "@TwoMinutePapers" },
+    { "name": "Fireship", "channel": "@Fireship" },
+    { "name": "Hard Fork", "channel": "@hardfork" },
+    { "name": "No Priors", "channel": "@NoPriorsPodcast" },
+    { "name": "Big Technology Podcast", "channel": "@BigTechnologyPodcast" },
+    { "name": "Dwarkesh Patel", "channel": "@DwarkeshPatel" },
+    { "name": "Lex Fridman", "channel": "@lexfridman" }
+  ],
+  "communities": [
+    { "name": "Hacker News", "url": "https://news.ycombinator.com/" },
+    { "name": "Reddit (read through Exa site:reddit.com, never directly)", "subreddits": ["singularity", "OpenAI", "ClaudeAI", "ChatGPT", "GeminiAI", "GoogleGeminiAI", "grok", "LocalLLaMA", "artificial", "ArtificialInteligence"] }
+  ],
+  "x": {
+    "_about": "Read only from JJ's Mac by scripts/x-scout.mjs into data/x/<date>.json. The cloud run never signs in to X.",
+    "rumor": ["apples_jimmy", "kimmonismus", "scaling01", "AndrewCurran_"],
+    "leaks": ["btibor91"],
+    "insiders": ["OfficialLoganK", "alexalbert__", "typesafeai", "AnthropicAI", "OpenAI", "GoogleDeepMind", "xai", "sama", "demishassabis"]
+  },
+  "projects": [
+    { "name": "Show HN", "url": "https://news.ycombinator.com/show" },
+    { "name": "Product Hunt AI", "url": "https://www.producthunt.com/topics/artificial-intelligence" },
+    { "name": "GitHub trending", "url": "https://github.com/trending", "note": "a discovery list, not a news source; every repo still passes the gate" }
+  ]
+}

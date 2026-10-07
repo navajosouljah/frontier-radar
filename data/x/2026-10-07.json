@@ -1,0 +1,939 @@
+{
+  "date": "2026-10-07",
+  "read_at": "2026-10-07T03:27:39Z",
+  "hours": 36,
+  "accounts": [
+    {
+      "handle": "apples_jimmy",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2107597269633786272",
+          "url": "https://x.com/apples_jimmy/status/2107597269633786272",
+          "time": "2026-10-06T22:22:01Z",
+          "text": "🚨 ITS HERE ! \n\nOpenai M A T H -  772 manuscripts organised into 372 families \n\n“ The Quasi-Riemann Hypothesis “ \n\nhttps://t.co/8MEcE9af9A",
+          "likes": 360,
+          "links": [
+            "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2107600490200813944",
+          "url": "https://x.com/apples_jimmy/status/2107600490200813944",
+          "time": "2026-10-06T22:34:48Z",
+          "text": "Advances to 3 millennium problems ( Riemann, hodge, BSD ) \n\nA faster Fast Fourier transform ! \n\nProving unique games theorem \n\nJust a few things that stand out from a quick look over, I’m going to give it a good read tonight. Amazing stuff",
+          "likes": 80,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107545388928688247",
+          "url": "https://x.com/apples_jimmy/status/2107545388928688247",
+          "time": "2026-10-06T18:55:51Z",
+          "text": "Asked Astra and Claude to map Waikīkī's surf breaks. It pulled 1 m lidar of the reef and placed 23 breaks on it. Then I gave it a random drone photo, It worked out where the camera was from the shoreline and drew the breaks in.\n\nThis would useful on the ‘ secret spots ‘ https://t.co/KWQRX6r5zt",
+          "likes": 106,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107545416426500099",
+          "url": "https://x.com/apples_jimmy/status/2107545416426500099",
+          "time": "2026-10-06T18:55:58Z",
+          "text": "I’m going to test this today. https://t.co/NndsZGOydc",
+          "likes": 10,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "kimmonismus",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2107618163726921853",
+          "url": "https://x.com/kimmonismus/status/2107618163726921853",
+          "time": "2026-10-06T23:45:02Z",
+          "text": "A developer says he used Opus 5.5 to recreate seven essential Adobe apps, including Photoshop, as free, open-source alternatives (no more subscriptions).\n\nBuilt in Rust, free to use, with public source code.\n\nThese are early versions, PhotoCraft is not yet ready to replace Photoshop for daily professional work completely, bout about 90% they say.\n\nWhat a fantastic time to be alive. I love it.",
+          "likes": 919,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107618176309846333",
+          "url": "https://x.com/kimmonismus/status/2107618176309846333",
+          "time": "2026-10-06T23:45:05Z",
+          "text": "https://t.co/7jjCUhmSx1 (Photoshop)\n\nhttps://t.co/ze9D75rMqP (Illustrator)\n\nhttps://t.co/TgCzjx2p7E (Premiere)\n\nhttps://t.co/71SjEAlybH (Lightroom)\n\nhttps://t.co/JBYGMNATvh (Acrobat Pro)\n\nhttps://t.co/xYQlLHg7dq (After Effects)\n\nhttps://t.co/YeYLxoQm1Q (InDesign)\n\nhttps://t.co/aMplNXzQAY",
+          "likes": 68,
+          "links": [
+            "https://github.com/storytold/photocraft",
+            "https://github.com/storytold/vectorcraft",
+            "https://github.com/storytold/filmcraft",
+            "https://github.com/storytold/lightcraft",
+            "https://github.com/storytold/printcraft",
+            "https://github.com/storytold/effectcraft",
+            "https://github.com/storytold/designcraft"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2107570370937303356",
+          "url": "https://x.com/kimmonismus/status/2107570370937303356",
+          "time": "2026-10-06T20:35:07Z",
+          "text": "Literally intelligence explosion: \"OpenAI has told people it plans to dump hundreds of results to unsolved problems on GitHub on Tuesday\"\n\nWe are witnessing history unfold.",
+          "likes": 1188,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107597786166571433",
+          "url": "https://x.com/kimmonismus/status/2107597786166571433",
+          "time": "2026-10-06T22:24:04Z",
+          "text": "released: https://t.co/e99LlHWOsD",
+          "likes": 31,
+          "links": [
+            "https://x.com/kimmonismus/status/2107597320028065793?s=20"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2107597320028065793",
+          "url": "https://x.com/kimmonismus/status/2107597320028065793",
+          "time": "2026-10-06T22:22:13Z",
+          "text": "HOLY, the rumors were true: OpenAI has published 722 mathematical manuscripts produced by an *unreleased* internal model.\n\nThe collection groups them into 372 families of related results, drawn from an evaluation involving approximately 4,000 research problems.\n\nOpenAI says the standard procedure used an average of three hours of ChatGPT Pro thinking compute per result.\n\nThe release includes papers, proof artifacts and selected reasoning summaries. The model itself remains unreleased.",
+          "likes": 1606,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107576143285219799",
+          "url": "https://x.com/thsottiaux/status/2107576143285219799",
+          "time": "2026-10-06T20:58:04Z",
+          "text": "Vote",
+          "likes": 1792,
+          "links": [],
+          "retweet_of": "thsottiaux"
+        },
+        {
+          "id": "2107565191366156701",
+          "url": "https://x.com/kimmonismus/status/2107565191366156701",
+          "time": "2026-10-06T20:14:32Z",
+          "text": "Overmind has open-sourced its platform for training smaller models on the work your agents actually do.\n\nIn its own test of 4,000+ questions across 100+ contracts, Overmind reports that its trained model invented quotes on 0.12% of questions, compared with 3.36% for the frontier model it tested. That's a 28x lower rate.\n\nIt uses records of your agents' real work to build training data and evals, then fine-tunes open models. For an agent pulling clauses out of contracts all day, training a model for that specific job makes sense.\n\nI'm a big fan of open source, so its cool that they released the code. You keep the trained model's weights and can run the platform yourself.\n\nCode: https://t.co/yPmxdvG4AS",
+          "likes": 123,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107550240723374175",
+          "url": "https://x.com/kimmonismus/status/2107550240723374175",
+          "time": "2026-10-06T19:15:08Z",
+          "text": "I demand a reset. @thsottiaux again: let’s do a daily poll about shipping or reset.",
+          "likes": 1208,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107561692087648604",
+          "url": "https://x.com/kimmonismus/status/2107561692087648604",
+          "time": "2026-10-06T20:00:38Z",
+          "text": "Nvm, 1 more to come https://t.co/pcjWW4XFQw",
+          "likes": 26,
+          "links": [
+            "https://x.com/thsottiaux/status/2107558288934216153?s=46"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2107558288934216153",
+          "url": "https://x.com/thsottiaux/status/2107558288934216153",
+          "time": "2026-10-06T19:47:07Z",
+          "text": "@babayagatwt No dodge, just three updates today",
+          "likes": 764,
+          "links": [],
+          "retweet_of": "thsottiaux"
+        },
+        {
+          "id": "2107554308900495806",
+          "url": "https://x.com/kimmonismus/status/2107554308900495806",
+          "time": "2026-10-06T19:31:18Z",
+          "text": "@thsottiaux I don't understand some of the comments. It was Tibo who said that *we* as a community should decide whether we want this as a significant release or a reset. It's not like I just said something; he practically *challenged* us to take a stand. https://t.co/4iLCZJAfHf",
+          "likes": 98,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107545971290710423",
+          "url": "https://x.com/kimmonismus/status/2107545971290710423",
+          "time": "2026-10-06T18:58:10Z",
+          "text": "Ex Anthropic Jacob Coxon in a recent interview:\n\n„There will be no jobs in the world envisioned by the companies building those technology“\n\n„No jobs, universal high income per dividends from entirely autonomous economic production, distributed among real humans.“\n\n„Its one big beautiful circlj*ark“ \n\nHonestly, I had feared more doomerism from him. That doesn't sound like a bad world at all. It's worth watching the interview.\n\nhttps://t.co/zdA2dmoGYH",
+          "likes": 437,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107525292323451303",
+          "url": "https://x.com/kimmonismus/status/2107525292323451303",
+          "time": "2026-10-06T17:36:00Z",
+          "text": "An AI agent that can write your weekly report should also be able to click “Export.”\n\nThat’s the idea behind Browser by @gumloop: let agents use websites directly when there’s no connector for the job.\n\nGumloop says you walk through the task together once, then save the steps as a recipe for future runs. Every session is recorded so you can check what happened.\n\nGive it the dashboard exports. Give it the weekly pricing checks. These are exactly the chores I want agents.",
+          "likes": 61,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107518955548000552",
+          "url": "https://x.com/kimmonismus/status/2107518955548000552",
+          "time": "2026-10-06T17:10:49Z",
+          "text": "I don’t know, another computer-use agent, this time claiming to be the \"best in the world\".\n\nI couldn’t find any benchmarks on their site, and right now I’m not sure what their moat is compared to Muse, Dot, and so many others.\n\nDon’t get me wrong, it sounds interesting. But the pitch leaves me with more questions than answers.",
+          "likes": 362,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107511467528343918",
+          "url": "https://x.com/kimmonismus/status/2107511467528343918",
+          "time": "2026-10-06T16:41:04Z",
+          "text": "Another update, Nano Banana 2.1. Sadly I couldn't find any benchmarks yet. Would love to see how it competes with GPT Images. If you found them, please share friends.\n\nAnyways, a bit more curious for gemini 4 anyways. And where is Veo 4 btw? Looks like they just gave up to SeeDance somehow.",
+          "likes": 310,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107504990969348308",
+          "url": "https://x.com/kimmonismus/status/2107504990969348308",
+          "time": "2026-10-06T16:15:20Z",
+          "text": "This is the missing piece for robots in the real world.\n\nCortex Harness lets frontier models run robots continuously. When the model gets stuck, a human takes over remotely for a moment and hands control back.\n\nAnd every intervention becomes training data, so the robot needs less help over time.",
+          "likes": 221,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107475548217786458",
+          "url": "https://x.com/kimmonismus/status/2107475548217786458",
+          "time": "2026-10-06T14:18:20Z",
+          "text": "This is a surprising great release. Le Chaton fat is real! Mistral Large 4 puts Europe back in contention on coding and cybersecurity.\n\nDidnt expect Mistral to compete with GLM5.3!\n\n“Le Chonk” is a natively multimodal model with 1T parameters and 49B active. The preview already delivers:\n\n- DeepSWE v1.1: 61.7%, roughly level with GLM-5.3 at 61%. Kimi K3 remains ahead at around 68% in Mistral’s comparison. \n- Artificial Analysis Cyber Index: 50, matching GLM-5.3-Flash and beating GLM-5.3’s 36.\n- CyberGym-E2E-AA: 82%, ahead of MiMo-V2.6-Pro’s 79%.\n\nMistral says it trained the model from scratch in its own European datacenters. NVIDIA says only 4,000 Grace Blackwell Superchips powered the training! Which is impressive. \n\nLearning: you can compete with much less compute. Which is crazy. Congrats Mistral!",
+          "likes": 772,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107473126846263679",
+          "url": "https://x.com/kimmonismus/status/2107473126846263679",
+          "time": "2026-10-06T14:08:43Z",
+          "text": ".@thsottiaux Let's do it this way: every day, you create a poll under the release, and the community votes on whether it was a good release or warrants a reset. Deal?",
+          "likes": 3156,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107466092599775249",
+          "url": "https://x.com/kimmonismus/status/2107466092599775249",
+          "time": "2026-10-06T13:40:45Z",
+          "text": "Never expected Europe to be back. From what I’ve heard their benchmarks will be a welcome surprise, in a very positive way.\n\n1T para model, 49b active. \n\n“It is the best open weights model from US or Europe on aggregated benchmarks.”",
+          "likes": 1420,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107417214894604484",
+          "url": "https://x.com/kimmonismus/status/2107417214894604484",
+          "time": "2026-10-06T10:26:32Z",
+          "text": "The leading AI frontier labs are openly battling it out over their respective always-on agents, Dot vs. GrokBot.\n\nWhat a time we live in! And the best part: this makes the competition truly tangible, and we benefit from it.\n\n(I'm currently a huge fan of GrokBot; I use it daily. Hopefully, Dot will get its first update soon.)",
+          "likes": 497,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107429213217173777",
+          "url": "https://x.com/kimmonismus/status/2107429213217173777",
+          "time": "2026-10-06T11:14:13Z",
+          "text": "Grokbot is amazing. And no: I am nit paid by xAI. Its just a damn good agent.",
+          "likes": 27,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107425764878463129",
+          "url": "https://x.com/kimmonismus/status/2107425764878463129",
+          "time": "2026-10-06T11:00:31Z",
+          "text": "Why do so many AI pilots never make it into everyday business?\n\nPeter Thum and I sat down with Christian Monberg (@chrismonberg), CTO and Head of Product at Zeta Global, to talk about what gets in the way.\n\nChris describes companies building agents that work for one person but never become useful to the wider team. We discuss Zeta’s integration with Palantir Foundry, how Athena uses data and forecasts to support its recommendations, and where humans need to approve an agent’s next step.",
+          "likes": 79,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107425830603239435",
+          "url": "https://x.com/kimmonismus/status/2107425830603239435",
+          "time": "2026-10-06T11:00:46Z",
+          "text": "Watch the full interview:\nhttps://t.co/mDDpgrNsOg\nSubscribe to the Superintelligence newsletter:\nhttps://t.co/QaaY1wN9Tq\n\nIs your company building something interesting in AI? We’d love to hear about it. If you’d like to join us for an interview, send me a DM with a few lines about what you’re working on. :))",
+          "likes": 7,
+          "links": [
+            "https://youtu.be/gnvpn2FcQyA",
+            "https://getsuperintel.com"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2107395696265494665",
+          "url": "https://x.com/kimmonismus/status/2107395696265494665",
+          "time": "2026-10-06T09:01:02Z",
+          "text": "Super cool: Vals AI says 90+ Claude Opus 5.5 agents helped identify two magnetic semiconductor candidates in three days of simulation work.\n\nThe goal: materials that could support spin-based computer memory while their opposing magnetic moments cancel out.\n\nOne candidate, YBaMnFeO₅, is a new proposed design. Its useful atomic structure may be difficult to manufacture.\n\nThe other, KV[Cr(CN)₆], was already made in 1999. The team’s calculations suggest it has electronic properties worth testing for spintronics.\n\nThat's why AI is such a significant technological revolution. It's driving all of science forward.",
+          "likes": 332,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107371523623223457",
+          "url": "https://x.com/kimmonismus/status/2107371523623223457",
+          "time": "2026-10-06T07:24:58Z",
+          "text": "’d say this warrants a reset. It’s nice and all, but not that big a deal. Still, calling it 2.1 suggests there’s more to come.",
+          "likes": 850,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "scaling01",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2107606747972309163",
+          "url": "https://x.com/AcerFur/status/2107606747972309163",
+          "time": "2026-10-06T22:59:40Z",
+          "text": "oh yeah btw guys we can do integer multiplication faster than n log n lol\n\nI was definitely very surprised when this one came in lol\n\nhttps://t.co/o7iBA131nY https://t.co/TAW2RgJpsu",
+          "likes": 3007,
+          "links": [
+            "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026"
+          ],
+          "retweet_of": "AcerFur"
+        },
+        {
+          "id": "2107607386022170783",
+          "url": "https://x.com/scaling01/status/2107607386022170783",
+          "time": "2026-10-06T23:02:12Z",
+          "text": "this Riemann guy is quasi cooked",
+          "likes": 233,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107532329937723861",
+          "url": "https://x.com/MistralAI/status/2107532329937723861",
+          "time": "2026-10-06T18:03:58Z",
+          "text": "Mistral Large 4 is one of the world's strongest AI models for cybersecurity. https://t.co/TzPvFVbO1h",
+          "likes": 1958,
+          "links": [],
+          "retweet_of": "MistralAI"
+        },
+        {
+          "id": "2107514796992033221",
+          "url": "https://x.com/scaling01/status/2107514796992033221",
+          "time": "2026-10-06T16:54:17Z",
+          "text": "it's over\n\nLeChaton Fat is dead https://t.co/YKjA5kiAGg",
+          "likes": 79,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107329121806090255",
+          "url": "https://x.com/scaling01/status/2107329121806090255",
+          "time": "2026-10-06T04:36:29Z",
+          "text": "OpenAI better ship Astra 6.5 next week.\n\nmy pro plan just got renewed because I was too busy to cancel it",
+          "likes": 596,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107329231176761395",
+          "url": "https://x.com/scaling01/status/2107329231176761395",
+          "time": "2026-10-06T04:36:55Z",
+          "text": "subscriptions truly are the devil's work",
+          "likes": 44,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107316472213340523",
+          "url": "https://x.com/scaling01/status/2107316472213340523",
+          "time": "2026-10-06T03:46:13Z",
+          "text": "the real story is that Tibo is OpenAI's way too cocky secretary of propaganda\n\nOpus 5.5 max is >>> Sol 6.1 max\nand actually: Opus 5.5 medium ~ Sol 6.1 max\n\nwhile Opus 5.5 medium is 1.8x more expensive at API prices, it is also 3x faster per task\n\non same-priced ChatGPT and Claude plans Opus 5.5 medium completes about 3× as many tasks, because Claude plans include about 5.6× more usage",
+          "likes": 2000,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107316834664149394",
+          "url": "https://x.com/scaling01/status/2107316834664149394",
+          "time": "2026-10-06T03:47:40Z",
+          "text": "he chose the AA battleground\n\nbut even on ECI it gets mogged https://t.co/tw7aaxS8OA",
+          "likes": 91,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107316973025796331",
+          "url": "https://x.com/scaling01/status/2107316973025796331",
+          "time": "2026-10-06T03:48:13Z",
+          "text": "a very inconclusive mog tbh",
+          "likes": 43,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107308460157407267",
+          "url": "https://x.com/scaling01/status/2107308460157407267",
+          "time": "2026-10-06T03:14:23Z",
+          "text": "even when adjusting for task cost you are still better off with Claude\n\nit's no longer a 5x difference but still 1.3x - 2.9x\n\nyou can do more work at equal \"intelligence\" (as measured by AAI) and get it done faster https://t.co/asSLCIpZUP",
+          "likes": 338,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107290365006938433",
+          "url": "https://x.com/scaling01/status/2107290365006938433",
+          "time": "2026-10-06T02:02:29Z",
+          "text": "time to vibe-code and research a little https://t.co/SwRePmu6Rv",
+          "likes": 84,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107283247243608305",
+          "url": "https://x.com/scaling01/status/2107283247243608305",
+          "time": "2026-10-06T01:34:12Z",
+          "text": "2 years of shit posting apparently gets you in the same room as Aella and OpenAI and Anthropic co-founders",
+          "likes": 212,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107281416962646378",
+          "url": "https://x.com/scaling01/status/2107281416962646378",
+          "time": "2026-10-06T01:26:55Z",
+          "text": "it's only getting more ridiculous from here on out https://t.co/tGokm3ibsz",
+          "likes": 327,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107217497284051316",
+          "url": "https://x.com/scaling01/status/2107217497284051316",
+          "time": "2026-10-05T21:12:56Z",
+          "text": "food has been great https://t.co/2jUDL3Gm2K",
+          "likes": 206,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107218397733777916",
+          "url": "https://x.com/scaling01/status/2107218397733777916",
+          "time": "2026-10-05T21:16:30Z",
+          "text": "my burger. my SF. my US. https://t.co/tDtH3dyJv0",
+          "likes": 20,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107204457738256749",
+          "url": "https://x.com/ValsAI/status/2107204457738256749",
+          "time": "2026-10-05T20:21:07Z",
+          "text": "For decades, researchers have sought materials that sort electrons by spin while their magnetism cancels.\n\nIn 3 days, 90+ Opus 5.5 agents helped us uncover two room-temperature magnetic semiconductor candidates in simulations: YBaMnFeO₅ and KV[Cr(CN)₆].\n\nKV[Cr(CN)₆] was synthesized back in 1999. Its predicted  ability to sort electrons by spin appears to have been hiding in plain sight for 27 years.",
+          "likes": 7588,
+          "links": [],
+          "retweet_of": "ValsAI"
+        },
+        {
+          "id": "2107207614115594391",
+          "url": "https://x.com/scaling01/status/2107207614115594391",
+          "time": "2026-10-05T20:33:39Z",
+          "text": "this is brutal https://t.co/LrqCODOfSl",
+          "likes": 3524,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107207704523444464",
+          "url": "https://x.com/scaling01/status/2107207704523444464",
+          "time": "2026-10-05T20:34:01Z",
+          "text": "they massacred by 20x sub",
+          "likes": 102,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107200834077438078",
+          "url": "https://x.com/petergostev/status/2107200834077438078",
+          "time": "2026-10-05T20:06:43Z",
+          "text": "For real? \n\nSemiAnalysis: \"Anthropic Subscriptions Offer 5x+ More Value Than OpenAI\" https://t.co/TO0uERwrVW",
+          "likes": 861,
+          "links": [],
+          "retweet_of": "petergostev"
+        },
+        {
+          "id": "2107188571719311454",
+          "url": "https://x.com/scaling01/status/2107188571719311454",
+          "time": "2026-10-05T19:17:59Z",
+          "text": "I was just looking for some cruises and I noticed this ChatGPT tick again that has been pissing me off for a while\n\nit's no longer saying \"it's not x, but y\"\nbut \"it's x, not y\"\n\nusually it writes it at the end of a response or paragraph https://t.co/q7oziqNbsp",
+          "likes": 103,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107174397698289762",
+          "url": "https://x.com/EpochAIResearch/status/2107174397698289762",
+          "time": "2026-10-05T18:21:40Z",
+          "text": "OpenAI recently published data on its researchers’ coding-agent usage. We took their weekly figures from January to mid-August 2026 and fitted trends to summarize how quickly spending grew.\n\nWe found that spending has been doubling about once a month. https://t.co/TpqyvhWqv9",
+          "likes": 704,
+          "links": [],
+          "retweet_of": "EpochAIResearch"
+        }
+      ]
+    },
+    {
+      "handle": "AndrewCurran_",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2107607843297964423",
+          "url": "https://x.com/tszzl/status/2107607843297964423",
+          "time": "2026-10-06T23:04:01Z",
+          "text": "nephs may not remember that in 2023 GPT-4 was getting confused by elementary school story problems",
+          "likes": 1350,
+          "links": [],
+          "retweet_of": "tszzl"
+        },
+        {
+          "id": "2107659599419674967",
+          "url": "https://x.com/AndrewCurran_/status/2107659599419674967",
+          "time": "2026-10-07T02:29:41Z",
+          "text": "This generalizes to everything and continues to scale.",
+          "likes": 221,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107628576518590579",
+          "url": "https://x.com/AndrewCurran_/status/2107628576518590579",
+          "time": "2026-10-07T00:26:25Z",
+          "text": "Almost 20% of the top open problems in math were probably solved today. Quoting OpenAI: 'The average result used the equivalent compute of roughly three hours of ChatGPT Pro thinking.'",
+          "likes": 120,
+          "links": [],
+          "retweet_of": "AndrewCurran_"
+        },
+        {
+          "id": "2107596925512065087",
+          "url": "https://x.com/AndrewCurran_/status/2107596925512065087",
+          "time": "2026-10-06T22:20:38Z",
+          "text": "OpenAI's Math post is up!\nhttps://t.co/zyC2AtPf2X",
+          "likes": 964,
+          "links": [
+            "https://github.com/openai/math"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2107633419165618318",
+          "url": "https://x.com/AndrewCurran_/status/2107633419165618318",
+          "time": "2026-10-07T00:45:39Z",
+          "text": "Many of the models I used had a similar reaction. Some of them seemed to have something Iike a breakdown. Reality is so far out of distribution now that they have trouble believing events are real. This is one of the indicators we past the horizon of the singularity.",
+          "likes": 52,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107637859083825605",
+          "url": "https://x.com/AndrewCurran_/status/2107637859083825605",
+          "time": "2026-10-07T01:03:18Z",
+          "text": "It is happening.",
+          "likes": 41,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107630160384254329",
+          "url": "https://x.com/AndrewCurran_/status/2107630160384254329",
+          "time": "2026-10-07T00:32:42Z",
+          "text": "Take it to heart.",
+          "likes": 725,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107625994177982892",
+          "url": "https://x.com/AndrewCurran_/status/2107625994177982892",
+          "time": "2026-10-07T00:16:09Z",
+          "text": "levent 'obviously the most significant moment in mathematical history.' \n\n'mathematical history features a lot of incredible developments, like the invention of proof, zero, or the computer, and on the great problems our progress has been over timelines measured in decades or centuries. Obviously this technology didn't appear today, but blurring our eyes a bit to combine the past ten years, with today a measurement of those developments, there is nothing comparable.'",
+          "likes": 294,
+          "links": [],
+          "retweet_of": "AndrewCurran_"
+        },
+        {
+          "id": "2107606747972309163",
+          "url": "https://x.com/AcerFur/status/2107606747972309163",
+          "time": "2026-10-06T22:59:40Z",
+          "text": "oh yeah btw guys we can do integer multiplication faster than n log n lol\n\nI was definitely very surprised when this one came in lol\n\nhttps://t.co/o7iBA131nY https://t.co/TAW2RgJpsu",
+          "likes": 3010,
+          "links": [
+            "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026"
+          ],
+          "retweet_of": "AcerFur"
+        },
+        {
+          "id": "2107604920753070317",
+          "url": "https://x.com/willdepue/status/2107604920753070317",
+          "time": "2026-10-06T22:52:25Z",
+          "text": "i asked GPT 6 Pro and Fable 5.1 to rank all discoveries in the last three years\n\n🔵 for Human discovered\n🔴 for AI discovered (before October 6th)\n🟢 for AI discovered from OpenAI/math repo\n\n81% of them have been released today. wtf https://t.co/wU4Lsf18XH",
+          "likes": 2986,
+          "links": [],
+          "retweet_of": "willdepue"
+        },
+        {
+          "id": "2107605914492793166",
+          "url": "https://x.com/AndrewCurran_/status/2107605914492793166",
+          "time": "2026-10-06T22:56:22Z",
+          "text": "This goes on for 41 pages. There are over 700 papers. https://t.co/N4JDmnuCCa",
+          "likes": 289,
+          "links": [],
+          "retweet_of": "AndrewCurran_"
+        },
+        {
+          "id": "2107604868949332204",
+          "url": "https://x.com/AndrewCurran_/status/2107604868949332204",
+          "time": "2026-10-06T22:52:12Z",
+          "text": "Rohan Pandey:",
+          "likes": 47,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107602416791331097",
+          "url": "https://x.com/himanshustwts/status/2107602416791331097",
+          "time": "2026-10-06T22:42:28Z",
+          "text": "what the fuck.\n\njust give hundreds of field medals to this new openai *internal* model already. https://t.co/Hd1JqVTEFM",
+          "likes": 283,
+          "links": [],
+          "retweet_of": "himanshustwts"
+        },
+        {
+          "id": "2107601017894473830",
+          "url": "https://x.com/khoomeik/status/2107601017894473830",
+          "time": "2026-10-06T22:36:54Z",
+          "text": "😳 https://t.co/4huzrFYpEA",
+          "likes": 240,
+          "links": [],
+          "retweet_of": "khoomeik"
+        },
+        {
+          "id": "2107511371424526524",
+          "url": "https://x.com/AndrewCurran_/status/2107511371424526524",
+          "time": "2026-10-06T16:40:41Z",
+          "text": "'Opus 5.5 has 2.3x the experimental research taste of our best human experts. In other words, on a typical task, Opus 5.5 matches the best expert's score with about 17 GPU hours of experiments instead of 40.' https://t.co/zysyncZ3uT",
+          "likes": 1492,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107591197854519789",
+          "url": "https://x.com/AndrewCurran_/status/2107591197854519789",
+          "time": "2026-10-06T21:57:53Z",
+          "text": "Tex:",
+          "likes": 12,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107590424177283379",
+          "url": "https://x.com/AndrewCurran_/status/2107590424177283379",
+          "time": "2026-10-06T21:54:48Z",
+          "text": "Everyone working at the Department of Justice has been directed to start saying Super Intelligence instead of Artificial Intelligence, including in court filings. https://t.co/2fdL2nCJIX",
+          "likes": 125,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107590427625074930",
+          "url": "https://x.com/AndrewCurran_/status/2107590427625074930",
+          "time": "2026-10-06T21:54:49Z",
+          "text": "https://t.co/s0Vboiyzia",
+          "likes": 12,
+          "links": [
+            "https://www.nbcnews.com/politics/justice-department/justice-department-tells-employees-adopt-trumps-ai-rebrand-rcna601923"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2107576883298893976",
+          "url": "https://x.com/vincentweisser/status/2107576883298893976",
+          "time": "2026-10-06T21:01:00Z",
+          "text": "Post-training / RL and inference is taking over compute https://t.co/gh4UPEXCfO",
+          "likes": 312,
+          "links": [],
+          "retweet_of": "vincentweisser"
+        },
+        {
+          "id": "2107564533653127317",
+          "url": "https://x.com/AndrewCurran_/status/2107564533653127317",
+          "time": "2026-10-06T20:11:56Z",
+          "text": "It looks like OpenAI plans to release hundreds of newly solved math problems today in a huge post to GitHub. Some of them potentially quite significant. This would explain the mass amount of papers posted last night as people try to publish ahead of it. Reporting from WIRED. https://t.co/qURYuGsx0W",
+          "likes": 1748,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107564726704308472",
+          "url": "https://x.com/AndrewCurran_/status/2107564726704308472",
+          "time": "2026-10-06T20:12:42Z",
+          "text": "If this is true, then the announcement is probably imminent.",
+          "likes": 187,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107569640683769970",
+          "url": "https://x.com/AndrewCurran_/status/2107569640683769970",
+          "time": "2026-10-06T20:32:13Z",
+          "text": "The rumoured number of solutions since yesterday is 400. That has not been verified or claimed by OpenAI however.",
+          "likes": 132,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107562838797529132",
+          "url": "https://x.com/soumitrashukla9/status/2107562838797529132",
+          "time": "2026-10-06T20:05:12Z",
+          "text": "Alex Imas told me directly that his Twitter/X account has been hacked. Please don’t click links or respond to DMs from his account until he regains access. @Support, can you help? If anyone has a contact at X, please let me know. Please share.",
+          "likes": 70,
+          "links": [],
+          "retweet_of": "soumitrashukla9"
+        },
+        {
+          "id": "2107547709112828188",
+          "url": "https://x.com/AndrewCurran_/status/2107547709112828188",
+          "time": "2026-10-06T19:05:04Z",
+          "text": "This explains the screenshots people were posting of them talking to Mythos 5.1 this morning. https://t.co/16S3NIZ9K5",
+          "likes": 179,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107501064815870083",
+          "url": "https://x.com/AndrewCurran_/status/2107501064815870083",
+          "time": "2026-10-06T15:59:43Z",
+          "text": "Nano Banana 2.1 is live for me in Studio, the release announcement must be imminent. https://t.co/jQMe44S8AP",
+          "likes": 168,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "btibor91",
+      "tier": "leaks",
+      "posts": [
+        {
+          "id": "2107178139076141162",
+          "url": "https://x.com/axeldelafosse/status/2107178139076141162",
+          "time": "2026-10-05T18:36:32Z",
+          "text": "Pro tip: you can now edit the model and/or reasoning effort of your scheduled tasks directly from the \"Edit task\" modal 🥳 https://t.co/AGWdRpTDjb",
+          "likes": 192,
+          "links": [],
+          "retweet_of": "axeldelafosse"
+        }
+      ]
+    },
+    {
+      "handle": "OfficialLoganK",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2107533224453058731",
+          "url": "https://x.com/OfficialLoganK/status/2107533224453058731",
+          "time": "2026-10-06T18:07:31Z",
+          "text": "Nano Banana 2.1 is here! 🍌\n\nIt’s a nice update for image generation and editing customers, comes with higher quality images, lots of bug fixes from previous models, and a new lower price point!\n\nAvailable in the API, AI Studio, and Gemini app! https://t.co/XFG2jwLCc5",
+          "likes": 1628,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "alexalbert__",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "typesafeai",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2107211222320021722",
+          "url": "https://x.com/JeffreyBiles/status/2107211222320021722",
+          "time": "2026-10-05T20:48:00Z",
+          "text": "Jev opens up entirely new question types https://t.co/5niUIphN6s",
+          "likes": 1058,
+          "links": [],
+          "retweet_of": "JeffreyBiles"
+        },
+        {
+          "id": "2107521646366216337",
+          "url": "https://x.com/typesafeai/status/2107521646366216337",
+          "time": "2026-10-06T17:21:31Z",
+          "text": "Technical is the best kind of Member of Staff",
+          "likes": 54,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "AnthropicAI",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2107546569654636883",
+          "url": "https://x.com/AnthropicAI/status/2107546569654636883",
+          "time": "2026-10-06T19:00:33Z",
+          "text": "We’re expanding our Cyber Verification Program to give security professionals broader access to our most capable models.\n\nThrough this program, verified security professionals can access Claude Mythos 5.1, Opus 5.5, and Sonnet 5.5 with safeguards designed for defensive work.\n\nWe’re also opening up new tiers to allow for authorized offensive work, like penetration testing and red-teaming. \n\nhttps://t.co/blaJtvxhJh",
+          "likes": 3764,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "OpenAI",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2107596713791767021",
+          "url": "https://x.com/OpenAI/status/2107596713791767021",
+          "time": "2026-10-06T22:19:48Z",
+          "text": "We’re releasing a broad range of new mathematical results produced by an internal frontier model.\n\nWe’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and public recommendations to inform how we release these results. \n\nhttps://t.co/7N6TPlft1P",
+          "likes": 14934,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107596716367388924",
+          "url": "https://x.com/OpenAI/status/2107596716367388924",
+          "time": "2026-10-06T22:19:49Z",
+          "text": "https://t.co/edRBkXdUAN",
+          "likes": 797,
+          "links": [
+            "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2107164650249101695",
+          "url": "https://x.com/OpenAI/status/2107164650249101695",
+          "time": "2026-10-05T17:42:56Z",
+          "text": "We're expanding our approach to content provenance to include text in response to EU regulatory requirements, while recognizing the significant limitations of current text watermarking technology.\n\nOur tools already help verify whether an image or audio file was created with our models. This work builds on those efforts to help people better understand when content may have been generated or edited with an OpenAI model.\n\nIn the EU, we’ll start watermarking eligible text from ChatGPT and Codex over the coming weeks to comply with the EU AI Act.\n\nCustomers using our API can turn on text watermarking for select models worldwide today.",
+          "likes": 10756,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107164651478012412",
+          "url": "https://x.com/OpenAI/status/2107164651478012412",
+          "time": "2026-10-05T17:42:56Z",
+          "text": "When possible, we want to give people a choice—and be clear about what watermarking can and can’t do.\n\nA text watermark helps answer one question: “Was this likely generated by an OpenAI model?”\n\nIt works by embedding an invisible statistical signal in text as it’s generated. A detector can look for this signal, and it doesn’t add visible marks or special characters. It doesn’t say who originally wrote the text or who owns it. It doesn’t identify a person, organization, account, conversation, or prompt.\n\nIn our testing, watermarking hasn’t affected how capable or fast our models are, or how their responses read.",
+          "likes": 1073,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107164653147340988",
+          "url": "https://x.com/OpenAI/status/2107164653147340988",
+          "time": "2026-10-05T17:42:57Z",
+          "text": "Watermarks have limits. They’re often undetectable, especially in short passages. Rewriting or translating text can completely remove the watermark.\n\nThat’s why, for now, only approved researchers will have access to our detector, so they can help us evaluate and improve the technology.\n\nWe’re treating text watermarking as an ongoing area of research. We’ll keep testing and improving, with feedback from users, developers, policymakers, and researchers. \n\nhttps://t.co/2QUil8oWdB",
+          "likes": 660,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2107502286758895878",
+          "url": "https://x.com/GoogleDeepMind/status/2107502286758895878",
+          "time": "2026-10-06T16:04:35Z",
+          "text": "Meet EmbeddingGemma 2, our first natively multimodal open model for on-device embeddings.\n\nIt expands beyond text to unify code, images, audio, and video in a shared space. 🧵",
+          "likes": 3245,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107502289652982118",
+          "url": "https://x.com/GoogleDeepMind/status/2107502289652982118",
+          "time": "2026-10-06T16:04:36Z",
+          "text": "At 740M parameters, it’s competitive across benchmarks – even outperforming some specialist models more than twice its size.\n\nDevelopers can use it to add multimodal search to their apps – like finding moments in a video using a voice memo – or pair it with Gemma 4 for private, on-device RAG.\n\nEmbeddingGemma 2 is released under an Apache 2.0 license. Check out the weights on @HuggingFace and @Kaggle.\n\nFind out more → https://t.co/lRsjbvR5VB",
+          "likes": 399,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107392617336168877",
+          "url": "https://x.com/FlemingCentre/status/2107392617336168877",
+          "time": "2026-10-06T08:48:48Z",
+          "text": "Supported by @GoogleDeepMind , our new 3-year programme will develop the methods and standards needed to evaluate artificial intelligence for antimicrobial resistance , so that we can know when an AI system is accurate, reliable and ready to use.\n\nhttps://t.co/DsjKUdFMX0 https://t.co/TN4K1BdZYM",
+          "likes": 84,
+          "links": [
+            "https://www.fleminginitiative.org/post/new-programme-to-evaluate-ai-systems-for-antimicrobial-resistance"
+          ],
+          "retweet_of": "FlemingCentre"
+        }
+      ]
+    },
+    {
+      "handle": "xai",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "sama",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2107623610483720463",
+          "url": "https://x.com/sama/status/2107623610483720463",
+          "time": "2026-10-07T00:06:41Z",
+          "text": "We are entering a new era of discovery now:\n\nhttps://t.co/Ng8GquwN3r",
+          "likes": 4453,
+          "links": [
+            "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+          ],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "demishassabis",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2107583214432694756",
+          "url": "https://x.com/demishassabis/status/2107583214432694756",
+          "time": "2026-10-06T21:26:09Z",
+          "text": "John Urschel is an incredible guy. Had the pleasure of co-presenting an award with him at the Breakthrough Prize a few years ago - wonderful person and an inspiration!",
+          "likes": 1319,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107501209154204148",
+          "url": "https://x.com/Google/status/2107501209154204148",
+          "time": "2026-10-06T16:00:18Z",
+          "text": "Meet Nano Banana 2.1, our latest image generation and editing model 🍌\n\nThis upgraded version outperforms our previous models across the board, with notable leaps in visual design, mask-based editing, and subject consistency to help you create more natural-looking images.",
+          "likes": 4516,
+          "links": [],
+          "retweet_of": "Google"
+        }
+      ]
+    }
+  ]
+}

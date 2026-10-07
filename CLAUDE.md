@@ -19,7 +19,9 @@ Design: `docs/superpowers/specs/2026-10-05-frontier-radar-design.md`. Sources: `
    `docs/DATA_FORMAT.md`. It never removes a blocklist entry or turns a gate FAIL into a PASS.
    A blocked check means stop and report, never a new exception. `verify.mjs` refuses a push
    that adds a day and changes any of them.
-7. **Never auto-open anything on JJ's screen.** Give him clickable links.
+7. **Links for JJ, and in a terminal session on his Mac, open the finished deliverable in a new browser
+   tab as well** (his ruling of Oct 7 2026: Apple Terminal gives him nothing to click). One tab for the
+   finished thing, never a folder, never mid-task. The cloud routine has no screen and opens nothing.
 8. **Grok's maker is SpaceXAI** (xAI joined SpaceX on Feb 2 2026). Never write "xAI" as the current name.
 
 ## How a day is made

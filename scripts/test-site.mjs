@@ -5,7 +5,7 @@ import { join, dirname } from 'node:path';
 
 export const AIS = [
   { id: 'claude', name: 'Claude', maker: 'Anthropic', color: '#c96442' },
-  { id: 'grok', name: 'Grok', maker: 'SpaceXAI', color: '#22252c', note: 'Formerly xAI; joined SpaceX on Feb 2, 2026.' },
+  { id: 'grok', name: 'Grok', maker: 'SpaceXAI (formerly xAI)', color: '#22252c' },
   { id: 'gemini', name: 'Gemini', maker: 'Google', color: '#2f6fde' },
   { id: 'chatgpt', name: 'ChatGPT / OpenAI', maker: 'OpenAI', color: '#10875f' },
   { id: 'jev', name: 'Jev', maker: 'TypeSafe AI', color: '#7a4fd1', note: 'In limited early access since Sep 15, 2026.' },

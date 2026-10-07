@@ -8,9 +8,8 @@
   {
     "id": "grok",
     "name": "Grok",
-    "maker": "SpaceXAI",
-    "color": "#22252c",
-    "note": "Formerly xAI; joined SpaceX on Feb 2, 2026."
+    "maker": "SpaceXAI (formerly xAI)",
+    "color": "#22252c"
   },
   {
     "id": "gemini",

@@ -1,0 +1,93 @@
+:root{
+  --paper:#f7f6f1; --card:#fffefb; --ink:#1d2230; --soft:#4f5566; --faint:#858b99; --rule:#dcdad2;
+  --claude:#c96442; --grok:#22252c; --gemini:#2f6fde; --gpt:#10875f; --jev:#7a4fd1;
+  --note-bg:#fff4c7; --note-edge:#e2c64f; --note-ink:#5c4a08;
+  --ex:#a43d3d;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Atkinson Hyperlegible",system-ui,sans-serif}
+a{color:#0000EE;text-decoration:underline}a:visited{color:#551A8B}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+h1,h2,h3,.brand{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.15;margin:0}
+
+/* The mocked site */
+.site{background:var(--card);border:1px solid var(--rule);border-radius:16px;overflow:hidden;margin-bottom:48px;box-shadow:0 2px 0 var(--rule)}
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:18px 22px;border-bottom:1px solid var(--rule)}
+.brand{font-size:28px;font-weight:800;letter-spacing:-.02em}
+.brand span{color:var(--gemini)}
+.stamp{font-size:13.5px;color:var(--faint)}
+nav{display:flex;gap:4px;overflow-x:auto;padding:0 14px;border-bottom:1px solid var(--rule);background:var(--paper)}
+nav button{font:700 14.5px "Atkinson Hyperlegible",sans-serif;border:0;background:none;padding:12px 12px;cursor:pointer;color:var(--soft);border-bottom:3px solid transparent;white-space:nowrap}
+nav button.on{color:var(--ink);border-bottom-color:var(--ink)}
+.page{display:none;padding:24px 22px 32px}
+.page.on{display:block}
+
+.ai{display:inline-block;font-weight:700;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:#fff;padding:2px 9px;border-radius:999px;vertical-align:middle}
+.c{background:var(--claude)}.g{background:var(--grok)}.ge{background:var(--gemini)}.o{background:var(--gpt)}.j{background:var(--jev)}
+.rumor{display:inline-block;font-weight:700;font-size:12px;border:1.5px dashed var(--ex);color:var(--ex);padding:1px 8px;border-radius:999px;margin-left:6px}
+
+.hero{display:grid;grid-template-columns:1.4fr 1fr;gap:24px;margin-bottom:28px}
+.hero .lead{background:var(--paper);border-radius:12px;padding:22px}
+.hero .lead h2{font-size:clamp(26px,3vw,36px);font-weight:800;margin:10px 0}
+.kicker{font-weight:700;font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint)}
+.why{color:var(--soft)}
+.meta{font-size:13.5px;color:var(--faint)}
+.trend{list-style:none;margin:0;padding:0}
+.trend li{display:flex;gap:12px;padding:11px 0;border-bottom:1px solid var(--rule)}
+.trend .n{font:800 22px "Bricolage Grotesque",sans-serif;color:var(--faint);min-width:26px}
+.trend b{display:block;line-height:1.3;margin:3px 0}
+h3.sec{font-size:22px;margin:6px 0 12px}
+.teasers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.box{border:1px solid var(--rule);border-radius:12px;padding:16px;background:#fff}
+.box h4{margin:0 0 8px;font:700 13px "Atkinson Hyperlegible";letter-spacing:.09em;text-transform:uppercase;color:var(--faint)}
+.box p{margin:0 0 8px;font-size:15.5px}
+.more{font-weight:700;font-size:14.5px;text-decoration:underline}
+
+.status{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:14px 0 22px}
+.status div{background:var(--paper);border-radius:10px;padding:12px}
+.status small{display:block;color:var(--faint);font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.filters span{border:1px solid var(--rule);border-radius:999px;padding:4px 12px;font-size:14px;font-weight:700;color:var(--soft)}
+.filters span.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tl{border-left:3px solid var(--claude);margin-left:6px;padding-left:18px}
+.tl .item{position:relative;padding:0 0 18px}
+.tl .item:before{content:"";position:absolute;left:-26px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--card);border:3px solid var(--claude)}
+.cat{font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--soft);background:var(--paper);padding:2px 8px;border-radius:6px}
+
+.consensus{background:var(--paper);border-radius:12px;padding:18px;margin-bottom:20px}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px}
+blockquote{margin:0;border-left:4px solid var(--rule);padding:4px 0 4px 14px}
+blockquote p{margin:0 0 6px;font-size:16px}
+.who{font-size:14px;color:var(--soft)}
+
+.projects{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.shot{height:110px;border-radius:8px;background:repeating-linear-gradient(45deg,#eceae3,#eceae3 10px,#f4f2ec 10px,#f4f2ec 20px);display:grid;place-items:center;font-size:13px;color:var(--faint);margin-bottom:10px}
+.rank{font:800 18px "Bricolage Grotesque",sans-serif;margin-right:6px}
+
+.course{display:grid;grid-template-columns:1fr auto;gap:8px 16px;align-items:start;padding:14px 0;border-bottom:1px solid var(--rule)}
+.price{font:800 20px "Bricolage Grotesque",sans-serif;text-align:right}
+.vetted{display:inline-block;font-size:12px;font-weight:700;color:var(--gpt);border:1.5px solid var(--gpt);border-radius:999px;padding:1px 8px}
+.empty{color:var(--soft);background:var(--paper);border-radius:10px;padding:14px;font-size:15.5px}
+.ai-group{margin:18px 0 6px;display:flex;align-items:center;gap:10px}
+
+footer{border-top:1px solid var(--rule);padding:16px 22px;font-size:13.5px;color:var(--faint);background:var(--paper)}
+
+@media (max-width:760px){
+  .hero,.vs{grid-template-columns:1fr}
+  .teasers{grid-template-columns:1fr}
+  .status{grid-template-columns:1fr 1fr}
+  .page{padding:18px 14px 26px}
+}
+/* Frontier Radar additions to the approved mockup */
+.brand{text-decoration:none;color:var(--ink)}
+nav a.tab{font:700 14.5px "Atkinson Hyperlegible",sans-serif;padding:12px;color:var(--soft);border-bottom:3px solid transparent;white-space:nowrap;text-decoration:none}
+nav a.tab.on{color:var(--ink);border-bottom-color:var(--ink)}
+.stale{background:#fff4c7;color:#5c4a08;padding:8px 22px;font-size:14.5px;border-bottom:1px solid #e2c64f}
+.filters button{border:1px solid var(--rule);border-radius:999px;padding:4px 12px;font:700 14px "Atkinson Hyperlegible",sans-serif;color:var(--soft);background:#fff;cursor:pointer}
+.filters button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tl{border-left-color:var(--c,var(--claude))}
+.tl .item:before{border-color:var(--c,var(--claude))}
+.corrected{font-size:14px;background:#fff4c7;border-radius:6px;padding:4px 8px;margin-top:4px}
+img.shot{width:100%;height:110px;object-fit:cover;display:block}
+.aih{font-size:32px;margin:8px 0 2px}
+.status-src{font-size:13.5px;color:var(--faint);margin:-12px 0 18px}

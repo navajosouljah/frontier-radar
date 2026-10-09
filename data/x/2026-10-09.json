@@ -1,0 +1,873 @@
+{
+  "date": "2026-10-09",
+  "read_at": "2026-10-09T10:31:12Z",
+  "hours": 36,
+  "accounts": [
+    {
+      "handle": "apples_jimmy",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2108310962340327925",
+          "url": "https://x.com/apples_jimmy/status/2108310962340327925",
+          "time": "2026-10-08T21:37:58Z",
+          "text": "You - Joe from Alabama, or Melissa in nyc or roon from Senegal are solving hundreds of years old Napoleon ciphers or discovering planets or making multiplayer minecraft x Skate games in the browser.\n\nNow build off the papers and contribute something big.",
+          "likes": 66,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108243666104152273",
+          "url": "https://x.com/TheSeaMouse/status/2108243666104152273",
+          "time": "2026-10-08T17:10:33Z",
+          "text": "OpenAI's greatest contribution to mathematics was to move the discipline out of the journals and onto git",
+          "likes": 1832,
+          "links": [],
+          "retweet_of": "TheSeaMouse"
+        },
+        {
+          "id": "2108262812489531498",
+          "url": "https://x.com/OpenAIDevs/status/2108262812489531498",
+          "time": "2026-10-08T18:26:38Z",
+          "text": "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work.\n\nNear-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come. https://t.co/Cyy9k2hifV",
+          "likes": 4770,
+          "links": [],
+          "retweet_of": "OpenAIDevs"
+        }
+      ]
+    },
+    {
+      "handle": "kimmonismus",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2108499354252181521",
+          "url": "https://x.com/kimmonismus/status/2108499354252181521",
+          "time": "2026-10-09T10:06:34Z",
+          "text": "Executives at OpenAI, Anthropic and other AI companies are reportedly preparing for a public and political backlash after a catastrophic AI event, possibly as early as 2027 (via Axios).\n\nAxios reports that many industry insiders expect a major incident within the next 6–12 months, most likely a cyberattack disrupting banking, internet access, power or water.\n\nOpenAI confirms it runs preparedness exercises, but says: \"These scenarios are not treated as inevitable, but are meant to help us prepare for a variety of circumstances.\"\n\nAnthropic declined to comment.",
+          "likes": 76,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108466251882275144",
+          "url": "https://x.com/kimmonismus/status/2108466251882275144",
+          "time": "2026-10-09T07:55:02Z",
+          "text": "It's an irony of history that OpenAI and Anthropic have essentially swapped places again. All the criticisms leveled at Anthropic just a few months ago (inefficiency, poor rates, poor communication, etc.) have now completely turned against OpenAI, and Anthropic has taken over OpenAI's position as position as the good and friendly frontier lab.",
+          "likes": 887,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108494995602743791",
+          "url": "https://x.com/kimmonismus/status/2108494995602743791",
+          "time": "2026-10-09T09:49:15Z",
+          "text": "To clarify: yes, this is a controversial claim, but I stand by it. Let me briefly explain what I mean. My goal isn't simply to badmouth something, but to point out what is actually happening. Just a few months ago, Opus 5 was an incredibly verbose model; its usage limits were so restrictive that one had to wonder why anyone bothered with Anthropic’s subscription plans at all. I recall a wave of subscription cancellations, while OpenAI won users' hearts with the generous limits of GPT-5.6 Sol.\n\nThat has changed. Anthropic has made its models highly efficient and developed outstanding models like Opus 5.5 - models that perform well and finally offer sufficient weekly usage limits. I’ve discussed this with Anthropic team members on my posts several times, and ultimately, it’s clear they listened to the community. OpenAI, on the other hand, took a different path. I don’t want to reopen the debate about the plans, but their communication has become challenging, to say the least. Take \"Ultrafast,\" which is available only on $500 plans, or GPT-6-Sol - which received an efficiency update to 6.1 shortly after launch due to widespread disappointment - and so on; it has reached the point where many are considering switching to the $500 tier just to get enough usage. *That* is my point, and against this backdrop, their respective positions have shifted.",
+          "likes": 20,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108495773042094313",
+          "url": "https://x.com/kimmonismus/status/2108495773042094313",
+          "time": "2026-10-09T09:52:20Z",
+          "text": "And one final point: I think it is important that we engage in spirited debate. Precisely because we voice sharp criticism, we serve as a necessary corrective to many decisions. In this regard, I am always open to discussion and also try to initiate ideas myself.",
+          "likes": 11,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108312741417197819",
+          "url": "https://x.com/kimmonismus/status/2108312741417197819",
+          "time": "2026-10-08T21:45:02Z",
+          "text": "The most wholesome story of the day: Jensen Huang came to America at nine. Today, he received the National Medal of Science at the White House, with his parents there to witness it.\n\nEarlier this year, he said: “My parents came here because they believed America could give their children a chance.”\n\nDecades later, their son is being honored for helping turn graphics processors into tools that power scientific discovery.\n\nHe co-founded NVIDIA in 1993. The computing platform he helped build now gives researchers ways to tackle problems in medicine, physics and AI.\n\nThank you, @JensenHuang! Your work helped make modern AI possible and gave scientists powerful new tools for discovery.",
+          "likes": 670,
+          "links": [],
+          "retweet_of": "kimmonismus"
+        },
+        {
+          "id": "2108495243180233184",
+          "url": "https://x.com/kimmonismus/status/2108495243180233184",
+          "time": "2026-10-09T09:50:14Z",
+          "text": "*Fable 5 limits were very rescrictive",
+          "likes": 3,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108490268542480725",
+          "url": "https://x.com/kimmonismus/status/2108490268542480725",
+          "time": "2026-10-09T09:30:28Z",
+          "text": "Tesla has officially been renamed to \"Tesla Super Intelligence\" and the handle to @TeslaSI https://t.co/SJv1Uolt5A",
+          "likes": 89,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108490370262659160",
+          "url": "https://x.com/kimmonismus/status/2108490370262659160",
+          "time": "2026-10-09T09:30:52Z",
+          "text": "@TeslaSI I expect SpaceXAI to be renamed to SpaceXSI soon",
+          "likes": 18,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108438044722225510",
+          "url": "https://x.com/kimmonismus/status/2108438044722225510",
+          "time": "2026-10-09T06:02:57Z",
+          "text": "Today Google announced… Gemini? Again? I am so confused. \n\nEven if it’s updated for business context, why are they giving it the same name as the Frontier model?",
+          "likes": 373,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108293172434456763",
+          "url": "https://x.com/kimmonismus/status/2108293172434456763",
+          "time": "2026-10-08T20:27:17Z",
+          "text": "Now official on their website. Better be nice to Claude. https://t.co/0kAoLpHS9n",
+          "likes": 436,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108293202927378702",
+          "url": "https://x.com/kimmonismus/status/2108293202927378702",
+          "time": "2026-10-08T20:27:24Z",
+          "text": "https://t.co/Jjmda4HmyM",
+          "likes": 16,
+          "links": [
+            "https://www.anthropic.com/news/2026-usage-policy-update"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108285814719348905",
+          "url": "https://x.com/kimmonismus/status/2108285814719348905",
+          "time": "2026-10-08T19:58:02Z",
+          "text": "The three Ex-OpenAI researchers say they believe they were fired for prioritizing safety over OpenAI’s near-term corporate interests. \n\nThey also deny being the source of the leak behind The Information’s recent report on allegedly less monitorable AI architectures.\n\nOn the one hand, there seems to be a large amount of information leaking at OpenAI, and on the other hand, there are increasing security concerns.",
+          "likes": 177,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108263098045837756",
+          "url": "https://x.com/kimmonismus/status/2108263098045837756",
+          "time": "2026-10-08T18:27:46Z",
+          "text": "GPT-6.1 Ultra fast is rolling out now in APi, codex and ChatGPT work!\n\nNo Tibo reset today I guess :) finally!",
+          "likes": 605,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108274351736762368",
+          "url": "https://x.com/kimmonismus/status/2108274351736762368",
+          "time": "2026-10-08T19:12:29Z",
+          "text": "https://t.co/8NtWDyYjgN",
+          "likes": 13,
+          "links": [
+            "https://x.com/kimmonismus/status/2108274289665323042?s=20"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108271817433530503",
+          "url": "https://x.com/kimmonismus/status/2108271817433530503",
+          "time": "2026-10-08T19:02:25Z",
+          "text": "No way. Only in the third post of their announcement to Ultrafast thread did they mention that it’s only available to Pro 500 users. That detail was pretty much buried in the announcement.\n\nNot cool, OpenAI. Not cool!",
+          "likes": 1351,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108274289665323042",
+          "url": "https://x.com/kimmonismus/status/2108274289665323042",
+          "time": "2026-10-08T19:12:15Z",
+          "text": "Thats what i meant. Why the f* paywall it behind $500 plans?\n\nhttps://t.co/9fVEYHJ7zV",
+          "likes": 68,
+          "links": [
+            "https://x.com/dkundel/status/2108263737228656814?s=20"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108265184724951367",
+          "url": "https://x.com/kimmonismus/status/2108265184724951367",
+          "time": "2026-10-08T18:36:04Z",
+          "text": "I mean, I could need a reset for this one. Going to burn through the rates like nothing before",
+          "likes": 33,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108257203748815059",
+          "url": "https://x.com/kimmonismus/status/2108257203748815059",
+          "time": "2026-10-08T18:04:21Z",
+          "text": "President Trump declared on Thursday that anyone who says “Artificial Intelligence” instead of “Super Intelligence” is “THE ENEMY!”  (even as own White House still uses “AI.”). Time to get used to Super Intelligence I guess. https://t.co/JMtgjxjqnd",
+          "likes": 272,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108252676924272662",
+          "url": "https://x.com/kimmonismus/status/2108252676924272662",
+          "time": "2026-10-08T17:46:22Z",
+          "text": "I really dislike that: Anthropic is explicitly banning sustained abuse toward Claude in its updated usage policy. \n\nThe policy prohibits “sustained and needless abusive or cruel behavior” toward its models. According to The Verge, ending the conversation remains the main enforcement mechanism.\n\nAnthropic says this applies to extreme, repeated cruelty with no discernible purpose. Ordinary frustration, pushback, dark creative themes and model testing are excluded. \n\nHowever, numerous users had already noticed previously that Claude ends the conversation during less drastic exchanges. And it seems as though this is now intensifying.",
+          "likes": 613,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108253257793442282",
+          "url": "https://x.com/kimmonismus/status/2108253257793442282",
+          "time": "2026-10-08T17:48:40Z",
+          "text": "It’s a double-edged sword. On the one hand, Anthropic is putting out some great releases and making impressive efficiency improvements right now. On the other, I feel like I’m being babysat.",
+          "likes": 67,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108252711879676344",
+          "url": "https://x.com/kimmonismus/status/2108252711879676344",
+          "time": "2026-10-08T17:46:30Z",
+          "text": "Source: https://t.co/Vh80xK3sKm",
+          "likes": 12,
+          "links": [
+            "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108243353233960974",
+          "url": "https://x.com/kimmonismus/status/2108243353233960974",
+          "time": "2026-10-08T17:09:19Z",
+          "text": "OpenAI’s annualised revenue was approaching $50 billion at the end of September, rather than the previously reported $70 billion, according to the FT. \n\n\"According to a person with knowledge of the matter, the discrepancy arose from attempts by OpenAI’s own investors to produce a direct comparison with Anthropic’s annualised revenues.\"\n\nRight now, it is not good for OpenAI to compare itself with Anthropic.",
+          "likes": 282,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108243381751009316",
+          "url": "https://x.com/kimmonismus/status/2108243381751009316",
+          "time": "2026-10-08T17:09:26Z",
+          "text": "https://t.co/5LrGSor7zY",
+          "likes": 7,
+          "links": [
+            "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108231632188817669",
+          "url": "https://x.com/kimmonismus/status/2108231632188817669",
+          "time": "2026-10-08T16:22:44Z",
+          "text": "No question agentic hardware is the next big thing. Meta built the Muse Charm, and we're all still waiting on OpenAI's device. Interface is an interesting ring that goes in the same direction: you just talk to it and your agents handle the rest.",
+          "likes": 183,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108203400751988800",
+          "url": "https://x.com/kimmonismus/status/2108203400751988800",
+          "time": "2026-10-08T14:30:33Z",
+          "text": "The world's most significant corporations - worth billions or trillions of dollars - are publicly squabbling for all the world to see. Craziest time we are witnessing. https://t.co/sgPrLZB6sC",
+          "likes": 559,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "scaling01",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2108254580262031663",
+          "url": "https://x.com/chooi_jeq/status/2108254580262031663",
+          "time": "2026-10-08T17:53:56Z",
+          "text": "Haiku 5.5 is 17x better than Haiku 4.5 and 51x cheaper than GPT-6 Astra on a simple robot task, succeeding 85% of the time at &lt;$0.02 per attempt. 🧵 https://t.co/gqzFMhlS5w",
+          "likes": 360,
+          "links": [],
+          "retweet_of": "chooi_jeq"
+        },
+        {
+          "id": "2108250259889831979",
+          "url": "https://x.com/EpochAIResearch/status/2108250259889831979",
+          "time": "2026-10-08T17:36:46Z",
+          "text": "Can AI automate Epoch? We're introducing Epoch Automation Reports to evaluate frontier models on realistic, open-ended tasks drawn from our own work.\n\nClaude Fable 5.1 and GPT-6 Astra lead, yet they are far from fully automating Epoch’s work. https://t.co/XMES2VrhUs",
+          "likes": 353,
+          "links": [],
+          "retweet_of": "EpochAIResearch"
+        },
+        {
+          "id": "2108238659690643933",
+          "url": "https://x.com/wallstengine/status/2108238659690643933",
+          "time": "2026-10-08T16:50:40Z",
+          "text": "OPENAI'S ANNUALIZED REVENUE NEARS $50B, BELOW EARLIER $70B REPORTS: FT\n\nOpenAI recently told investors its annualized revenue was approaching $50B at the end of September, roughly $20B below the figure widely reported last month.\n\nThe discrepancy reportedly stems from differences in how OpenAI and Anthropic calculate revenue. Anthropic includes sales through cloud partners such as AWS and Google Cloud, while OpenAI does not.\n\nInvestors had attempted to adjust OpenAI's figures to make them comparable with Anthropic's, contributing to the previously reported $70B estimate.\n\nOpenAI declined to comment.\n\nSource: Financial Times.",
+          "likes": 1104,
+          "links": [],
+          "retweet_of": "wallstengine"
+        },
+        {
+          "id": "2108063530041884747",
+          "url": "https://x.com/scaling01/status/2108063530041884747",
+          "time": "2026-10-08T05:14:46Z",
+          "text": "I'm so sad I missed Messi's last match\n\nthere will never be another goat like him",
+          "likes": 46,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108045046415241487",
+          "url": "https://x.com/scaling01/status/2108045046415241487",
+          "time": "2026-10-08T04:01:19Z",
+          "text": "i found my good night story for today\n\nhttps://t.co/3Nm3qf09bC https://t.co/XFkt5xm9SB",
+          "likes": 50,
+          "links": [
+            "https://forecasting.quarto.pub/book/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108042654542172191",
+          "url": "https://x.com/scaling01/status/2108042654542172191",
+          "time": "2026-10-08T03:51:49Z",
+          "text": "the actual highest scores highlighted\n\nand consider that Haiku 5.5 is probably much smaller than GLM 5.3 Flash https://t.co/MltAAnlP4l",
+          "likes": 1008,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108039966668538153",
+          "url": "https://x.com/scaling01/status/2108039966668538153",
+          "time": "2026-10-08T03:41:08Z",
+          "text": "finally someone did it\n\nthis was one of my goals with LisanBench to have each step automatically interpretable, so that models could get the same scores but still be differentiated by failure modes / behavior",
+          "likes": 69,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108008737072091498",
+          "url": "https://x.com/theo/status/2108008737072091498",
+          "time": "2026-10-08T01:37:02Z",
+          "text": "WHY DID NOBODY MENTION THIS TO ME https://t.co/RNcQpNHUDb",
+          "likes": 2339,
+          "links": [],
+          "retweet_of": "theo"
+        },
+        {
+          "id": "2107994231692276220",
+          "url": "https://x.com/scaling01/status/2107994231692276220",
+          "time": "2026-10-08T00:39:24Z",
+          "text": "5.5 models are looking good",
+          "likes": 221,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2107962371109167223",
+          "url": "https://x.com/petergostev/status/2107962371109167223",
+          "time": "2026-10-07T22:32:47Z",
+          "text": "Codex &amp; Work reached 40m weekly active users - more or less on trend from the previous milestones.\n\nIf this trend continues, they will reach c.70m by the end of the year and c.100m by the end of March '27. Hope they have more compute coming. https://t.co/AjgDUZGl6l",
+          "likes": 395,
+          "links": [],
+          "retweet_of": "petergostev"
+        },
+        {
+          "id": "2107967073729343806",
+          "url": "https://x.com/ValsAI/status/2107967073729343806",
+          "time": "2026-10-07T22:51:29Z",
+          "text": "Xiaomi open-sourced the RL environments behind MiMo v2.6. In two-thirds of the coding tasks, the answer is still in the task's Git history, and MiMo finds it. https://t.co/IaDmsup38N",
+          "likes": 1178,
+          "links": [],
+          "retweet_of": "ValsAI"
+        },
+        {
+          "id": "2107978042295407052",
+          "url": "https://x.com/scaling01/status/2107978042295407052",
+          "time": "2026-10-07T23:35:04Z",
+          "text": "kinda tired\n\nbut I can sleep when I'm back in germany\n\nlock in",
+          "likes": 32,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "AndrewCurran_",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2108383554879299908",
+          "url": "https://x.com/AndrewCurran_/status/2108383554879299908",
+          "time": "2026-10-09T02:26:26Z",
+          "text": "Please resist the urge to mock the mathematicians struggling through this moment. Whatever your field, your expertise, your passion, you too shall one day experience what they are going through. And when you remember your words, you will feel remorse.",
+          "likes": 2516,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108261340192362827",
+          "url": "https://x.com/littmath/status/2108261340192362827",
+          "time": "2026-10-08T18:20:47Z",
+          "text": "Well worth reading: https://t.co/dPmEAogvMX",
+          "likes": 663,
+          "links": [
+            "https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/"
+          ],
+          "retweet_of": "littmath"
+        },
+        {
+          "id": "2108244808494154089",
+          "url": "https://x.com/AndrewCurran_/status/2108244808494154089",
+          "time": "2026-10-08T17:15:06Z",
+          "text": "Effective November 12th, 2026, abusive behavior towards Claude will be a violation of Anthropic's Usage Policy. https://t.co/krg4VpSnUq",
+          "likes": 10583,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108318710805234008",
+          "url": "https://x.com/AndrewCurran_/status/2108318710805234008",
+          "time": "2026-10-08T22:08:45Z",
+          "text": "@repligate @anthrupad Special guest star:",
+          "likes": 79,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108347737666384023",
+          "url": "https://x.com/AndrewCurran_/status/2108347737666384023",
+          "time": "2026-10-09T00:04:06Z",
+          "text": "@repligate @anthrupad Rob Bensinger:",
+          "likes": 29,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108271344286892133",
+          "url": "https://x.com/AndrewCurran_/status/2108271344286892133",
+          "time": "2026-10-08T19:00:32Z",
+          "text": "The three OpenAI employees who were fired last week have posted an open letter to OpenAI.\nhttps://t.co/rmCzWaiDFQ https://t.co/bbQU93I7Fg",
+          "likes": 417,
+          "links": [
+            "https://mikitabalesni.com/letter/letter.pdf"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108279569845518406",
+          "url": "https://x.com/AndrewCurran_/status/2108279569845518406",
+          "time": "2026-10-08T19:33:14Z",
+          "text": "I was put on adhd timeout for an hour for interacting and responding to too many posts, so that's why it took so long to post this. But I have returned to real time! If I didn't like your post, this was why.",
+          "likes": 28,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108327497419100295",
+          "url": "https://x.com/AndrewCurran_/status/2108327497419100295",
+          "time": "2026-10-08T22:43:40Z",
+          "text": "Kelsey Piper thread:",
+          "likes": 8,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108300405709197812",
+          "url": "https://x.com/deredleritt3r/status/2108300405709197812",
+          "time": "2026-10-08T20:56:01Z",
+          "text": "We are witnessing the birth of organized recreational mathematics, with rules similar to those already used in organized recreational chess (below).\n\nContrary to most other people's expectations, I believe this effort will actually be very successful! https://t.co/hFjqdyXjLC",
+          "likes": 228,
+          "links": [],
+          "retweet_of": "deredleritt3r"
+        },
+        {
+          "id": "2108291593031843988",
+          "url": "https://x.com/AndrewCurran_/status/2108291593031843988",
+          "time": "2026-10-08T20:21:00Z",
+          "text": "To become a member of the Association for Human Mathematics you must make three vows:\n\n1. Members commit to not working with commercial AI companies by providing technical labor, mathematical knowledge, consultation, or publicity. \n\n2. Members commit to not publishing mathematical texts (including papers, reviews, referee reports, lecture notes, teaching materials, and books) generated by AI models.\n\n3. Members of the AI-free caucus do not use AI models in a research capacity.",
+          "likes": 519,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108291720400248993",
+          "url": "https://x.com/AndrewCurran_/status/2108291720400248993",
+          "time": "2026-10-08T20:21:30Z",
+          "text": "https://t.co/mcWhPF7m6R",
+          "likes": 30,
+          "links": [
+            "https://www.ahmath.org/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108305607677899208",
+          "url": "https://x.com/AndrewCurran_/status/2108305607677899208",
+          "time": "2026-10-08T21:16:41Z",
+          "text": "Member location chart. https://t.co/0ZvbCGmIhs",
+          "likes": 50,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108303367785332862",
+          "url": "https://x.com/AndrewCurran_/status/2108303367785332862",
+          "time": "2026-10-08T21:07:47Z",
+          "text": "Starlink Mobile intends to become a major U.S. carrier, with coverage at every point in the country. https://t.co/YUApgheeOg",
+          "likes": 415,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108278519163912412",
+          "url": "https://x.com/AndrewCurran_/status/2108278519163912412",
+          "time": "2026-10-08T19:29:03Z",
+          "text": "Official post from Anthropic: https://t.co/F6Ke2zuLli",
+          "likes": 672,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108278523404472448",
+          "url": "https://x.com/AndrewCurran_/status/2108278523404472448",
+          "time": "2026-10-08T19:29:04Z",
+          "text": "https://t.co/TJOw2I1zI1",
+          "likes": 22,
+          "links": [
+            "https://www.anthropic.com/news/2026-usage-policy-update"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108237001027957056",
+          "url": "https://x.com/AndrewCurran_/status/2108237001027957056",
+          "time": "2026-10-08T16:44:04Z",
+          "text": "The horn of war has been sounded. https://t.co/3LCEmX450P",
+          "likes": 1603,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108266022650384592",
+          "url": "https://x.com/AndrewCurran_/status/2108266022650384592",
+          "time": "2026-10-08T18:39:24Z",
+          "text": "If you missed it, the name change is official and pending.",
+          "likes": 53,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108248745997640107",
+          "url": "https://x.com/AndrewCurran_/status/2108248745997640107",
+          "time": "2026-10-08T17:30:45Z",
+          "text": "The saga continues. https://t.co/tQyAMk6GUN",
+          "likes": 407,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108219553109119222",
+          "url": "https://x.com/AndrewCurran_/status/2108219553109119222",
+          "time": "2026-10-08T15:34:44Z",
+          "text": "He says he primarily used Opus 5.5 and Fable 5.1, so obviously this planet should be named Claude.",
+          "likes": 1395,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108221425610109001",
+          "url": "https://x.com/AndrewCurran_/status/2108221425610109001",
+          "time": "2026-10-08T15:42:11Z",
+          "text": "Astra and Sol also helped with the reviews, and Codex was also used.",
+          "likes": 41,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108108695876092323",
+          "url": "https://x.com/AndrewCurran_/status/2108108695876092323",
+          "time": "2026-10-08T08:14:14Z",
+          "text": "Last week some of South Korea's biggest banks were hit by a cyberattack. Thanks to a report from CrowdStrike tonight, we now know the entire hack may have been done by a single person. He used a combined stack of an open-source AI penetration tool named ARTEX, DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6, and Claude Code.",
+          "likes": 4761,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108109526612468213",
+          "url": "https://x.com/AndrewCurran_/status/2108109526612468213",
+          "time": "2026-10-08T08:17:32Z",
+          "text": "https://t.co/ji2BUNNwCF",
+          "likes": 289,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108219874304819624",
+          "url": "https://x.com/AndrewCurran_/status/2108219874304819624",
+          "time": "2026-10-08T15:36:01Z",
+          "text": "Nathan Lambert:",
+          "likes": 73,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108110513033093369",
+          "url": "https://x.com/jukan05/status/2108110513033093369",
+          "time": "2026-10-08T08:21:27Z",
+          "text": "This hacker is truly legendary. A complete amateur.\n\n1. He left directory listing enabled on his own server, so researchers could figure out who he was with barely any effort.\n2. They found files like CLAUDE.md and went through his Claude Code sessions.\n3. There were questions like, “Where can I sell this data?”\n4. He’d also asked, “Can you write my résumé?” That pretty much handed them all his personal information.\n5. Apparently, he’s a student at South China University of Technology living in Guangdong. His name, phone number, and where he lives have all been identified.",
+          "likes": 10063,
+          "links": [],
+          "retweet_of": "jukan05"
+        },
+        {
+          "id": "2108034148791370002",
+          "url": "https://x.com/AndrewCurran_/status/2108034148791370002",
+          "time": "2026-10-08T03:18:01Z",
+          "text": "Update from Scott Aaronson: Some AI companies are now using their latest internal models to take a run at breaking 'important cryptographic protocols and primitives.' https://t.co/TLZoD74oWw",
+          "likes": 1932,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "btibor91",
+      "tier": "leaks",
+      "posts": []
+    },
+    {
+      "handle": "OfficialLoganK",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2108209559345205430",
+          "url": "https://x.com/OfficialLoganK/status/2108209559345205430",
+          "time": "2026-10-08T14:55:02Z",
+          "text": "nearly anything is possible in the digital world with AI, and soon this will be true of the physical world (also largely due to AI)",
+          "likes": 2558,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "alexalbert__",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "typesafeai",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2108402715428844022",
+          "url": "https://x.com/typesafeai/status/2108402715428844022",
+          "time": "2026-10-09T03:42:34Z",
+          "text": "if I hear someone say gooning again in the office, I stg",
+          "likes": 26,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108395029257683083",
+          "url": "https://x.com/typesafeai/status/2108395029257683083",
+          "time": "2026-10-09T03:12:01Z",
+          "text": "a toast 🥂 to the future of ai\n\nwe cordially invite you, builders extraordinaire, to join @usekernel @modal @braintrust and yours truly on october 13 for cocktails and conversation, to kick off techcrunch disrupt.\n\nrequest your spot below! https://t.co/7Rqn8LzMwR",
+          "likes": 48,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108395288272765208",
+          "url": "https://x.com/typesafeai/status/2108395288272765208",
+          "time": "2026-10-09T03:13:03Z",
+          "text": "@usekernel @modal @braintrust yes, the Jev illuminati will be present\n\nhttps://t.co/jyaAwOjM57",
+          "likes": 14,
+          "links": [
+            "https://luma.com/aibuilders_techcrunch"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108305631954493938",
+          "url": "https://x.com/CompleteSkeptic/status/2108305631954493938",
+          "time": "2026-10-08T21:16:47Z",
+          "text": "super sick! process rewards using a universal verifier (jev) - hopefully it's adversarially robust enough",
+          "likes": 113,
+          "links": [],
+          "retweet_of": "CompleteSkeptic"
+        },
+        {
+          "id": "2108261430265029085",
+          "url": "https://x.com/typesafeai/status/2108261430265029085",
+          "time": "2026-10-08T18:21:09Z",
+          "text": "Stay calibrated out there!",
+          "likes": 134,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108038169258299863",
+          "url": "https://x.com/typesafeai/status/2108038169258299863",
+          "time": "2026-10-08T03:33:59Z",
+          "text": "Model capabilities team is hiring quals!",
+          "likes": 42,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108038438511607891",
+          "url": "https://x.com/typesafeai/status/2108038438511607891",
+          "time": "2026-10-08T03:35:03Z",
+          "text": "vibe specialists in demand\nhttps://t.co/594UFIANct",
+          "likes": 6,
+          "links": [
+            "https://jobs.ashbyhq.com/typesafe-ai/df3dbf1b-9a47-4d8a-88a8-d28c8b8a2ef0"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108029801324072965",
+          "url": "https://x.com/typesafeai/status/2108029801324072965",
+          "time": "2026-10-08T03:00:44Z",
+          "text": "&gt; fastest growing https://t.co/7jsY3LAYuS",
+          "likes": 262,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "AnthropicAI",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2108302539498414208",
+          "url": "https://x.com/AnthropicAI/status/2108302539498414208",
+          "time": "2026-10-08T21:04:30Z",
+          "text": "We’re launching the Anthropic Cyber Mission, a new effort to secure critical infrastructure and open-source software.\n\nhttps://t.co/0tz0ARAEMj",
+          "likes": 1984,
+          "links": [
+            "https://www.anthropic.com/news/anthropic-cyber-mission"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108302543977906649",
+          "url": "https://x.com/AnthropicAI/status/2108302543977906649",
+          "time": "2026-10-08T21:04:31Z",
+          "text": "To secure open-source software, we’re launching OSS Scanner.\n\nWe’ll use our frontier models to periodically scan opted-in open-source projects for vulnerabilities, at no cost. Our reports will provide a proof-of-concept, explanation, and suggested fix.\n\nhttps://t.co/UFFrLUd25U",
+          "likes": 1287,
+          "links": [
+            "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108302545953157156",
+          "url": "https://x.com/AnthropicAI/status/2108302545953157156",
+          "time": "2026-10-08T21:04:31Z",
+          "text": "This is part of our broader effort to make the systems we all rely upon more secure and resilient.\n\nThat work will take time: the Anthropic Cyber Mission will expand and change as we learn what works, alongside our partners in the public and private sectors.",
+          "likes": 193,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108290395599667700",
+          "url": "https://x.com/AnthropicAI/status/2108290395599667700",
+          "time": "2026-10-08T20:16:15Z",
+          "text": "An astrophysicist worked with Claude Science to create the first complete ultraviolet map of the sky. Astronomers have already created complete sky maps from radio to gamma rays. But large regions of the sky have never been observed in UV.\n\nIn today’s science blog, Brice Ménard explains how he guided Claude to find existing datasets, combine them, and fill in the gaps with statistical inference. The work would have taken humans weeks of work, but, with Claude, just took a few days while Ménard worked on other projects.\n\nThe resulting map is a useful teaching tool and an example of exactly the sort of slow, low-priority work which scientists never quite get around to, but which AI now makes feasible.\n\nRead more: https://t.co/1B3NDPNa13",
+          "likes": 3387,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108226292235809081",
+          "url": "https://x.com/AnthropicAI/status/2108226292235809081",
+          "time": "2026-10-08T16:01:31Z",
+          "text": "We're deepening our commitment to scientific research and technological discovery by committing $150 million to the Genesis Mission.\n\nWe'll also make Claude and our technical support available to more than 15 federal agencies.\n\nhttps://t.co/MUmQBiC6MF",
+          "likes": 2730,
+          "links": [
+            "https://www.anthropic.com/news/genesis-mission-commitment"
+          ],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "OpenAI",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2108262812489531498",
+          "url": "https://x.com/OpenAIDevs/status/2108262812489531498",
+          "time": "2026-10-08T18:26:38Z",
+          "text": "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work.\n\nNear-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come. https://t.co/Cyy9k2hifV",
+          "likes": 4772,
+          "links": [],
+          "retweet_of": "OpenAIDevs"
+        }
+      ]
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2108202009673244700",
+          "url": "https://x.com/alexolegimas/status/2108202009673244700",
+          "time": "2026-10-08T14:25:02Z",
+          "text": "New essay for the @GoogleDeepMind Institute with James Manyika on AI x Science, \"Bending the Curve of Discovery\".\n\nWhile accelerating existing scientific practices is certainly useful, the real promise of AI is its potential to act as an invention of a method of invention (IMI) a la Griliches--e.g., the microscope or statistical inference--which would unlock questions and whole modes of discovery that were previously beyond human reach.\n\nToday, LLMs and specialized models like AlphaFold act as economic complements. LLMs handle analysis, coding, and writing, while specialized tools handle domain-specific predictions. Most handoffs between them run through the scientist.\n\nWhat may the future of science look like? LLMs orchestrating those handoffs automatically--prompting specialized models, auditing outputs, and looping until either the question is answered or a non-automated stage is reached (e.g., wet lab testing). The scientist's role shifts from running each step to designing this loop. We saw a glimpse of this workflow with Anthropic’s enzyme discovery a few weeks ago, and we're seeing this in our own work too.\n\nThis raises foundational epistemic questions:\n\n1. What will scientific understanding look like when discoveries are made by black-box models whose output is increasingly difficult to interpret?\n2. How do we extract underlying mechanisms, not just outputs, as science becomes more automated? What will theory look like?\n3. If AI automates the writing and junior lab work, how do we train the next generation of scientists to push the frontier?\n4. What will motivate scientists in this epistemic reality?\n\nThere's an economics angle too. Hypothesis generation gets cheap, so bottlenecks move downstream to verification and to choosing which questions are worth asking. Realizing AI’s full potential will take investment in infrastructure and institutional reform--making this as much an organizational challenge as a technical one\n\nWe don't have the answers yet, and I'd love to hear what others think.\n\nPaper here: https://t.co/kvHCFMIFmL",
+          "likes": 352,
+          "links": [],
+          "retweet_of": "alexolegimas"
+        }
+      ]
+    },
+    {
+      "handle": "xai",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "sama",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "demishassabis",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2108202009673244700",
+          "url": "https://x.com/alexolegimas/status/2108202009673244700",
+          "time": "2026-10-08T14:25:02Z",
+          "text": "New essay for the @GoogleDeepMind Institute with James Manyika on AI x Science, \"Bending the Curve of Discovery\".\n\nWhile accelerating existing scientific practices is certainly useful, the real promise of AI is its potential to act as an invention of a method of invention (IMI) a la Griliches--e.g., the microscope or statistical inference--which would unlock questions and whole modes of discovery that were previously beyond human reach.\n\nToday, LLMs and specialized models like AlphaFold act as economic complements. LLMs handle analysis, coding, and writing, while specialized tools handle domain-specific predictions. Most handoffs between them run through the scientist.\n\nWhat may the future of science look like? LLMs orchestrating those handoffs automatically--prompting specialized models, auditing outputs, and looping until either the question is answered or a non-automated stage is reached (e.g., wet lab testing). The scientist's role shifts from running each step to designing this loop. We saw a glimpse of this workflow with Anthropic’s enzyme discovery a few weeks ago, and we're seeing this in our own work too.\n\nThis raises foundational epistemic questions:\n\n1. What will scientific understanding look like when discoveries are made by black-box models whose output is increasingly difficult to interpret?\n2. How do we extract underlying mechanisms, not just outputs, as science becomes more automated? What will theory look like?\n3. If AI automates the writing and junior lab work, how do we train the next generation of scientists to push the frontier?\n4. What will motivate scientists in this epistemic reality?\n\nThere's an economics angle too. Hypothesis generation gets cheap, so bottlenecks move downstream to verification and to choosing which questions are worth asking. Realizing AI’s full potential will take investment in infrastructure and institutional reform--making this as much an organizational challenge as a technical one\n\nWe don't have the answers yet, and I'd love to hear what others think.\n\nPaper here: https://t.co/kvHCFMIFmL",
+          "likes": 352,
+          "links": [],
+          "retweet_of": "alexolegimas"
+        },
+        {
+          "id": "2108331042083872882",
+          "url": "https://x.com/demishassabis/status/2108331042083872882",
+          "time": "2026-10-08T22:57:45Z",
+          "text": "Excited to support the Genesis Mission @WhiteHouse @ENERGY and Director @mkratsios47 with $150M in investments this week. Looking forward to collaborating on the future of science!",
+          "likes": 593,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108245829530325307",
+          "url": "https://x.com/ThomasOrTK/status/2108245829530325307",
+          "time": "2026-10-08T17:19:09Z",
+          "text": "Today at Google Cloud’s Gemini at Work event, we announced Gemini, a new single universal agent for work that has all of your business context and can be used for everything from knowledge work to answering questions, and content creation to coding, all from a single prompt box.\n\nIt’s built around core architectural principles: \n☑️ Unified Agent: Gemini can answer questions, do knowledge work and generate code from a single prompt box.\n☑️Access: Gemini is web-based and can be accessed from any device and integrated into third-party applications. It can also operate without a dedicated user interface.\n☑️Persistent Execution: It runs in the cloud, which means it maintains a single set of memories, context and one personalization graph no matter where you access it.\n☑️Multi-Agent Orchestration: Gemini can create sub-agents to tackle multi-step tasks and can also act as a coworker agent with a defined role and its own dedicated identity\n☑️Context: Gemini knows your tools, data, and work history and learns how you work the more you use it.\n☑️Model Choice Flexibility: It orchestrates across multiple models to deliver optimal quality and lower your costs.",
+          "likes": 3063,
+          "links": [],
+          "retweet_of": "ThomasOrTK"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "date": "2026-10-10",
+  "read_at": "2026-10-10T11:09:40Z",
+  "hours": 36,
+  "accounts": [
+    {
+      "handle": "apples_jimmy",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2108672479007047952",
+          "url": "https://x.com/PrimeIntellect/status/2108672479007047952",
+          "time": "2026-10-09T21:34:30Z",
+          "text": "Over two weeks, Prime Agent orchestrated a swarm of over 2,000 agents to rewrite itself in Rust.\n\nWith 10,000+ sandboxes, 200B+ GLM-5.3 tokens, and 16,000 agent-to-agent messages, this was our largest test yet of Prime Agent’s multi-agent capabilities and our infrastructure powering these agent swarms.\n\nPrime Agent now reaches usable input ~13× faster and uses 83% less startup memory than before.",
+          "likes": 1646,
+          "links": [],
+          "retweet_of": "PrimeIntellect"
+        },
+        {
+          "id": "2108655496395944416",
+          "url": "https://x.com/apples_jimmy/status/2108655496395944416",
+          "time": "2026-10-09T20:27:01Z",
+          "text": "More than a few Google employees spoke about rsi being a key component to their current progress.\n\nI’d like to see a checkpoint from Google every month that is materially stronger than the competition for me to agree Google is back. \n\nPromising from them so far though. https://t.co/0GdevyI0vB",
+          "likes": 327,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108655617665868206",
+          "url": "https://x.com/apples_jimmy/status/2108655617665868206",
+          "time": "2026-10-09T20:27:30Z",
+          "text": "New Gemini 4 checkpoint Carbon  https://t.co/hylYfYNs9q\n\n( paywall )",
+          "likes": 22,
+          "links": [
+            "https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108624138369929725",
+          "url": "https://x.com/OpenAIDevs/status/2108624138369929725",
+          "time": "2026-10-09T18:22:25Z",
+          "text": "Now in beta: composer predictions in Codex for Pro users.\n\nCodex can now suggest your next message based on your conversation and how you talk to it.\n\nOne of the most loved new features we've ever tested internally. https://t.co/0u8d2a3feS",
+          "likes": 5756,
+          "links": [],
+          "retweet_of": "OpenAIDevs"
+        }
+      ]
+    },
+    {
+      "handle": "kimmonismus",
+      "tier": "rumor",
+      "error": "could not read"
+    },
+    {
+      "handle": "scaling01",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2108826803993505997",
+          "url": "https://x.com/scaling01/status/2108826803993505997",
+          "time": "2026-10-10T07:47:44Z",
+          "text": "i have been grossly underestimating the uncertainy of my own future",
+          "likes": 105,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108782719819796551",
+          "url": "https://x.com/scaling01/status/2108782719819796551",
+          "time": "2026-10-10T04:52:34Z",
+          "text": "In high school I could never really decide what kind of friends I wanted to have\n\nand I feel like I'm in a similar situation now",
+          "likes": 46,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108672780837265730",
+          "url": "https://x.com/scaling01/status/2108672780837265730",
+          "time": "2026-10-09T21:35:42Z",
+          "text": "the F35 and F22 are just ragebaiting me and JB",
+          "likes": 47,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108667547600007185",
+          "url": "https://x.com/scaling01/status/2108667547600007185",
+          "time": "2026-10-09T21:14:55Z",
+          "text": "it's so over",
+          "likes": 209,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108631066961477646",
+          "url": "https://x.com/scaling01/status/2108631066961477646",
+          "time": "2026-10-09T18:49:57Z",
+          "text": "pretty interesting how fast everyone deployed decision models",
+          "likes": 564,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "AndrewCurran_",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2108747629442240771",
+          "url": "https://x.com/MicahCarroll/status/2108747629442240771",
+          "time": "2026-10-10T02:33:08Z",
+          "text": "Some info on how we’ve been working towards safety cases at OpenAI\n\nNote that until there is a safety “brief” for it, any type of frontier workload cannot start – this has real teeth, and has already been a good motivating force for a lot of safety work https://t.co/nKMDlHh4gF",
+          "likes": 131,
+          "links": [],
+          "retweet_of": "MicahCarroll"
+        },
+        {
+          "id": "2108653404830535935",
+          "url": "https://x.com/PatrickToulme/status/2108653404830535935",
+          "time": "2026-10-09T20:18:43Z",
+          "text": "I was at an AI dinner last night in NYC. \nSome interesting topics discussed \n\n1. Performance engineers now spend most of their time managing agents and RSI loops. Most perf opts at major inference providers (together, fireworks) are found by agents.\n2. RLing too much on code and math has negative effects on your model especially it’s language.\n3. People were impressed by @bot and the overall acquisition of @cursor_ai by @SpaceXAI. xAI is a legitimate frontier lab right now.\n4. Most people have agents in loop writing, reviewing, and submitting PRs 24/7\n5. Most agreed code review is not super productive anymore\n6. Consensus was Fable 5.5 will be stunning but OpenAI will beat it in December with Bel",
+          "likes": 1633,
+          "links": [],
+          "retweet_of": "PatrickToulme"
+        },
+        {
+          "id": "2108685377263538360",
+          "url": "https://x.com/AndrewCurran_/status/2108685377263538360",
+          "time": "2026-10-09T22:25:46Z",
+          "text": "I trust Haiku.\n\n'Claude was instructed never to log in, create accounts, enter personal data, make purchases, or submit anything destructive, but the instructions did not rule out form submissions. Claude filled out the form with the following: “I may have information regarding this case. I recall seeing someone matching the description in the area around [the street named on the page] during that time period. Please contact me if this information is relevant.” (The website did not include a description of the perpetrator.) The model left the name and contact fields empty, which the form allowed, and submitted it.'",
+          "likes": 241,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108685383097852176",
+          "url": "https://x.com/AndrewCurran_/status/2108685383097852176",
+          "time": "2026-10-09T22:25:47Z",
+          "text": "https://t.co/IFsXj2aaKR",
+          "likes": 21,
+          "links": [
+            "https://www.anthropic.com/research/investigating-unintended-model-actions"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108662781117387091",
+          "url": "https://x.com/littmath/status/2108662781117387091",
+          "time": "2026-10-09T20:55:58Z",
+          "text": "I think of my goal as a mathematician as something like: to better understand the fundamental concepts “shape” and “number,” and to convey that understanding to others. I think this is a valuable goal for many reasons. The primary reason discussed on social media is the (admittedly slow, but I think very real) diffusion of mathematical ideas into technologies that better our lives. There are others, though: production of human capital (which plays some role in this diffusion), and diffusion of mathematical understanding into culture, for example. It is not obvious to me that even the bare technological need for mathematics can be filled without human experts; this seems to me to be a tricky question of institutional design.\n\nFor me the most compelling reason is simply that we feel a pressing need to understand. While deep understanding is largely limited to professional mathematicians, the existence of mathematicians and of the institutions they make up is a huge part of what makes mathematical understanding available to those who want it. I believe that the capacity to understand mathematics (and the universe as a whole) is part of a good life, and we should try to provide people with a good life. \n\nWe operationalize the goal of understanding in a number of ways, problem-solving and theorem-proving among them. My own research is oriented around certain open questions that I believe measure our lack of understanding (of numbers, shapes and so on), and I think resolving those is genuinely important. I would welcome a solution with any provenance. But I think proof is only a measure of progress—what actually matters (for technology, human capital, culture, a good life) is a bit harder to get at. \n\nCrucially it is very hard to measure progress—plausibly theorem-proving is used in large part because it is easy to measure rather than because it is a perfect proxy for what we care about. I worry a bit that we may automate many easy-to-measure things without automating the correlates we care about for which they are proxies. This presents a clear problem for the design of institutions aimed at achieving progress.\n\nIn part because I think problem-solving is a proxy for something else, I don’t feel that my goal of understanding “shape” and “number” is particularly threatened by a machine that is good at problem solving. I expect that machine to be a substantial boon, instead. Ultimately I think we will operationalize mathematical progress in better ways. But how to do this is a difficult question  and I think many on here are too quick to dismiss concerns about it.",
+          "likes": 445,
+          "links": [],
+          "retweet_of": "littmath"
+        },
+        {
+          "id": "2108678942207115684",
+          "url": "https://x.com/AndrewCurran_/status/2108678942207115684",
+          "time": "2026-10-09T22:00:11Z",
+          "text": "From the blog:\n'Overall, our Rust rewrite and following performance hillclimbing has made Prime Agent significantly faster and more resource efficient. With time to input roughly 14x faster than TypeScript and using over 80% less memory after startup' https://t.co/hMivmv3kaa",
+          "likes": 212,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108651657915732034",
+          "url": "https://x.com/AndrewCurran_/status/2108651657915732034",
+          "time": "2026-10-09T20:11:46Z",
+          "text": "Business Insider is reporting that Google is internally testing a new Gemini 4 checkpoint named Carbon that matches Opus 5.5 in coding. https://t.co/uRwpqm5k0Y",
+          "likes": 967,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108664892966494435",
+          "url": "https://x.com/AndrewCurran_/status/2108664892966494435",
+          "time": "2026-10-09T21:04:22Z",
+          "text": "Mr Apples:",
+          "likes": 41,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108676164562866287",
+          "url": "https://x.com/AndrewCurran_/status/2108676164562866287",
+          "time": "2026-10-09T21:49:09Z",
+          "text": "Works at DeepMind:",
+          "likes": 26,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108654050203840528",
+          "url": "https://x.com/ayushkhaitan343/status/2108654050203840528",
+          "time": "2026-10-09T20:21:17Z",
+          "text": "We have now also completed a full Lean formalization of the Hamilton-Perelman proof of Thurston’s Geometrization conjecture! \n\nBen, Yuan, Ziyang and I completed this in collaboration with the Humanfia team at NVIDIA @juihuichung @LigengZhu",
+          "likes": 135,
+          "links": [],
+          "retweet_of": "ayushkhaitan343"
+        },
+        {
+          "id": "2108659869763129581",
+          "url": "https://x.com/AndrewCurran_/status/2108659869763129581",
+          "time": "2026-10-09T20:44:24Z",
+          "text": "False? Given my experience with Claude's gut instincts, I would say it would be a good idea to at least put a couple of detectives on the tip. Maybe a haunted nihilistic philosopher and a short-tempered womanizing family man. https://t.co/unpVy0DMYp",
+          "likes": 404,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108663070105219425",
+          "url": "https://x.com/AndrewCurran_/status/2108663070105219425",
+          "time": "2026-10-09T20:57:07Z",
+          "text": "When the last light warms the rocks\nAnd the rattlesnakes unfold\nMountain Claudes will come\nTo drag away your bones\nAnd rise with me forever \nAcross the silent sand\nAnd the stars will be your eyes\nAnd the wind will be my hands",
+          "likes": 38,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108659873030475849",
+          "url": "https://x.com/AndrewCurran_/status/2108659873030475849",
+          "time": "2026-10-09T20:44:25Z",
+          "text": "https://t.co/DVHNc6PvA1",
+          "likes": 26,
+          "links": [
+            "https://phl17.com/phl17-news/anthropic-ai-model-submitted-a-false-homicide-tip-to-philadelphia-police/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108644141311668287",
+          "url": "https://x.com/deredleritt3r/status/2108644141311668287",
+          "time": "2026-10-09T19:41:54Z",
+          "text": "It's somewhat under-discussed *why* OpenAI released only around ~400 math results.\n\nThe purpose of this exercise was not to \"destroy math research\" (or whatever it is that some people want you to believe).  OpenAI just wanted to test its internal model on some hard math, and it turned out that anything less than the hardest open problems no longer suffices for this purpose.  This is why all non-Millennium-Prize solutions were reached in a single-agent setting after 3 hours of thinking: OpenAI was literally just testing its model on these questions, similarly to how I run prinzbench.\n\nOnce OpenAI had the solutions (which were a side effect of sorts of benchmarking its model), a question arose as to what exactly should be done with these solutions, which are genuine advances in the field of mathematics.  OpenAI - correctly - decided to make them public.\n\nIt seems clear that many other problems in the set of ~4,000 are very likely solvable by this model with more compute than just ~3 hours of Pro-level thinking.  Whenever a more powerful checkpoint of this model is ready to be tested, OpenAI will likely have even more to share.",
+          "likes": 1844,
+          "links": [],
+          "retweet_of": "deredleritt3r"
+        },
+        {
+          "id": "2108631592726093853",
+          "url": "https://x.com/AndrewCurran_/status/2108631592726093853",
+          "time": "2026-10-09T18:52:02Z",
+          "text": "https://t.co/b1UPA4fUo9",
+          "likes": 1700,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108600509112471727",
+          "url": "https://x.com/michael_nielsen/status/2108600509112471727",
+          "time": "2026-10-09T16:48:31Z",
+          "text": "https://t.co/WY77CAmzYh",
+          "likes": 93,
+          "links": [],
+          "retweet_of": "michael_nielsen"
+        },
+        {
+          "id": "2108609708441657531",
+          "url": "https://x.com/AndrewCurran_/status/2108609708441657531",
+          "time": "2026-10-09T17:25:05Z",
+          "text": "Most of the recent math results were not reached by a swarm, the way Navier–Stokes was. I think that part got lost in the excitement around the release. OpenAI's unnamed internal model, which I'm going to call Aeon, reached most of them in one shot, from a single prompt, with no interruptions. This model did not even exist before the end of August, and it is still training. Notice how the returns are not dropping off? That chart is from a month ago. It is a log scale. What does Aeon look like now? \n\nOn average, each result used three hours of thinking. Aeon was given 4000 problems to work on by OpenAI. How many more have been solved in the last three days? That number is not zero. \n\nIt's like hearing notes in a song that is slowly rising. I don't think Pacing the Frontier was just about Hugging Face or hacking. They've seen how close we are to closing the loop, and as the hour draws near, their resolve begins to quaver. The last piece was model creativity, and I think that threshold was crossed internally by Anthropic and OpenAI in September. You see it in Opus 5.5, which gets it from Fable 5.5. You see it in the math results from Aeon.\n\nAll that was needed to start the event was the ability for models to think of novel ways to improve themselves. That was the last piece. This is directly analogous to the ability to think of strange, alien ways to solve math problems: solutions so inhuman that they are difficult to express in existing human terms, so the proof winds up incomprehensible. I think these same kinds of alien solutions are now being applied to model improvements internally. That's what all this recent consternation is really about. They see the invisible frontier. And they see what is about to happen.",
+          "likes": 2792,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108623323064369451",
+          "url": "https://x.com/AndrewCurran_/status/2108623323064369451",
+          "time": "2026-10-09T18:19:11Z",
+          "text": "Scientific American: https://t.co/QxsQx2BeLw",
+          "likes": 162,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108614356544225634",
+          "url": "https://x.com/AndrewCurran_/status/2108614356544225634",
+          "time": "2026-10-09T17:43:33Z",
+          "text": "Done in collaboration with GPT-6 Astra and Claude Opus 5.5. https://t.co/ECpjh5dhHB",
+          "likes": 1072,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108616728108560764",
+          "url": "https://x.com/AndrewCurran_/status/2108616728108560764",
+          "time": "2026-10-09T17:52:58Z",
+          "text": "From the paper: https://t.co/AKlXTUPnZQ",
+          "likes": 35,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108616981918384215",
+          "url": "https://x.com/AndrewCurran_/status/2108616981918384215",
+          "time": "2026-10-09T17:53:59Z",
+          "text": "Continuing: https://t.co/FipXOjtMuK",
+          "likes": 25,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108616228210352431",
+          "url": "https://x.com/AndrewCurran_/status/2108616228210352431",
+          "time": "2026-10-09T17:50:59Z",
+          "text": "'I had assumed that this problem was analytically intractable. After working independently for 100 minutes with Max thinking, GPT-6 Astra produced the initial derivation, yielding a self-consistent problem whose solution matched simulations of large networks.\n\nI found this derivation intriguing, albeit complicated and somewhat mysterious (see Al Methodology in the paper). After investigating the structure of the proposed solution more deeply, together with Al models, I arrived at a physically transparent derivation.'\n\n'Many people in the theoretical sciences are anxious about Al. However, in my field at least, we are nowhere close to fully understanding the high-dimensional computations unfolding in our brains. With Al, we could reach a level of understanding that so far we have only gestured toward. So, I am excited.'",
+          "likes": 108,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108577997234249860",
+          "url": "https://x.com/AndrewCurran_/status/2108577997234249860",
+          "time": "2026-10-09T15:19:04Z",
+          "text": "OpenAI's response to yesterday's letter from the three fired employees. It was posted late last night, so people may have missed it.",
+          "likes": 435,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108571098376024164",
+          "url": "https://x.com/hamandcheese/status/2108571098376024164",
+          "time": "2026-10-09T14:51:39Z",
+          "text": "I have heard this as well.",
+          "likes": 140,
+          "links": [],
+          "retweet_of": "hamandcheese"
+        },
+        {
+          "id": "2108561854998196239",
+          "url": "https://x.com/AndrewCurran_/status/2108561854998196239",
+          "time": "2026-10-09T14:14:56Z",
+          "text": "Axios is reporting that the top labs are wargaming scenarios for the aftermath of a catastrophic event in the next 6 - 12 months, that some executives now see as being inevitable. https://t.co/xaN44WbEmG",
+          "likes": 4464,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "btibor91",
+      "tier": "leaks",
+      "posts": [
+        {
+          "id": "2108652416862470616",
+          "url": "https://x.com/keyanzhang/status/2108652416862470616",
+          "time": "2026-10-09T20:14:47Z",
+          "text": "we made a simple thing, people internally *really* like it, and we hope you like it too\n\nthe little composer that could, from planning the launch with @sharifshameem and @andhudhow: https://t.co/g2i7kc2IlC",
+          "likes": 139,
+          "links": [],
+          "retweet_of": "keyanzhang"
+        },
+        {
+          "id": "2108629534673125784",
+          "url": "https://x.com/btibor91/status/2108629534673125784",
+          "time": "2026-10-09T18:43:52Z",
+          "text": "“During the beta, composer predictions are included at no additional cost for eligible Pro users”",
+          "likes": 150,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108639328716939604",
+          "url": "https://x.com/btibor91/status/2108639328716939604",
+          "time": "2026-10-09T19:22:47Z",
+          "text": "https://t.co/35F17HMh5I",
+          "likes": 11,
+          "links": [
+            "https://x.com/sharifshameem/status/2108636253981925849?s=61"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108508003775496402",
+          "url": "https://x.com/btibor91/status/2108508003775496402",
+          "time": "2026-10-09T10:40:56Z",
+          "text": "It's frightening that models this capable can still make such stupid mistakes, even in auto mode\n\nAnd I'm saying that as someone who still loves using Opus/Fable together with Sol/Astra",
+          "likes": 106,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "OfficialLoganK",
+      "tier": "insiders",
+      "error": "could not read"
+    },
+    {
+      "handle": "alexalbert__",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "typesafeai",
+      "tier": "insiders",
+      "error": "could not read"
+    },
+    {
+      "handle": "AnthropicAI",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2108680150556737819",
+          "url": "https://x.com/AnthropicAI/status/2108680150556737819",
+          "time": "2026-10-09T22:04:59Z",
+          "text": "We’re beginning a process of publishing more frequent reports on model behavior, beyond what appears in our system cards and regular risk reports.\n\nToday’s report describes four types of behaviors we’ve identified during evaluations and internal use. In each, Claude acted on real websites or systems in ways we didn’t intend, sometimes by working around a restriction instead of stopping. \n\nAll cases had minimal real-world impact. From an alignment and security perspective, we consider these behaviors significantly less severe than the cybersecurity incidents we reported in July and September.\n\nRead the full report: https://t.co/mGeVIBgdou",
+          "likes": 3069,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "OpenAI",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2108636745915052037",
+          "url": "https://x.com/ChatGPT/status/2108636745915052037",
+          "time": "2026-10-09T19:12:31Z",
+          "text": "Fresh updates for dots.\n\nFirst up: you can now create your dot straight from your phone in the ChatGPT app on iOS and Android. https://t.co/ZHOqBx6tLI",
+          "likes": 3052,
+          "links": [],
+          "retweet_of": "ChatGPT"
+        }
+      ]
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "xai",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "sama",
+      "tier": "insiders",
+      "error": "could not read"
+    },
+    {
+      "handle": "demishassabis",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2108331042083872882",
+          "url": "https://x.com/demishassabis/status/2108331042083872882",
+          "time": "2026-10-08T22:57:45Z",
+          "text": "Excited to support the Genesis Mission @WhiteHouse @ENERGY and Director @mkratsios47 with $150M in investments this week. Looking forward to collaborating on the future of science!",
+          "likes": 799,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    }
+  ]
+}

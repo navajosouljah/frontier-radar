@@ -1,10 +1,10 @@
 {
   "flagship": "Claude Fable 5.1 (with Mythos 5.1 for approved organizations)",
-  "newest": "2026-09-01",
+  "newest": "2026-10-07",
   "plans_from": "$20 / month (Pro; $17 billed yearly)",
   "sources": [
     {
-      "url": "https://www.anthropic.com/news",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
       "outlet": "Anthropic",
       "kind": "official"
     },

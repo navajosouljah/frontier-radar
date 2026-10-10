@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "debate": {
+    "title": "Small model pricing war: Haiku 5.5 vs Luna",
+    "consensus": "Most builders welcome cheaper, faster small models for high-volume tasks. The debate is whether the price gap matters more than the context-window cost difference.",
+    "story": "claude-haiku-5-5"
+  },
+  "quotes": [
+    {
+      "person": "Simon Willison",
+      "role": "AI researcher and developer",
+      "outlet": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "quote": "If your workloads fit in 100,000 tokens, Haiku is the same price as Luna and reports higher benchmark scores.",
+      "stance": "impressed",
+      "ai": "claude",
+      "story": "claude-haiku-5-5",
+      "said": "2026-10-07"
+    }
+  ]
+}

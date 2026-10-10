@@ -28,3 +28,10 @@ Design: `docs/superpowers/specs/2026-10-05-frontier-radar-design.md`. Sources: `
 `docs/DAILY_PLAYBOOK.md`. Pages are built from data (`docs/DATA_FORMAT.md`) by `scripts/build.mjs`.
 Never hand-edit a generated page. Each day's report is `docs/reports/<date>.md`: read its
 "Needs JJ" section first. X posts arrive from JJ's Mac as `data/x/<date>.json` (`scripts/scout.sh`).
+
+## The daily routine
+Cloud routine "Frontier Radar Daily", trigger id `trig_01WJAo1P938GdeLoXeodZ6CT`, every day at 12:00 UTC
+(6 AM Mountain), created Oct 10 2026. No connectors attached: the create call auto-attached all of JJ's
+connectors, and they were cleared with an update (`clear_mcp_connections: true`). Re-check `mcp_connections`
+is empty after any create or update. Change its instructions with RemoteTrigger `update` (prompt only), and
+save each version in `docs/` (current text: `docs/routine-prompt-v1.md`).

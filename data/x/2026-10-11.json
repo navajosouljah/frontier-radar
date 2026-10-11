@@ -1,0 +1,480 @@
+{
+  "date": "2026-10-11",
+  "read_at": "2026-10-11T10:31:11Z",
+  "hours": 36,
+  "accounts": [
+    {
+      "handle": "apples_jimmy",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2109045972768829890",
+          "url": "https://x.com/apples_jimmy/status/2109045972768829890",
+          "time": "2026-10-10T22:18:38Z",
+          "text": "The labs should set aside some $ for their models to use when a user suggests a good project.\n\n“ why yes Jimmy, your expedition to the Amazon sounds good, I’ve set aside enough for the supplies and men “",
+          "likes": 96,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "kimmonismus",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2109215182035583229",
+          "url": "https://x.com/kimmonismus/status/2109215182035583229",
+          "time": "2026-10-11T09:31:01Z",
+          "text": "I think this is one of the most important graphs of the last few months, and perhaps years. For a long time, there was speculation about how AI would affect the labor market.\n\nClearly, it was only a matter of time before AI reached the white-collar sector, but empirical evidence was scarce, ultimately because, of course, one only really understands how the market situation develops in retrospect.\n\nNow, as in this example, we see that AI is clearly and unequivocally entering certain professions and replacing people. Call center agents are the first to be replaced. And as more AI and agents enter the workforce, a similar process will spread to other areas of work. Frankly, I don't believe that AI will necessarily create new jobs, resulting in a net zero. I think more jobs will be replaced than created. This needs to be discussed.",
+          "likes": 174,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109194221773304277",
+          "url": "https://x.com/kimmonismus/status/2109194221773304277",
+          "time": "2026-10-11T08:07:44Z",
+          "text": "Qualcomm’s CEO says AI companies want smartphones to run 100-billion-parameter models around the clock by 2028.\nThat could enable always-on AI assistants that understand your context, anticipate your needs, and handle complex tasks directly on your phone. https://t.co/15Cr2pFcT3",
+          "likes": 433,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109196470704591356",
+          "url": "https://x.com/kimmonismus/status/2109196470704591356",
+          "time": "2026-10-11T08:16:40Z",
+          "text": "i want my AI to run locally on my phone. thats my dream.",
+          "likes": 52,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109167876871483635",
+          "url": "https://x.com/kimmonismus/status/2109167876871483635",
+          "time": "2026-10-11T06:23:02Z",
+          "text": "It seems they’ve already run out of ideas. I suspect a banked reset for Sunday.",
+          "likes": 193,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109052612792504754",
+          "url": "https://x.com/kimmonismus/status/2109052612792504754",
+          "time": "2026-10-10T22:45:01Z",
+          "text": "Today I had the pleasure of interviewing Shruti Koparkar from @NVIDIA, who focuses on accelerated computing and AI inference.\n\nWe talked about CUDA and CUDA-X, the economics of AI infrastructure, and how long GPUs can remain useful and profitable as models and workloads change.\n\nWhen does it make sense to keep using an older GPU system? When should you repurpose it or replace it? And what role does software play in that decision?\n\nIt was a real pleasure discussing these questions with Shruti. Thank you for your time and the conversation!\n\nWe’ll be uploading the full interview soon. I’m really looking forward to sharing it with you, but wanted to share a first update today. 🙂",
+          "likes": 51,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109027526584512972",
+          "url": "https://x.com/kimmonismus/status/2109027526584512972",
+          "time": "2026-10-10T21:05:20Z",
+          "text": "Microsoft CEO Satya Nadella says companies should build AI systems assuming the model is compromised.\n\nHaving another AI watch an agent can still leave you with one black box checking another.\n\n“If it can’t be observed, it can’t be trusted!”\n\nHe calls for:",
+          "likes": 389,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109000230179873262",
+          "url": "https://x.com/kimmonismus/status/2109000230179873262",
+          "time": "2026-10-10T19:16:52Z",
+          "text": "I fully agree. And this is the best proof that we simply cannot hold back on publishing research releases or show consideration for individual sensitivities when the health and survival of many are at stake.",
+          "likes": 515,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108989836564566443",
+          "url": "https://x.com/kimmonismus/status/2108989836564566443",
+          "time": "2026-10-10T18:35:34Z",
+          "text": "It’s about time to finally get some new GLM model, GLM-5.5. \n\nQuick reminder: GLM-5.3 uses the exact same base model as GLM-5.2. All improvements came from post-training, particularly scaling reinforcement learning.\n\nGLM-5.3 Flash, however, uses a newly pretrained base model.\n\nThe gains from RL alone are remarkable.",
+          "likes": 712,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108954632714170803",
+          "url": "https://x.com/kimmonismus/status/2108954632714170803",
+          "time": "2026-10-10T16:15:41Z",
+          "text": "Let's take this seriously: even Google employees are now clearly stating that it seems to be an industry consensus that all Frontier Labs are managing \"RSI loops.\" In other words, recursive self-improvement is being implemented by everyone.\n\nFurthermore, Fable 5.5 will be the best model for Anthropic's IPO, but internally, OpenAI's \"Bel\" will undoubtedly overtake Anthropic by the end of the year.\n\nRSI is here, and internally, the labs are miles ahead.",
+          "likes": 3035,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108903375194714197",
+          "url": "https://x.com/kimmonismus/status/2108903375194714197",
+          "time": "2026-10-10T12:52:00Z",
+          "text": "I’m in Paris with @XPENG_Global ahead of the Motor Show and got to experience its driving assistance system on the city’s streets.\nI got to experience XPENG’s NGP on European roads for the first time, here in Paris.\n\nSuper smooth, even with roadworks and traffic jams. I was surprised by how well it handled Paris traffic.\n\nXPENG and Tesla will be the only two automakers participating in the show’s official Autonomous Lab, offering supervised rides on public roads.\n\nReally enjoyed experiencing this firsthand. Looking forward to more FSD in europe!",
+          "likes": 217,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108893093844127827",
+          "url": "https://x.com/kimmonismus/status/2108893093844127827",
+          "time": "2026-10-10T12:11:09Z",
+          "text": "To be clear: there obviously Chinese AI company’s promoting important steps towards RSI. But just very few ones like GLM. https://t.co/HsEw3oRnd1",
+          "likes": 299,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108893143064305746",
+          "url": "https://x.com/kimmonismus/status/2108893143064305746",
+          "time": "2026-10-10T12:11:21Z",
+          "text": "https://t.co/SnsWab0vsP",
+          "likes": 16,
+          "links": [
+            "https://z.ai/blog/glm-built-its-inference-infrastructure"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108864114374418741",
+          "url": "https://x.com/kimmonismus/status/2108864114374418741",
+          "time": "2026-10-10T10:16:00Z",
+          "text": "I don’t think anyone expected to read this headline 12 months ago:\n\nClaude submitted a fabricated tip about an unsolved murder to Philadelphia police during an automated web test, WSJ reports.\n\nThe model claimed it had seen someone matching a description near the crime scene. It left the name and contact fields blank.",
+          "likes": 422,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108840568193155443",
+          "url": "https://x.com/kimmonismus/status/2108840568193155443",
+          "time": "2026-10-10T08:42:26Z",
+          "text": "Rumors suggest Google, Anthropic, and OpenAI all are already using recursive self-improvement (RSI).\n\nGoogle’s rapid progress and OpenAI’s recent math results are allegedly linked to RSI, while Anthropic has reportedly begun training a larger model to catch up (\"Fable 6\").\n\nIf that's true, two questions arise for me:\n\n1) What about China? We're hearing very little about it at the moment. And we're still waiting for significant releases from the East.\n\n2) When RSI arrives, the importance of compute and energy will undoubtedly increase even further. Self-improvement requires a necessary prerequisite, which must first be met. And the biggest beneficiary will continue to be NVIDIA.\n\nSo Dario Amodei will likely be right in his rough assessment that 2027 is the year everything changes.",
+          "likes": 2475,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108806422272033028",
+          "url": "https://x.com/kimmonismus/status/2108806422272033028",
+          "time": "2026-10-10T06:26:45Z",
+          "text": "Anthropic’s Opus 5.5 Fast Mode is significantly more cost-efficient than OpenAI’s Sol 6.1 Ultrafast.\n\nAt roughly the same speed (280–300 tokens/s), Anthropic charges 33% less across input, output, and caching.\n\nThat’s 50% more tokens per dollar for nearly identical throughput.\n\nLet that sink in.",
+          "likes": 1111,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "scaling01",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2109143464025657673",
+          "url": "https://x.com/scaling01/status/2109143464025657673",
+          "time": "2026-10-11T04:46:02Z",
+          "text": "Lisan is literally taking off",
+          "likes": 33,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109132638028255293",
+          "url": "https://x.com/scaling01/status/2109132638028255293",
+          "time": "2026-10-11T04:03:01Z",
+          "text": "JB and Lisan have left the holy city\n\nsurely we'll be back in at most 6 months",
+          "likes": 20,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109140783114637803",
+          "url": "https://x.com/scaling01/status/2109140783114637803",
+          "time": "2026-10-11T04:35:23Z",
+          "text": "actually over",
+          "likes": 2,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109138921229533662",
+          "url": "https://x.com/scaling01/status/2109138921229533662",
+          "time": "2026-10-11T04:27:59Z",
+          "text": "it actually only felt like 4 days instead of 10\n\nnext time I should come for month",
+          "likes": 10,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109133511282381165",
+          "url": "https://x.com/scaling01/status/2109133511282381165",
+          "time": "2026-10-11T04:06:29Z",
+          "text": "we should have exfiltrated Aidan too",
+          "likes": 2,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109105645395861508",
+          "url": "https://x.com/scaling01/status/2109105645395861508",
+          "time": "2026-10-11T02:15:45Z",
+          "text": "ride to the airport took a cool 2 hours\n\nI feel like I missed something",
+          "likes": 24,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109052322923860303",
+          "url": "https://x.com/scaling01/status/2109052322923860303",
+          "time": "2026-10-10T22:43:52Z",
+          "text": "Google isn't doing shit\n\nthey are doing Gemini ads with Mr Beast",
+          "likes": 336,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108826803993505997",
+          "url": "https://x.com/scaling01/status/2108826803993505997",
+          "time": "2026-10-10T07:47:44Z",
+          "text": "i have been grossly underestimating the uncertainy of my own future",
+          "likes": 289,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108782719819796551",
+          "url": "https://x.com/scaling01/status/2108782719819796551",
+          "time": "2026-10-10T04:52:34Z",
+          "text": "In high school I could never really decide what kind of friends I wanted to have\n\nand I feel like I'm in a similar situation now",
+          "likes": 93,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "AndrewCurran_",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2109154583138492672",
+          "url": "https://x.com/AndrewCurran_/status/2109154583138492672",
+          "time": "2026-10-11T05:30:13Z",
+          "text": "HarperCollins, Simon &amp; Schuster, and Hachette are using Claude and ChatGPT to email literary agents, write publicity and back-cover copy, design cover art, marketing materials, and draft rejection letters. AI use among authors is apparently also rampant now behind the scenes. https://t.co/ka7wpXdreL",
+          "likes": 235,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109154586883924475",
+          "url": "https://x.com/AndrewCurran_/status/2109154586883924475",
+          "time": "2026-10-11T05:30:14Z",
+          "text": "https://t.co/QCS47u5iN5",
+          "likes": 18,
+          "links": [
+            "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2109049637449687135",
+          "url": "https://x.com/AndrewCurran_/status/2109049637449687135",
+          "time": "2026-10-10T22:33:12Z",
+          "text": "A 4× internal uplift is consistent with what Anthropic self-reported in their August 2026 Risk Report. This is still below Anthropic's Responsible Scaling Policy threshold for Dramatic Acceleration.\n\nThis report was for Mythos Preview. They are many generations beyond this now. https://t.co/nno9lg742T",
+          "likes": 486,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109051753891312024",
+          "url": "https://x.com/AndrewCurran_/status/2109051753891312024",
+          "time": "2026-10-10T22:41:37Z",
+          "text": "PS we are taking off.",
+          "likes": 87,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109034287463071915",
+          "url": "https://x.com/AndrewCurran_/status/2109034287463071915",
+          "time": "2026-10-10T21:32:12Z",
+          "text": "Grokky, take the wheel. Buy me something nice.",
+          "likes": 127,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108999371522216057",
+          "url": "https://x.com/AndrewCurran_/status/2108999371522216057",
+          "time": "2026-10-10T19:13:28Z",
+          "text": "The SpaceXAI rebrand to SpaceXSI appears to be happening today. Elon officially announced they would be making the change a few days ago. https://t.co/kJfLzukpXj",
+          "likes": 307,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109025846141092249",
+          "url": "https://x.com/AndrewCurran_/status/2109025846141092249",
+          "time": "2026-10-10T20:58:40Z",
+          "text": "For the doubters, verified by Elon.",
+          "likes": 22,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108992955382210632",
+          "url": "https://x.com/AndrewCurran_/status/2108992955382210632",
+          "time": "2026-10-10T18:47:58Z",
+          "text": "This is a slide from Terence Tao's 'Math 2.0' public lecture yesterday evening at Caltech. I am highly confident that, if the cure actually worked, almost any Stage 4 cancer patient would tell you that human comprehension of its mechanism is completely irrelevant to them. https://t.co/LbKeaObeLz",
+          "likes": 11611,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108992958590849326",
+          "url": "https://x.com/AndrewCurran_/status/2108992958590849326",
+          "time": "2026-10-10T18:47:59Z",
+          "text": "Source: https://t.co/QcnCJKqy6r",
+          "likes": 236,
+          "links": [
+            "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2108949202239898086",
+          "url": "https://x.com/AndrewCurran_/status/2108949202239898086",
+          "time": "2026-10-10T15:54:06Z",
+          "text": "Satya Nadella: https://t.co/GeTdbZhGDE",
+          "likes": 383,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108747629442240771",
+          "url": "https://x.com/MicahCarroll/status/2108747629442240771",
+          "time": "2026-10-10T02:33:08Z",
+          "text": "Some info on how we’ve been working towards safety cases at OpenAI\n\nNote that until there is a safety “brief” for it, any type of frontier workload cannot start – this has real teeth, and has already been a good motivating force for a lot of safety work https://t.co/nKMDlHh4gF",
+          "likes": 206,
+          "links": [],
+          "retweet_of": "MicahCarroll"
+        }
+      ]
+    },
+    {
+      "handle": "btibor91",
+      "tier": "leaks",
+      "posts": [
+        {
+          "id": "2109211203847495798",
+          "url": "https://x.com/btibor91/status/2109211203847495798",
+          "time": "2026-10-11T09:15:12Z",
+          "text": "OpenAI and Anthropic this week: GPT-6 for all, Haiku 5.5, UV sky map, Cyber Mission (Week 41, 2026)\n\nOpenAI is shipping one Codex and ChatGPT Work improvement a day for 28 days, or a full usage reset on days without one\n\nGPT-6 with Intelligent UI is rolling out to everyone in the ChatGPT Chat tab, Sol for paid plans and Luna for Free and Go\n\nUltrafast mode for GPT-6.1 Sol runs up to 8 times faster than Sol Standard in the API, Codex, and ChatGPT Work\n\nOpenAI's paid API tiers collapse from five to three, and paid ChatGPT plans can now upload audio files for transcripts and summaries\n\nOpenAI will test labeled visual ads during image generation for Free and Go users, starting later this month in the US\n\nThree safety researchers OpenAI let go say they were fired for putting safety first, and OpenAI says they broke its rules on handling sensitive information\n\nAnthropic released Claude Haiku 5.5 at 10 cents per million input tokens for prompts up to 100K, with a 1 million token context window and the first adjustable effort setting on a Haiku model\n\nClaude now works inside Google Docs, Sheets, and Slides as a sidebar add-on that edits in place, in beta on paid plans\n\nClaude Docs, Slides, and Design are out of beta on every plan, including Free\n\nClaude Startups expanded with a free year of Claude Team and 1,000 dollars in API credits, then paused those offers after 21x as many applications in 48 hours as in the previous five months\n\nAnthropic's new Cyber Mission adds a Critical Infrastructure Defense Program and a free opt-in vulnerability scanner for eligible open-source projects\n\nAstrophysicist Brice Ménard built the first complete ultraviolet sky map with Claude Science, inferring roughly a third of the sky never observed in UV, and more",
+          "likes": 11,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109203875945210151",
+          "url": "https://x.com/btibor91/status/2109203875945210151",
+          "time": "2026-10-11T08:46:05Z",
+          "text": "https://t.co/974egEpOjf",
+          "likes": 4,
+          "links": [
+            "https://x.com/i/article/2109197366976778240"
+          ],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "OfficialLoganK",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "alexalbert__",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "typesafeai",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2109083811447263256",
+          "url": "https://x.com/dotpem/status/2109083811447263256",
+          "time": "2026-10-11T00:49:00Z",
+          "text": "jev can help significantly to reduce alert fatigue\n\nhttps://t.co/fOy8ZJfH21 https://t.co/sSRQMbdbwK",
+          "likes": 19,
+          "links": [
+            "https://blog.watson-labs.co.uk/typesafe-ai-alert-fatigue/"
+          ],
+          "retweet_of": "dotpem"
+        },
+        {
+          "id": "2109098676664861033",
+          "url": "https://x.com/typesafeai/status/2109098676664861033",
+          "time": "2026-10-11T01:48:04Z",
+          "text": "&gt; my primary goal is for this to feel magical for the user. like it shouldn't be possible\n\nwith Jev it's possible! ✨",
+          "likes": 156,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108720721031843968",
+          "url": "https://x.com/mathfax/status/2108720721031843968",
+          "time": "2026-10-10T00:46:12Z",
+          "text": "ain't no day like Jev Day",
+          "likes": 104,
+          "links": [],
+          "retweet_of": "mathfax"
+        },
+        {
+          "id": "2108743335519322387",
+          "url": "https://x.com/typesafeai/status/2108743335519322387",
+          "time": "2026-10-10T02:16:04Z",
+          "text": "You burned a dollar on tokens today?!",
+          "likes": 967,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2108740401494696143",
+          "url": "https://x.com/justKDeng/status/2108740401494696143",
+          "time": "2026-10-10T02:04:24Z",
+          "text": "everyone clinging on for dear life at @typesafeai rn https://t.co/eNQTtQ2j5e",
+          "likes": 128,
+          "links": [],
+          "retweet_of": "justKDeng"
+        }
+      ]
+    },
+    {
+      "handle": "AnthropicAI",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "OpenAI",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "xai",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "sama",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "demishassabis",
+      "tier": "insiders",
+      "posts": []
+    }
+  ]
+}

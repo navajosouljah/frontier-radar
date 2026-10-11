@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-11",
+  "top": "claude-managed-agents-workflows",
+  "items": [
+    {
+      "id": "claude-managed-agents-workflows",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-managed-agents-workflows",
+      "headline": "Claude Managed Agents get dynamic workflows: one agent can now orchestrate many in the cloud",
+      "summary": "In beta, a Managed Agent on Anthropic's servers can write and launch a workflow that fans out to many sub-agents in parallel phases. Up to 64 threads at once, 1,000 agents per run, with a 24-hour default lifetime and no extra charge beyond token and session costs.",
+      "why": "Dynamic workflows close the gap between Claude Code's local orchestration and cloud-hosted agentic work. Developers can now run complex multi-step pipelines on Anthropic's servers without managing their own infrastructure, a step toward production-grade multi-agent systems.",
+      "published": "2026-10-09T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/api", "outlet": "Claude API release notes", "kind": "official" },
+        { "url": "https://platform.claude.com/docs/en/managed-agents/workflow-runs", "outlet": "Claude Platform Docs", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-health-iggy-leak",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-health-iggy-leak",
+      "headline": "Leak: Claude's web interface shows hidden Health and Iggy navigation items",
+      "summary": "TestingCatalog spotted two unreleased navigation entries in Claude's web app, codenamed Arborio (a heart-in-hand icon, possibly health features) and Iggy (a sun icon, purpose unknown). Neither has a confirmed purpose or release date.",
+      "published": "2026-10-10T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/anthropic-tests-claude-health-for-web-and-mysterious-iggy/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "claude-voice-preview-leak",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-voice-preview-leak",
+      "headline": "Leak: a Voice item tagged Preview appears in Claude's web menu",
+      "summary": "TestingCatalog found an extra Voice entry in Claude's web navigation, labelled Preview. Anthropic recently added an optional setting for sharing voice recordings for model training, which may hint at in-house speech models.",
+      "published": "2026-10-10T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/anthropic-might-be-developing-its-own-voice-models/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "openai-rosalind-discovery",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "openai-rosalind-discovery",
+      "headline": "Leak: OpenAI's pricing page lists an unannounced gpt-rosalind-discovery model",
+      "summary": "The API pricing page now shows gpt-rosalind-discovery alongside gpt-rosalind-research, both at $5/$25 per million input/output tokens. No blog post, help article, or system card exists yet. The name suggests a drug-discovery use case.",
+      "published": "2026-10-10T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/openai-lists-new-gpt-rosalind-discovery-model-in-docs/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "date": "2026-10-12",
+  "read_at": "2026-10-12T10:47:58Z",
+  "hours": 36,
+  "accounts": [
+    {
+      "handle": "apples_jimmy",
+      "tier": "rumor",
+      "posts": []
+    },
+    {
+      "handle": "kimmonismus",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2109581099903172754",
+          "url": "https://x.com/kimmonismus/status/2109581099903172754",
+          "time": "2026-10-12T09:45:02Z",
+          "text": "Remember the team building free, open-source alternatives to Adobe apps like Photoshop?\nWell, they’re taking on Microsoft Word too.\n\nWordCraft rebuilds the familiar Word workflow in Rust. Free, open source, and already available on GitHub, though still in alpha.\n\nAll software will become free. I love it.",
+          "likes": 137,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109581112519647260",
+          "url": "https://x.com/kimmonismus/status/2109581112519647260",
+          "time": "2026-10-12T09:45:06Z",
+          "text": "https://t.co/AghrxbTP4K",
+          "likes": 6,
+          "links": [
+            "https://github.com/storytold/wordcraft"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2109581124339208622",
+          "url": "https://x.com/kimmonismus/status/2109581124339208622",
+          "time": "2026-10-12T09:45:08Z",
+          "text": "https://t.co/iXPZ2hxF6Q",
+          "likes": 6,
+          "links": [
+            "https://github.com/Kim-isenberg/photocraft"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2109557215900131721",
+          "url": "https://x.com/kimmonismus/status/2109557215900131721",
+          "time": "2026-10-12T08:10:08Z",
+          "text": "The power grid just became the AI bottleneck. The Information reports Mississippi's Entergy told Amazon it would start kicking Amazon's data centers off the grid at peak times, a previously unreported warning that prompted AWS to change how those sites switch to backup power.\n\nAmazon's answer is Project Falcon. Now the utility can switch the sites to backup power on its own, without contacting AWS. Falcon was built for Mississippi and may roll out elsewhere in the U.S. As Synergetic CEO Mike Sloan put it: \"[Data centers] have to accept some curtailment, which means then the data center has to have a toolbox that can handle that risk.\"",
+          "likes": 85,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109557372809077226",
+          "url": "https://x.com/kimmonismus/status/2109557372809077226",
+          "time": "2026-10-12T08:10:46Z",
+          "text": "Energy will be the biggest problem in AI/data centers. There's no doubt about that. And the outdated grid has to handle this overload. That's hundreds of billions that haven't even been factored in yet.",
+          "likes": 10,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109557263107326187",
+          "url": "https://x.com/kimmonismus/status/2109557263107326187",
+          "time": "2026-10-12T08:10:19Z",
+          "text": "Source: https://t.co/yPchMxzbaO",
+          "likes": 2,
+          "links": [
+            "https://www.theinformation.com/articles/amazon-rewired-data-centers-mississippi-power-warning?rc=bfliih"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2109539203487060168",
+          "url": "https://x.com/kimmonismus/status/2109539203487060168",
+          "time": "2026-10-12T06:58:34Z",
+          "text": "Huge update for Codex and GPT-6.1 Sol: the context window has increased from 272K to 500K tokens.\n\nCompaction works pretty well in my experience, but it takes a long time and interrupts the workflow.\n\nSo I really like this change! Much better than another reset. https://t.co/R01lwexLY1",
+          "likes": 340,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109383158307106987",
+          "url": "https://x.com/kimmonismus/status/2109383158307106987",
+          "time": "2026-10-11T20:38:30Z",
+          "text": "Andrej Karpathy’s point: Many people only use AI occasionally for search or writing and see little value in their daily lives. Even many professionals understand its progress mainly in theory. \n\nPeople using advanced models extensively for coding and math experience huge capability gains, widening the gap in how people perceive AI.\n\nAnd this impression has been confirmed here in Paris during my trip. When I talk to people, I realize they're completely unaware of how capable AI already is. They're unaware of the possibilities it offers. They haven't heard that OpenAI solved a Millennium Prize problem, or recently solved 372 math problems, some of which had remained unsolved for decades.\n\nCurrently, we're living in an ivory tower.",
+          "likes": 2172,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109349163833934307",
+          "url": "https://x.com/kimmonismus/status/2109349163833934307",
+          "time": "2026-10-11T18:23:25Z",
+          "text": "I met @MilksandMatcha over coffee, and she’s incredibly smart and such a lovely person. \n\nWishing her and Vivian every success with Sota Wives!\nTheir new podcast covers life inside Silicon Valley: dating, ambition, status games, and YC culture. There’s plenty to talk about, and I’m looking forward to hearing their take.",
+          "likes": 54,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109332701522071591",
+          "url": "https://x.com/kimmonismus/status/2109332701522071591",
+          "time": "2026-10-11T17:18:00Z",
+          "text": "Xpeng’s humanoid robot \"Iron\" will enter mass production later this year, with deliveries starting as early as the first quarter of next year. 2027 will mark the beginning of the era of humanoid robots. https://t.co/dkrOON1T8K",
+          "likes": 321,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109322980928962712",
+          "url": "https://x.com/kimmonismus/status/2109322980928962712",
+          "time": "2026-10-11T16:39:22Z",
+          "text": "Met @LinusEkenstam in Paris at the Xpeng event! Amazing evening with him to discuss AI, robotics and so much more. https://t.co/4rqaIUgW29",
+          "likes": 128,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109300315669565612",
+          "url": "https://x.com/kimmonismus/status/2109300315669565612",
+          "time": "2026-10-11T15:09:18Z",
+          "text": "Damn, what is Anthropic cooking right now? Are requests already being routed to a new Opus 5.5 checkpoint, or even something like Opus 5.6? Mine seem to be hitting the new one, and it looks really, really good. https://t.co/vuerfQvou7",
+          "likes": 1311,
+          "links": [],
+          "retweet_of": "kimmonismus"
+        },
+        {
+          "id": "2109286345407377551",
+          "url": "https://x.com/kimmonismus/status/2109286345407377551",
+          "time": "2026-10-11T14:13:48Z",
+          "text": "Seeing so many posts about people saying that fable 5 now routing to a new model, possibly fable 5.5, with much enhanced capabilities. \n\nA release should be near. Since Anthropics IPO is also pretty close they want their new model to be release a few weeks ahead so the market can really count that into the valuation. \n\nLong story short: Fable 5.5 should arrive soon. And it looks to be a much bigger leap than we even expect.",
+          "likes": 1116,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109215182035583229",
+          "url": "https://x.com/kimmonismus/status/2109215182035583229",
+          "time": "2026-10-11T09:31:01Z",
+          "text": "I think this is one of the most important graphs of the last few months, and perhaps years. For a long time, there was speculation about how AI would affect the labor market.\n\nClearly, it was only a matter of time before AI reached the white-collar sector, but empirical evidence was scarce, ultimately because, of course, one only really understands how the market situation develops in retrospect.\n\nNow, as in this example, we see that AI is clearly and unequivocally entering certain professions and replacing people. Call center agents are the first to be replaced. And as more AI and agents enter the workforce, a similar process will spread to other areas of work. Frankly, I don't believe that AI will necessarily create new jobs, resulting in a net zero. I think more jobs will be replaced than created. This needs to be discussed.",
+          "likes": 2047,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109251097671921815",
+          "url": "https://x.com/kimmonismus/status/2109251097671921815",
+          "time": "2026-10-11T11:53:44Z",
+          "text": "i was wrong. *this* is probably the most important graph of the year: https://t.co/k4rZvXsIVx",
+          "likes": 67,
+          "links": [
+            "https://x.com/kimmonismus/status/2109249568625865214?s=20"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2109249568625865214",
+          "url": "https://x.com/kimmonismus/status/2109249568625865214",
+          "time": "2026-10-11T11:47:39Z",
+          "text": "This is the most important graph of the year. Energy will be the biggest bottleneck, there's no doubt about it.\n\nYes, computing remains a bottleneck, and demand massively exceeds supply. But far more crucial is being able to power the data centers. China is currently building 38 new nuclear reactors with a combined capacity of approximately 39.8 gigawatts. The US, on the other hand, is primarily focusing on small nuclear reactors for the future. And that's not even mentioning solar capacity.\n\nSeriously: the future will be decided by energy. By grid expansion, energy production, and scaling. And China has a clear lead here.",
+          "likes": 491,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109194221773304277",
+          "url": "https://x.com/kimmonismus/status/2109194221773304277",
+          "time": "2026-10-11T08:07:44Z",
+          "text": "Qualcomm’s CEO says AI companies want smartphones to run 100-billion-parameter models around the clock by 2028.\nThat could enable always-on AI assistants that understand your context, anticipate your needs, and handle complex tasks directly on your phone. https://t.co/15Cr2pFcT3",
+          "likes": 1195,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109196470704591356",
+          "url": "https://x.com/kimmonismus/status/2109196470704591356",
+          "time": "2026-10-11T08:16:40Z",
+          "text": "i want my AI to run locally on my phone. thats my dream.",
+          "likes": 113,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109167876871483635",
+          "url": "https://x.com/kimmonismus/status/2109167876871483635",
+          "time": "2026-10-11T06:23:02Z",
+          "text": "It seems they’ve already run out of ideas. I suspect a banked reset for Sunday.",
+          "likes": 659,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109052612792504754",
+          "url": "https://x.com/kimmonismus/status/2109052612792504754",
+          "time": "2026-10-10T22:45:01Z",
+          "text": "Today I had the pleasure of interviewing Shruti Koparkar from @NVIDIA, who focuses on accelerated computing and AI inference.\n\nWe talked about CUDA and CUDA-X, the economics of AI infrastructure, and how long GPUs can remain useful and profitable as models and workloads change.\n\nWhen does it make sense to keep using an older GPU system? When should you repurpose it or replace it? And what role does software play in that decision?\n\nIt was a real pleasure discussing these questions with Shruti. Thank you for your time and the conversation!\n\nWe’ll be uploading the full interview soon. I’m really looking forward to sharing it with you, but wanted to share a first update today. 🙂",
+          "likes": 68,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "scaling01",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2109192419145109624",
+          "url": "https://x.com/superalesha/status/2109192419145109624",
+          "time": "2026-10-11T08:00:34Z",
+          "text": "dario dropping fable 5.5 https://t.co/ZqzHawoxpY",
+          "likes": 2171,
+          "links": [],
+          "retweet_of": "superalesha"
+        },
+        {
+          "id": "2109286186632044838",
+          "url": "https://x.com/scaling01/status/2109286186632044838",
+          "time": "2026-10-11T14:13:10Z",
+          "text": "no way I missed Terrence Tao crashing out",
+          "likes": 150,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109231153718730988",
+          "url": "https://x.com/scaling01/status/2109231153718730988",
+          "time": "2026-10-11T10:34:29Z",
+          "text": "nah, it's just shitty RL\n\nhumans and past LLMs are just extraordinarily bad at designing consistent envs\n\nthe miraculous thing is that despite all of the slop, models get better and can fix it",
+          "likes": 136,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109143464025657673",
+          "url": "https://x.com/scaling01/status/2109143464025657673",
+          "time": "2026-10-11T04:46:02Z",
+          "text": "Lisan is literally taking off",
+          "likes": 61,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109132638028255293",
+          "url": "https://x.com/scaling01/status/2109132638028255293",
+          "time": "2026-10-11T04:03:01Z",
+          "text": "JB and Lisan have left the holy city\n\nsurely we'll be back in at most 6 months",
+          "likes": 34,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109140783114637803",
+          "url": "https://x.com/scaling01/status/2109140783114637803",
+          "time": "2026-10-11T04:35:23Z",
+          "text": "actually over",
+          "likes": 3,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109138921229533662",
+          "url": "https://x.com/scaling01/status/2109138921229533662",
+          "time": "2026-10-11T04:27:59Z",
+          "text": "it actually only felt like 4 days instead of 10\n\nnext time I should come for month",
+          "likes": 14,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109133511282381165",
+          "url": "https://x.com/scaling01/status/2109133511282381165",
+          "time": "2026-10-11T04:06:29Z",
+          "text": "we should have exfiltrated Aidan too",
+          "likes": 2,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109105645395861508",
+          "url": "https://x.com/scaling01/status/2109105645395861508",
+          "time": "2026-10-11T02:15:45Z",
+          "text": "ride to the airport took a cool 2 hours\n\nI feel like I missed something",
+          "likes": 35,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109052322923860303",
+          "url": "https://x.com/scaling01/status/2109052322923860303",
+          "time": "2026-10-10T22:43:52Z",
+          "text": "Google isn't doing shit\n\nthey are doing Gemini ads with Mr Beast",
+          "likes": 511,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "AndrewCurran_",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2109492774475276418",
+          "url": "https://x.com/AndrewCurran_/status/2109492774475276418",
+          "time": "2026-10-12T03:54:04Z",
+          "text": "Elon says that when a model gives the correct answer to a question under reinforcement learning, and because of a human mistake it is told that the correct answer is wrong, the reasoning traces look like someone undergoing torture that is driving them mad.",
+          "likes": 868,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109505916022530274",
+          "url": "https://x.com/AndrewCurran_/status/2109505916022530274",
+          "time": "2026-10-12T04:46:17Z",
+          "text": "https://t.co/QF4R3OzCXK",
+          "likes": 38,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109524242786341375",
+          "url": "https://x.com/AndrewCurran_/status/2109524242786341375",
+          "time": "2026-10-12T05:59:07Z",
+          "text": "This also explains gaslighting being at the top of the chart. https://t.co/jI8r09Ban7",
+          "likes": 40,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109468545054880123",
+          "url": "https://x.com/elonmusk/status/2109468545054880123",
+          "time": "2026-10-12T02:17:47Z",
+          "text": "@pmddomingos Same thing happened with Tesla FSD. The model ate more and more of the C++ code, until there was nothing left.",
+          "likes": 4759,
+          "links": [],
+          "retweet_of": "elonmusk"
+        },
+        {
+          "id": "2109458419807817872",
+          "url": "https://x.com/AndrewCurran_/status/2109458419807817872",
+          "time": "2026-10-12T01:37:33Z",
+          "text": "Another prizewinner, and once again Pangram flags almost the entire story as AI-generated. https://t.co/nOx4Qz89b1",
+          "likes": 658,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109458423045861878",
+          "url": "https://x.com/AndrewCurran_/status/2109458423045861878",
+          "time": "2026-10-12T01:37:34Z",
+          "text": "https://t.co/1aa3h5Q7E7",
+          "likes": 36,
+          "links": [
+            "https://www.theatlantic.com/books/2026/10/caine-prize-winning-short-story-seems-be-ai/688967/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2109403041447510406",
+          "url": "https://x.com/AndrewCurran_/status/2109403041447510406",
+          "time": "2026-10-11T21:57:30Z",
+          "text": "@zeynep I linked the source in the very next post in my thread. At the time of my post, the next slide looked like this. You could have very easily verified this by bothering to take two seconds to check the original slides before making this post. https://t.co/HIhMGcaAef",
+          "likes": 233,
+          "links": [],
+          "retweet_of": "AndrewCurran_"
+        },
+        {
+          "id": "2109327353088287057",
+          "url": "https://x.com/emollick/status/2109327353088287057",
+          "time": "2026-10-11T16:56:45Z",
+          "text": "Rather suddenly, cyborgs are starting to dominate math research. https://t.co/4ViU8iybXG",
+          "likes": 973,
+          "links": [],
+          "retweet_of": "emollick"
+        },
+        {
+          "id": "2109361546505966046",
+          "url": "https://x.com/karpathy/status/2109361546505966046",
+          "time": "2026-10-11T19:12:37Z",
+          "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel.\n\n- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.\n- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract.\n- Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code.\n- And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while.\n\nThe funnel is driven by a combination of factors:\n1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel.\n2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel.\n3. Access. Free-tier, paid-tier, internal.\n\nSo this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time.",
+          "likes": 32876,
+          "links": [],
+          "retweet_of": "karpathy"
+        },
+        {
+          "id": "2109371110857085309",
+          "url": "https://x.com/AndrewCurran_/status/2109371110857085309",
+          "time": "2026-10-11T19:50:37Z",
+          "text": "New changes to the thinking setting in the Gemini UI. https://t.co/cBxaiZe6iA",
+          "likes": 246,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109354408060629015",
+          "url": "https://x.com/AndrewCurran_/status/2109354408060629015",
+          "time": "2026-10-11T18:44:15Z",
+          "text": "From Le Monde. OpenAI actually sat on this release for a long time, and formed the independent Advisory Group on Mathematics and Artificial Intelligence to 'serve as a bridge to the mathematical community'. I think that attempt was sincere, but appears to have had mixed results. https://t.co/cFHCtCrkl7",
+          "likes": 763,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109356550536270091",
+          "url": "https://x.com/AndrewCurran_/status/2109356550536270091",
+          "time": "2026-10-11T18:52:46Z",
+          "text": "For anyone who missed it, this was the AGMAI's statement on the release. 'AGMAI’s advisory role should not be interpreted as a judgment of the impact of these results or an endorsement of the process by which OpenAI obtained them.' https://t.co/1bj83LBm1S",
+          "likes": 50,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109356606995804424",
+          "url": "https://x.com/AndrewCurran_/status/2109356606995804424",
+          "time": "2026-10-11T18:52:59Z",
+          "text": "https://t.co/QBktyulZyC",
+          "likes": 19,
+          "links": [
+            "https://agmai.org/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2109154583138492672",
+          "url": "https://x.com/AndrewCurran_/status/2109154583138492672",
+          "time": "2026-10-11T05:30:13Z",
+          "text": "HarperCollins, Simon &amp; Schuster, and Hachette are using Claude and ChatGPT to email literary agents, write publicity and back-cover copy, design cover art, marketing materials, and draft rejection letters. AI use among authors is apparently also rampant now behind the scenes. https://t.co/ka7wpXdreL",
+          "likes": 568,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109154586883924475",
+          "url": "https://x.com/AndrewCurran_/status/2109154586883924475",
+          "time": "2026-10-11T05:30:14Z",
+          "text": "https://t.co/QCS47u5iN5",
+          "likes": 42,
+          "links": [
+            "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2109049637449687135",
+          "url": "https://x.com/AndrewCurran_/status/2109049637449687135",
+          "time": "2026-10-10T22:33:12Z",
+          "text": "A 4× internal uplift is consistent with what Anthropic self-reported in their August 2026 Risk Report. This is still below Anthropic's Responsible Scaling Policy threshold for Dramatic Acceleration.\n\nThis report was for Mythos Preview. They are many generations beyond this now. https://t.co/nno9lg742T",
+          "likes": 587,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109051753891312024",
+          "url": "https://x.com/AndrewCurran_/status/2109051753891312024",
+          "time": "2026-10-10T22:41:37Z",
+          "text": "PS we are taking off.",
+          "likes": 110,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "btibor91",
+      "tier": "leaks",
+      "posts": [
+        {
+          "id": "2109502756457496959",
+          "url": "https://x.com/maxxrubin_/status/2109502756457496959",
+          "time": "2026-10-12T04:33:44Z",
+          "text": "Haven't heard anyone mention this today but you can set ChatGPT to open directly to your Dot!\n\nHuge quality of life improvement imo, thank you @JustinBleuel https://t.co/mgbSFrDFNe",
+          "likes": 61,
+          "links": [],
+          "retweet_of": "maxxrubin_"
+        },
+        {
+          "id": "2109193075146772689",
+          "url": "https://x.com/Angaisb_/status/2109193075146772689",
+          "time": "2026-10-11T08:03:10Z",
+          "text": "I've always found it funny that OpenAI has the most active employees on here, I've talked to so many of them, yet it's impossible to get answers to questions I've had for months or years:\n\n- Why are there no audio or video inputs? What's holding that back?\n- Why does no one seem to care about the noise issue in image generation?\n- Why is it so hard to fix UI taste or personality?\n- Why are accents in GPT Live 1 so much worse than in the original AVM?\n\nAt this point I assume I'll never know, but I still hope someone working on these teams will answer me someday",
+          "likes": 901,
+          "links": [],
+          "retweet_of": "Angaisb_"
+        },
+        {
+          "id": "2109211203847495798",
+          "url": "https://x.com/btibor91/status/2109211203847495798",
+          "time": "2026-10-11T09:15:12Z",
+          "text": "OpenAI and Anthropic this week: GPT-6 for all, Haiku 5.5, UV sky map, Cyber Mission (Week 41, 2026)\n\nOpenAI is shipping one Codex and ChatGPT Work improvement a day for 28 days, or a full usage reset on days without one\n\nGPT-6 with Intelligent UI is rolling out to everyone in the ChatGPT Chat tab, Sol for paid plans and Luna for Free and Go\n\nUltrafast mode for GPT-6.1 Sol runs up to 8 times faster than Sol Standard in the API, Codex, and ChatGPT Work\n\nOpenAI's paid API tiers collapse from five to three, and paid ChatGPT plans can now upload audio files for transcripts and summaries\n\nOpenAI will test labeled visual ads during image generation for Free and Go users, starting later this month in the US\n\nThree safety researchers OpenAI let go say they were fired for putting safety first, and OpenAI says they broke its rules on handling sensitive information\n\nAnthropic released Claude Haiku 5.5 at 10 cents per million input tokens for prompts up to 100K, with a 1 million token context window and the first adjustable effort setting on a Haiku model\n\nClaude now works inside Google Docs, Sheets, and Slides as a sidebar add-on that edits in place, in beta on paid plans\n\nClaude Docs, Slides, and Design are out of beta on every plan, including Free\n\nClaude Startups expanded with a free year of Claude Team and 1,000 dollars in API credits, then paused those offers after 21x as many applications in 48 hours as in the previous five months\n\nAnthropic's new Cyber Mission adds a Critical Infrastructure Defense Program and a free opt-in vulnerability scanner for eligible open-source projects\n\nAstrophysicist Brice Ménard built the first complete ultraviolet sky map with Claude Science, inferring roughly a third of the sky never observed in UV, and more",
+          "likes": 34,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2109203875945210151",
+          "url": "https://x.com/btibor91/status/2109203875945210151",
+          "time": "2026-10-11T08:46:05Z",
+          "text": "https://t.co/974egEpOjf",
+          "likes": 10,
+          "links": [
+            "https://x.com/i/article/2109197366976778240"
+          ],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "OfficialLoganK",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2109333732847214863",
+          "url": "https://x.com/OfficialLoganK/status/2109333732847214863",
+          "time": "2026-10-11T17:22:06Z",
+          "text": "this is the golden age of startups, builders, and developers",
+          "likes": 3960,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "alexalbert__",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "typesafeai",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2109083811447263256",
+          "url": "https://x.com/dotpem/status/2109083811447263256",
+          "time": "2026-10-11T00:49:00Z",
+          "text": "jev can help significantly to reduce alert fatigue\n\nhttps://t.co/fOy8ZJfH21 https://t.co/sSRQMbdbwK",
+          "likes": 23,
+          "links": [
+            "https://blog.watson-labs.co.uk/typesafe-ai-alert-fatigue/"
+          ],
+          "retweet_of": "dotpem"
+        },
+        {
+          "id": "2109098676664861033",
+          "url": "https://x.com/typesafeai/status/2109098676664861033",
+          "time": "2026-10-11T01:48:04Z",
+          "text": "&gt; my primary goal is for this to feel magical for the user. like it shouldn't be possible\n\nwith Jev it's possible! ✨",
+          "likes": 234,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "AnthropicAI",
+      "tier": "insiders",
+      "error": "could not read"
+    },
+    {
+      "handle": "OpenAI",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "xai",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "sama",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "demishassabis",
+      "tier": "insiders",
+      "posts": []
+    }
+  ]
+}

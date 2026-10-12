@@ -179,7 +179,8 @@
         "license": "Apache-2.0",
         "flags": []
       }
-    }
+    },
+    "rechecked": "2026-10-12"
   },
   "thedotmack/claude-mem": {
     "repo": "thedotmack/claude-mem",
@@ -326,7 +327,8 @@
       "reasons": [
         "3 report(s) to read"
       ]
-    }
+    },
+    "rechecked": "2026-10-12"
   },
   "cathrynlavery/diagram-design": {
     "repo": "cathrynlavery/diagram-design",
@@ -402,7 +404,8 @@
       "reasons": [
         "1 report(s) to read"
       ]
-    }
+    },
+    "rechecked": "2026-10-12"
   },
   "storytold/photocraft": {
     "repo": "storytold/photocraft",
@@ -494,7 +497,8 @@
       "reasons": [
         "4 report(s) to read"
       ]
-    }
+    },
+    "rechecked": "2026-10-12"
   },
   "msitarzewski/agency-agents": {
     "repo": "msitarzewski/agency-agents",
@@ -578,7 +582,8 @@
       "reasons": [
         "2 report(s) to read"
       ]
-    }
+    },
+    "rechecked": "2026-10-12"
   },
   "earthtojake/text-to-cad": {
     "repo": "earthtojake/text-to-cad",
@@ -654,7 +659,8 @@
       "reasons": [
         "2 report(s) to read"
       ]
-    }
+    },
+    "rechecked": "2026-10-12"
   },
   "morluto/rea": {
     "repo": "morluto/rea",
@@ -762,7 +768,8 @@
       "reasons": [
         "6 report(s) to read"
       ]
-    }
+    },
+    "rechecked": "2026-10-12"
   },
   "ayghri/i-have-adhd": {
     "repo": "ayghri/i-have-adhd",
@@ -830,7 +837,8 @@
       "reasons": [
         "1 report(s) to read"
       ]
-    }
+    },
+    "rechecked": "2026-10-12"
   },
   "wanderingstan/vibeconf-app": {
     "repo": "wanderingstan/vibeconf-app",
@@ -879,7 +887,8 @@
         "license": "MIT",
         "flags": []
       }
-    }
+    },
+    "rechecked": "2026-10-12"
   },
   "coderexpert123/jev-browser-wingman": {
     "repo": "coderexpert123/jev-browser-wingman",
@@ -928,7 +937,8 @@
         "license": "MIT",
         "flags": []
       }
-    }
+    },
+    "rechecked": "2026-10-12"
   },
   "openai/math": {
     "repo": "openai/math",
@@ -994,6 +1004,7 @@
         "license": "Apache-2.0",
         "flags": []
       }
-    }
+    },
+    "rechecked": "2026-10-12"
   }
 }

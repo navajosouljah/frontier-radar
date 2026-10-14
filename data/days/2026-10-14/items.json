@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-14",
+  "top": "gemini-4-argon-launch",
+  "items": [
+    {
+      "id": "gemini-4-argon-launch",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-4-argon",
+      "headline": "Google launches Gemini 4 Argon globally at $2 per million input tokens, with a 1M context window",
+      "summary": "Google's new frontier model is available to developers via the API in AI Studio, to Google AI Ultra subscribers in Antigravity, and to Pro and Ultra subscribers in the Gemini app and AI Mode. Introductory pricing is $2/$10 per million input/output tokens, rising to $4/$20 on November 30.",
+      "why": "Argon is Google's most capable model yet, priced aggressively below rivals at launch. The 1M unified context window and broad rollout across consumer and enterprise tiers put it in direct competition with Claude Opus 5.5 and GPT-6 Astra from day one.",
+      "published": "2026-10-13T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/", "outlet": "Google", "kind": "official" },
+        { "url": "https://gemini.google/release-notes/", "outlet": "Gemini release notes", "kind": "official" },
+        { "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-distillation-defense",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-distillation-defense",
+      "headline": "Anthropic says new defenses cut Claude reasoning token theft by up to 99%, names Zhipu and Moonshot",
+      "summary": "Anthropic restricted access to Claude's chain-of-thought and deployed a classifier that bans extraction accounts. It says Zhipu and Moonshot ran networks of fake accounts to copy Claude's reasoning capabilities. Tens of thousands of accounts have been banned.",
+      "published": "2026-10-12T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/distillation-defenses", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-singapore-office",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-singapore-office",
+      "headline": "Anthropic opens Singapore office and signs AI safety MOU with the Singapore government",
+      "summary": "The MOU with Singapore's Ministry of Digital Development covers cooperation on AI safety, model evaluation, and responsible AI adoption. Singapore ranks second of 121 countries in Claude usage relative to population. GovTech has over 1,500 engineers using Claude Code.",
+      "published": "2026-10-14T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/singapore-office-opening", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "x-subscription-launch",
+      "ai": "grok",
+      "category": "pricing",
+      "story": "x-subscription-launch",
+      "headline": "SpaceXAI bundles Grok, Cursor, and X Premium into The X Subscription, from free to $200 a month",
+      "summary": "Five tiers: Free (limited daily Grok), Plus ($8/month), Premium ($30/month with SuperGrok + Cursor Pro + X Premium+), Super ($100/month), and Ultra ($200/month). Existing SuperGrok, Cursor, and X Premium subscribers can keep their current plans or switch.",
+      "published": "2026-10-12T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://x.ai/news/x-subscription", "outlet": "SpaceXAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "anthropic-iot-replication",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-iot-replication",
+      "headline": "Anthropic research: small AI models may be months from self-replicating on IoT devices",
+      "summary": "The Frontier Red Team found a 9B-parameter model got inference running on 8 of 9 tested IoT device types. Models under 30B parameters can complete individual replication steps but fail when chaining them. The team warns practical self-replication could arrive by late 2026.",
+      "published": "2026-10-12T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/self-replicating-ai", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "google-european-researchers",
+      "ai": "gemini",
+      "category": "policy",
+      "story": "google-european-researchers",
+      "headline": "Google DeepMind offers 200 European researchers access to frontier models and $3M in credits",
+      "summary": "Researchers get access to tools including AlphaFold 3, WeatherNext, AlphaGenome, AlphaEvolve, and AlphaEarth Foundations. The program was announced from Brussels on October 14.",
+      "published": "2026-10-14T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://investing.com/news/stock-market-news/google-deepmind-google-cloud-to-allow-european-researchers-access-to-frontier-models-4948069", "outlet": "Reuters", "kind": "press" }
+      ]
+    },
+    {
+      "id": "typesafe-870m-funding",
+      "ai": "jev",
+      "category": "apps",
+      "story": "typesafe-870m-funding",
+      "headline": "TypeSafe AI raises $870M Series A at $7.5B valuation, led by a16z, less than a month after Jev launch",
+      "summary": "Andreessen Horowitz led the round with Sequoia Capital and DCVC. Martin Casado from a16z joins the board. TypeSafe says Jev has passed 1M users and about a third of Fortune 500 companies use it, though no customer list was published.",
+      "published": "2026-10-09T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://siliconangle.com/2026/10/09/jev-creator-typesafe-closes-870m-round-at-7-5b-valuation/", "outlet": "SiliconANGLE", "kind": "press" },
+        { "url": "https://news.bgov.com/us-law-week/andreessen-horowitz-backs-jev-maker-at-7-5-billion-value", "outlet": "Bloomberg Law", "kind": "press" }
+      ]
+    }
+  ]
+}

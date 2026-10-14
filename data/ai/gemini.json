@@ -1,10 +1,10 @@
 {
   "flagship": "Gemini 4 Argon",
-  "newest": "2026-10-06",
+  "newest": "2026-10-13",
   "plans_from": "$20 / month (Google AI Pro)",
   "sources": [
     {
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
       "outlet": "Google",
       "kind": "official"
     },

@@ -1,0 +1,704 @@
+{
+  "date": "2026-10-14",
+  "read_at": "2026-10-14T13:14:39Z",
+  "hours": 36,
+  "accounts": [
+    {
+      "handle": "apples_jimmy",
+      "tier": "rumor",
+      "error": "could not read"
+    },
+    {
+      "handle": "kimmonismus",
+      "tier": "rumor",
+      "error": "could not read"
+    },
+    {
+      "handle": "scaling01",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2110052966346768399",
+          "url": "https://x.com/scaling01/status/2110052966346768399",
+          "time": "2026-10-13T17:00:04Z",
+          "text": "sigh, this one sucks too https://t.co/CvfHf2xtae",
+          "likes": 141,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110260100942139649",
+          "url": "https://x.com/scaling01/status/2110260100942139649",
+          "time": "2026-10-14T06:43:09Z",
+          "text": "to be clear I meant the system card\n\nbut it turns out they wrote a very comprehensive safety &amp; security card",
+          "likes": 4,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110047855427940691",
+          "url": "https://x.com/GavinSBaker/status/2110047855427940691",
+          "time": "2026-10-13T16:39:46Z",
+          "text": "@masayoshisson @3F_Research 6 years seems conservative tbh.\n\nI think with disaggregated inference you will see Blackwells have useful lives over 10 years.\n\nWill be able to put the latest and greatest SRAM accelerator in front of a B200 in 5 years and make it sing.",
+          "likes": 407,
+          "links": [],
+          "retweet_of": "GavinSBaker"
+        },
+        {
+          "id": "2110193100819685562",
+          "url": "https://x.com/scaling01/status/2110193100819685562",
+          "time": "2026-10-14T02:16:55Z",
+          "text": "time to build some datacenters https://t.co/etpHjiebgE",
+          "likes": 66,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110144884346691872",
+          "url": "https://x.com/Jack_S_Moore/status/2110144884346691872",
+          "time": "2026-10-13T23:05:19Z",
+          "text": "https://t.co/OtYZLbTCSt",
+          "likes": 31,
+          "links": [],
+          "retweet_of": "Jack_S_Moore"
+        },
+        {
+          "id": "2110145699413168637",
+          "url": "https://x.com/scaling01/status/2110145699413168637",
+          "time": "2026-10-13T23:08:34Z",
+          "text": "made a lot of banger plots today, time to sleep",
+          "likes": 15,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110144440652177913",
+          "url": "https://x.com/scaling01/status/2110144440652177913",
+          "time": "2026-10-13T23:03:33Z",
+          "text": "Half of Anthropic’s 2026 code merges happened in just 50 days https://t.co/wZFxdHxwUK",
+          "likes": 339,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110140565937598693",
+          "url": "https://x.com/scaling01/status/2110140565937598693",
+          "time": "2026-10-13T22:48:10Z",
+          "text": "while I was in SF I was telling some OpenAI researchers about this being a risk\n\nmodels literally know who you are https://t.co/nimAVfnbbf",
+          "likes": 455,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110139829937999902",
+          "url": "https://x.com/scaling01/status/2110139829937999902",
+          "time": "2026-10-13T22:45:14Z",
+          "text": "Google accidentally trained Argon on its own chains-of-thought https://t.co/clNNLydhLq",
+          "likes": 584,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110077121586417784",
+          "url": "https://x.com/JakeABoggs/status/2110077121586417784",
+          "time": "2026-10-13T18:36:03Z",
+          "text": "Gemini 4 Argon sets a new record of 69% on HieroglyphBench\n\nThis is the first model that performs accurately enough to be useful https://t.co/cg8NxgwQ0o",
+          "likes": 332,
+          "links": [],
+          "retweet_of": "JakeABoggs"
+        },
+        {
+          "id": "2110119579829592143",
+          "url": "https://x.com/scaling01/status/2110119579829592143",
+          "time": "2026-10-13T21:24:46Z",
+          "text": "im making a thread on the gemini 4 argon safety &amp; security evaluation\n\nstarting with: GCI\nGoogle's version of the ECI https://t.co/NSMar1sdEA",
+          "likes": 89,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110131344374128675",
+          "url": "https://x.com/scaling01/status/2110131344374128675",
+          "time": "2026-10-13T22:11:31Z",
+          "text": "https://t.co/p6t5aqT8IB",
+          "likes": 3,
+          "links": [
+            "https://x.com/jrosseruk/status/2110107006996709515?s=20"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110128402670014916",
+          "url": "https://x.com/scaling01/status/2110128402670014916",
+          "time": "2026-10-13T21:59:50Z",
+          "text": "Argon's evaluation awareness is through the roof compared to 3.1 Pro https://t.co/vlifPxPbRj",
+          "likes": 180,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110127831338410314",
+          "url": "https://x.com/scaling01/status/2110127831338410314",
+          "time": "2026-10-13T21:57:33Z",
+          "text": "Gemini 4 Argon is a highly cyber capable model https://t.co/VR624wTyFK",
+          "likes": 154,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110120946233381178",
+          "url": "https://x.com/scaling01/status/2110120946233381178",
+          "time": "2026-10-13T21:30:12Z",
+          "text": "https://t.co/i3u7tbri52",
+          "likes": 13,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110124164493300192",
+          "url": "https://x.com/scaling01/status/2110124164493300192",
+          "time": "2026-10-13T21:42:59Z",
+          "text": "https://t.co/V451kK5DUW",
+          "likes": 4,
+          "links": [
+            "https://x.com/scaling01/status/2110122330806763827?s=20"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110126286404506086",
+          "url": "https://x.com/scaling01/status/2110126286404506086",
+          "time": "2026-10-13T21:51:25Z",
+          "text": "monkaS https://t.co/HJkOriT5CQ",
+          "likes": 3,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110123681603318106",
+          "url": "https://x.com/scaling01/status/2110123681603318106",
+          "time": "2026-10-13T21:41:04Z",
+          "text": "DIRTY LOOPER ALERT 🚨\n\nGemini 4 Argon https://t.co/IPyPiNOWY2",
+          "likes": 833,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110125584739360863",
+          "url": "https://x.com/scaling01/status/2110125584739360863",
+          "time": "2026-10-13T21:48:38Z",
+          "text": "Gemini 3.8 Flash was already a bit sus, but this is basically confirmed",
+          "likes": 35,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110120603529478321",
+          "url": "https://x.com/scaling01/status/2110120603529478321",
+          "time": "2026-10-13T21:28:50Z",
+          "text": "Gemini 4 Argon is also a dirty looping model https://t.co/2AArkMg1nb",
+          "likes": 452,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110122639876382753",
+          "url": "https://x.com/scaling01/status/2110122639876382753",
+          "time": "2026-10-13T21:36:56Z",
+          "text": "confirmed it myself",
+          "likes": 6,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110122330806763827",
+          "url": "https://x.com/scaling01/status/2110122330806763827",
+          "time": "2026-10-13T21:35:42Z",
+          "text": "Google's P50 time horizons are at 1.9 hours based on the Gemini 4 Argon safety report https://t.co/rcnAD4inCf",
+          "likes": 55,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110121142216179978",
+          "url": "https://x.com/scaling01/status/2110121142216179978",
+          "time": "2026-10-13T21:30:59Z",
+          "text": "\"Gemini 4 Argon can achieve a higher successful sabotage rate than Gemini 3.8  Flash and Gemini 3.1 Pro when using a 3.8 Flash monitor with access to both CoT and actions,  using a monitoring prompt similar to one used in production.\"\n\nlmao",
+          "likes": 12,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110121368075587838",
+          "url": "https://x.com/scaling01/status/2110121368075587838",
+          "time": "2026-10-13T21:31:52Z",
+          "text": "we are cooked https://t.co/LykhAXXCAG",
+          "likes": 19,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110120874309271892",
+          "url": "https://x.com/scaling01/status/2110120874309271892",
+          "time": "2026-10-13T21:29:55Z",
+          "text": "https://t.co/ASzYjlPb5B",
+          "likes": 14,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "AndrewCurran_",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2110279321193677189",
+          "url": "https://x.com/AndrewCurran_/status/2110279321193677189",
+          "time": "2026-10-14T07:59:31Z",
+          "text": "If you don't use the models or watch the demos people post on social media, you may not realize there has been an astonishing jump in game development capability lately. We really are not that far away from a one-person game studio anymore.\n\nYou can mash up games now and the model will deliver a stable, playable fusion in one day. Some of them are so good that people don't post them openly online because they are afraid of getting sued. That's how quickly things have improved over the last few weeks with Astra and Opus 5.5.\n\nBecause of how virulently anti-AI the game industry has become, people are going to get completely blindsided by what's about to arrive. Not only are they unaware of how fast things are improving, they don't seem to understand the endgame. I see people taking about supply gluts, things like that.  This isn't about making games to sell on Steam and compete with the industry. If the player knows the type of game they want, and their model can code that game for them at the AAA level, in the genre they ask for, with the aesthetics and character design they prefer, then the question becomes: why buy a game from a studio at all?\n\nI think Sir Demis sees this future with Genie. For the price of your subscription, you will get any style of game you want, tailored to you. Once that starts happening at scale, most game studios will very rapidly cease to exist. And that's the real endgame. Not competition; destruction. And it's closer than people think.",
+          "likes": 447,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110098474767450208",
+          "url": "https://x.com/AndrewCurran_/status/2110098474767450208",
+          "time": "2026-10-13T20:00:54Z",
+          "text": "OpenAI's offices were bugged by an employee. The employee has been terminated. The FBI has made an arrest. Detective Astra with the assist.",
+          "likes": 1614,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110148801004773643",
+          "url": "https://x.com/AndrewCurran_/status/2110148801004773643",
+          "time": "2026-10-13T23:20:53Z",
+          "text": "https://t.co/EZoXyVWnZb",
+          "likes": 19,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110162652567949785",
+          "url": "https://x.com/AndrewCurran_/status/2110162652567949785",
+          "time": "2026-10-14T00:15:55Z",
+          "text": "More info from the indictment from Kelsey Piper.",
+          "likes": 8,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110158934627725796",
+          "url": "https://x.com/AndrewCurran_/status/2110158934627725796",
+          "time": "2026-10-14T00:01:09Z",
+          "text": "Apollo gets busted. https://t.co/HHTbBzTCqR",
+          "likes": 576,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110159791666713078",
+          "url": "https://x.com/AndrewCurran_/status/2110159791666713078",
+          "time": "2026-10-14T00:04:33Z",
+          "text": "https://t.co/hPHYAPCBne",
+          "likes": 27,
+          "links": [
+            "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110125128185163938",
+          "url": "https://x.com/AndrewCurran_/status/2110125128185163938",
+          "time": "2026-10-13T21:46:49Z",
+          "text": "The final frontier.",
+          "likes": 786,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110054176382206379",
+          "url": "https://x.com/normandipalo/status/2110054176382206379",
+          "time": "2026-10-13T17:04:53Z",
+          "text": "I’m still half in disbelief \nWe asked Gemini Argon to teach the Apollo humanoid to play cornhole, and it zero-shotted it\n\nAll we gave it was a video of a person doing it. It then took control of the robot, generated its own sim env, performed some sysID, and trained launches on the real robot. \n\nIt took it a few real shots to improve and then land many consecutive airmails. \n\nThe process was so long and articulated that we asked the robot itself to explain what it did to us, as you can see at the end of the video. It even came up with the gestures\n\nGreat demo for a great model @googledeepmind @apptronik",
+          "likes": 2009,
+          "links": [],
+          "retweet_of": "normandipalo"
+        },
+        {
+          "id": "2110045012667072568",
+          "url": "https://x.com/AndrewCurran_/status/2110045012667072568",
+          "time": "2026-10-13T16:28:28Z",
+          "text": "Anthropic's code changes merged per day has 10x since May. \n\n'Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up at a speed and scale we haven’t seen before.' https://t.co/KsUDDAfkMM",
+          "likes": 1168,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110054641451094212",
+          "url": "https://x.com/AndrewCurran_/status/2110054641451094212",
+          "time": "2026-10-13T17:06:44Z",
+          "text": "'Claude also casually found significant optimizations—for example, an algorithmic optimization to ancestry queries that missed one of our indexes—that would have taken an expert days or weeks of analysis and tuning… and then did it all again the next day.' https://t.co/w1Uq1t7XU9",
+          "likes": 32,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110085544328016252",
+          "url": "https://x.com/AndrewCurran_/status/2110085544328016252",
+          "time": "2026-10-13T19:09:31Z",
+          "text": "Lisan:",
+          "likes": 13,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110084974926082315",
+          "url": "https://x.com/AndrewCurran_/status/2110084974926082315",
+          "time": "2026-10-13T19:07:16Z",
+          "text": "How Anthropic set its pace for Pacing the Frontier. https://t.co/o2cp3jIAPG",
+          "likes": 208,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110043023954284889",
+          "url": "https://x.com/fofrAI/status/2110043023954284889",
+          "time": "2026-10-13T16:20:34Z",
+          "text": "Argon has this amazing natural understanding of the world. It can do so many things from first principles.\n\nHere's a pelican riding a bike, using fourier epicycles. \n\nVideo made by Argon.\nTime-synced Lyria 3.5 music prompted by Argon. https://t.co/zlpO6ijPzh",
+          "likes": 4045,
+          "links": [],
+          "retweet_of": "fofrAI"
+        },
+        {
+          "id": "2110075237111091386",
+          "url": "https://x.com/AndrewCurran_/status/2110075237111091386",
+          "time": "2026-10-13T18:28:34Z",
+          "text": "Anthropic's Jack Clark will deliver this year's IMF Per Jacobsson Foundation lecture on October 16th titled 'Inside the Event Horizon: Why Everyone Should Take AI Progress Seriously', in which he says he will 'make the case that we are entering a period of massive, sudden change catalyzed by the advancing capabilities of AI systems.'\n\nWe are indeed now inside the event horizon, I think the only argument left is when we passed it. From me it was either November 2025 or February 2026, depending on how you look at it.",
+          "likes": 316,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110075246565036511",
+          "url": "https://x.com/AndrewCurran_/status/2110075246565036511",
+          "time": "2026-10-13T18:28:36Z",
+          "text": "https://t.co/tfAL0LkMUB",
+          "likes": 17,
+          "links": [
+            "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2026/10/17/212473.html"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110068296888525201",
+          "url": "https://x.com/AndrewCurran_/status/2110068296888525201",
+          "time": "2026-10-13T18:00:59Z",
+          "text": "If you are still waiting for Argon to go live on your Gemini account you can try it out right now in the search box, Argon is live in the AI Overlay. https://t.co/QUtbCgDxxb",
+          "likes": 182,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110069975671345486",
+          "url": "https://x.com/AndrewCurran_/status/2110069975671345486",
+          "time": "2026-10-13T18:07:40Z",
+          "text": "Logan:",
+          "likes": 26,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110051722282590347",
+          "url": "https://x.com/AndrewCurran_/status/2110051722282590347",
+          "time": "2026-10-13T16:55:08Z",
+          "text": "'A team of seven people built both Scion and Antique (our code review tool, which we could easily write a whole other blog post about), not to mention half a dozen related systems, and fully migrated to them in five months. We did all this while the volume of code merged per day increased by 10x. In the past, developing and deploying a source control system like this would have taken a company years of iterative migration, with many more engineers.'",
+          "likes": 46,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110050776206680173",
+          "url": "https://x.com/skooookum/status/2110050776206680173",
+          "time": "2026-10-13T16:51:22Z",
+          "text": "&gt; the silocene began june 2026 https://t.co/15o6aSdNK5",
+          "likes": 116,
+          "links": [],
+          "retweet_of": "skooookum"
+        },
+        {
+          "id": "2110050881626570948",
+          "url": "https://x.com/AndrewCurran_/status/2110050881626570948",
+          "time": "2026-10-13T16:51:47Z",
+          "text": "'Earlier in the year, we had largely handwritten the first version of the git-to-Scion ingestion pipeline as a prototype. We thought it was good—until we got our hands on an early internal snapshot of Claude Mythos Preview. We asked it to rewrite the whole thing, and with no further instructions, it produced a version that consumed 20x less memory and was 4x faster, while preserving all of the implicit invariants around ingestion ordering and data structures.'",
+          "likes": 137,
+          "links": [],
+          "retweet_of": "AndrewCurran_"
+        },
+        {
+          "id": "2110034837008781345",
+          "url": "https://x.com/AndrewCurran_/status/2110034837008781345",
+          "time": "2026-10-13T15:48:02Z",
+          "text": "Gemini 4 is about to go live.",
+          "likes": 324,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110042039731819006",
+          "url": "https://x.com/AndrewCurran_/status/2110042039731819006",
+          "time": "2026-10-13T16:16:39Z",
+          "text": "https://t.co/dvAGBlKJX9",
+          "likes": 29,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110042549427765402",
+          "url": "https://x.com/AndrewCurran_/status/2110042549427765402",
+          "time": "2026-10-13T16:18:41Z",
+          "text": "Sir Demis:",
+          "likes": 14,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110031945484931116",
+          "url": "https://x.com/AndrewCurran_/status/2110031945484931116",
+          "time": "2026-10-13T15:36:32Z",
+          "text": "Significant update from Jack Clark this morning. His RSI timelines have moved up. He now says it is likely that full RSI will become possible in 2027, and that creativity was the last piece. I think we are less than six months away from closing the loop. https://t.co/bN2iyk0cKz",
+          "likes": 2025,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110034357545246934",
+          "url": "https://x.com/AndrewCurran_/status/2110034357545246934",
+          "time": "2026-10-13T15:46:08Z",
+          "text": "Special guest star, prinz:",
+          "likes": 49,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "btibor91",
+      "tier": "leaks",
+      "posts": []
+    },
+    {
+      "handle": "OfficialLoganK",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2109836485981778260",
+          "url": "https://x.com/OfficialLoganK/status/2109836485981778260",
+          "time": "2026-10-13T02:39:51Z",
+          "text": "Gemini",
+          "likes": 6599,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110040833995215273",
+          "url": "https://x.com/OfficialLoganK/status/2110040833995215273",
+          "time": "2026-10-13T16:11:52Z",
+          "text": "4 Argon is now available : )",
+          "likes": 235,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110038940841545827",
+          "url": "https://x.com/OfficialLoganK/status/2110038940841545827",
+          "time": "2026-10-13T16:04:20Z",
+          "text": "Today we are rolling out Gemini 4 Argon globally in the Gemini API, to Pro + Ultra in Gemini App, and Ultra subs in Antigravity!\n\nArgon is a huge step forward for Gemini, and a labor of love. This model has been battle tested by over 100,000 people at Google over the last month, with so much new innovation, ambition, and hard work baked into this release. The team has been heads down over the last 6 months working to make this possible across the stack (research, infra, safety, eng, etc).\n\nWe rolled the model out to cyber defenders as part of our fairwind program and early access customers over the last 2 weeks, it has been amazing to see and talk to folks who are now using this model daily. Seeing the models writing capability, raw knowledge and persistence for coding, paired with new features like 1M token output when the model needs to work more has gotten me even more excited about our path ahead.\n\nThis is just the start of the Gemini 4 era. As you saw with 3.5, 3.6, 3.7, and 3.8 Flash, our iteration speed with Gemini is fast : ) Now with Gemini 4 Argon to work from, I am cannot wait to see the progress continue, and most importantly see what this new model enables for the world. \n\nThis is such a special moment in the arc of technology, as millions of people everyday tackle problems they could never have thought possible before. Gemini 4 Argon was built to help you tackle the hardest problems. I have personally felt this spark with Argon and hope you do too. Onwards!!",
+          "likes": 10462,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110039361706393636",
+          "url": "https://x.com/OfficialLoganK/status/2110039361706393636",
+          "time": "2026-10-13T16:06:01Z",
+          "text": "So many great examples of Argon in action already from inside Google, our customers, and partners:\nhttps://t.co/xM4z9uGWMd",
+          "likes": 519,
+          "links": [
+            "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+          ],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "alexalbert__",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "typesafeai",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "AnthropicAI",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2110289695888511368",
+          "url": "https://x.com/AnthropicAI/status/2110289695888511368",
+          "time": "2026-10-14T08:40:45Z",
+          "text": "We’ve opened an office in Singapore—our fifth in the Asia-Pacific region. We’ve also signed an MOU with the Government of Singapore on AI safety and responsible adoption.\n\nYou can read more about our new office here: https://t.co/125mBgHLkM",
+          "likes": 2071,
+          "links": [
+            "https://www.anthropic.com/news/singapore-office-opening"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110047081414987957",
+          "url": "https://x.com/AnthropicAI/status/2110047081414987957",
+          "time": "2026-10-13T16:36:41Z",
+          "text": "New on our Engineering blog: Creating in-house source control. \n\nIn May, we merged around 2,500 code changes per day. In September, we merged more than 30,000 per day. As a result, we became bottlenecked by developer infrastructure built for human (rather than agent) scale.  \n\nHere, we share how we built a new version control system—and fully migrated our monorepo from git—in five months: https://t.co/wzNkwHs7IN",
+          "likes": 21864,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "OpenAI",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2110190101707858039",
+          "url": "https://x.com/GoogleDeepMind/status/2110190101707858039",
+          "time": "2026-10-14T02:05:00Z",
+          "text": "Over half of reported crimes in Singapore use sophisticated social engineering.\n\nWith @GovTechSG, we’re building on-device fraud detection using our open model Gemma.\n\nBy fine-tuning it on local scam tactics, it identifies threats in real time without compromising personal privacy → https://t.co/VdCio2nrHC",
+          "likes": 479,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110078384617464201",
+          "url": "https://x.com/GoogleDeepMind/status/2110078384617464201",
+          "time": "2026-10-13T18:41:04Z",
+          "text": "Gemini 4 Argon taught a robot to play cornhole just by watching a video.\n\nIt mapped the physics, coded its own simulation, and taught @Apptronik's Apollo humanoid to sink 7 throws in a row. https://t.co/JIyoKnVc4q",
+          "likes": 2584,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110080053409116660",
+          "url": "https://x.com/GoogleDeepMind/status/2110080053409116660",
+          "time": "2026-10-13T18:47:42Z",
+          "text": "@Apptronik By turning video into a training ground for physical AI, Argon compresses weeks of manual modeling into just a few hours. ↓\n\nhttps://t.co/8tQ2r21lcC",
+          "likes": 89,
+          "links": [
+            "https://goo.gle/3VxIB7v"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110039274922131792",
+          "url": "https://x.com/GoogleDeepMind/status/2110039274922131792",
+          "time": "2026-10-13T16:05:40Z",
+          "text": "Gemini 4 Argon is now globally available.\n\nBuilt to solve your hardest problems from start to finish, the model brings frontier capabilities across coding, enterprise workflows, and cyber defense. https://t.co/N8tOQjwk0x",
+          "likes": 5811,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110039277442682916",
+          "url": "https://x.com/GoogleDeepMind/status/2110039277442682916",
+          "time": "2026-10-13T16:05:41Z",
+          "text": "Here’s how you can try it:\n🔵 Everyday users: In the @GeminiApp and AI Mode in Search for Google AI Pro and Ultra subscribers.\n🔵 Developers: Gemini API paid tier, plus @Antigravity and @GoogleAIStudio for Google AI Ultra subscribers.\n🔵 Scientists: Apply for the top usage tier in @Antigravity free of charge.\n🔵 Enterprises: Gemini for business and in Antigravity.\n\nFind out more → https://t.co/6nH9sCdObL",
+          "likes": 309,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110034327111131168",
+          "url": "https://x.com/GoogleDeepMind/status/2110034327111131168",
+          "time": "2026-10-13T15:46:00Z",
+          "text": "https://t.co/oADallGYuR",
+          "likes": 3739,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "xai",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "sama",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "demishassabis",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2110050110784798950",
+          "url": "https://x.com/chetaslua/status/2110050110784798950",
+          "time": "2026-10-13T16:48:43Z",
+          "text": "WTF\n\nGemini 4 ARGON built a highly detailed model of a Pagoda using multi-agent visual critique loops in Antigravity. \n\nThe model autonomously sculpted a multi-building temple complex with photorealistic architecture, foliage and lighting in Blender. https://t.co/a7IQAhIw03",
+          "likes": 2715,
+          "links": [],
+          "retweet_of": "chetaslua"
+        },
+        {
+          "id": "2110043023954284889",
+          "url": "https://x.com/fofrAI/status/2110043023954284889",
+          "time": "2026-10-13T16:20:34Z",
+          "text": "Argon has this amazing natural understanding of the world. It can do so many things from first principles.\n\nHere's a pelican riding a bike, using fourier epicycles. \n\nVideo made by Argon.\nTime-synced Lyria 3.5 music prompted by Argon. https://t.co/zlpO6ijPzh",
+          "likes": 4050,
+          "links": [],
+          "retweet_of": "fofrAI"
+        },
+        {
+          "id": "2110043537001607351",
+          "url": "https://x.com/s6juncheng/status/2110043537001607351",
+          "time": "2026-10-13T16:22:36Z",
+          "text": "We are offering 10,000 scientists the highest usage tier in Google Antigravity free of charge for 6 months. Please apply! https://t.co/ywWLNf4Q7q",
+          "likes": 2580,
+          "links": [
+            "https://forms.gle/WvmBbPvRbpKG1BPn9"
+          ],
+          "retweet_of": "s6juncheng"
+        },
+        {
+          "id": "2110052931110318464",
+          "url": "https://x.com/demishassabis/status/2110052931110318464",
+          "time": "2026-10-13T16:59:56Z",
+          "text": "I love lasers (really wanted to work on them as a kid)… especially Argon lasers 😀 reminded me of this scene from one of my fave films: ‘synthesize excited bromide in an argon matrix… but that would be hotter than the sun’ 😂 Val Kilmer was so cool https://t.co/A7BKAJDJhm",
+          "likes": 1899,
+          "links": [
+            "https://youtu.be/G-gAbSQGGqM?si=6NQue5-ulgGedGrt&t=50"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110052933698019330",
+          "url": "https://x.com/demishassabis/status/2110052933698019330",
+          "time": "2026-10-13T16:59:56Z",
+          "text": "maybe I should go back and try to build a laser in the lab with the help of Gemini 4 Argon... 🤔",
+          "likes": 219,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    }
+  ]
+}

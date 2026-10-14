@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-13",
+  "top": "x-subscription-launch",
+  "items": [
+    {
+      "id": "x-subscription-launch",
+      "ai": "grok",
+      "category": "pricing",
+      "story": "x-subscription-launch",
+      "headline": "SpaceXAI launches The X Subscription, bundling Grok, Cursor and X Premium into plans from $8",
+      "summary": "SpaceXAI combined Grok, Grok Bot, Cursor and X Premium into one subscription with five tiers from free to $200 a month. Premium at $30 replaces what cost $90 across three separate plans. Teams and enterprise get a shared usage pool.",
+      "why": "SpaceXAI's $30 Premium tier bundles what was $90 across three plans, undercutting ChatGPT Plus and Claude Pro on what a subscriber gets per dollar. By tying Cursor into every tier, SpaceXAI bets developers who already use the code editor will consolidate their AI spend.",
+      "published": "2026-10-12T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://x.ai/news/x-subscription", "outlet": "SpaceXAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "anthropic-distillation-defenses",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-distillation-defenses",
+      "headline": "Anthropic says new defenses cut Claude reasoning-token theft by 90 to 99%, names Zhipu and Moonshot",
+      "summary": "Anthropic deployed classifiers and access controls that reduced extracted reasoning data by 90 to 99%. It named Chinese labs Zhipu and Moonshot as running industrial-scale distillation campaigns through networks of fake accounts.",
+      "published": "2026-10-12T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/distillation-defenses", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-self-replication-warning",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-self-replication-warning",
+      "headline": "Anthropic warns small AI models may be months from self-replicating across consumer IoT devices",
+      "summary": "Anthropic's Frontier Red Team tested open-weight models on smart TVs and set-top boxes. A 9B model ran inference on 8 of 9 hardware types. One model completed the full replication chain. The team says the capability gap could close by end of 2026.",
+      "published": "2026-10-12T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/self-replicating-ai", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "uk-aisi-access-restored",
+      "ai": "claude",
+      "category": "policy",
+      "story": "uk-aisi-access-restored",
+      "headline": "White House reverses block on UK AI Safety Institute's access to frontier models",
+      "summary": "The Daily Telegraph reports the White House lifted its September block on the UK AI Security Institute's early access to models from Anthropic, Google DeepMind and OpenAI. Anthropic had restricted access to Claude Mythos 5.1 after the block.",
+      "published": "2026-10-11T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.telegraph.co.uk/" }
+      ]
+    },
+    {
+      "id": "fable-5-5-speculation",
+      "ai": "claude",
+      "category": "model",
+      "story": "fable-5-5-speculation",
+      "headline": "Leak tracker and users report Anthropic may be testing a new model under Claude Opus 5.5",
+      "summary": "TestingCatalog reports users seeing stronger outputs when requesting Opus 5.5, suggesting routing to an unannounced model. It is unclear whether it would ship as Opus 5.6 or Fable 5.5. Anthropic has not commented.",
+      "published": "2026-10-12T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/anthropic-tests-new-model-opus-5-5-routing-opus-5-6-fable-5-5/", "outlet": "TestingCatalog", "kind": "community" },
+        { "url": "https://x.com/kimmonismus/status/2109286345407377551", "outlet": "X community", "kind": "community" }
+      ]
+    },
+    {
+      "id": "sora-revival-rumor",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "sora-revival-rumor",
+      "headline": "Report: OpenAI may revive Sora video generator after March shutdown",
+      "summary": "The Information reports a version of Sora could return after OpenAI shut the video tool down in March 2026. No timeline or product details were shared. Sora was closed as OpenAI prepared to go public.",
+      "published": "2026-10-12T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora", "outlet": "The Information", "kind": "press" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-15",
+  "top": "anthropic-q3-revenue",
+  "items": [
+    {
+      "id": "anthropic-q3-revenue",
+      "ai": "claude",
+      "category": "apps",
+      "story": "anthropic-q3-revenue",
+      "headline": "Anthropic Q3 revenue hits $16.8B, up 45% from Q2, with adjusted profitability ahead of November IPO",
+      "summary": "Anthropic told prospective investors it generated $16.8B in the third quarter, up from $11.6B in Q2 and $4.7B in Q1. The company achieved adjusted profitability, positive free cash flow, and earned $1.70 for every dollar spent on compute. The IPO is planned before Thanksgiving.",
+      "why": "The 45% quarterly jump shows Claude demand is accelerating even as rivals launch competing frontier models. Adjusted profitability and positive cash flow ahead of what could be a trillion-dollar-plus IPO make this a landmark moment for the AI industry.",
+      "published": "2026-10-14T22:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/", "outlet": "Reuters", "kind": "press" },
+        { "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html", "outlet": "CNBC", "kind": "press" },
+        { "url": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow", "outlet": "Axios", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-midterms-policy",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-midterms-policy",
+      "headline": "Anthropic rolls out midterm election safeguards: voting banners, bias testing, and abuse classifiers",
+      "summary": "Claude now shows TurboVote banners for election questions with state-specific voting info. Anthropic says its latest models score 99% on evenhandedness evaluations. New classifiers detect fake accounts, disinformation campaigns, and foreign interference attempts.",
+      "published": "2026-10-14T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/2026-us-midterms", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-spy-arrest-details",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-spy-arrest",
+      "headline": "Arrested OpenAI engineer had booked one-way tickets to Saudi Arabia, used a chatbot to design the bug",
+      "summary": "Abdulrahman Alfozan, fired after his October 9 arrest for hiding a recording device in an executive conference room, had booked one-way flights to Saudi Arabia for October 12. A chatbot account linked to his wife had queried how to build a continuous audio recorder and encrypt an SD card.",
+      "published": "2026-10-14T19:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2026-10-14/arrested-openai-engineer-booked-a-one-way-ticket-to-saudi-arabia", "outlet": "Bloomberg", "kind": "press" },
+        { "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/", "outlet": "The Decoder", "kind": "press" },
+        { "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/", "outlet": "SF Standard", "kind": "press" }
+      ]
+    },
+    {
+      "id": "epic-games-claude-ai-first",
+      "ai": "claude",
+      "category": "apps",
+      "story": "epic-games-claude-ai-first",
+      "headline": "Epic Games goes AI-first on its Marvel/Star Wars shooter, mandating Claude for code and generated art",
+      "summary": "Bloomberg reports Epic told developers 'no more handwritten code' on the delayed Disney project. Programmers will oversee Claude-generated code and all art will use AI workflows. The game was set for March 2027 but has no new date.",
+      "published": "2026-10-12T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.tweaktown.com/news/114054/epics-new-marvel-star-wars-shooter-is-an-ai-first-production/index.html", "outlet": "TweakTown", "kind": "press", "repeats": "https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai" },
+        { "url": "https://aiweekly.co/alerts/epic-games-mandates-ai-first-workflow-with-claude-after-delaying-disney", "outlet": "AI Weekly", "kind": "community", "repeats": "https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai" }
+      ]
+    },
+    {
+      "id": "grok-voice-3",
+      "ai": "grok",
+      "category": "feature",
+      "story": "grok-voice-3",
+      "headline": "SpaceXAI releases Grok Voice 3.0 for speech-to-speech at the same price as Voice 2.0",
+      "summary": "The grok-voice-3.0 model is available in the API. The grok-voice-latest alias now points to the new version automatically. No API changes needed for existing integrations using the alias.",
+      "published": "2026-10-14T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.x.ai/docs/release-notes", "outlet": "SpaceXAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-model-alignment-delay",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "openai-model-alignment",
+      "headline": "OpenAI may ship one or two models before year-end but its next flagship still needs alignment work",
+      "summary": "The Information reports the looped transformer technique behind Astra moves reasoning into unreadable internal states, making safety monitoring harder. OpenAI has shifted about 10% of compute to alignment. Employees say the upgraded flagship is not ready yet.",
+      "published": "2026-10-14T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.theinformation.com/" }
+      ]
+    },
+    {
+      "id": "openai-europe-agents",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-europe-agents",
+      "headline": "OpenAI says more than half of EU enterprise AI use now involves agents, small business users up 8x",
+      "summary": "OpenAI published an economic research report on Europe's shift toward agentic AI. More than half of AI usage among EU enterprise and business customers now involves agent tools. The number of small business users has grown eightfold across the region.",
+      "published": "2026-10-14T18:45:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://x.com/OpenAI/status/2110442001749659890", "outlet": "OpenAI", "kind": "official" }
+      ]
+    }
+  ]
+}

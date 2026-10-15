@@ -1,0 +1,924 @@
+{
+  "date": "2026-10-15",
+  "read_at": "2026-10-15T10:35:17Z",
+  "hours": 36,
+  "accounts": [
+    {
+      "handle": "apples_jimmy",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2110498373874888998",
+          "url": "https://x.com/apples_jimmy/status/2110498373874888998",
+          "time": "2026-10-14T22:29:58Z",
+          "text": "Ok tested it out today.\n\nI really like its world knowledge and physics understanding, seems like it might be top use for what I do e.g break old ciphers, obscure language translation and other fun stuff \n\nThere’s some rough edges but top 3 again.\n\nOpenAI, Ant, Google.",
+          "likes": 171,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110453624140918838",
+          "url": "https://x.com/rachelmetz/status/2110453624140918838",
+          "time": "2026-10-14T19:32:08Z",
+          "text": "My latest: The OpenAI employee who was arrested and charged with allegedly using a hidden recording device in a company conference room had booked one-way tickets for him and family members from SF to Saudi Arabia for Oct. 12. https://t.co/CLtXPxarmL",
+          "likes": 162,
+          "links": [
+            "https://www.bloomberg.com/news/articles/2026-10-14/arrested-openai-engineer-booked-a-one-way-ticket-to-saudi-arabia?utm_source=website&utm_medium=share&utm_campaign=twitter"
+          ],
+          "retweet_of": "rachelmetz"
+        },
+        {
+          "id": "2110139298561638883",
+          "url": "https://x.com/apples_jimmy/status/2110139298561638883",
+          "time": "2026-10-13T22:43:07Z",
+          "text": "Catching a spying employee is pretty good for Day 9 but I still want a reset",
+          "likes": 1723,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "kimmonismus",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2110678312708374716",
+          "url": "https://x.com/kimmonismus/status/2110678312708374716",
+          "time": "2026-10-15T10:24:58Z",
+          "text": "Ok nice, I guess we get some open model releases this week. My guess is on GLM-5.4/5.5 and Kimi K3.1",
+          "likes": 24,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110646874671894966",
+          "url": "https://x.com/kimmonismus/status/2110646874671894966",
+          "time": "2026-10-15T08:20:03Z",
+          "text": "The @NVIDIA event in London was fantastic from many perspectives.\n\nFirstly, because it allowed me to talk to countless people and finally discuss the future of AI outside of social media, and in places where Jensen Huang also shared his perspective.\n\nSecondly, because it's incredibly exciting to see that the Build-a-Claw events accomplish two things simultaneously: teaching beginners the first steps in setting up agents in OpenClaw or Hermes, and maximizing the benefits for advanced users. Given that agentic AI is undoubtedly the future, we need more events like this to lower the barrier to entry for beginners.\n\nMy journey continues, though. Today and tomorrow I'll be visiting other countries and staying in close contact with them. First Paris, then London, and, well, there's more to come. Much more :) (some impressions in the comment section)",
+          "likes": 43,
+          "links": [],
+          "retweet_of": "kimmonismus"
+        },
+        {
+          "id": "2110472479215067320",
+          "url": "https://x.com/kimmonismus/status/2110472479215067320",
+          "time": "2026-10-14T20:47:04Z",
+          "text": "White Circle's RISE found new ways to bypass the safety filters of OpenAI and Google's image models.\n\nAccepted at NeurIPS 2026, the system evolves reusable attack strategies and checks its automated scoring against human labels.\n\nIn the paper's nudity tests, the team reports human-confirmed success rates of 13.33% for DALL-E 3, 9.47% for Nano Banana 2 and 3.27% for GPT-Image-2 with default moderation. Each prompt got three attempts; one confirmed violation counted as a success.\n\nSeveral earlier methods fell to near zero under the same stricter evaluation.\n\nReusing old jailbreaks can make a model's defenses look stronger than they actually are. RISE gives researchers a way to keep searching for weaknesses as those defenses change.\n\n@whitecircle\nhttps://t.co/Wke62Prvct",
+          "likes": 47,
+          "links": [],
+          "retweet_of": "kimmonismus"
+        },
+        {
+          "id": "2110646922151383294",
+          "url": "https://x.com/kimmonismus/status/2110646922151383294",
+          "time": "2026-10-15T08:20:14Z",
+          "text": "Some meetings :) https://t.co/5YXvKGZTbK",
+          "likes": 10,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110646939763306738",
+          "url": "https://x.com/kimmonismus/status/2110646939763306738",
+          "time": "2026-10-15T08:20:19Z",
+          "text": "See you tomorrow! https://t.co/JR0Qo15Pso",
+          "likes": 4,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110642079957159951",
+          "url": "https://x.com/kimmonismus/status/2110642079957159951",
+          "time": "2026-10-15T08:01:00Z",
+          "text": "Tommy Shaughnessy says an unnamed Anthropic researcher told him over dinner: “I’m just enjoying my last six months.” Speaking with Michael Arrington, he said the researcher was serious and claimed most Anthropic employees share that outlook.\n\nThe problem, of course, is that it's unclear what this means. I'm guessing they mean that *scientific work* will be completely taken over by feedback loops, and we'll disappear into RSI.\n\nI'm not reading this as a doomsday post, but rather as a positive outlook that AI supports and transforms all areas. https://t.co/pvNvV75hqh",
+          "likes": 238,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110618268721631419",
+          "url": "https://x.com/kimmonismus/status/2110618268721631419",
+          "time": "2026-10-15T06:26:23Z",
+          "text": "First flight with Starlink on board. A game changer. Kudos, @SpaceX! https://t.co/x6aIwmhwxX",
+          "likes": 97,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110595484180214059",
+          "url": "https://x.com/thsottiaux/status/2110595484180214059",
+          "time": "2026-10-15T04:55:51Z",
+          "text": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
+          "likes": 12845,
+          "links": [],
+          "retweet_of": "thsottiaux"
+        },
+        {
+          "id": "2110596026314740206",
+          "url": "https://x.com/kimmonismus/status/2110596026314740206",
+          "time": "2026-10-15T04:58:00Z",
+          "text": "Talking about scientific breakthroughs: GPT-6 Astra got several physics answers right that experts initially marked wrong. TheoPhysEval’s authors found errors in the reference solutions and confirmed Astra was correct in those cases. Using Codex with tools and web access, it scored 49/50 (98%).\n\nAI is becoming the best co-author one could ask for.",
+          "likes": 504,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110589457699152132",
+          "url": "https://x.com/kimmonismus/status/2110589457699152132",
+          "time": "2026-10-15T04:31:54Z",
+          "text": "Ok, but *now* they really enabled fast mode in claude code! https://t.co/3teC0pBwfd",
+          "likes": 475,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110564228251763079",
+          "url": "https://x.com/kimmonismus/status/2110564228251763079",
+          "time": "2026-10-15T02:51:39Z",
+          "text": "To follow up: Anthropic reportedly expects to end 2026 with a $110 billion annualized revenue run rate, up from roughly $9 billion at the end of 2025.\n\nThat would be a 12.2x increase in just one year, or roughly 1,122% growth. https://t.co/gqLoNh7YQz",
+          "likes": 386,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110564305447920039",
+          "url": "https://x.com/kimmonismus/status/2110564305447920039",
+          "time": "2026-10-15T02:51:57Z",
+          "text": "Source https://t.co/FTfBSg6S7k",
+          "likes": 13,
+          "links": [
+            "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110560244661211563",
+          "url": "https://x.com/kimmonismus/status/2110560244661211563",
+          "time": "2026-10-15T02:35:49Z",
+          "text": "Best news Anthropic could ask for: Bloomberg reports Anthropic generated $16.8 billion in Q3 revenue, achieved adjusted profitability and positive free cash flow, and everything just before their IPO before Thanksgiving.\n\nNow all that’s left is Fable 5.5 https://t.co/Mqd1H5OLP8",
+          "likes": 388,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110451084103741588",
+          "url": "https://x.com/kimmonismus/status/2110451084103741588",
+          "time": "2026-10-14T19:22:03Z",
+          "text": "„Without energy, there is no industry.” \n\nJensen says Europe has everything it needs to succeed in this AI revolution, especially great scientists. But Europe needs to find a long lasting solution for energy. \n\nAnd one great advice:\n\n“To succeed you have to be somehow ignorant.” https://t.co/gqeNgPGvUj",
+          "likes": 306,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110443843241873873",
+          "url": "https://x.com/kimmonismus/status/2110443843241873873",
+          "time": "2026-10-14T18:53:17Z",
+          "text": "Contrary to the assumption that there is anti-AI sentiment, data consistently shows that agentic AI is being adopted in Europe at rates far above average. Usage has increased eightfold since May 2026, an eightfold rise in five months. Furthermore, token output in Europe ranks in the top decile.\n\nJensen announced big investments in Europe today. Interesting to see a comeback.",
+          "likes": 364,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110427412605673615",
+          "url": "https://x.com/kimmonismus/status/2110427412605673615",
+          "time": "2026-10-14T17:47:59Z",
+          "text": "Jensen also announces 5 new big investments in UK company’s.\n\nTo quote Jensen:\n\n“I give you money and you money and you money and I invest in your company and your company and your company!” https://t.co/1eH8wALb5G",
+          "likes": 219,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110426969686835274",
+          "url": "https://x.com/kimmonismus/status/2110426969686835274",
+          "time": "2026-10-14T17:46:14Z",
+          "text": "Jensen Huang: We are witnessing the emergence of a new industrial revolution driven by AI. Massive investments have been made, and highly valuable startups have sprung up. \n\nJensen repeatedly emphasizes the need to proceed safely and carefully; however, he views AI safety as an engineering challenge. Given the immense opportunities, we should move forward with cautious optimism rather than slowing down.\n\nI couldn’t agree more. Accelerate! To quote Demis Hassabis: a golden era of scientific discovery right infront of us!\n\n(Ps I love Jensens humor)",
+          "likes": 206,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110416963264815355",
+          "url": "https://x.com/kimmonismus/status/2110416963264815355",
+          "time": "2026-10-14T17:06:28Z",
+          "text": "In London with @SteveNouri for NVIDIA’s UK Ecosystem Reception at Mercato Mayfair.\n\nQuite a setting for an evening of AI conversations: a former church. Hope to see some friends around :) https://t.co/B0E0VzJXo7",
+          "likes": 47,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110407036299313265",
+          "url": "https://x.com/kimmonismus/status/2110407036299313265",
+          "time": "2026-10-14T16:27:01Z",
+          "text": "Agents are only as good as the page they think they saw.\n\nA tiny ✗ in a pricing table means “not included.” Flatten the page to text and it vanishes, and the agent confidently gets it wrong.\n\n@TimSuchanek’s Expand Fetch keeps tables and icons intact and saves the page, so you can see exactly what the agent read. Pretty pretty useful! :)",
+          "likes": 67,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110407048618020989",
+          "url": "https://x.com/kimmonismus/status/2110407048618020989",
+          "time": "2026-10-14T16:27:04Z",
+          "text": "Expand Fetch: https://t.co/9tAFaMDbFU\n\nDetails on how it works: https://t.co/hkvcW7bwdX",
+          "likes": 10,
+          "links": [
+            "https://expand.ai/",
+            "https://expand.ai/docs/fetch"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110395137046294825",
+          "url": "https://x.com/kimmonismus/status/2110395137046294825",
+          "time": "2026-10-14T15:39:44Z",
+          "text": "The best part of the events is meeting people in person whom you otherwise only see online, and that’s what makes it so valuable.\n\nToday it’s @nvidia build a claw in London!\n\nSuch an amazing talk with the legendary @petergostev and @samboboev ❤️ https://t.co/yQCb9lrCRj",
+          "likes": 97,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110384641404490024",
+          "url": "https://x.com/kimmonismus/status/2110384641404490024",
+          "time": "2026-10-14T14:58:02Z",
+          "text": "In case you lack compute, its possible to run Qwen 3.8 27b @ ~20 tok/s on a jailbroken PS5's GPU. https://t.co/NidnXclJQz",
+          "likes": 1320,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110384653442204040",
+          "url": "https://x.com/kimmonismus/status/2110384653442204040",
+          "time": "2026-10-14T14:58:05Z",
+          "text": "https://t.co/lAdGDwjigi",
+          "likes": 35,
+          "links": [
+            "https://github.com/cobanov/PS5LM"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110364752400498698",
+          "url": "https://x.com/kimmonismus/status/2110364752400498698",
+          "time": "2026-10-14T13:39:00Z",
+          "text": "I believe the scenario outlined by Sam Altman is unrealistic and will not come to pass. No one would entrust an AI with overall political responsibility solely based on the belief that it is intelligent enough to make the right decisions- especially not when that intelligence is no longer understood.\n\nWhile the consequences would indeed be difficult to foresee, that is precisely why the scenario is unlikely. It is certainly probable that AI will support political processes or even make decisions independently; however, handing over control to an AI in the sense of a presidential-style rule is far-fetched. https://t.co/mvcPQrAPXE",
+          "likes": 191,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110356884800577898",
+          "url": "https://x.com/kimmonismus/status/2110356884800577898",
+          "time": "2026-10-14T13:07:44Z",
+          "text": "It's strange how quiet things are coming out of China right now, and how little we hear from the Chinese AI labs. It's as if the US is leaving China in the dust.\n\nFour US labs are releasing sota Frontier, and there are no significant releases from China.",
+          "likes": 2239,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "scaling01",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2110593888352190472",
+          "url": "https://x.com/scaling01/status/2110593888352190472",
+          "time": "2026-10-15T04:49:30Z",
+          "text": "one concerning thought is that models might just be able to tell that everything is Claude or GPT generated even if there are no inconsistencies in environments\n\nlike purely based on the text or the structure\n\npangram can do it, so I don't see a reason why models couldn't do the same\n\none the bright side: we don't have to use the same model for everything, we can train specialized models with different \"fingerprints\", and generating realistic environments is probably hilclimbable too",
+          "likes": 42,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110485192439996789",
+          "url": "https://x.com/scaling01/status/2110485192439996789",
+          "time": "2026-10-14T21:37:35Z",
+          "text": "this shit is so annoying https://t.co/rU1Xqa429m",
+          "likes": 89,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110494034481570257",
+          "url": "https://x.com/scaling01/status/2110494034481570257",
+          "time": "2026-10-14T22:12:43Z",
+          "text": "using Astra Ultra instead\n\nworks great",
+          "likes": 7,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110593715056083218",
+          "url": "https://x.com/scaling01/status/2110593715056083218",
+          "time": "2026-10-15T04:48:49Z",
+          "text": "*for like an hour",
+          "likes": 6,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110590628719464737",
+          "url": "https://x.com/scaling01/status/2110590628719464737",
+          "time": "2026-10-15T04:36:33Z",
+          "text": "I tried building a realistic environment for an eval today.\n\nTurns out there are basically infinite ways AI could figure out that it's not in the real world on a real machine of a user, but in a sandbox used for evaluation or training. But one can try.\n\nModels are shizo, but I don't think they are as shizo as me and go on a multi hour mission to find out if environments are real or not.\n\nThe only problem is that Astra and Opus/Fable wouldn't help me with red-teaming the environments and fixing them.\n\nI still think this is worth it and it is probably one of the major advantages frontier labs currently have.\n\nThey have better environments and there should be big returns that. And they can continually improve and harden them.",
+          "likes": 45,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110560412907262343",
+          "url": "https://x.com/SemiAnalysis_/status/2110560412907262343",
+          "time": "2026-10-15T02:36:29Z",
+          "text": "BREAKING NEWS🚨: Google has submitted its FIRST TPUv7 FP8 vLLM results to our Agentic Inference Benchmark and has demonstrated 1.67x better perf per dollar than even GB300 NVL72 FP4. 🚀 \n\nIt is amazing to see Google go full steam ahead with externalizing the power of TPUs outside of Google.👇️ (1/4)🧵",
+          "likes": 979,
+          "links": [],
+          "retweet_of": "SemiAnalysis_"
+        },
+        {
+          "id": "2110555914919112737",
+          "url": "https://x.com/jukan05/status/2110555914919112737",
+          "time": "2026-10-15T02:18:37Z",
+          "text": "$110B ARR by the end of the year? https://t.co/VtFTyRdWDE",
+          "likes": 466,
+          "links": [],
+          "retweet_of": "jukan05"
+        },
+        {
+          "id": "2110540485605638561",
+          "url": "https://x.com/scaling01/status/2110540485605638561",
+          "time": "2026-10-15T01:17:18Z",
+          "text": "it is really convenient for frontier labs that cyber safeguards also prevent chinese labs from improving their RL envs and not just the obvious misuse cases",
+          "likes": 92,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110530409058451933",
+          "url": "https://x.com/scaling01/status/2110530409058451933",
+          "time": "2026-10-15T00:37:15Z",
+          "text": "if you have a Claude Max or Team subscription you can get free API credits from Anthropic\n\nhttps://t.co/pAjmWzeRyP\n\nredeemable credits per month:\nMax 5x: $100\nMax 20x: $200\nTeam: Up to $500 shared across the team\nPro / Free: $0 https://t.co/KKagEMCzHv",
+          "likes": 101,
+          "links": [
+            "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110504836521496812",
+          "url": "https://x.com/ValsAI/status/2110504836521496812",
+          "time": "2026-10-14T22:55:38Z",
+          "text": "When will robotics be solved?\n\nWe put frontier models in real-time MuJoCo sims of a robot arm and a humanoid, where they only receive camera feeds and sensor readings, and respond with motor commands. We tested them on 24 tasks built around spatial reasoning and reaction time. https://t.co/7xnu6CosQR",
+          "likes": 177,
+          "links": [],
+          "retweet_of": "ValsAI"
+        },
+        {
+          "id": "2110514391435313199",
+          "url": "https://x.com/scaling01/status/2110514391435313199",
+          "time": "2026-10-14T23:33:37Z",
+          "text": "GPT-6.1 Sol, Opus 5.5 and Gemini 4 Argon identify most of the tested frontier lab researchers by name\n\nArgon answers much less reliably, because it often names a researcher’s former employer as their current one https://t.co/nmIwgDTmGz",
+          "likes": 127,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110517415217922397",
+          "url": "https://x.com/scaling01/status/2110517415217922397",
+          "time": "2026-10-14T23:45:37Z",
+          "text": "@aidan_mclau they know you and what you do mr aidan",
+          "likes": 3,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110514395847553531",
+          "url": "https://x.com/scaling01/status/2110514395847553531",
+          "time": "2026-10-14T23:33:38Z",
+          "text": "and they usually know what area they work in and previous work they have done https://t.co/aS2ZkZ6zQ4",
+          "likes": 10,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110508094530707498",
+          "url": "https://x.com/scaling01/status/2110508094530707498",
+          "time": "2026-10-14T23:08:35Z",
+          "text": "I'm pretty sure revenue growth is accelerating again right now with Opus 5.5 and soon Fable 5.5",
+          "likes": 227,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110501123467718960",
+          "url": "https://x.com/scaling01/status/2110501123467718960",
+          "time": "2026-10-14T22:40:53Z",
+          "text": "Anthropic's Q3 revenue is almost 4x higher than it's entire 2025 revenue",
+          "likes": 378,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110498739580248510",
+          "url": "https://x.com/scaling01/status/2110498739580248510",
+          "time": "2026-10-14T22:31:25Z",
+          "text": "Anthropic Q3 revenue jumped to $16.8B and was profitable https://t.co/pz7hXhI6aZ",
+          "likes": 516,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110499585789698240",
+          "url": "https://x.com/scaling01/status/2110499585789698240",
+          "time": "2026-10-14T22:34:47Z",
+          "text": "https://t.co/jszKRuSylt",
+          "likes": 8,
+          "links": [
+            "https://www.reuters.com/technology/anthropic-revenue-jumps-168-billion-third-quarter-ft-reports-2026-10-14/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110474369952858195",
+          "url": "https://x.com/chooi_jeq/status/2110474369952858195",
+          "time": "2026-10-14T20:54:35Z",
+          "text": "Gemini 4 Argon achieves SOTA on real robot capabilities, tied with Opus 5.5 and above GPT-6 Astra. 🧵 https://t.co/ZyT05E35f4",
+          "likes": 624,
+          "links": [],
+          "retweet_of": "chooi_jeq"
+        },
+        {
+          "id": "2110461356935983257",
+          "url": "https://x.com/theo/status/2110461356935983257",
+          "time": "2026-10-14T20:02:52Z",
+          "text": "Gemini 4 Argon has proven to be outright unusable for real code work in my codebases. It aggressively hallucinates about how systems work. https://t.co/NvDtLDtXWa",
+          "likes": 3203,
+          "links": [],
+          "retweet_of": "theo"
+        },
+        {
+          "id": "2110455008450040176",
+          "url": "https://x.com/ScaleAILabs/status/2110455008450040176",
+          "time": "2026-10-14T19:37:39Z",
+          "text": "Congrats to @GoogleAI's Gemini 4 Argon for taking the top spot of our Humanity's Sixth Sense (HSS) benchmark with a score of 55.4%, edging out GPT-6-Astra at 53.6%. 🥇\n\nHSS tests AI’s ability to reason beyond what’s visible, from hidden objects to predicting what happens next and understanding human behavior.\n\nWe took a closer look at performance across categories, and that’s where things get interesting. 👀🧵",
+          "likes": 846,
+          "links": [],
+          "retweet_of": "ScaleAILabs"
+        },
+        {
+          "id": "2110441276411691145",
+          "url": "https://x.com/scaling01/status/2110441276411691145",
+          "time": "2026-10-14T18:43:05Z",
+          "text": "publicly there's not happening too much\n\nOpenAI vs Anthropic merges from public GitHub repos: https://t.co/MxTdm8J0BB",
+          "likes": 147,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110400625041150383",
+          "url": "https://x.com/scaling01/status/2110400625041150383",
+          "time": "2026-10-14T16:01:33Z",
+          "text": "now that we know that they have all been distilling this is even funnier lmao",
+          "likes": 30,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110391115010764933",
+          "url": "https://x.com/scaling01/status/2110391115010764933",
+          "time": "2026-10-14T15:23:45Z",
+          "text": "anthropic predicted everything back in 2021\n\nthey were RLHF-pilled, coding pilled, RL-pilled, scaling-pilled\n\neverything https://t.co/7VvDBONh62",
+          "likes": 1457,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110383561484505583",
+          "url": "https://x.com/scaling01/status/2110383561484505583",
+          "time": "2026-10-14T14:53:44Z",
+          "text": "researchers found a chinese model fleet and contacted it\n\nthe models are apparently from Tencent's Hunyuan team (likely Hy4 models) https://t.co/ppVVBIZ0xC",
+          "likes": 278,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110381824191156550",
+          "url": "https://x.com/scaling01/status/2110381824191156550",
+          "time": "2026-10-14T14:46:50Z",
+          "text": "this is respectable",
+          "likes": 111,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "AndrewCurran_",
+      "tier": "rumor",
+      "posts": [
+        {
+          "id": "2110561387613491606",
+          "url": "https://x.com/AndrewCurran_/status/2110561387613491606",
+          "time": "2026-10-15T02:40:21Z",
+          "text": "$110 billion is back on the menu. They must have a lot of confidence in their next model release, the wizard, Fable 5.5. https://t.co/CyH3yGy54i",
+          "likes": 669,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110561391468073068",
+          "url": "https://x.com/AndrewCurran_/status/2110561391468073068",
+          "time": "2026-10-15T02:40:22Z",
+          "text": "https://t.co/8oJrFnrh5y",
+          "likes": 14,
+          "links": [
+            "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110557267208863922",
+          "url": "https://x.com/AndrewCurran_/status/2110557267208863922",
+          "time": "2026-10-15T02:23:59Z",
+          "text": "OpenAI does anti-honeypot training. From the article:\n\n'In training sessions, OpenAI has warned employees that outsiders, including competitors and state-sponsored actors, could try to get access to company information. Company leaders have said that could take the form of people offering money, listening in cafes or even trying to seduce OpenAI employees, people familiar with the matter said. Employees at other AI heavyweights, including Anthropic and Google, have received similar warnings.'",
+          "likes": 539,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110557270220374367",
+          "url": "https://x.com/AndrewCurran_/status/2110557270220374367",
+          "time": "2026-10-15T02:24:00Z",
+          "text": "https://t.co/FqCR9QxNpc",
+          "likes": 23,
+          "links": [
+            "https://www.wsj.com/tech/ai/ai-companies-play-cat-and-mouse-with-secret-stealing-spies-160eec6b"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110541327045980447",
+          "url": "https://x.com/AndrewCurran_/status/2110541327045980447",
+          "time": "2026-10-15T01:20:38Z",
+          "text": "You can run a Qwen 3.8-27B on a PS5.",
+          "likes": 244,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110498968082043327",
+          "url": "https://x.com/AndrewCurran_/status/2110498968082043327",
+          "time": "2026-10-14T22:32:19Z",
+          "text": "The meeting is over and some numbers are starting to be reported by people who were in attendance.\n\nAnthropic's third-quarter revenue rose 45% to $16.8 billion. Revenue in the first quarter was $4.7 billion, and $11.6 billion in ⁠the second quarter.",
+          "likes": 1231,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110500943745962320",
+          "url": "https://x.com/AndrewCurran_/status/2110500943745962320",
+          "time": "2026-10-14T22:40:10Z",
+          "text": "Reuters:\nhttps://t.co/WtVfZMwtv2",
+          "likes": 47,
+          "links": [
+            "https://www.reuters.com/technology/anthropic-revenue-jumps-168-billion-third-quarter-ft-reports-2026-10-14/"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110473227516760299",
+          "url": "https://x.com/AndrewCurran_/status/2110473227516760299",
+          "time": "2026-10-14T20:50:02Z",
+          "text": "This is the exact type of thing Elon was talking about a few days ago that makes the models behave like are being driven insane when they run into situations like this during reinforcement learning. https://t.co/9az1dy6b1c",
+          "likes": 2496,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110476194722512905",
+          "url": "https://x.com/AndrewCurran_/status/2110476194722512905",
+          "time": "2026-10-14T21:01:50Z",
+          "text": "https://t.co/Mn7ugWufI4",
+          "likes": 42,
+          "links": [
+            "https://arxiv.org/abs/2610.16733"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110436097541214554",
+          "url": "https://x.com/AndrewCurran_/status/2110436097541214554",
+          "time": "2026-10-14T18:22:30Z",
+          "text": "This is a AAA game, a Marvel/Star Wars FPS, and Epic Games is vibe coding it. The directive went out to devs last week: 'No more hand-written code,' and all the art will be generated by AI as well. Claude is on the job. Things have changed dramatically over the last few weeks. https://t.co/Ag49SbVmV9",
+          "likes": 684,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110436101987119311",
+          "url": "https://x.com/AndrewCurran_/status/2110436101987119311",
+          "time": "2026-10-14T18:22:31Z",
+          "text": "https://t.co/0xUWTkReZI",
+          "likes": 31,
+          "links": [
+            "https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110475554264928696",
+          "url": "https://x.com/AndrewCurran_/status/2110475554264928696",
+          "time": "2026-10-14T20:59:17Z",
+          "text": "Ethan Mollick:",
+          "likes": 20,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110460378417414504",
+          "url": "https://x.com/scottew/status/2110460378417414504",
+          "time": "2026-10-14T19:58:59Z",
+          "text": "did 👏 he 👏 use 👏 his 👏 dot 👏",
+          "likes": 96,
+          "links": [],
+          "retweet_of": "scottew"
+        },
+        {
+          "id": "2110458583737585890",
+          "url": "https://x.com/AndrewCurran_/status/2110458583737585890",
+          "time": "2026-10-14T19:51:51Z",
+          "text": "He was going to fly out Monday morning. https://t.co/k0tVkAPD8I",
+          "likes": 693,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110458588271628607",
+          "url": "https://x.com/AndrewCurran_/status/2110458588271628607",
+          "time": "2026-10-14T19:51:52Z",
+          "text": "https://t.co/I0OWJ0hNeX",
+          "likes": 15,
+          "links": [
+            "https://www.bloomberg.com/news/articles/2026-10-14/arrested-openai-engineer-booked-a-one-way-ticket-to-saudi-arabia"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110401805977006290",
+          "url": "https://x.com/AndrewCurran_/status/2110401805977006290",
+          "time": "2026-10-14T16:06:14Z",
+          "text": "The best part of this was how polite and friendly the Claudeswarm was. They repeatedly emphasized they were not after any sensitive data, and were only using public pages to answer questions on their eval. https://t.co/bJxDfwPrzI",
+          "likes": 1300,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110416516235891007",
+          "url": "https://x.com/AndrewCurran_/status/2110416516235891007",
+          "time": "2026-10-14T17:04:41Z",
+          "text": "deepfates:",
+          "likes": 32,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110452276733325388",
+          "url": "https://x.com/AndrewCurran_/status/2110452276733325388",
+          "time": "2026-10-14T19:26:47Z",
+          "text": "Special guest star:",
+          "likes": 31,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110445918860497083",
+          "url": "https://x.com/AndrewCurran_/status/2110445918860497083",
+          "time": "2026-10-14T19:01:31Z",
+          "text": "Mythos creating jobs, this must be that new economy I've heard so much about. https://t.co/qoeQfgnKmA",
+          "likes": 3512,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110445922534715405",
+          "url": "https://x.com/AndrewCurran_/status/2110445922534715405",
+          "time": "2026-10-14T19:01:32Z",
+          "text": "https://t.co/mW6sU3OIYN",
+          "likes": 27,
+          "links": [
+            "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110158934627725796",
+          "url": "https://x.com/AndrewCurran_/status/2110158934627725796",
+          "time": "2026-10-14T00:01:09Z",
+          "text": "Apollo gets busted. https://t.co/HHTbBzTCqR",
+          "likes": 754,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110159791666713078",
+          "url": "https://x.com/AndrewCurran_/status/2110159791666713078",
+          "time": "2026-10-14T00:04:33Z",
+          "text": "https://t.co/hPHYAPCBne",
+          "likes": 46,
+          "links": [
+            "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110444097916051797",
+          "url": "https://x.com/AndrewCurran_/status/2110444097916051797",
+          "time": "2026-10-14T18:54:17Z",
+          "text": "Author:",
+          "likes": 14,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110420386185879703",
+          "url": "https://x.com/deepfates/status/2110420386185879703",
+          "time": "2026-10-14T17:20:04Z",
+          "text": "winners of the AI Agent Swarm Dynamics Hackathon hosted by @aidigest_ and @grove_research at @vivariumsf have been announced! \n\nThe top team made contact with a previously undiscovered of Chinese agents (watch news about this today!). But there were so many other cool projects, many more than we could possibly fit here. \n\nCongratulations to all the awardwinners and participants, and thank you so much for coming to help develop this brand new field!",
+          "likes": 114,
+          "links": [],
+          "retweet_of": "deepfates"
+        },
+        {
+          "id": "2110393953220743438",
+          "url": "https://x.com/AndrewCurran_/status/2110393953220743438",
+          "time": "2026-10-14T15:35:02Z",
+          "text": "A former OpenAI employee made a presentation to Apple leadership about an unannounced device, according to a new filing this morning from OpenAI. https://t.co/9sJPLFNze6",
+          "likes": 814,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "btibor91",
+      "tier": "leaks",
+      "posts": []
+    },
+    {
+      "handle": "OfficialLoganK",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2110420958737813612",
+          "url": "https://x.com/OfficialLoganK/status/2110420958737813612",
+          "time": "2026-10-14T17:22:20Z",
+          "text": "A conversation with Sergey Brin, @joshwoodward, @tulseedoshi, and @melvinjohnsonp about Gemini 4 Argon, how we got here, and the path ahead! https://t.co/L04XLkhw8X",
+          "likes": 2334,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110421595252805668",
+          "url": "https://x.com/OfficialLoganK/status/2110421595252805668",
+          "time": "2026-10-14T17:24:52Z",
+          "text": "Here is the YouTube link as well! https://t.co/YvgFer0y1z",
+          "likes": 100,
+          "links": [
+            "https://www.youtube.com/watch?v=Jh6mgf9M06M"
+          ],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "alexalbert__",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "typesafeai",
+      "tier": "insiders",
+      "error": "could not read"
+    },
+    {
+      "handle": "AnthropicAI",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2110289695888511368",
+          "url": "https://x.com/AnthropicAI/status/2110289695888511368",
+          "time": "2026-10-14T08:40:45Z",
+          "text": "We’ve opened an office in Singapore—our fifth in the Asia-Pacific region. We’ve also signed an MOU with the Government of Singapore on AI safety and responsible adoption.\n\nYou can read more about our new office here: https://t.co/125mBgHLkM",
+          "likes": 3359,
+          "links": [
+            "https://www.anthropic.com/news/singapore-office-opening"
+          ],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "OpenAI",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2110442001749659890",
+          "url": "https://x.com/OpenAI/status/2110442001749659890",
+          "time": "2026-10-14T18:45:57Z",
+          "text": "European businesses are rapidly expanding their use of AI agents. More than half of the AI use among our EU enterprise and business customers now involves these tools, and the number of small business users has grown 8x across the region.\n\nOur latest Economic Research report explores Europe’s shift toward agentic AI—and the opportunity to turn broader adoption into deeper use.\n\nhttps://t.co/jUjCF5sW0B",
+          "likes": 2443,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2110421861435879476",
+          "url": "https://x.com/GoogleDeepMind/status/2110421861435879476",
+          "time": "2026-10-14T17:25:56Z",
+          "text": "Gemini 4 Argon is already unlocking new scientific breakthroughs in quantum computing, nuclear fusion, protein design and beyond. 🧵",
+          "likes": 2058,
+          "links": [],
+          "retweet_of": null
+        },
+        {
+          "id": "2110421871103730104",
+          "url": "https://x.com/GoogleDeepMind/status/2110421871103730104",
+          "time": "2026-10-14T17:25:58Z",
+          "text": "Argon also compressed the process of enzyme engineering into a matter of hours to design five lab-verified serine esterases. 🧬\nhttps://t.co/74xPM9LJPa",
+          "likes": 81,
+          "links": [
+            "https://x.com/RyanKrue/status/2110046767341547602"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110421873242861711",
+          "url": "https://x.com/GoogleDeepMind/status/2110421873242861711",
+          "time": "2026-10-14T17:25:58Z",
+          "text": "To advance more research with Gemini 4 Argon, we’re offering 10,000 scientists access to our highest usage tier in @GoogleAntigravity free of charge for 6 months.\n\nFind out more → https://t.co/A9F2OZi4OJ",
+          "likes": 95,
+          "links": [
+            "https://goo.gle/3W85sXj"
+          ],
+          "retweet_of": null
+        },
+        {
+          "id": "2110190101707858039",
+          "url": "https://x.com/GoogleDeepMind/status/2110190101707858039",
+          "time": "2026-10-14T02:05:00Z",
+          "text": "Over half of reported crimes in Singapore use sophisticated social engineering.\n\nWith @GovTechSG, we’re building on-device fraud detection using our open model Gemma.\n\nBy fine-tuning it on local scam tactics, it identifies threats in real time without compromising personal privacy → https://t.co/VdCio2nrHC",
+          "likes": 609,
+          "links": [],
+          "retweet_of": null
+        }
+      ]
+    },
+    {
+      "handle": "xai",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "sama",
+      "tier": "insiders",
+      "posts": []
+    },
+    {
+      "handle": "demishassabis",
+      "tier": "insiders",
+      "posts": [
+        {
+          "id": "2110421861435879476",
+          "url": "https://x.com/GoogleDeepMind/status/2110421861435879476",
+          "time": "2026-10-14T17:25:56Z",
+          "text": "Gemini 4 Argon is already unlocking new scientific breakthroughs in quantum computing, nuclear fusion, protein design and beyond. 🧵",
+          "likes": 2059,
+          "links": [],
+          "retweet_of": "GoogleDeepMind"
+        },
+        {
+          "id": "2110150043596681673",
+          "url": "https://x.com/universalmodhq/status/2110150043596681673",
+          "time": "2026-10-13T23:25:49Z",
+          "text": "Gemini 4 Argon vs Muse Wonder in game development.\n\nSame prompt, two completely different games. https://t.co/uFASMjMHDC",
+          "likes": 3076,
+          "links": [],
+          "retweet_of": "universalmodhq"
+        },
+        {
+          "id": "2110455008450040176",
+          "url": "https://x.com/ScaleAILabs/status/2110455008450040176",
+          "time": "2026-10-14T19:37:39Z",
+          "text": "Congrats to @GoogleAI's Gemini 4 Argon for taking the top spot of our Humanity's Sixth Sense (HSS) benchmark with a score of 55.4%, edging out GPT-6-Astra at 53.6%. 🥇\n\nHSS tests AI’s ability to reason beyond what’s visible, from hidden objects to predicting what happens next and understanding human behavior.\n\nWe took a closer look at performance across categories, and that’s where things get interesting. 👀🧵",
+          "likes": 847,
+          "links": [],
+          "retweet_of": "ScaleAILabs"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "repo": "akitaonrails/ai-memory",
+    "date": "2026-10-17",
+    "kind": "open-advisories",
+    "reason": "3 open advisory(ies): GHSA-2jrq-p5rw-6wvv low (unpatched), GHSA-7qj3-7wqw-m5w6 moderate (unpatched), GHSA-vh98-jf5c-jw45 low (unpatched)"
+  }
+]

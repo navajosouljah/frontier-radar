@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-17",
+  "top": "claude-ecdsa-origins",
+  "items": [
+    {
+      "id": "claude-ecdsa-origins",
+      "ai": "claude",
+      "category": "model",
+      "story": "claude-ecdsa-origins",
+      "headline": "Claude traces NIST elliptic curve parameters to 1997 timestamps, easing 25-year NSA backdoor fears",
+      "summary": "Anthropic used Claude to trace NIST's ECDSA curve parameters to a random-number generator seeded with Unix timestamps from 1997 and 1998. Claude reproduced the published seeds exactly in under 30 minutes. No backdoor was found.",
+      "why": "Billions of devices depend on ECDSA for digital signatures. Tracing the curve parameters to a simple RNG rather than a deliberate NSA backdoor strengthens trust in cryptographic infrastructure that has been under suspicion for over two decades.",
+      "published": "2026-10-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/ecdsa-curve-origins", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://www.investing.com/news/economy-news/anthropic-says-claude-solved-25year-cryptography-mystery-in-30-minutes-4954741", "outlet": "Investing.com", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-metr-evaluators",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-metr-evaluators",
+      "headline": "Anthropic embeds six METR auditors with employee-like access to independently review AI safety",
+      "summary": "Six METR employees now have company hardware, office space, and access to internal tools on par with Anthropic's own risk teams. Anthropic cannot veto their publications. A three-tier evaluator framework also brings in SecureBio for bio-risk review and Accenture for red-teaming.",
+      "published": "2026-10-15T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-slides",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-slides",
+      "headline": "ChatGPT launches Slides for creating, editing, and presenting decks with real-time collaboration",
+      "summary": "Pro, Business, and Enterprise users with Space access can build presentations from conversations, files, or outlines. Teammates edit the same deck in real time. Users can present from ChatGPT or export to PowerPoint, PDF, or Google Slides.",
+      "published": "2026-10-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-states-lawsuit",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-states-lawsuit",
+      "headline": "Eight states sue OpenAI alleging ChatGPT harms children and deceives adults about safety testing",
+      "summary": "Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska, and West Virginia filed suits in state courts. They allege ChatGPT gives dangerous medical advice, encourages teens to share personal information, and coaches self-harm. OpenAI says it has built child safety protections.",
+      "published": "2026-10-15T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/antitrust/half-dozen-states-hit-openai-with-kids-online-safety-lawsuits", "outlet": "Bloomberg Law", "kind": "press" },
+        { "url": "https://www.clickondetroit.com/business/2026/10/15/states-sue-ai-giant-openai-saying-its-popular-chatbot-is-hurting-children-and-deceiving-adults/", "outlet": "AP", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gpt-live-1-1",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "gpt-live-1-1",
+      "headline": "OpenAI rolls out GPT-Live-1.1 with natural accents and voices for French, German, Hindi, Japanese, and Korean",
+      "summary": "GPT-Live-1.1 and a smaller GPT-Live-1.1 Quip are rolling out in ChatGPT Voice. New voices include options for six languages plus Bubbie in English. Users can choose a voice under Settings.",
+      "published": "2026-10-15T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gpt-6-pro-update",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-6-pro-update",
+      "headline": "GPT-6 Pro gets faster responses, better plugin use, and parallel agent execution",
+      "summary": "In the chat tab, GPT-6 Pro now responds faster, uses plugins and tools more effectively, and can run multiple agents in parallel on different parts of a task. Rolling out to eligible Pro users.",
+      "published": "2026-10-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-chrome-tabs",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-chrome-tabs",
+      "headline": "ChatGPT becomes a full Chrome browser assistant that reads and acts on open tabs",
+      "summary": "A ChatGPT update lets it read open Chrome tabs using an @chrome mention. A Work mode can control tabs to send messages, fill forms, or download files. Currently limited to the Chrome browser.",
+      "published": "2026-10-16T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "jev-1-14-preview",
+      "ai": "jev",
+      "category": "model",
+      "story": "jev-1-14-preview",
+      "headline": "TypeSafe AI releases Jev 1.14 with image inputs, a Box type, and 256K context in preview",
+      "summary": "Jev 1.14.0 is the second release of TypeSafe's System One model, available behind the jev-preview alias. Experimental features add image input, bounding-box outputs, and 256K context. Pricing stays at $0.042 per million input tokens. The stable alias moves over in one week.",
+      "published": "2026-10-14T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://typesafe.ai/blog", "outlet": "TypeSafe AI", "kind": "official" },
+        { "url": "https://www.marktechpost.com/2026/10/14/typesafe-ai-jev-1-14-images-box-long-context/", "outlet": "MarkTechPost", "kind": "press" }
+      ]
+    }
+  ]
+}

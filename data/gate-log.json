@@ -180,7 +180,7 @@
         "flags": []
       }
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
   },
   "thedotmack/claude-mem": {
     "repo": "thedotmack/claude-mem",
@@ -328,7 +328,7 @@
         "3 report(s) to read"
       ]
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
   },
   "cathrynlavery/diagram-design": {
     "repo": "cathrynlavery/diagram-design",
@@ -405,7 +405,7 @@
         "1 report(s) to read"
       ]
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
   },
   "storytold/photocraft": {
     "repo": "storytold/photocraft",
@@ -498,7 +498,7 @@
         "4 report(s) to read"
       ]
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
   },
   "msitarzewski/agency-agents": {
     "repo": "msitarzewski/agency-agents",
@@ -583,7 +583,7 @@
         "2 report(s) to read"
       ]
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
   },
   "earthtojake/text-to-cad": {
     "repo": "earthtojake/text-to-cad",
@@ -660,7 +660,7 @@
         "2 report(s) to read"
       ]
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
   },
   "morluto/rea": {
     "repo": "morluto/rea",
@@ -769,7 +769,7 @@
         "6 report(s) to read"
       ]
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
   },
   "ayghri/i-have-adhd": {
     "repo": "ayghri/i-have-adhd",
@@ -838,7 +838,7 @@
         "1 report(s) to read"
       ]
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
   },
   "wanderingstan/vibeconf-app": {
     "repo": "wanderingstan/vibeconf-app",
@@ -888,7 +888,7 @@
         "flags": []
       }
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
   },
   "coderexpert123/jev-browser-wingman": {
     "repo": "coderexpert123/jev-browser-wingman",
@@ -938,7 +938,7 @@
         "flags": []
       }
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
   },
   "openai/math": {
     "repo": "openai/math",
@@ -1005,6 +1005,555 @@
         "flags": []
       }
     },
-    "rechecked": "2026-10-12"
+    "rechecked": "2026-10-17"
+  },
+  "anthropics/claude-plugins-official": {
+    "repo": "anthropics/claude-plugins-official",
+    "checked": "2026-10-17",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/anthropics/claude-plugins-official/security/advisories",
+        "count": 0,
+        "latestRelease": null,
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "anthropics/claude-plugins-official CVE",
+          "anthropics/claude-plugins-official vulnerability",
+          "anthropics/claude-plugins-official malware",
+          "anthropics/claude-plugins-official scam"
+        ],
+        "results": 2,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "anthropics/claude-plugins-official",
+        "stars": 41154,
+        "forks": 4433,
+        "watchers": 251,
+        "openIssues": 1164,
+        "hasIssues": true,
+        "contributors": 49,
+        "commits": 4555,
+        "created": "2025-11-20",
+        "pushed": "2026-10-16",
+        "archived": false,
+        "ageDays": 332,
+        "flags": []
+      }
+    }
+  },
+  "stablyai/orca": {
+    "repo": "stablyai/orca",
+    "checked": "2026-10-17",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/stablyai/orca/security/advisories",
+        "count": 0,
+        "latestRelease": "1.4.229",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "stablyai/orca CVE",
+          "stablyai/orca vulnerability",
+          "stablyai/orca malware",
+          "stablyai/orca scam"
+        ],
+        "results": 12,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "stablyai/orca",
+        "stars": 94846,
+        "forks": 6067,
+        "watchers": 150,
+        "openIssues": 8512,
+        "hasIssues": true,
+        "contributors": 601,
+        "commits": 14808,
+        "created": "2026-03-17",
+        "pushed": "2026-10-17",
+        "archived": false,
+        "ageDays": 215,
+        "flags": []
+      }
+    }
+  },
+  "debpalash/VoiceStudio": {
+    "repo": "debpalash/VoiceStudio",
+    "checked": "2026-10-17",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/debpalash/VoiceStudio/security/advisories",
+        "count": 0,
+        "latestRelease": "0.5.6",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "debpalash/VoiceStudio CVE",
+          "debpalash/VoiceStudio vulnerability",
+          "debpalash/VoiceStudio malware",
+          "debpalash/VoiceStudio scam"
+        ],
+        "results": 0,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "debpalash/VoiceStudio",
+        "stars": 72203,
+        "forks": 7890,
+        "watchers": 274,
+        "openIssues": 201,
+        "hasIssues": true,
+        "contributors": 99,
+        "commits": 4266,
+        "created": "2026-04-09",
+        "pushed": "2026-10-17",
+        "archived": false,
+        "ageDays": 192,
+        "flags": []
+      }
+    }
+  },
+  "K-Dense-AI/scientific-agent-skills": {
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "checked": "2026-10-17",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills/security/advisories",
+        "count": 0,
+        "latestRelease": "2.72.0",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "K-Dense-AI/scientific-agent-skills CVE",
+          "K-Dense-AI/scientific-agent-skills vulnerability",
+          "K-Dense-AI/scientific-agent-skills malware",
+          "K-Dense-AI/scientific-agent-skills scam"
+        ],
+        "results": 0,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "K-Dense-AI/scientific-agent-skills",
+        "stars": 51925,
+        "forks": 4597,
+        "watchers": 213,
+        "openIssues": 49,
+        "hasIssues": true,
+        "contributors": 57,
+        "commits": 760,
+        "created": "2025-10-19",
+        "pushed": "2026-10-12",
+        "archived": false,
+        "ageDays": 364,
+        "flags": []
+      }
+    }
+  },
+  "HKUDS/CLI-Anything": {
+    "repo": "HKUDS/CLI-Anything",
+    "checked": "2026-10-17",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/HKUDS/CLI-Anything/security/advisories",
+        "count": 0,
+        "latestRelease": "0.4.0",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "HKUDS/CLI-Anything CVE",
+          "HKUDS/CLI-Anything vulnerability",
+          "HKUDS/CLI-Anything malware",
+          "HKUDS/CLI-Anything scam"
+        ],
+        "results": 3,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "HKUDS/CLI-Anything",
+        "stars": 53768,
+        "forks": 4881,
+        "watchers": 216,
+        "openIssues": 182,
+        "hasIssues": true,
+        "contributors": 115,
+        "commits": 893,
+        "created": "2026-03-08",
+        "pushed": "2026-09-22",
+        "archived": false,
+        "ageDays": 224,
+        "flags": []
+      }
+    }
+  },
+  "heygen-com/hyperframes": {
+    "repo": "heygen-com/hyperframes",
+    "checked": "2026-10-17",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/heygen-com/hyperframes/security/advisories",
+        "count": 0,
+        "latestRelease": "0.8.168",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "heygen-com/hyperframes CVE",
+          "heygen-com/hyperframes vulnerability",
+          "heygen-com/hyperframes malware",
+          "heygen-com/hyperframes scam"
+        ],
+        "results": 5,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "heygen-com/hyperframes",
+        "stars": 65622,
+        "forks": 5921,
+        "watchers": 172,
+        "openIssues": 368,
+        "hasIssues": true,
+        "contributors": 134,
+        "commits": 5641,
+        "created": "2026-03-10",
+        "pushed": "2026-10-17",
+        "archived": false,
+        "ageDays": 222,
+        "flags": []
+      }
+    }
+  },
+  "xerj-org/xerj": {
+    "repo": "xerj-org/xerj",
+    "checked": "2026-10-17",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/xerj-org/xerj/security/advisories",
+        "count": 0,
+        "latestRelease": "1.0.0",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "xerj-org/xerj CVE",
+          "xerj-org/xerj vulnerability",
+          "xerj-org/xerj malware",
+          "xerj-org/xerj scam"
+        ],
+        "results": 11,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "xerj-org/xerj",
+        "stars": 7368,
+        "forks": 382,
+        "watchers": 20,
+        "openIssues": 16,
+        "hasIssues": true,
+        "contributors": 42,
+        "commits": 3263,
+        "created": "2026-06-30",
+        "pushed": "2026-10-17",
+        "archived": false,
+        "ageDays": 110,
+        "flags": []
+      }
+    }
+  },
+  "mksglu/context-mode": {
+    "repo": "mksglu/context-mode",
+    "checked": "2026-10-17",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/mksglu/context-mode/security/advisories",
+        "count": 0,
+        "latestRelease": "1.0.169",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "mksglu/context-mode CVE",
+          "mksglu/context-mode vulnerability",
+          "mksglu/context-mode malware",
+          "mksglu/context-mode scam"
+        ],
+        "results": 9,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "mksglu/context-mode",
+        "stars": 30403,
+        "forks": 2184,
+        "watchers": 111,
+        "openIssues": null,
+        "hasIssues": false,
+        "contributors": 120,
+        "commits": 2236,
+        "created": "2026-02-23",
+        "pushed": "2026-10-17",
+        "archived": false,
+        "ageDays": 237,
+        "flags": []
+      }
+    }
+  },
+  "MadsLorentzen/ai-job-search": {
+    "repo": "MadsLorentzen/ai-job-search",
+    "checked": "2026-10-17",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/MadsLorentzen/ai-job-search/security/advisories",
+        "count": 0,
+        "latestRelease": "1.7.2",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "MadsLorentzen/ai-job-search CVE",
+          "MadsLorentzen/ai-job-search vulnerability",
+          "MadsLorentzen/ai-job-search malware",
+          "MadsLorentzen/ai-job-search scam"
+        ],
+        "results": 2,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "MadsLorentzen/ai-job-search",
+        "stars": 49251,
+        "forks": 16751,
+        "watchers": 183,
+        "openIssues": 46,
+        "hasIssues": true,
+        "contributors": 75,
+        "commits": 325,
+        "created": "2026-03-18",
+        "pushed": "2026-10-15",
+        "archived": false,
+        "ageDays": 214,
+        "flags": []
+      }
+    }
+  },
+  "akitaonrails/ai-memory": {
+    "repo": "akitaonrails/ai-memory",
+    "checked": "2026-10-17",
+    "verdict": "FAIL",
+    "reasons": [
+      "3 open advisory(ies): GHSA-2jrq-p5rw-6wvv low (unpatched), GHSA-7qj3-7wqw-m5w6 moderate (unpatched), GHSA-vh98-jf5c-jw45 low (unpatched)"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/akitaonrails/ai-memory/security/advisories",
+        "count": 6,
+        "latestRelease": "3.1.0",
+        "items": [
+          {
+            "ghsa": "GHSA-gcpc-88hm-3xqr",
+            "cve": null,
+            "severity": "low",
+            "published": "2026-10-12",
+            "summary": "Capture exclusions (ignore_paths) could be bypassed, capturing excluded file content",
+            "patched": null,
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "3.1.0"
+          },
+          {
+            "ghsa": "GHSA-6mc4-46pr-w82w",
+            "cve": null,
+            "severity": "moderate",
+            "published": "2026-10-12",
+            "summary": "Cross-origin browser requests could change state on an unauthenticated server",
+            "patched": null,
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "3.1.0"
+          },
+          {
+            "ghsa": "GHSA-2jrq-p5rw-6wvv",
+            "cve": null,
+            "severity": "low",
+            "published": "2026-10-09",
+            "summary": "Wiki page reads and writes follow symlinks out of the project tree",
+            "patched": null,
+            "openPackages": [],
+            "status": "unpatched",
+            "latestPublished": "3.1.0"
+          },
+          {
+            "ghsa": "GHSA-7qj3-7wqw-m5w6",
+            "cve": null,
+            "severity": "moderate",
+            "published": "2026-10-09",
+            "summary": "Database user without write access can modify the shared global preferences scope",
+            "patched": null,
+            "openPackages": [],
+            "status": "unpatched",
+            "latestPublished": "3.1.0"
+          },
+          {
+            "ghsa": "GHSA-gf78-hf8g-vffm",
+            "cve": null,
+            "severity": "low",
+            "published": "2026-10-01",
+            "summary": "memory_read_page include_related exposes metadata of pages in restricted projects",
+            "patched": null,
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "3.1.0"
+          },
+          {
+            "ghsa": "GHSA-vh98-jf5c-jw45",
+            "cve": null,
+            "severity": "low",
+            "published": "2026-10-01",
+            "summary": "ignore_paths capture exclusion fails open for a path with a leading double slash",
+            "patched": null,
+            "openPackages": [],
+            "status": "unpatched",
+            "latestPublished": "3.1.0"
+          }
+        ]
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "akitaonrails/ai-memory CVE",
+          "akitaonrails/ai-memory vulnerability",
+          "akitaonrails/ai-memory malware",
+          "akitaonrails/ai-memory scam"
+        ],
+        "results": 10,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "akitaonrails/ai-memory",
+        "stars": 9683,
+        "forks": 693,
+        "watchers": 53,
+        "openIssues": 35,
+        "hasIssues": true,
+        "contributors": 151,
+        "commits": 3788,
+        "created": "2026-05-21",
+        "pushed": "2026-10-16",
+        "archived": false,
+        "ageDays": 150,
+        "flags": []
+      }
+    }
   }
 }

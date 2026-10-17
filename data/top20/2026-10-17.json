@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-17",
+  "projects": [
+    {
+      "rank": 1,
+      "kind": "repo",
+      "name": "claude-plugins-official",
+      "ai": "claude",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "oneliner": "Anthropic's official directory of Claude Code plugins, maintained by the Claude team.",
+      "why": "The first-party plugin registry for Claude Code, trending this week with over 1K new stars per day.",
+      "sources": [
+        { "url": "https://github.com/trending?since=daily", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 2,
+      "kind": "repo",
+      "name": "Orca",
+      "ai": "claude",
+      "url": "https://github.com/stablyai/orca",
+      "oneliner": "A desktop and mobile tool for managing a fleet of coding agents across Claude Code, Codex, and Cursor.",
+      "why": "Over 1K stars daily this week; the fleet-management approach to coding agents is drawing heavy interest.",
+      "sources": [
+        { "url": "https://github.com/trending?since=daily", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 3,
+      "kind": "repo",
+      "name": "VoiceStudio",
+      "ai": "chatgpt",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "oneliner": "Open-source voice cloning, transcription, and text-to-speech, positioned as an ElevenLabs alternative.",
+      "why": "Over 2K new stars per day this week; the fastest-rising voice-AI repo on GitHub.",
+      "sources": [
+        { "url": "https://github.com/trending?since=daily", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 4,
+      "kind": "repo",
+      "name": "Hyperframes",
+      "ai": "chatgpt",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "oneliner": "Renders video from HTML, built for agents that need to produce and edit video programmatically.",
+      "why": "Over 5.6K stars this week; from HeyGen, the AI video company.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 5,
+      "kind": "repo",
+      "name": "CLI-Anything",
+      "ai": "chatgpt",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "oneliner": "Makes any software usable by AI agents through a generated command-line interface.",
+      "why": "From HKU Data Science Lab; 580 new stars per day as teams connect legacy tools to agents.",
+      "sources": [
+        { "url": "https://github.com/trending?since=daily", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 6,
+      "kind": "repo",
+      "name": "scientific-agent-skills",
+      "ai": "claude",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "oneliner": "177 agent skills and 100 scientific database connectors for research workflows.",
+      "why": "879 new stars per day; practical research automation built on Claude and other agents.",
+      "sources": [
+        { "url": "https://github.com/trending?since=daily", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 7,
+      "kind": "repo",
+      "name": "ai-job-search",
+      "ai": "claude",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "oneliner": "An AI job application framework built on Claude Code that manages the full application lifecycle.",
+      "why": "Over 1.3K new stars daily; an agent-driven approach to job hunting.",
+      "sources": [
+        { "url": "https://github.com/trending?since=daily", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 8,
+      "kind": "repo",
+      "name": "context-mode",
+      "ai": "claude",
+      "url": "https://github.com/mksglu/context-mode",
+      "oneliner": "Optimizes context windows for AI coding agents through MCP and hooks.",
+      "why": "Over 4.2K stars this week; addresses a common pain point in long agent sessions.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 9,
+      "kind": "repo",
+      "name": "xerj",
+      "ai": "claude",
+      "url": "https://github.com/xerj-org/xerj",
+      "oneliner": "A search engine that indexes code, docs, logs, and PDFs so AI agents can find what they need.",
+      "why": "Over 1.1K new stars per day; fills the gap between agents and unstructured project data.",
+      "sources": [
+        { "url": "https://github.com/trending?since=daily", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 10,
+      "kind": "app",
+      "name": "StarSkirmish",
+      "ai": "gemini",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "oneliner": "Benchmarks Gemini 4 Argon playing StarCraft against other frontier models.",
+      "why": "226 points on Show HN; an early, creative test of Argon's planning and real-time decision-making.",
+      "sources": [
+        { "url": "https://news.ycombinator.com/", "outlet": "Hacker News", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 11,
+      "kind": "repo",
+      "name": "REA",
+      "ai": "claude",
+      "url": "https://github.com/morluto/rea",
+      "oneliner": "One MCP server for reverse engineering apps, binaries, and runtime behavior from any coding agent.",
+      "why": "Still one of the fastest-growing repos; an agent skill for security researchers and engineers.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 12,
+      "kind": "app",
+      "name": "Pancake",
+      "ai": "claude",
+      "url": "https://pancake.ai",
+      "oneliner": "A go-to-market toolkit that AI agents can use to run sales, marketing, and outreach campaigns.",
+      "why": "585 on Product Hunt this week; agents doing GTM is a new category.",
+      "sources": [
+        { "url": "https://www.producthunt.com/topics/artificial-intelligence", "outlet": "Product Hunt", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 13,
+      "kind": "app",
+      "name": "llmspeed",
+      "ai": "chatgpt",
+      "url": "https://llmspeed.dev/",
+      "oneliner": "Feel how fast a local LLM runs before buying hardware, with side-by-side model comparisons.",
+      "why": "111 points on Show HN; practical tool for anyone considering local inference.",
+      "sources": [
+        { "url": "https://news.ycombinator.com/show", "outlet": "Hacker News", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 14,
+      "kind": "repo",
+      "name": "jev-browser-wingman",
+      "ai": "jev",
+      "url": "https://github.com/coderexpert123/jev-browser-wingman",
+      "oneliner": "Hands an agent's browser clicks to TypeSafe's Jev, which picks the element for each step.",
+      "why": "One of the first third-party tools built on Jev; still gaining traction as Jev's ecosystem grows.",
+      "sources": [
+        { "url": "https://news.ycombinator.com/", "outlet": "Hacker News", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 15,
+      "kind": "repo",
+      "name": "Diagram Design",
+      "ai": "claude",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "oneliner": "42 editorial diagram types for Claude Code, Codex, and Copilot, as self-contained HTML and SVG.",
+      "why": "Continuing to trend two weeks after launch; diagram skills remain in high demand for agents.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    }
+  ]
+}

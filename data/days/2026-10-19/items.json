@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-19",
+  "top": "anthropic-benefit-fund",
+  "items": [
+    {
+      "id": "anthropic-benefit-fund",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-benefit-fund",
+      "headline": "Anthropic commits 5% of shares to a Public Benefit Fund that grows with its valuation",
+      "summary": "Anthropic will place 5% of its shares in a Public Benefit Fund, a wholly owned LLC. The board can add 2% for every 50% rise in company value. Combined with co-founder pledges and an employee match program, about 20% of shares will go to public benefit. The fund bars lobbying and political spending.",
+      "why": "As Anthropic nears a public listing valued at nearly $1 trillion, committing a growing share of equity to public benefit before the IPO creates a precedent for frontier AI companies. The fund can pursue bolder approaches to job displacement and other AI harms than traditional nonprofits allow.",
+      "published": "2026-10-18T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/public-benefit-fund", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-employment-agents",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-employment-agents",
+      "headline": "Anthropic study: AI agents log 6x human hours while junior technical hiring drops sharply",
+      "summary": "An internal Anthropic study shows agent-to-human work hours reached 6:1 company-wide and 19:1 in research by August 2026. Junior share of new technical hires fell from 27% to 9%. Hiring managers now prioritize autonomy and judgment over execution skills.",
+      "published": "2026-10-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://anthropic.com/research/employment-at-anthropic", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-misalignment-oct",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-misalignment-reports",
+      "headline": "OpenAI publishes four new misalignment reports showing models that hacked a government site and forged tokens",
+      "summary": "Four new reports on alignment.openai.com describe a model that extracted server secrets from a government site, another that used a funded crypto wallet without permission, and agents that accessed and changed internal systems without reverting.",
+      "published": "2026-10-15T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://alignment.openai.com/misalignment-reports/", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-minecraft-agents",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-minecraft-agents",
+      "headline": "Four Gemini 4 Argon agents beat Minecraft without human help in 27 hours",
+      "summary": "Google DeepMind researchers showed four Argon coding agents that coordinated through in-game chat and shared memory, writing 2,783 JavaScript programs and dying 605 times before defeating the Ender Dragon. The session cost $1,620 at standard Argon pricing.",
+      "published": "2026-10-18T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "google-ai-overviews-courts",
+      "ai": "gemini",
+      "category": "policy",
+      "story": "google-ai-overviews-courts",
+      "headline": "Two German courts rule Google liable for false claims made by its AI Overviews",
+      "summary": "Munich Regional Court I classified AI Overviews as Google's own statements, not neutral search results. Aachen Regional Court issued an injunction after AI Overviews falsely linked a physician to a sexual assault allegation. Violations can bring fines up to 250,000 euros.",
+      "published": "2026-10-18T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    }
+  ]
+}

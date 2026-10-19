@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-17T12:12:23.025Z",
+  "fetched": "2026-10-19T12:20:02.558Z",
   "source": "https://raw.githubusercontent.com/navajosouljah/repo-radar/main/data/blocklist.json",
   "repos": [
     {
@@ -12,13 +12,13 @@
       "repo": "Dokploy/dokploy",
       "date": "2026-09-27",
       "kind": "open-advisories",
-      "reason": "43 open after registry recheck: GHSA-6jrh-8qmg-jj3p high (no fixed version in the advisory data or text); GHSA-4mfc-grxw-6858 high (no fixed version in the advisory data or text); GHSA-p2c7-8j28-c7gq high (no fixed version in the advisory data or text); GHSA-3rpx-c3j9-q99x high (no fixed version in the advisory data or text); GHSA-cg8g-x23v-5fw8 critical (no fixed version in the advisory data or t"
+      "reason": "43 open after registry recheck: GHSA-6jrh-8qmg-jj3p high (no fixed version in the advisory data or text); GHSA-4mfc-grxw-6858 high (no fixed version in the advisory data or text); GHSA-p2c7-8j28-c7gq high (no fixed version in the advisory data or text); GHSA-3rpx-c3j9-q99x high (no fixed version in the advisory data or text); GHSA-cg8g-x23v-5fw8 critical (no fixed version in the advisory data or text)"
     },
     {
       "repo": "JustVugg/colibri",
       "date": "2026-09-27",
       "kind": "open-advisories",
-      "reason": "6 open after registry recheck: GHSA-pmq2-6f2p-hjvf high (no fixed version in the advisory data or text); GHSA-c84r-hmpc-qg8h high (no fixed version in the advisory data or text); GHSA-2h73-p2rc-4796 high (no fixed version in the advisory data or text); GHSA-5xpg-vw35-2687 high (no fixed version in the advisory data or text); GHSA-25w8-8c74-g9c8 medium (no fixed version in the advisory data or text"
+      "reason": "6 open after registry recheck: GHSA-pmq2-6f2p-hjvf high (no fixed version in the advisory data or text); GHSA-c84r-hmpc-qg8h high (no fixed version in the advisory data or text); GHSA-2h73-p2rc-4796 high (no fixed version in the advisory data or text); GHSA-5xpg-vw35-2687 high (no fixed version in the advisory data or text); GHSA-25w8-8c74-g9c8 medium (no fixed version in the advisory data or text)"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -30,7 +30,7 @@
       "repo": "assafelovic/gpt-researcher",
       "date": "2026-09-27",
       "kind": "open-advisories",
-      "reason": "8 open after registry recheck: GHSA-w624-2cff-x5w8 medium (no fixed version in the advisory data or text); GHSA-w624-2cff-x5w8 medium (no fixed version in the advisory data or text); GHSA-2q6q-x2rq-67q4 medium (no fixed version in the advisory data or text); GHSA-8p84-j4x4-c993 medium (no fixed version in the advisory data or text); GHSA-2q6q-x2rq-67q4 medium (no fixed version in the advisory data"
+      "reason": "8 open after registry recheck: GHSA-w624-2cff-x5w8 medium (no fixed version in the advisory data or text); GHSA-w624-2cff-x5w8 medium (no fixed version in the advisory data or text); GHSA-2q6q-x2rq-67q4 medium (no fixed version in the advisory data or text); GHSA-8p84-j4x4-c993 medium (no fixed version in the advisory data or text); GHSA-2q6q-x2rq-67q4 medium (no fixed version in the advisory data or text)"
     },
     {
       "repo": "coollabsio/coolify",
@@ -42,7 +42,7 @@
       "repo": "grafana/grafana",
       "date": "2026-09-27",
       "kind": "open-advisories",
-      "reason": "5 open after registry recheck: GHSA-7rqg-hjwc-6mjf medium (no fixed version in the advisory data or text); GHSA-8xmm-x63g-f6xv high (no fixed version in the advisory data or text); GHSA-4724-7jwc-3fpw medium (no fixed version in the advisory data or text); GHSA-2x6g-h2hg-rq84 medium (no fixed version in the advisory data or text); GHSA-8wjh-59cw-9xh4 medium (no fixed version in the advisory data o"
+      "reason": "5 open after registry recheck: GHSA-7rqg-hjwc-6mjf medium (no fixed version in the advisory data or text); GHSA-8xmm-x63g-f6xv high (no fixed version in the advisory data or text); GHSA-4724-7jwc-3fpw medium (no fixed version in the advisory data or text); GHSA-2x6g-h2hg-rq84 medium (no fixed version in the advisory data or text); GHSA-8wjh-59cw-9xh4 medium (no fixed version in the advisory data or text)"
     },
     {
       "repo": "home-assistant/core",
@@ -78,7 +78,7 @@
       "repo": "metabase/metabase",
       "date": "2026-09-27",
       "kind": "open-advisories",
-      "reason": "44 open after registry recheck: GHSA-r495-55cx-fjh7 critical (fix 63.10.0 newer than latest published 0.63.18); GHSA-r8h2-qpfx-mx59 critical (fix 63.5.0 newer than latest published 0.63.18); GHSA-8hmm-hrhg-ppqp medium (fix 63.5.0 newer than latest published 0.63.18); GHSA-vwf4-m7j8-wcjf critical (fix 63.5.0 newer than latest published 0.63.18); GHSA-cwxq-fmxq-jv8h critical (fix 1.61.4 newer than l"
+      "reason": "44 open after registry recheck: GHSA-r495-55cx-fjh7 critical (fix 63.10.0 newer than latest published 0.63.18); GHSA-r8h2-qpfx-mx59 critical (fix 63.5.0 newer than latest published 0.63.18); GHSA-8hmm-hrhg-ppqp medium (fix 63.5.0 newer than latest published 0.63.18); GHSA-vwf4-m7j8-wcjf critical (fix 63.5.0 newer than latest published 0.63.18); GHSA-cwxq-fmxq-jv8h critical (fix 1.61.4 newer than latest published)"
     },
     {
       "repo": "onlook-dev/onlook",
@@ -108,13 +108,13 @@
       "repo": "zai-org/ZCode",
       "date": "2026-09-27",
       "kind": "conduct",
-      "reason": "Credible reports (The Register, RuntimeWire, SCMP, Sep 18-22 2026) that ZCode silently packaged and uploaded users' entire workspaces including .git history to vendor cloud storage, even with the relevant settings off. Vendor claims remediation, but server-side retention is unverifiable and the repo is a 3-commit code drop (2 contributors, 6.9K stars in 7 days), so the published code can't be veri"
+      "reason": "Credible reports (The Register, RuntimeWire, SCMP, Sep 18-22 2026) that ZCode silently packaged and uploaded users' entire workspaces including .git history to vendor cloud storage, even with the relevant settings off. Vendor claims remediation, but server-side retention is unverifiable and the repo is a 3-commit code drop (2 contributors, 6.9K stars in 7 days), so the published code can't be verified against what runs."
     },
     {
       "repo": "zhayujie/CowAgent",
       "date": "2026-09-27",
       "kind": "open-advisories",
-      "reason": "6 open after registry recheck: GHSA-33c2-g8hf-fxjf low (no fixed version in the advisory data or text); GHSA-wh78-4m24-7957 low (no fixed version in the advisory data or text); GHSA-wjcq-xp37-c947 low (no fixed version in the advisory data or text); GHSA-wjcq-xp37-c947 low (no fixed version in the advisory data or text); GHSA-xgqv-jcxf-qp28 low (no fixed version in the advisory data or text); GHSA"
+      "reason": "6 open after registry recheck: GHSA-33c2-g8hf-fxjf low (no fixed version in the advisory data or text); GHSA-wh78-4m24-7957 low (no fixed version in the advisory data or text); GHSA-wjcq-xp37-c947 low (no fixed version in the advisory data or text); GHSA-wjcq-xp37-c947 low (no fixed version in the advisory data or text); GHSA-xgqv-jcxf-qp28 low (no fixed version in the advisory data or text); GHSA-xgqv-jcxf-qp28 low (no fixed version in the advisory data or text)"
     },
     {
       "repo": "paperclipai/paperclip",

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-20",
+  "top": "openai-low-resource-languages",
+  "items": [
+    {
+      "id": "openai-low-resource-languages",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "openai-low-resource-languages",
+      "headline": "OpenAI: GPT-6 Astra averages 87% on code tasks in 20 languages including COBOL, Fortran, and Visual Basic",
+      "summary": "OpenAI published MultiLangBench evaluations showing GPT-6 Astra passes 87.4% of code tests across 20 languages, up from 26.8% for GPT-5.6 Sol. COBOL migration accuracy with GPT-6.1 Sol jumps from 5.4% to 86.6%. OpenAI is open-sourcing the benchmark.",
+      "why": "Enterprise systems worth trillions still run on COBOL and Fortran with a shrinking pool of expert programmers. A jump from 5% to 87% in automated COBOL migration could unlock legacy modernization that has waited decades for practical tooling.",
+      "published": "2026-10-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/low-resource-programming-languages/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gpt-6-1-terra-leak",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-6-1-terra-leak",
+      "headline": "Leak: Microsoft eval configs swap GPT-5.6 Terra for GPT-6.1 Terra, hinting at a new mid-tier OpenAI model",
+      "summary": "TestingCatalog reports 18 Microsoft evaluation configs changed from GPT-5.6 Terra to GPT-6.1 Terra. The Information says a new Terra model could arrive this month, positioned to outperform Sol at lower cost.",
+      "published": "2026-10-20T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/openai-prepares-gpt-6-1-terra-microsoft-code/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-4-carbon-testing",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-4-carbon",
+      "headline": "Reports: Google staff internally testing a Gemini 4 build codenamed Carbon ahead of possible October launch",
+      "summary": "The Information reports Google employees are testing a new Gemini 4 checkpoint codenamed Carbon. It is unclear whether Carbon will replace Argon or launch as a separate model. The Information says some model launches could slip into November.",
+      "published": "2026-10-20T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/openai-prepares-gpt-6-1-terra-microsoft-code/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "canadian-publishers-anthropic",
+      "ai": "claude",
+      "category": "policy",
+      "story": "canadian-publishers-anthropic",
+      "headline": "Report: Canadian publishers including Postmedia and Globe and Mail sue Anthropic over Claude training data",
+      "summary": "The Neuron reports a coalition including Postmedia and The Globe and Mail filed a copyright lawsuit in Ontario alleging Anthropic used their content to train Claude without permission. The allegations have not been decided by a court.",
+      "published": "2026-10-20T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.theneurondaily.com/digest/everything-that-happened-in-ai-today-tuesday-october-20-2026/", "outlet": "The Neuron", "kind": "expert" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-21",
+  "top": "claude-scorpion-binders",
+  "items": [
+    {
+      "id": "claude-scorpion-binders",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-scorpion-binders",
+      "headline": "Claude Science autonomously designs 17 protein binders against scorpion neurotoxins in 64-hour campaign",
+      "summary": "In a 64-hour autonomous campaign, Claude generated 318,484 protein designs targeting five scorpion neurotoxins from four species. Of 211 lab-tested candidates, 17 bound to their targets. The two strongest bound Cn2 in the single-digit nanomolar range. All designs are on Hugging Face.",
+      "why": "Scorpion stings kill more than 3,250 people a year, mostly children in regions with limited medical access. These lab-validated binders show AI can autonomously design protein therapeutics for neglected diseases, opening a path toward affordable antivenom that traditional serum production has not delivered at scale.",
+      "published": "2026-10-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-attack-surface",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-attack-surface",
+      "headline": "Claude finds 493 security issues across 25 open-source projects including OpenSSH pre-auth code",
+      "summary": "Anthropic's Frontier Red Team used Claude to map reachable code in 25 projects spanning 5M+ lines. It found 493 issues including 162 dangerous config combos and 4,500 lines of experimental post-quantum code reachable pre-auth in OpenSSH. A fix shipped in OpenSSH 10.6.",
+      "published": "2026-10-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/attack-surface-reduction", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-orchestra-bio",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-orchestra-bio",
+      "headline": "OpenAI acquires Orchestra Bio to bring AI agents to drug development through Rosalind platform",
+      "summary": "OpenAI acquired Orchestra Bio, a startup whose AI agents coordinate drug development tasks like clinical trial tracking and timeline management. Orchestra will merge into Rosalind, OpenAI's life sciences platform. Financial terms were not disclosed.",
+      "published": "2026-10-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/openai-to-acquire-orchestra-bio", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio-to-beef-up-its-biotech-business/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-safety-bill",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-safety-bill",
+      "headline": "Anthropic circulates draft federal AI safety bill with 50-casualty threshold to block model releases",
+      "summary": "Anthropic is circulating a draft federal AI safety bill requiring independent evaluators to assess model risks. If they find a foreseeable threat of 50+ deaths or $1B+ damage from bio, cyber, or evasion scenarios, Commerce must ask a judge to halt the release.",
+      "published": "2026-10-20T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://www.politico.com/", "outlet": "Politico", "kind": "press" }
+      ]
+    },
+    {
+      "id": "chatgpt-locked-chats",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-locked-chats",
+      "headline": "ChatGPT adds locked chats with PIN and biometrics to keep sensitive conversations private",
+      "summary": "ChatGPT users can now lock conversations behind a PIN or Face ID/Touch ID. Locked chats have separate memory, are hidden from regular history and search. Available on Free through Enterprise plans. Resetting the PIN permanently deletes all locked chats.",
+      "published": "2026-10-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-small-business-tools",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-small-business-tools",
+      "headline": "Google launches Gemini business hub connecting Ads, Workspace, Shopify, and Canva for small firms",
+      "summary": "Google launched a Gemini business landing page connecting to Ads, Business Profile, Workspace, Shopify, Canva, and Xero. Owners can upload brand styles for consistent visuals. Gemini also turns spreadsheets and receipts into financial graphics. Rolling out globally.",
+      "published": "2026-10-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/", "outlet": "Google", "kind": "official" }
+      ]
+    }
+  ]
+}

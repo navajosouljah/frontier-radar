@@ -4,27 +4,6 @@
     {
       "rank": 1,
       "kind": "repo",
-      "name": "openai/math",
-      "ai": "chatgpt",
-      "url": "https://github.com/openai/math",
-      "oneliner": "722 machine-written math manuscripts, with Lean proofs for many of them.",
-      "why": "Published Oct 6; the most-discussed AI release of the day (534 points on Hacker News).",
-      "sources": [
-        {
-          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-          "outlet": "OpenAI",
-          "kind": "official"
-        },
-        {
-          "url": "https://news.ycombinator.com/item?id=49984923",
-          "outlet": "Hacker News",
-          "kind": "community"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "kind": "repo",
       "name": "PhotoCraft",
       "ai": "claude",
       "url": "https://github.com/storytold/photocraft",
@@ -44,7 +23,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 2,
       "kind": "repo",
       "name": "claude-mem",
       "ai": "claude",
@@ -60,7 +39,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 3,
       "kind": "repo",
       "name": "Impeccable",
       "ai": "claude",
@@ -76,7 +55,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 4,
       "kind": "repo",
       "name": "Diagram Design",
       "ai": "claude",
@@ -92,7 +71,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 5,
       "kind": "repo",
       "name": "REA",
       "ai": "claude",
@@ -108,7 +87,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "kind": "repo",
       "name": "text-to-cad",
       "ai": "claude",
@@ -124,7 +103,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 7,
       "kind": "repo",
       "name": "Agency Agents",
       "ai": "claude",
@@ -140,7 +119,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 8,
       "kind": "repo",
       "name": "i-have-adhd",
       "ai": "claude",
@@ -156,7 +135,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 9,
       "kind": "repo",
       "name": "Vibeconferencing",
       "ai": "claude",
@@ -172,7 +151,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 10,
       "kind": "app",
       "name": "Jotbus",
       "ai": "claude",
@@ -188,7 +167,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 11,
       "kind": "app",
       "name": "HiddenContent.ai",
       "ai": "claude",
@@ -204,7 +183,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 12,
       "kind": "repo",
       "name": "jev-browser-wingman",
       "ai": "jev",

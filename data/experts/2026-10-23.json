@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-23",
+  "debate": {
+    "title": "Are always-on AI agents ready for professional work?",
+    "consensus": "Early reviewers find Claude Duet useful for daily briefings and task management but note gaps in integrations, email drafting, and the inability to direct Claude Code sessions.",
+    "story": "claude-duet"
+  },
+  "quotes": [
+    {
+      "person": "Dan Shipper",
+      "role": "CEO and cofounder of Every",
+      "outlet": "Every",
+      "url": "https://every.to/vibe-check/vibe-check-duet-anthropic-s-always-on-agent",
+      "quote": "Claude Duet is the first personal agent I'd call a pro tool.",
+      "stance": "impressed",
+      "ai": "claude",
+      "story": "claude-duet",
+      "said": "2026-10-21"
+    },
+    {
+      "person": "Simon Willison",
+      "role": "Developer and AI blogger",
+      "outlet": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "quote": "I'm pleased to note I called this one.",
+      "stance": "impressed",
+      "ai": "claude",
+      "story": "claude-agent-skills-aaif",
+      "said": "2026-10-22"
+    }
+  ]
+}

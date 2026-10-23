@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-23",
+  "top": "claude-formal-verification",
+  "items": [
+    {
+      "id": "claude-formal-verification",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-formal-verification",
+      "headline": "Claude generates 180M lines of formal proof to verify 123 open-source libraries at the assembly level",
+      "summary": "Anthropic and Theorem used Claude to write machine-checked proofs that RISC-V binaries from 123 OSS-Fuzz libraries cannot crash for any input under 64 MB. The work covered 239 entry points and caught bugs including CVE-2026-56132 in libexpat.",
+      "why": "Formally proving that production software cannot crash has been too labor-intensive for widespread adoption. By automatically generating 180 million lines of machine-checked proof across 123 libraries, Claude shows AI can bring formal verification to real-world code at a scale no human team could sustain.",
+      "published": "2026-10-22T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/formal-verification", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-agent-skills-aaif",
+      "ai": "claude",
+      "category": "apps",
+      "story": "claude-agent-skills-aaif",
+      "headline": "Anthropic donates Agent Skills standard to the Agentic AI Foundation after 280M installs",
+      "summary": "Anthropic donated Agent Skills to the Linux Foundation's Agentic AI Foundation. More than 70 platforms have adopted it, including ChatGPT, Cursor, and GitHub Copilot. Engineers from Anthropic, Google, and OpenAI will maintain the standard.",
+      "published": "2026-10-22T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-duet",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-duet",
+      "headline": "Claude Duet launches as Anthropic's always-on agent in research preview for Pro and Max users",
+      "summary": "Claude Duet is a proactive agent powered by Opus 5.5 that sends a morning brief on connected apps, checks in every few hours, and asks before consequential actions. It runs on iOS, Android, and claude.ai. Available through a waitlist for US Pro and Max subscribers at no extra charge.",
+      "published": "2026-10-21T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-claude-duet/", "outlet": "The Decoder", "kind": "press" },
+        { "url": "https://every.to/vibe-check/vibe-check-duet-anthropic-s-always-on-agent", "outlet": "Every", "kind": "expert" }
+      ]
+    },
+    {
+      "id": "claude-life-sciences-call",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-life-sciences-call",
+      "headline": "Anthropic opens guest investigator program for life sciences researchers to collaborate for 8-12 weeks",
+      "summary": "Anthropic is inviting principal investigators at academic, nonprofit, or government labs to apply for 8 to 12-week collaborations. They work with Anthropic researchers, use Claude at no cost, and publish results jointly. Focus: biology, chemistry, and drug discovery.",
+      "published": "2026-10-22T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-decisions-api-ga",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-decisions-api",
+      "headline": "OpenAI Decisions API reaches general availability with GPT-Live integration and 400 questions per request",
+      "summary": "The Decisions API on GPT-6 Luna is now generally available. New since the October 6 beta: GPT-Live integration, prompt caching, US and EU residency, image input, and 400 questions per request. Pricing: $0.10 per million input tokens.",
+      "published": "2026-10-22T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/decisions-api", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-uber-chatgpt-work",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-uber-chatgpt-work",
+      "headline": "Uber rolls out ChatGPT Work to all 30,000+ employees with GPT-6.1 Sol as the default model",
+      "summary": "Uber expanded ChatGPT Work from a 1,000-person pilot to its full global workforce. Employees use it for research, meeting briefs, presentations, data analysis, and multi-step workflows across Google Drive, Gmail, Calendar, and Slack. Engineering teams continue using Codex separately.",
+      "published": "2026-10-22T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/uber-chatgpt-work-rollout", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-nask-partnership",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-nask-partnership",
+      "headline": "OpenAI partners with Poland's NASK on AI safety research after CERT team finds MikroTik vulnerabilities",
+      "summary": "OpenAI and NASK, Poland's national research institute, signed a collaboration on AI safety and evaluation. CERT Polska already used OpenAI's cyber models to find six MikroTik RouterOS vulnerabilities, some chainable for unauthenticated takeover.",
+      "published": "2026-10-23T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-30b-raise",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-30b-raise",
+      "headline": "OpenAI closing up to $30B round at $1.25T valuation ahead of IPO, led by Coatue and UAE investors",
+      "summary": "OpenAI is raising up to $30 billion at a $1.25 trillion pre-money valuation, down from the $1.4 trillion target Bloomberg reported in September. The round is led by Coatue with UAE investors, and the UAE funding may include a computing-capacity deal. OpenAI filed confidentially for an IPO in June.",
+      "published": "2026-10-22T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://www.cnbc.com/", "outlet": "CNBC", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-rosalind-brain-atlas",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-rosalind-brain",
+      "headline": "Nearly 2,000 GPT-Rosalind agents analyze 8M-cell mouse brain CRISPR atlas in 32 minutes",
+      "summary": "OpenAI, PerturbAI, and Scripps deployed 1,946 GPT-Rosalind agents on a whole-brain CRISPR atlas of 8 million mouse cells. Experts preferred the multi-agent reports 75% of the time. Leads include a Tsc1/Tsc2 divergence awaiting validation.",
+      "published": "2026-10-21T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://www.rdworldonline.com/openai-deploys-nearly-2000-gpt-rosalind-agents-to-generate-biological-research-leads-in-32-minutes/", "outlet": "R&D World", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-agent-compute-engine",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-agent-compute-engine",
+      "headline": "Google unveils Agent Compute Engine giving every Gemini agent a hardware-isolated microVM with Titanium chip security",
+      "summary": "Google's Agent Compute Engine runs each AI agent in a microVM secured by its Titanium chip. Idle VMs pause instantly and shared memory lets one host run far more agents. It already powers Gemini. Google open-sourced Agent Substrate. Preview coming soon.",
+      "published": "2026-10-22T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive", "outlet": "Google Cloud", "kind": "official" },
+        { "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-23",
+  "projects": [
+    {
+      "rank": 1,
+      "kind": "repo",
+      "name": "REA",
+      "ai": "claude",
+      "url": "https://github.com/morluto/rea",
+      "oneliner": "One MCP server for reverse engineering apps, binaries, and runtime behavior from any coding agent.",
+      "why": "106K new stars this week, the fastest-rising repo on GitHub; reverse engineering is finding its agent-native form.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 2,
+      "kind": "repo",
+      "name": "VoiceStudio",
+      "ai": "chatgpt",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "oneliner": "Open-source voice cloning, transcription, and text-to-speech, positioned as an ElevenLabs alternative.",
+      "why": "13.6K new stars this week and still accelerating; voice-AI demand keeps growing.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 3,
+      "kind": "repo",
+      "name": "Orca",
+      "ai": "claude",
+      "url": "https://github.com/stablyai/orca",
+      "oneliner": "Desktop and mobile tool for managing a fleet of coding agents across Claude Code, Codex, and Cursor.",
+      "why": "9.4K new stars this week; fleet management for coding agents remains one of the hottest categories.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 4,
+      "kind": "repo",
+      "name": "OpenCode",
+      "ai": "claude",
+      "url": "https://github.com/anomalyco/opencode",
+      "oneliner": "The open-source coding agent with terminal TUI, desktop app, and IDE extension, model-agnostic.",
+      "why": "220K total stars and 6.7K this week; the leading open-source alternative to proprietary coding agents.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 5,
+      "kind": "repo",
+      "name": "Hyperframes",
+      "ai": "chatgpt",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "oneliner": "Renders video from HTML, built for agents that need to produce and edit video programmatically.",
+      "why": "5.7K new stars this week; from HeyGen, bridging AI agents and video production.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 6,
+      "kind": "repo",
+      "name": "claude-plugins-official",
+      "ai": "claude",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "oneliner": "Anthropic's official directory of Claude Code plugins, maintained by the Claude team.",
+      "why": "5.6K new stars this week as the Agent Skills donation to AAIF drives fresh interest in the ecosystem.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 7,
+      "kind": "repo",
+      "name": "scientific-agent-skills",
+      "ai": "claude",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "oneliner": "177 agent skills and 100 scientific database connectors for research workflows.",
+      "why": "4K new stars this week; scientific automation through agent skills keeps growing.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 8,
+      "kind": "repo",
+      "name": "Ruflo",
+      "ai": "claude",
+      "url": "https://github.com/ruvnet/ruflo",
+      "oneliner": "Agent orchestration harness for multi-agent swarms with memory, federation, and vector RAG.",
+      "why": "3.7K new stars this week; adds coordination, memory, and security guardrails on top of Claude Code and Codex.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 9,
+      "kind": "repo",
+      "name": "CLI-Anything",
+      "ai": "chatgpt",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "oneliner": "Makes any software usable by AI agents through a generated command-line interface.",
+      "why": "3.3K new stars this week; teams keep adopting it to connect legacy tools to agents.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 10,
+      "kind": "repo",
+      "name": "Android Skills",
+      "ai": "gemini",
+      "url": "https://github.com/android/skills",
+      "oneliner": "Google's official agent skills for Android development, installable in Gemini, Claude Code, and Codex.",
+      "why": "1.4K new stars this week; Google's entry into agent skills standardization for Android developers.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 11,
+      "kind": "repo",
+      "name": "Rakazo",
+      "ai": "grok",
+      "url": "https://github.com/elie222/rakazo",
+      "oneliner": "Open-source alternative to Grok Bot where you choose the model and sandbox.",
+      "why": "1.2K new stars this week; the first viable self-hosted alternative to SpaceXAI's Grok Bot.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 12,
+      "kind": "repo",
+      "name": "jev-browser-wingman",
+      "ai": "jev",
+      "url": "https://github.com/coderexpert123/jev-browser-wingman",
+      "oneliner": "Hands an agent's browser clicks to TypeSafe's Jev, which picks the element for each step.",
+      "why": "Still growing as Jev's ecosystem expands; one of the first third-party tools built on System One models.",
+      "sources": [
+        { "url": "https://news.ycombinator.com/", "outlet": "Hacker News", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 13,
+      "kind": "app",
+      "name": "Pancake",
+      "ai": "claude",
+      "url": "https://pancake.ai",
+      "oneliner": "A go-to-market toolkit that AI agents can use to run sales, marketing, and outreach campaigns.",
+      "why": "Still trending on Product Hunt; agent-driven GTM is an emerging category.",
+      "sources": [
+        { "url": "https://www.producthunt.com/topics/artificial-intelligence", "outlet": "Product Hunt", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 14,
+      "kind": "app",
+      "name": "Needle",
+      "ai": "chatgpt",
+      "url": "https://needle.ai",
+      "oneliner": "Finds and contacts sales leads from a single prompt, working with Claude, ChatGPT, and Grok.",
+      "why": "289 upvotes on Product Hunt this week; AI-native lead generation with multi-model support.",
+      "sources": [
+        { "url": "https://www.producthunt.com/leaderboard/daily/2026/10/21", "outlet": "Product Hunt", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 15,
+      "kind": "app",
+      "name": "StarSkirmish",
+      "ai": "gemini",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "oneliner": "Benchmarks Gemini 4 Argon playing StarCraft against other frontier models.",
+      "why": "Still drawing interest as the creative test of Argon's planning and real-time decision-making.",
+      "sources": [
+        { "url": "https://news.ycombinator.com/", "outlet": "Hacker News", "kind": "community" }
+      ]
+    }
+  ]
+}

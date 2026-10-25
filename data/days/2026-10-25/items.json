@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-25",
+  "top": "anthropic-single-agent-guidance",
+  "items": [
+    {
+      "id": "anthropic-single-agent-guidance",
+      "ai": "claude",
+      "category": "feature",
+      "story": "anthropic-single-agent-guidance",
+      "headline": "Anthropic says single agents now outperform multi-agent setups in most enterprise deployments",
+      "summary": "Anthropic's applied AI team found that folding subagents into one main loop often gives better quality, lower cost, and lower latency. Since Opus 4.5, one agent can handle complex multistep plans. They recommend subagents only when context bloat is measurable or tasks must run in parallel.",
+      "why": "Many companies are building multi-agent architectures that add cost and complexity. Anthropic's guidance, backed by enterprise deployment data, suggests the industry may be over-engineering agent systems when a single capable model can now handle the work alone.",
+      "published": "2026-10-22T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-fired-researchers-respond",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-fired-researchers-respond",
+      "headline": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
+      "summary": "Tomek Korbak, Mikita Balesni, and Jasmine Wang told the WSJ that OpenAI never specified what they allegedly leaked. They say the firings were tied to advocacy for keeping AI reasoning open to outside inspection. OpenAI calls it a policy violation involving sensitive information.",
+      "published": "2026-10-24T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-discounts-poaching",
+      "ai": "chatgpt",
+      "category": "pricing",
+      "story": "openai-discounts-poaching",
+      "headline": "Report: OpenAI offers discounts up to 90% to win Anthropic's biggest enterprise customers",
+      "summary": "The Information reports OpenAI shifted Rippling's coding from 57% Anthropic to 52% OpenAI, gave Replit 30%+ off a $100M+ yearly deal, and cut DataCamp's costs by 80 to 90%. Both lower model pricing and deal-specific discounts drove the wins.",
+      "published": "2026-10-25T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.theinformation.com/articles/anthropics-margin-is-openais-opportunity", "outlet": "The Information", "kind": "press" },
+        { "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.theinformation.com/articles/anthropics-margin-is-openais-opportunity" }
+      ]
+    },
+    {
+      "id": "grok-chatgpt-election-bias",
+      "ai": "grok",
+      "category": "policy",
+      "story": "grok-chatgpt-election-bias",
+      "headline": "Study: Grok recommends Republican candidates 92% of the time while ChatGPT picks Democrats 97%",
+      "summary": "A Convovo study queried Grok 4.7 and GPT-6.1 Sol APIs across nearly 500 midterm races. The models agreed less than 10% of the time. Grok sourced from conservative voter guides and X; GPT from Wikipedia, AP, and Axios. Each Grok request carried 1,240 hidden tokens.",
+      "published": "2026-10-24T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    }
+  ]
+}

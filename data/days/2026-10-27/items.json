@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-27",
+  "top": "anthropic-ipo-s1",
+  "items": [
+    {
+      "id": "anthropic-ipo-s1",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo-s1",
+      "headline": "Anthropic files public S-1 with the SEC, plans Nasdaq listing under ticker ANT",
+      "summary": "The filing reveals an $80.7B net loss in the first half of 2026 alongside 1,368% year-over-year revenue growth. Goldman Sachs and Morgan Stanley will lead the offering, expected in mid-November. Anthropic warns that advanced AI could pose catastrophic or existential risks.",
+      "why": "Anthropic becomes the first frontier AI lab to file a public S-1. The disclosure gives investors and the public their first audited look at the economics of building frontier AI, including nearly $400B in committed cloud spending across Amazon, SpaceX, Google and Microsoft.",
+      "published": "2026-10-26T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/s1-sec", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://www.nbcnews.com/business/markets/anthropic-releases-ipo-filing-ahead-highly-anticipated-stock-debut-rcna605676", "outlet": "NBC News", "kind": "press" },
+        { "url": "https://abc.net.au/news/2026-10-27/asx-markets-business-live-news-anthropic/107312526", "outlet": "ABC News", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gpt61-terra-launch",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt61-terra-launch",
+      "headline": "OpenAI launches GPT-6.1 Terra for computer use at $1 per million input tokens",
+      "summary": "Terra replaces GPT-5.6 Terra as OpenAI's budget computer-use model. It reads screens and acts by clicking and typing across apps. OpenAI says it matched GPT-6 Astra results at a tenth of the price. Available in ChatGPT Plus, Pro, Enterprise, Edu and Codex.",
+      "published": "2026-10-26T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-gpt-6-1-terra/", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://thenextweb.com/news/openai-gpt-6-1-terra-computer-use", "outlet": "The Next Web", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-scientific-claims",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "openai-scientific-claims",
+      "headline": "OpenAI claims its models proved the local smoothing conjecture and disproved the Exponential Time Hypothesis",
+      "summary": "Three preprints dated October 25 claim AI-produced results on the Kakeya conjecture, the Exponential Time Hypothesis and Yang-Mills existence. All have been formalized in Lean. OpenAI formed independent expert panels to verify and says the results are unconfirmed.",
+      "published": "2026-10-26T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    }
+  ]
+}

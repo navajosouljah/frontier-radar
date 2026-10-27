@@ -1,6 +1,6 @@
 {
   "flagship": "GPT-6 Astra",
-  "newest": "2026-09-29",
+  "newest": "2026-10-26",
   "plans_from": "$8 / month (Go); Plus $20",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "kind": "official"
     },
     {
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
       "outlet": "OpenAI",
       "kind": "official"
     },

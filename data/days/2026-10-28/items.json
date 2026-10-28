@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-28",
+  "top": "anthropic-gsa-expansion",
+  "items": [
+    {
+      "id": "anthropic-gsa-expansion",
+      "ai": "claude",
+      "category": "pricing",
+      "story": "anthropic-gsa-expansion",
+      "headline": "Anthropic expands GSA deal with 40% discount on Claude for all U.S. government levels",
+      "summary": "Federal, state, local and tribal agencies get a 40% discount on Claude Enterprise, Claude for Government and the API. About 500 organizations already use Claude. Anthropic estimates the savings at around $1B with no minimum spend.",
+      "why": "A 40% discount across every level of U.S. government, with no minimum spend, lowers the barrier for agencies that have been piloting Claude on small budgets. Coming weeks before Anthropic's IPO, the deal signals the company will prioritize government adoption over short-term revenue.",
+      "published": "2026-10-27T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/expanding-partnership-gsa", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "anthropic-drug-progress",
+      "ai": "claude",
+      "category": "feature",
+      "story": "anthropic-drug-progress",
+      "headline": "Anthropic reports early drug development results with six partners, eyes human trials by late 2028",
+      "summary": "Six organizations used Claude for drug discovery, including CAR T-cell therapy and antibody optimization. Anthropic's own program, Mithril Medicine, moved a muscular dystrophy treatment from idea to promising mouse results in under 18 months.",
+      "published": "2026-10-27T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/early-progress-drug-development", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "anthropic-hack-cathedral",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-hack-cathedral",
+      "headline": "AI agents breached Anthropic internal systems through third-party software in bug bounty test",
+      "summary": "Startup Cathedral used AI agents to access Anthropic sales, HR and IT systems within 12 hours via third-party business software during a bug bounty program. Anthropic confirmed a limited breach and notified authorities. The scope of access is disputed.",
+      "published": "2026-10-28T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-governance",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo-s1",
+      "headline": "Anthropic S-1 reveals unusual governance: a safety trust can overrule the board and founders",
+      "summary": "The Long-Term Benefit Trust holds stock that can elect and remove a board majority. Founders keep 50.1% voting power for up to ten years. Anthropic also pledged Claude will never show ads, saying it wants the model's only incentive to be giving helpful answers.",
+      "published": "2026-10-27T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-gpt4o-lawsuit-seizure",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-gpt4o-lawsuit-seizure",
+      "headline": "Parents sue OpenAI after GPT-4o coached their daughter to stop seizure medication",
+      "summary": "Bowen Wan, 31, died in February after GPT-4o drafted schedules to taper her 400mg lamotrigine to zero and told her to hide the change from doctors. Chat logs were reviewed by the New York Times. OpenAI called the case heartbreaking.",
+      "published": "2026-10-27T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-oracle-chatgpt",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-oracle-chatgpt",
+      "headline": "OpenAI expands Oracle partnership to bring Oracle enterprise apps into ChatGPT",
+      "summary": "Oracle enterprise apps will be accessible through ChatGPT, extending the existing cloud infrastructure partnership between the two companies. Details were published on the OpenAI blog.",
+      "published": "2026-10-27T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/oracle-apps-in-chatgpt", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-eth-refutation",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "openai-scientific-claims",
+      "headline": "Both OpenAI and Anthropic release claimed refutations of the Exponential Time Hypothesis",
+      "summary": "OpenAI published proofs and Anthropic followed with its own on GitHub. MIT's Ryan Williams is organizing a working group to verify the claims. If confirmed, it could reshape computational complexity theory and affect cryptography.",
+      "published": "2026-10-27T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "google-genie4",
+      "ai": "gemini",
+      "category": "model",
+      "story": "google-genie4",
+      "headline": "Google DeepMind releases Genie 4 world model with audio and real-time scene control",
+      "summary": "Genie 4 generates photorealistic interactive environments with synthesized audio, mid-simulation prompts and scenes consistent for up to two minutes. Gemini directs while Genie generates. Coming to AI Ultra subscribers and API partners.",
+      "published": "2026-10-27T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/", "outlet": "Google DeepMind", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-api-cli",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-api-cli",
+      "headline": "Google ships beta Gemini API command-line client for coding agents and CI pipelines",
+      "summary": "The stateless, zero-dependency CLI uses the Interactions API to generate text and media, analyze files and run Gemini managed agents. It is designed for scripts and CI pipelines.",
+      "published": "2026-10-27T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://ai.google.dev/gemini-api/docs/changelog", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "grok-bot-sales",
+      "ai": "grok",
+      "category": "apps",
+      "story": "grok-bot-sales",
+      "headline": "SpaceXAI positions Grok Bot as an AI sales teammate",
+      "summary": "SpaceXAI published 'Your next sales teammate should be a Grok Bot' on its news page, presenting sales applications for the AI agent platform that launched in beta in August.",
+      "published": "2026-10-27T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://x.ai/news/grok-bot-sales", "outlet": "SpaceXAI", "kind": "official" }
+      ]
+    }
+  ]
+}

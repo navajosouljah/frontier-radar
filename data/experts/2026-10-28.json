@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-28",
+  "debate": {
+    "title": "Can AI really refute foundational math and computer science conjectures?",
+    "consensus": "Most computer scientists want to see the proofs verified before accepting them. The skeptics worry the flood of AI-generated results is overwhelming the community's ability to check them.",
+    "story": "openai-scientific-claims"
+  },
+  "quotes": [
+    {
+      "person": "Ryan Williams",
+      "role": "Computer science professor, MIT",
+      "outlet": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "quote": "I don't think that OpenAI's algorithm could possibly be the best algorithm you can get",
+      "stance": "skeptical",
+      "ai": "chatgpt",
+      "story": "openai-scientific-claims",
+      "said": "2026-10-27"
+    }
+  ]
+}

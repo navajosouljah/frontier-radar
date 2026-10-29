@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-29",
+  "top": "gemini-4-carbon",
+  "items": [
+    {
+      "id": "gemini-4-carbon",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-4-carbon",
+      "headline": "Google DeepMind releases Gemini 4 Carbon with top intelligence index score and cybersecurity focus",
+      "summary": "Carbon is Google's strongest frontier model, ranking first on the Intelligence Index v5 at 59 points. It debuts with cybersecurity benchmarks and a 0.0% prompt injection success rate. Introductory API pricing is $2 per million input and $10 per million output tokens.",
+      "why": "A new number one on the Intelligence Index, with cybersecurity as its standout capability, signals Google is competing on safety and code, not just benchmarks. The staged rollout to cyber defenders first marks a shift in how frontier models reach users.",
+      "published": "2026-10-28T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/", "outlet": "Google", "kind": "official" },
+        { "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-science-expansion",
+      "ai": "claude",
+      "category": "feature",
+      "story": "anthropic-science-expansion",
+      "headline": "Anthropic expands AI for Science to 20 organizations including NSF and Simons Foundation",
+      "summary": "Free Claude credits go to 20 science funders and institutions including the NSF, Simons Foundation, Wellcome Sanger Institute, and Gladstone Institutes. Projects include genome databases, neuroscience maps, and antimicrobial peptide discovery.",
+      "published": "2026-10-28T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "google-connected-apps-platform",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "google-connected-apps-platform",
+      "headline": "Google launches Connected Apps Platform so developers can bring apps into Gemini and Search",
+      "summary": "Developers can submit apps to appear in Gemini and Search via MCP servers. Over 50 partners including Adobe and Peloton are live in Gemini. The platform is in public preview for U.S. developers, with Search rollout in coming weeks.",
+      "published": "2026-10-28T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-servicenow-expansion",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-servicenow-expansion",
+      "headline": "OpenAI and ServiceNow expand partnership with ChatGPT, Codex, and voice agent integration",
+      "summary": "ServiceNow will bring business context into ChatGPT and give all employees access to ChatGPT Work and Codex. New integrations include Build Agent for app development and an AI-powered voice feature in the Super Intelligence Control Tower.",
+      "published": "2026-10-28T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/openai-servicenow-partnership-expansion/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-devday-dots-europe",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-devday-dots-europe",
+      "headline": "OpenAI teases wider Dots availability in Europe at Berlin DevDay Exchange",
+      "summary": "Romain Huet said Dots should become more widely available in the EEA, Switzerland, and the UK in coming weeks, pending regulator talks. Some business accounts already have access. Weekly Codex users in Germany grew about twentyfold since January.",
+      "published": "2026-10-28T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    }
+  ]
+}

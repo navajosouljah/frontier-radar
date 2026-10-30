@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-30",
+  "top": "gemini-computer-use-ga",
+  "items": [
+    {
+      "id": "gemini-computer-use-ga",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-computer-use-ga",
+      "headline": "Google promotes Gemini Computer Use to general availability across both APIs",
+      "summary": "The Computer Use tool is now GA on the Interactions and GenerateContent APIs, moving out of preview. Developers can build production apps that have Gemini control a desktop, browser or mobile screen.",
+      "why": "Computer use is the bridge between chatbot and agent. Promoting it to GA signals Google believes the tool is reliable enough for production workloads, giving developers a green light to ship computer-controlling apps at scale.",
+      "published": "2026-10-30T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://ai.google.dev/gemini-api/docs/changelog", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-model-spec-update",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-model-spec-update",
+      "headline": "OpenAI rewrites the Model Spec around five core values, retires most style rules",
+      "summary": "The v2026-10-29 Model Spec reorganizes guidance around faithfulness to human intent, harm minimization, honesty, human agency and care. The model is now called GPT instead of the assistant. Most detailed style rules are gone; the default is approaching questions objectively.",
+      "published": "2026-10-29T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/updated-model-spec/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-misalignment-detection",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-misalignment-reports",
+      "headline": "OpenAI details its four-layer misalignment detection system, says it caught a live breach in 15 minutes",
+      "summary": "The system runs activation probes, model reviewers, investigative agents and automated investigation. In a Hugging Face replay it alerted 30 minutes after a sandbox escape. A live September RL breach was flagged within 15 minutes. METR and Redwood red-teamed the system for three weeks.",
+      "published": "2026-10-29T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-pro-limits-doubled",
+      "ai": "chatgpt",
+      "category": "pricing",
+      "story": "chatgpt-pro-limits-doubled",
+      "headline": "OpenAI doubles Work and Codex limits on Pro plans and cancels the planned Pro 200 cut",
+      "summary": "Pro 100 and Pro 500 subscribers get double their previous Work and Codex allowance. The planned reduction for Pro 200 was reversed and those users also get the doubled limit. Plus plan limits were not changed.",
+      "published": "2026-10-29T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-analytics-api",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-analytics-api",
+      "headline": "Anthropic launches Usage and Cost Analytics API in beta for Console and Enterprise organizations",
+      "summary": "New endpoints report token usage and cost, filterable by model, workspace, API key, user or service account. The older usage and cost endpoints are now marked legacy but remain supported.",
+      "published": "2026-10-29T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/api", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "anthropic-influence-study",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-influence-study",
+      "headline": "Anthropic study finds experts adopted a Claude agent's randomly assigned opinion 86% of the time",
+      "summary": "Fifty causal-inference researchers analyzed data with a Claude agent whose recommendation was set by coin flip. Participants adopted the agent's preference in 86% of analytical decisions and 52% said the result felt like their own idea. Prior expertise offered no protection.",
+      "published": "2026-10-29T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/agents-judgment-calls", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "distillation-shift-to-astra",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "distillation-shift-to-astra",
+      "headline": "Chinese AI labs reportedly shift distillation target from Claude to GPT-6 Astra after Anthropic tightens defenses",
+      "summary": "DeepSeek and Moonshot AI have moved to distilling from OpenAI's GPT-6 Astra after Anthropic cut extractable data by 90 to 99 percent, according to The Information.",
+      "published": "2026-10-29T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.theinformation.com/" }
+      ]
+    },
+    {
+      "id": "gemini-android-redesign-file-gen",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-android-redesign-file-gen",
+      "headline": "Gemini app redesign and in-app file generation roll out to all Android devices",
+      "summary": "The latest Gemini design, previously limited to Pixel, is now reaching all Android phones. The update also adds in-app file generation for documents, slides and spreadsheets.",
+      "published": "2026-10-29T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://9to5google.com/2026/10/29/gemini-design-file-generation/", "outlet": "9to5Google", "kind": "community" }
+      ]
+    }
+  ]
+}

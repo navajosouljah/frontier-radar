@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-30",
+  "projects": [
+    {
+      "rank": 1,
+      "kind": "repo",
+      "name": "REA",
+      "ai": "claude",
+      "url": "https://github.com/morluto/rea",
+      "oneliner": "One MCP server for reverse engineering apps, binaries, and runtime behavior from any coding agent.",
+      "why": "370K total stars and still the most-starred AI repo on GitHub weekly trending; reverse engineering remains one of the hottest agent use cases.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 2,
+      "kind": "repo",
+      "name": "Superpowers",
+      "ai": "claude",
+      "url": "https://github.com/obra/superpowers",
+      "oneliner": "Agentic skills framework and methodology for building agent workflows.",
+      "why": "309K total stars; the largest skills framework in the Claude ecosystem, with a growing library of community-contributed skills.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 3,
+      "kind": "repo",
+      "name": "OpenCode",
+      "ai": "claude",
+      "url": "https://github.com/anomalyco/opencode",
+      "oneliner": "The open-source coding agent with terminal TUI, desktop app, and IDE extension, model-agnostic.",
+      "why": "220K total stars and over 1,000 contributors; the leading open-source alternative to proprietary coding agents.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 4,
+      "kind": "repo",
+      "name": "TradingAgents",
+      "ai": "chatgpt",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "oneliner": "Multi-agent LLM trading framework that simulates a trading firm with analyst, researcher, and risk manager agents.",
+      "why": "119K total stars; the largest open-source AI trading framework as agent-driven finance draws more builders.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 5,
+      "kind": "repo",
+      "name": "Gemini CLI",
+      "ai": "gemini",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "oneliner": "Google's official terminal AI agent powered by the Gemini API.",
+      "why": "109K total stars with 701 contributors; Google's answer to Claude Code, now a fixture of the AI developer toolkit.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 6,
+      "kind": "repo",
+      "name": "VoiceStudio",
+      "ai": "chatgpt",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "oneliner": "Open-source voice cloning, transcription, and text-to-speech, positioned as an ElevenLabs alternative.",
+      "why": "72K total stars and still climbing; voice AI demand keeps growing as developers look for self-hosted alternatives.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 7,
+      "kind": "repo",
+      "name": "Hyperframes",
+      "ai": "chatgpt",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "oneliner": "Renders video from HTML, built for agents that need to produce and edit video programmatically.",
+      "why": "66K total stars; from HeyGen, bridging AI agents and video production with a growing contributor base.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 8,
+      "kind": "repo",
+      "name": "DeepTutor",
+      "ai": "chatgpt",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "oneliner": "Lifelong personalized tutoring agent that adapts to each student over time.",
+      "why": "51K total stars; from HKU Data Science Lab, one of the first research-backed AI tutoring agents to gain wide adoption.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 9,
+      "kind": "repo",
+      "name": "Knowledge Work Plugins",
+      "ai": "claude",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "oneliner": "Anthropic's official plugins for Claude Cowork, covering productivity and collaboration workflows.",
+      "why": "34K stars; Anthropic's growing plugin ecosystem is drawing both enterprise and community contributors.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 10,
+      "kind": "repo",
+      "name": "SkillSpector",
+      "ai": "claude",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "oneliner": "Security scanner that analyzes AI agent skills for vulnerabilities before they run.",
+      "why": "23K stars; NVIDIA entering the agent-skills security space shows the ecosystem is maturing beyond code to safety tooling.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 11,
+      "kind": "repo",
+      "name": "OpenMausBot",
+      "ai": "grok",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "oneliner": "Open-source Grok bot alternative with customizable model and sandbox support.",
+      "why": "8K total stars; a growing self-hosted option for teams that want a Grok-powered bot without vendor lock-in.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 12,
+      "kind": "repo",
+      "name": "ThinkRail",
+      "ai": "chatgpt",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "oneliner": "JetBrains' IDE for vibe coding with its Pi AI coding agent.",
+      "why": "6.4K stars; JetBrains entering the vibe-coding space with a dedicated IDE signals that agent-native development is going mainstream.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 13,
+      "kind": "repo",
+      "name": "Skill Recorder",
+      "ai": "chatgpt",
+      "url": "https://github.com/microsoft/skill-recorder",
+      "oneliner": "Records work sessions and converts them into reusable AI agent skills.",
+      "why": "5.6K stars; Microsoft's approach to skill creation through demonstration rather than code.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 14,
+      "kind": "repo",
+      "name": "Rakazo",
+      "ai": "grok",
+      "url": "https://github.com/elie222/rakazo",
+      "oneliner": "Open-source alternative to Grok Bot where you choose the model and sandbox.",
+      "why": "5.3K stars; the leading self-hosted alternative to SpaceXAI's Grok Bot.",
+      "sources": [
+        { "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }
+      ]
+    },
+    {
+      "rank": 15,
+      "kind": "repo",
+      "name": "jev-browser-wingman",
+      "ai": "jev",
+      "url": "https://github.com/coderexpert123/jev-browser-wingman",
+      "oneliner": "Hands an agent's browser clicks to TypeSafe's Jev, which picks the element for each step.",
+      "why": "One of the first third-party tools built on System One models; Jev's developer ecosystem is still small but growing.",
+      "sources": [
+        { "url": "https://news.ycombinator.com/", "outlet": "Hacker News", "kind": "community" }
+      ]
+    }
+  ]
+}

@@ -2111,5 +2111,264 @@
         "flags": []
       }
     }
+  },
+  "lightpanda-io/browser": {
+    "repo": "lightpanda-io/browser",
+    "checked": "2026-10-31",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/lightpanda-io/browser/security/advisories",
+        "count": 10,
+        "latestRelease": "1.0.2",
+        "items": [
+          {
+            "ghsa": "GHSA-7c5w-p4q2-98gf",
+            "cve": null,
+            "severity": "high",
+            "published": "2026-09-15",
+            "summary": "WebSocket frame length integer overflow allows unauthenticated remote denial of service",
+            "patched": "0.4.1",
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "1.0.2"
+          },
+          {
+            "ghsa": "GHSA-5gg3-f7j5-hfv4",
+            "cve": null,
+            "severity": "high",
+            "published": "2026-09-15",
+            "summary": "`SameSite=Lax` cookies sent on cross-site iframe navigations and cross-site top-level POST navigations",
+            "patched": "0.4.1",
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "1.0.2"
+          },
+          {
+            "ghsa": "GHSA-xxrm-48f7-h89p",
+            "cve": null,
+            "severity": "high",
+            "published": "2026-09-15",
+            "summary": "Nested iframe under a cross-site top-level document receives `SameSite=Strict` cookies",
+            "patched": "0.4.1",
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "1.0.2"
+          },
+          {
+            "ghsa": "GHSA-mcw6-8p83-pm3h",
+            "cve": null,
+            "severity": "high",
+            "published": "2026-09-04",
+            "summary": "Credential headers leak across cross-origin redirects",
+            "patched": "0.4.0",
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "1.0.2"
+          },
+          {
+            "ghsa": "GHSA-rqpx-pxch-q2cm",
+            "cve": null,
+            "severity": "high",
+            "published": "2026-09-04",
+            "summary": "MCP HTTP server accepts any Origin / Host / content type - any web page can drive every MCP tool",
+            "patched": "0.4.0",
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "1.0.2"
+          },
+          {
+            "ghsa": "GHSA-wjwj-jrwg-3wgm",
+            "cve": null,
+            "severity": "high",
+            "published": "2026-08-17",
+            "summary": "Missing Origin / Host validation on the CDP WebSocket handshake allows Cross-Site WebSocket Hijacking",
+            "patched": "0.3.7",
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "1.0.2"
+          },
+          {
+            "ghsa": "GHSA-rm33-829c-942c",
+            "cve": null,
+            "severity": "high",
+            "published": "2026-05-28",
+            "summary": "SameSite=Strict cookies sent on cross-site navigations",
+            "patched": "0.3.1",
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "1.0.2"
+          },
+          {
+            "ghsa": "GHSA-4j5j-4ggv-2vgj",
+            "cve": null,
+            "severity": "high",
+            "published": "2026-05-28",
+            "summary": "Cookie Domain= attribute accepted by lookalike hosts due to suffix-only match",
+            "patched": "0.2.9",
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "1.0.2"
+          },
+          {
+            "ghsa": "GHSA-mq6p-m9cc-q432",
+            "cve": "CVE-2026-52842",
+            "severity": "critical",
+            "published": "2026-05-28",
+            "summary": "URL parser misidentifies page origin for URLs containing @ in the path - Same-Origin Policy bypass",
+            "patched": "0.3.1",
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "1.0.2"
+          },
+          {
+            "ghsa": "GHSA-36mm-v3c2-24cc",
+            "cve": "CVE-2026-52843",
+            "severity": "critical",
+            "published": "2026-05-28",
+            "summary": "fetch() and XMLHttpRequest attach session cookies to cross-origin requests regardless of credentials mode",
+            "patched": "0.2.9",
+            "openPackages": [],
+            "status": "patched",
+            "latestPublished": "1.0.2"
+          }
+        ]
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "lightpanda-io/browser CVE",
+          "lightpanda-io/browser vulnerability",
+          "lightpanda-io/browser malware",
+          "lightpanda-io/browser scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "lightpanda-io/browser",
+        "stars": 38793,
+        "forks": 1885,
+        "watchers": 99,
+        "openIssues": 101,
+        "hasIssues": true,
+        "contributors": 88,
+        "commits": 11447,
+        "created": "2023-02-07",
+        "pushed": "2026-10-31",
+        "archived": false,
+        "ageDays": 1363,
+        "flags": []
+      }
+    }
+  },
+  "Orkas-AI/Orkas": {
+    "repo": "Orkas-AI/Orkas",
+    "checked": "2026-10-31",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/Orkas-AI/Orkas/security/advisories",
+        "count": 0,
+        "latestRelease": "2026.10.27",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "Orkas-AI/Orkas CVE",
+          "Orkas-AI/Orkas vulnerability",
+          "Orkas-AI/Orkas malware",
+          "Orkas-AI/Orkas scam"
+        ],
+        "results": 11,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "Orkas-AI/Orkas",
+        "stars": 5868,
+        "forks": 354,
+        "watchers": 145,
+        "openIssues": 6,
+        "hasIssues": true,
+        "contributors": 14,
+        "commits": 820,
+        "created": "2026-04-29",
+        "pushed": "2026-10-31",
+        "archived": false,
+        "ageDays": 186,
+        "flags": []
+      }
+    }
+  },
+  "Donchitos/Claude-Code-Game-Studios": {
+    "repo": "Donchitos/Claude-Code-Game-Studios",
+    "checked": "2026-10-31",
+    "verdict": "REVIEW",
+    "reasons": [
+      "activity: 30688 stars on 2 contributor(s)"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/Donchitos/Claude-Code-Game-Studios/security/advisories",
+        "count": 0,
+        "latestRelease": "1.2.0",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "Donchitos/Claude-Code-Game-Studios CVE",
+          "Donchitos/Claude-Code-Game-Studios vulnerability",
+          "Donchitos/Claude-Code-Game-Studios malware",
+          "Donchitos/Claude-Code-Game-Studios scam"
+        ],
+        "results": 0,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "Donchitos/Claude-Code-Game-Studios",
+        "stars": 30688,
+        "forks": 4202,
+        "watchers": 210,
+        "openIssues": 71,
+        "hasIssues": true,
+        "contributors": 2,
+        "commits": 43,
+        "created": "2026-02-12",
+        "pushed": "2026-10-19",
+        "archived": false,
+        "ageDays": 262,
+        "flags": [
+          "30688 stars on 2 contributor(s)"
+        ]
+      }
+    }
   }
 }

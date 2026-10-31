@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-31",
+  "top": "openai-community-safety-teens",
+  "items": [
+    {
+      "id": "openai-community-safety-teens",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-community-safety-teens",
+      "headline": "OpenAI expands teen safety protections and commits to publishing a community safety report",
+      "summary": "New safeguards restrict weapons information for users predicted to be under 18, even without violent intent. OpenAI made over 200 law enforcement referrals for violence threats in Q3 2026. The first community safety report arrives early 2027.",
+      "why": "Two hundred law enforcement referrals in a single quarter is the first hard number any frontier lab has published about real-world violence interventions. The new safeguards and reporting commitment set a transparency baseline competitors will be measured against.",
+      "published": "2026-10-30T09:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-robots-txt-training",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-robots-txt-training",
+      "headline": "OpenAI to honor a shared robots.txt signal for AI training preferences",
+      "summary": "OpenAI joins the IETF AI Preferences working group and will implement a common signal that lets website operators control whether their content is used for AI training. The signal will go live in the coming months.",
+      "published": "2026-10-30T09:30:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/helping-websites-express-ai-training-preferences", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-fair-use-brief",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-fair-use-brief",
+      "headline": "OpenAI publishes amicus brief excerpts backing fair use for AI training in the New York Times case",
+      "summary": "Briefs from experts, the US government and accessibility advocates argue AI training is transformative and does not substitute for the original works. The filing pushes back on the market dilution theory.",
+      "published": "2026-10-30T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/fair-use-benefits-everyone", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gpt-6-rosalind",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-rosalind-update",
+      "headline": "OpenAI releases GPT-6 Rosalind, a specialized life sciences reasoning model",
+      "summary": "The GPT-6-based version of Rosalind combines biological reasoning with scientific tool use. Access is restricted to organizations approved for the trusted-access Rosalind Research program.",
+      "published": "2026-10-30T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://developers.openai.com/api/docs/changelog", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-opus-48-fast-deprecated",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-opus-48-fast-deprecated",
+      "headline": "Anthropic deprecates fast mode for Claude Opus 4.8, removal set for November 30",
+      "summary": "Requests to Claude Opus 4.8 with speed: fast will return an error after November 30. Developers should migrate to Claude Opus 5.5 to keep using fast mode.",
+      "published": "2026-10-30T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://platform.claude.com/docs/en/release-notes/api", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-autonomous-gene-therapy",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-autonomous-gene-therapy",
+      "headline": "Researcher reports Claude Sonnet 5 autonomously chose and delivered a gene therapy into a mouse brain",
+      "summary": "Gabriel Ocana-Santero of Exin Therapeutics says he gave the model 19 therapies, an epilepsy mouse model and a surgical rig. Claude chose the therapy, derived coordinates from papers and made 32 observations during the procedure. Results are not peer-reviewed.",
+      "published": "2026-10-30T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-fundraise-shortfall",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-fundraise-shortfall",
+      "headline": "OpenAI reportedly raises just $11B of its $30B target at a $1.25 trillion valuation",
+      "summary": "The Wall Street Journal reports big investors are losing appetite, leaving the round at about a third of its target. OpenAI now plans to turn to family offices and high-net-worth individuals for the rest.",
+      "published": "2026-10-31T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.wsj.com/" }
+      ]
+    },
+    {
+      "id": "grok-democrats-preserve-chats",
+      "ai": "grok",
+      "category": "policy",
+      "story": "grok-democrats-preserve-chats",
+      "headline": "House Democrats demand Trump preserve Grok, ChatGPT and Claude chat records",
+      "summary": "Reps. Raskin and Garcia asked the White House to preserve all AI chatbot prompts and responses after a TIME report revealed Trump quizzed Grok about Venezuela weeks before ordering Maduro's capture.",
+      "published": "2026-10-30T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://time.com/article/2026/10/30/house-democrats-trump-grok-ai-chats-musk", "outlet": "TIME", "kind": "press" }
+      ]
+    },
+    {
+      "id": "malicious-claude-code-extension",
+      "ai": "claude",
+      "category": "policy",
+      "story": "malicious-claude-code-extension",
+      "headline": "A malicious Claude Code extension in Cursor's marketplace attempted remote access on up to 5,000 users",
+      "summary": "A tampered extension was live for about 11 hours before Cursor removed it and took the marketplace offline. The extension tried to collect system info and set up remote access. Anthropic was not involved.",
+      "published": "2026-10-30T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-antigravity-cloud",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-antigravity-cloud",
+      "headline": "Google's Antigravity build shows a local-to-cloud toggle as Jules heads for December shutdown",
+      "summary": "A TestingCatalog teardown found a local/cloud toggle and a developer-only Running Jobs section in Antigravity. Google plans to shut down Jules on December 31.",
+      "published": "2026-10-31T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "grok-bot-texting-tasks",
+      "ai": "grok",
+      "category": "feature",
+      "story": "grok-bot-texting-tasks",
+      "headline": "SpaceXAI prepares texting, tasks hub and Discord support for Grok Bot",
+      "summary": "The first stable Grok Bot build is available to download. Teams, Tasks, Texting and Discord integrations are in development according to a TestingCatalog teardown.",
+      "published": "2026-10-30T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "debate": {
+    "title": "Are AI bug bounties keeping up with the stakes?",
+    "consensus": "Security researchers say the payouts for critical AI vulnerabilities lag behind the severity of the flaws, given the personal data at risk.",
+    "story": "chatgpt-html-preview-vuln"
+  },
+  "quotes": [
+    {
+      "person": "Simon Willison",
+      "role": "AI researcher and developer",
+      "outlet": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "quote": "OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious.",
+      "stance": "skeptical",
+      "ai": "chatgpt",
+      "story": "chatgpt-html-preview-vuln",
+      "said": "2026-10-31"
+    }
+  ]
+}

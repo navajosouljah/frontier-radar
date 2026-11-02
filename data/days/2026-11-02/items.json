@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-02",
+  "top": null,
+  "items": [
+    {
+      "id": "openai-lobbying-blitz",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-lobbying-blitz",
+      "headline": "OpenAI plans post-midterm lobbying push with 'speed limits' for frontier AI and data center rebrands",
+      "summary": "Policy chief Chris Lehane told Axios that OpenAI will propose binding safety rules for frontier models and rebrand data centers as 'AI Compute Campuses' to counter local backlash. The push begins during the lame-duck session.",
+      "published": "2026-11-01T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy", "outlet": "Axios", "kind": "press" },
+        { "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy" },
+        { "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/", "outlet": "TechCrunch", "kind": "press", "repeats": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy" }
+      ]
+    },
+    {
+      "id": "openai-abu-dhabi-deals",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-abu-dhabi-deals",
+      "headline": "Sam Altman signs AI deals with Abu Dhabi entities spanning energy, government and investment",
+      "summary": "OpenAI agreed to deploy frontier AI across ADNOC operations, apply AI to Mubadala investment analysis and digitize Abu Dhabi government regulations. Inception42 signed a five-year enterprise and education deal.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html", "outlet": "CNBC", "kind": "press" }
+      ]
+    },
+    {
+      "id": "ai-election-war-rooms",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "ai-election-war-rooms",
+      "headline": "OpenAI and Anthropic set up election war rooms to monitor AI misuse ahead of US midterms",
+      "summary": "Both companies will run dedicated war rooms for the 2026 midterms, a first for each. Anthropic said its team monitors Claude for misuse and will respond quickly to incidents. The article also notes Google's AI Mode failed to answer a 2020 election query.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.semafor.com/article/11/02/2026/election-war-rooms-enter-the-ai-age", "outlet": "Semafor", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gpt-6-2-astra-spotted",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-6-2-astra-spotted",
+      "headline": "GPT-6.2 Astra model ID spotted in Codex usage analytics before any OpenAI announcement",
+      "summary": "Several Codex users saw 'gpt-6.2-astra' in their usage breakdowns on Oct 31, though the model picker still shows GPT-6 Astra. One user posted a raw response event confirming the model ID. OpenAI has not announced the model.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/gpt-6-2-astra-appears-codex-usage/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "claude-mythos-5-5-prep",
+      "ai": "claude",
+      "category": "model",
+      "story": "claude-mythos-5-5-prep",
+      "headline": "References to Claude Mythos 5.5 found in Anthropic webpage HTML",
+      "summary": "'Mythos 5.5' appears six times in the HTML of Anthropic's Mythos page, absent from the Oct 23 snapshot, though visible text still says 5.1. A 'claude-fable-5-5' entry briefly appeared in LiteLLM's Azure price list on Oct 13.",
+      "published": "2026-11-01T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-comic-artifacts",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-comic-artifacts",
+      "headline": "Google tests comic book artifact generator for Gemini Notebook",
+      "summary": "A hidden Beta tile in Gemini Notebook's Artifacts Studio points to a feature that generates comic books from uploaded sources. Four anime-inspired art styles and language or format choices are available. Not yet public.",
+      "published": "2026-11-01T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/google-testing-comic-artifacts-for-gemini-notebook/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-antigravity-voice-agent",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-antigravity-voice-agent",
+      "headline": "Google prepares 'Chief of Staff' AI agent with voice mode for Antigravity",
+      "summary": "Hidden features in Google's Antigravity build include a 'Chief of Staff' agent with two-way voice conversations, an overview dashboard for extensions and background tasks, and voice speed controls. A major release may come next week.",
+      "published": "2026-11-01T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/google-prepares-new-ai-agent-for-antigravity-with-voice-mode/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    }
+  ]
+}

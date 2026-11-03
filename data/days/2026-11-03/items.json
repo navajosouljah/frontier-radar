@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-03",
+  "top": "openai-bug-bounty-boost",
+  "items": [
+    {
+      "id": "openai-bug-bounty-boost",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-bug-bounty-boost",
+      "headline": "OpenAI quadruples bug bounty rewards and plans security sprint with Cathedral",
+      "summary": "Critical findings in ChatGPT or Codex now pay up to $30K base, with quality, loyalty and campaign bonuses raising the ceiling to about $172K. A new internal sprint will pair Cathedral researchers with OpenAI engineers to stress-test defenses.",
+      "why": "The quadrupled rewards and upcoming security sprint signal that AI companies are competing for the best external security researchers, not just the best models. As agents like Codex take real-world actions, the stakes of a vulnerability go far beyond chat.",
+      "published": "2026-11-02T18:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai/", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "grok-bot-quota-cuts",
+      "ai": "grok",
+      "category": "pricing",
+      "story": "grok-bot-quota-cuts",
+      "headline": "SpaceXAI cuts Grok Bot usage quotas after Musk says serving costs are unsustainably high",
+      "summary": "Several users saw weekly quotas max out overnight. Musk confirmed on X that the cost of serving Grok Bot was unsustainably high relative to revenue. Grok Bot shares its quota with Grok and Cursor.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-rsi-warning",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-rsi-warning",
+      "headline": "Anthropic warns in amended S-1 that AI may imminently hit recursive self-improvement threshold",
+      "summary": "The revised IPO filing says Anthropic's use of AI in model development may soon meet its own definition of dramatically accelerated progress. No current model has crossed the line, and the company is weighing updates to its Responsible Scaling Policy.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-code-game-block",
+      "ai": "claude",
+      "category": "policy",
+      "story": "claude-code-game-block",
+      "headline": "Anthropic blocks Claude Code from cloning video games after wave of AI-built knockoffs",
+      "summary": "Two sentences added to the Opus 5.5 system prompt steer Claude Code away from recreating existing games, even renamed ones. Employee Addy Osmani confirmed the change, saying IP infringement violates Anthropic's usage policy.",
+      "published": "2026-11-03T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-q3-financials",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-q3-financials",
+      "headline": "Anthropic posts nearly $17B in Q3 revenue but reports $23.3B net loss",
+      "summary": "Revenue grew about twelvefold year-over-year but operating costs of $17.5B exceeded it. The company attributed the spike to $5B in short-term compute and $2B in employee donation matching, swinging from a profitable Q2 to a loss.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "chatgpt-tab-merge",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-tab-merge",
+      "headline": "OpenAI plans to merge ChatGPT's Chat and Work tabs into one workspace",
+      "summary": "An email to users says brainstorming and agentic tasks will share a single interface. ChatGPT and Codex will draw from one token pool, though Codex stays a separate experience. No rollout date was given.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    }
+  ]
+}

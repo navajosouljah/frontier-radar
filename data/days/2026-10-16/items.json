@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-16",
+  "top": "anthropic-metr-evaluators",
+  "items": [
+    {
+      "id": "anthropic-metr-evaluators",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-metr-evaluators",
+      "headline": "Anthropic gives METR employee-like access to evaluate its frontier models, names three more partners",
+      "summary": "Anthropic is embedding six METR researchers with employee-level access to its internal tools and risk-assessment systems. The evaluators will publish their findings independently. SecureBio, Accenture and Hugging Face are joining at different tiers.",
+      "why": "This is the first time a frontier AI company has given an outside evaluator employee-like access to its safety systems. If the arrangement succeeds, it sets a template the rest of the industry may be pressed to follow.",
+      "published": "2026-10-15T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://www.theverge.com/2026/10/15/anthropic-metr-employee-level-access", "outlet": "The Verge", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-valuation-tempered",
+      "ai": "claude",
+      "category": "apps",
+      "story": "anthropic-q3-revenue",
+      "headline": "Some investors now expect Anthropic's November IPO at around $1.5 trillion, down from $2 trillion",
+      "summary": "After an investor day in San Francisco, some prospective buyers discussed a valuation of about $1.5 trillion instead of $2 trillion. They were disappointed by slowing sequential growth, as Q3's 45% jump lagged behind Q2's more than doubling.",
+      "published": "2026-10-15T20:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/", "outlet": "Reuters", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-gpt-live-1-1",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-gpt-live-1-1",
+      "headline": "OpenAI ships GPT-Live-1.1 with new voices in six languages and fewer interruptions",
+      "summary": "GPT-Live-1.1 adds voices in French, German, Hindi, Mexican Spanish, Korean and Japanese, with improved accent handling and fewer pauses. It rolls out to all ChatGPT, Codex and dots users. API access is coming soon.",
+      "published": "2026-10-15T18:19:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://x.com/OpenAI/status/2110797830361436604", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-rosalind-academic",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-rosalind-academic",
+      "headline": "OpenAI opens Rosalind Academic Plan with up to 12 months of sponsored access for US university labs",
+      "summary": "Eligible academic labs at US universities can apply for up to 12 months of sponsored access to OpenAI tools including GPT-Rosalind. Research data shared through the plan is not used to train models by default.",
+      "published": "2026-10-15T19:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://x.com/OpenAI/status/2110841898076418336", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-simons-math",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-simons-math",
+      "headline": "OpenAI donates $5M to Simons Foundation for mathematicians to verify AI-produced results",
+      "summary": "The funding will support workshops, conferences and programs to help mathematicians examine and build on AI-generated results. OpenAI will also provide model access and computing resources to Simons-supported researchers.",
+      "published": "2026-10-15T14:35:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://x.com/OpenAI/status/2110741355739963884", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-argon-pro-antigravity",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-argon-pro-antigravity",
+      "headline": "Gemini 4 Argon rolls out to Google AI Pro subscribers in Antigravity",
+      "summary": "Google's Antigravity coding tool now offers Gemini 4 Argon to paid AI Pro subscribers. The initial Oct 13 launch gave only Ultra and Enterprise tiers access in Antigravity. Pro subscribers already had access in the Gemini app.",
+      "published": "2026-10-15T22:52:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-availability", "outlet": "Google", "kind": "official" },
+        { "url": "https://9to5google.com/2026/10/15/gemini-4-argon-antigravity-ai-pro/", "outlet": "9to5Google", "kind": "community" }
+      ]
+    },
+    {
+      "id": "jev-1-14",
+      "ai": "jev",
+      "category": "model",
+      "story": "jev-1-14",
+      "headline": "TypeSafe AI ships Jev 1.14 with experimental image inputs, a new box type and longer context",
+      "summary": "Jev 1.14.0 adds better multilingual support across the board. Experimental features, off by default, include composable image inputs, a bounding-box response type and longer context windows. TypeSafe warns they are not production-ready.",
+      "published": "2026-10-14T20:14:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://x.com/typesafeai/status/2110536685805355064", "outlet": "TypeSafe AI", "kind": "official" },
+        { "url": "https://typesafe.ai/blog/jev-1-14", "outlet": "TypeSafe AI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "theophyseval-benchmark",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "theophyseval-benchmark",
+      "headline": "GPT-6-Astra solves 98% of physics research problems in new TheoPhysEval benchmark",
+      "summary": "A 35-researcher team tested frontier models on 50 unpublished theoretical physics problems. GPT-6-Astra scored 98% in Codex, Opus 5.5 hit 92%, and Gemini 3.8 Flash reached 68%. The problems would take human experts about a day each.",
+      "published": "2026-10-15T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "synthid-time-best-invention",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "synthid-time-best-invention",
+      "headline": "Google's SynthID named to TIME's Best Inventions of 2026 after watermarking 180 billion images",
+      "summary": "TIME included SynthID in its Best Inventions of 2026 list. The Google DeepMind watermarking tool has marked over 180 billion images and videos. Its principles have been extended to biology with SynthID Bio.",
+      "published": "2026-10-15T12:53:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://x.com/GoogleDeepMind/status/2110715601454784965", "outlet": "Google DeepMind", "kind": "official" }
+      ]
+    }
+  ]
+}

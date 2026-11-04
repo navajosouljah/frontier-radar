@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-16",
+  "projects": [
+    {
+      "rank": 1,
+      "kind": "repo",
+      "name": "rea",
+      "repo": "morluto/rea",
+      "ai": "claude",
+      "oneliner": "Reverse engineer anything with AI agents, from app behavior to native binaries",
+      "url": "https://github.com/morluto/rea",
+      "why": "Topped GitHub Trending this week with 239K new stars",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 2,
+      "kind": "repo",
+      "name": "claude-mem",
+      "repo": "thedotmack/claude-mem",
+      "ai": "claude",
+      "oneliner": "Persistent context across sessions for Claude Code and other coding agents",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "why": "101K stars total, gained 2.9K this week; trending in TypeScript weekly",
+      "sources": [{ "url": "https://github.com/trending/typescript?since=weekly", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 3,
+      "kind": "repo",
+      "name": "OpenMontage",
+      "repo": "calesthio/OpenMontage",
+      "ai": "claude",
+      "oneliner": "Open-source agentic video production system with 12 pipelines and 100+ tools",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "why": "68.8K stars; turns a coding agent into a full video production studio",
+      "sources": [{ "url": "https://github.com/trending/python?since=weekly", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 4,
+      "kind": "repo",
+      "name": "free-claude-code",
+      "repo": "Alishahryar1/free-claude-code",
+      "ai": "claude",
+      "oneliner": "Run Claude Code, Codex and other coding agents with various models from terminal, IDE or phone",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "why": "60.9K stars, trending in Python this week",
+      "sources": [{ "url": "https://github.com/trending/python?since=weekly", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 5,
+      "kind": "repo",
+      "name": "diagram-design",
+      "repo": "cathrynlavery/diagram-design",
+      "ai": "claude",
+      "oneliner": "Diagram design system built for AI coding tools",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "why": "56.2K stars with 10.2K new this week; trending weekly",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 6,
+      "kind": "repo",
+      "name": "scientific-agent-skills",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "ai": "claude",
+      "oneliner": "Library of 177 agent skills that turn AI agents into scientific research assistants",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "why": "51K stars, gained 1.2K today; trending on daily and weekly lists",
+      "sources": [{ "url": "https://github.com/trending", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 7,
+      "kind": "repo",
+      "name": "ai-job-search",
+      "repo": "MadsLorentzen/ai-job-search",
+      "ai": "claude",
+      "oneliner": "AI job-search framework that evaluates postings and tailors CVs",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "why": "47.8K stars, gained 879 today; trending daily",
+      "sources": [{ "url": "https://github.com/trending", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 8,
+      "kind": "repo",
+      "name": "claude-plugins-official",
+      "repo": "anthropics/claude-plugins-official",
+      "ai": "claude",
+      "oneliner": "Anthropic-managed directory of official Claude Code plugins",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "why": "39.8K stars; trending daily and weekly; first-party Anthropic release",
+      "sources": [{ "url": "https://github.com/trending", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 9,
+      "kind": "repo",
+      "name": "knowledge-work-plugins",
+      "repo": "anthropics/knowledge-work-plugins",
+      "ai": "claude",
+      "oneliner": "Open-source plugins for knowledge workers, designed for Claude Cowork",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "why": "29.8K stars; trending in Python this week; official Anthropic release",
+      "sources": [{ "url": "https://github.com/trending/python?since=weekly", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 10,
+      "kind": "repo",
+      "name": "gemini-cli",
+      "repo": "google-gemini/gemini-cli",
+      "ai": "gemini",
+      "oneliner": "Open-source AI agent that brings Google Gemini directly into your terminal",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "why": "107K stars; GitHub Actions integration now in public beta",
+      "sources": [{ "url": "https://github.com/google-gemini/gemini-cli", "outlet": "GitHub" }]
+    },
+    {
+      "rank": 11,
+      "kind": "repo",
+      "name": "typesafe-ai/skills",
+      "repo": "typesafe-ai/skills",
+      "ai": "jev",
+      "oneliner": "Official agent skills for building with TypeSafe's System One API",
+      "url": "https://github.com/typesafe-ai/skills",
+      "why": "First-party MIT-licensed skills repo; installable via Claude Code marketplace",
+      "sources": [{ "url": "https://github.com/typesafe-ai/skills", "outlet": "GitHub" }]
+    },
+    {
+      "rank": 12,
+      "kind": "repo",
+      "name": "jev-skill",
+      "repo": "EmilianoVeron/jev-skill",
+      "ai": "jev",
+      "oneliner": "Claude Code skill covering Jev's design guidance and SDK reference",
+      "url": "https://github.com/EmilianoVeron/jev-skill",
+      "why": "Bridges Jev's structured-decision model into the Claude Code ecosystem",
+      "sources": [{ "url": "https://trendshift.io/repositories/257223", "outlet": "Trendshift" }]
+    },
+    {
+      "rank": 13,
+      "kind": "repo",
+      "name": "VoiceStudio",
+      "repo": "debpalash/VoiceStudio",
+      "ai": "chatgpt",
+      "oneliner": "Fully local open-source voice cloning, dubbing, transcription and audiobook creation",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "why": "70.1K stars, gained 2.3K today; trending daily as top gainer",
+      "sources": [{ "url": "https://github.com/trending", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 14,
+      "kind": "repo",
+      "name": "context-mode",
+      "repo": "mksglu/context-mode",
+      "ai": "claude",
+      "oneliner": "Context window optimization for AI coding agents via MCP and session memory",
+      "url": "https://github.com/mksglu/context-mode",
+      "why": "30K stars with 4K new this week; trending daily and weekly",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 15,
+      "kind": "app",
+      "name": "Twigg",
+      "ai": "chatgpt",
+      "oneliner": "Git-style context management interface for LLMs with branching conversations",
+      "url": "https://twigg.ai",
+      "why": "Top-voted AI project on Show HN this week with 106 points",
+      "sources": [{ "url": "https://news.ycombinator.com/show", "outlet": "Hacker News" }]
+    },
+    {
+      "rank": 16,
+      "kind": "app",
+      "name": "pdftomp3",
+      "ai": "chatgpt",
+      "oneliner": "Convert documents to audiobooks using your existing OpenAI subscription",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "why": "172 points on Show HN; uses OpenAI API directly",
+      "sources": [{ "url": "https://news.ycombinator.com/show", "outlet": "Hacker News" }]
+    },
+    {
+      "rank": 17,
+      "kind": "repo",
+      "name": "hyperframes",
+      "repo": "heygen-com/hyperframes",
+      "ai": "claude",
+      "oneliner": "Write HTML and render video, built for AI agents",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "why": "65K stars with 5.3K new this week; trending weekly",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub Trending" }]
+    },
+    {
+      "rank": 18,
+      "kind": "app",
+      "name": "Memoriq",
+      "ai": "chatgpt",
+      "oneliner": "Private AI memory layer that carries context across ChatGPT, Claude, Gemini and Grok",
+      "url": "https://memoriq.me/",
+      "why": "Launched on Show HN; cross-platform memory for all five major AI chatbots",
+      "sources": [{ "url": "https://news.ycombinator.com/show", "outlet": "Hacker News" }]
+    },
+    {
+      "rank": 19,
+      "kind": "repo",
+      "name": "text-to-cad",
+      "repo": "earthtojake/text-to-cad",
+      "ai": "gemini",
+      "oneliner": "Gives an AI agent the ability to design and manipulate CAD models",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "why": "20.9K stars with 2.2K new this week; trending weekly in Python",
+      "sources": [{ "url": "https://github.com/trending/python?since=weekly", "outlet": "GitHub Trending" }]
+    }
+  ]
+}

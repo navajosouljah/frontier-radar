@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-16",
+  "debate": {
+    "title": "Frontier models keep acing science benchmarks",
+    "consensus": "Observers note the pace is accelerating but want real-world validation before drawing larger conclusions.",
+    "story": "theophyseval-benchmark"
+  },
+  "quotes": [
+    {
+      "person": "Zvi Mowshowitz",
+      "role": "AI policy writer",
+      "outlet": "Don't Worry About the Vase",
+      "url": "https://thezvi.substack.com/p/ai-190-scion-of-the-times",
+      "quote": "Last week math. Soon, physics. Then, presumably, chemistry.",
+      "stance": "impressed",
+      "ai": "chatgpt",
+      "story": "theophyseval-benchmark",
+      "said": "2026-10-15"
+    },
+    {
+      "person": "Zvi Mowshowitz",
+      "role": "AI policy writer",
+      "outlet": "Don't Worry About the Vase",
+      "url": "https://thezvi.substack.com/p/ai-190-scion-of-the-times",
+      "quote": "We do not yet know if Argon lives up to its benchmarks or internal hype.",
+      "stance": "skeptical",
+      "ai": "gemini",
+      "story": "gemini-argon-pro-antigravity",
+      "said": "2026-10-15"
+    }
+  ]
+}

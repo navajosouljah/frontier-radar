@@ -27,7 +27,7 @@
         "hits": [
           {
             "query": "mattpocock/skills CVE",
-            "title": "Is mattpocock/skills safe? Security Audit — SAFE (92/100) | Oathe",
+            "title": "Is mattpocock/skills safe? Security Audit \u2014 SAFE (92/100) | Oathe",
             "url": "https://oathe.ai/report/mattpocock/skills",
             "published": "2026-03-18",
             "matched": "exfiltrat",
@@ -59,7 +59,7 @@
           },
           {
             "query": "mattpocock/skills malware",
-            "title": "setup-matt-pocock-skills — Agent Skill | SkillsAuth",
+            "title": "setup-matt-pocock-skills \u2014 Agent Skill | SkillsAuth",
             "url": "https://skillsauth.com/skills/mattpocock/setup-matt-pocock-skills",
             "published": "2026-04-29",
             "matched": "malware",
@@ -67,7 +67,7 @@
           },
           {
             "query": "mattpocock/skills malware",
-            "title": "mattpocock-skills — Plugin for Claude Code by mattpocock/skills",
+            "title": "mattpocock-skills \u2014 Plugin for Claude Code by mattpocock/skills",
             "url": "https://agentmods.dev/plugins/mattpocock/skills/skills",
             "published": "N/A",
             "matched": "exfiltrat",
@@ -75,7 +75,7 @@
           },
           {
             "query": "mattpocock/skills scam",
-            "title": "skills - AI Agents on GitHub (250.5k★) | SkillsLLM",
+            "title": "skills - AI Agents on GitHub (250.5k\u2605) | SkillsLLM",
             "url": "https://skillsllm.com/skill/mattpocock-skills",
             "published": "N/A",
             "matched": "malicious",
@@ -2368,6 +2368,250 @@
         "flags": [
           "30688 stars on 2 contributor(s)"
         ]
+      }
+    }
+  },
+  "calesthio/OpenMontage": {
+    "repo": "calesthio/OpenMontage",
+    "checked": "2026-10-16",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/calesthio/OpenMontage/security/advisories",
+        "count": 0,
+        "latestRelease": null,
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "calesthio/OpenMontage CVE",
+          "calesthio/OpenMontage vulnerability",
+          "calesthio/OpenMontage malware",
+          "calesthio/OpenMontage scam"
+        ],
+        "results": 0,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "calesthio/OpenMontage",
+        "stars": 68777,
+        "forks": 8820,
+        "watchers": 371,
+        "openIssues": 398,
+        "hasIssues": true,
+        "contributors": 64,
+        "commits": 478,
+        "created": "2026-03-29",
+        "pushed": "2026-10-12",
+        "archived": false,
+        "ageDays": 202,
+        "flags": []
+      }
+    }
+  },
+  "Alishahryar1/free-claude-code": {
+    "repo": "Alishahryar1/free-claude-code",
+    "checked": "2026-10-16",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/Alishahryar1/free-claude-code/security/advisories",
+        "count": 0,
+        "latestRelease": "6.16.9",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "Alishahryar1/free-claude-code CVE",
+          "Alishahryar1/free-claude-code vulnerability",
+          "Alishahryar1/free-claude-code malware",
+          "Alishahryar1/free-claude-code scam"
+        ],
+        "results": 3,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "Alishahryar1/free-claude-code",
+        "stars": 60905,
+        "forks": 9536,
+        "watchers": 415,
+        "openIssues": 307,
+        "hasIssues": true,
+        "contributors": 56,
+        "commits": 1199,
+        "created": "2026-01-28",
+        "pushed": "2026-10-16",
+        "archived": false,
+        "ageDays": 262,
+        "flags": []
+      }
+    }
+  },
+  "xai-org/grok-build": {
+    "repo": "xai-org/grok-build",
+    "checked": "2026-10-16",
+    "verdict": "REVIEW",
+    "reasons": [
+      "activity: 27411 stars on 1 contributor(s)"
+    ],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/xai-org/grok-build/security/advisories",
+        "count": 0,
+        "latestRelease": null,
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "xai-org/grok-build CVE",
+          "xai-org/grok-build vulnerability",
+          "xai-org/grok-build malware",
+          "xai-org/grok-build scam"
+        ],
+        "results": 10,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "xai-org/grok-build",
+        "stars": 27411,
+        "forks": 5171,
+        "watchers": 242,
+        "openIssues": null,
+        "hasIssues": false,
+        "contributors": 1,
+        "commits": 51,
+        "created": "2026-07-14",
+        "pushed": "2026-09-29",
+        "archived": false,
+        "ageDays": 95,
+        "flags": [
+          "27411 stars on 1 contributor(s)"
+        ]
+      }
+    }
+  },
+  "typesafe-ai/skills": {
+    "repo": "typesafe-ai/skills",
+    "checked": "2026-10-16",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/typesafe-ai/skills/security/advisories",
+        "count": 0,
+        "latestRelease": "0.5.7",
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "typesafe-ai/skills CVE",
+          "typesafe-ai/skills vulnerability",
+          "typesafe-ai/skills malware",
+          "typesafe-ai/skills scam"
+        ],
+        "results": 20,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "typesafe-ai/skills",
+        "stars": 2717,
+        "forks": 167,
+        "watchers": 7,
+        "openIssues": 15,
+        "hasIssues": true,
+        "contributors": 2,
+        "commits": 2,
+        "created": "2026-08-24",
+        "pushed": "2026-09-12",
+        "archived": false,
+        "ageDays": 54,
+        "flags": []
+      }
+    }
+  },
+  "EmilianoVeron/jev-skill": {
+    "repo": "EmilianoVeron/jev-skill",
+    "checked": "2026-10-16",
+    "verdict": "PASS",
+    "reasons": [],
+    "checks": {
+      "advisories": {
+        "source": "public-page",
+        "url": "https://github.com/EmilianoVeron/jev-skill/security/advisories",
+        "count": 0,
+        "latestRelease": null,
+        "items": []
+      },
+      "searches": {
+        "engine": "hn+nvd",
+        "queries": [
+          "EmilianoVeron/jev-skill CVE",
+          "EmilianoVeron/jev-skill vulnerability",
+          "EmilianoVeron/jev-skill malware",
+          "EmilianoVeron/jev-skill scam"
+        ],
+        "results": 0,
+        "errors": 0,
+        "hits": [],
+        "fallbacks": 4,
+        "nvd": {
+          "results": 0
+        },
+        "cves": []
+      },
+      "activity": {
+        "source": "public-page",
+        "canonical": "EmilianoVeron/jev-skill",
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "openIssues": 0,
+        "hasIssues": true,
+        "contributors": 1,
+        "commits": 1,
+        "created": "2026-09-19",
+        "pushed": "2026-09-19",
+        "archived": false,
+        "ageDays": 28,
+        "flags": []
       }
     }
   }

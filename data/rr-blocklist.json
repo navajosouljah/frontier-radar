@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-04T04:10:57.000Z",
+  "fetched": "2026-11-04T12:15:04.211Z",
   "source": "https://raw.githubusercontent.com/navajosouljah/repo-radar/main/data/blocklist.json",
   "repos": [
     {
@@ -58,9 +58,9 @@
     },
     {
       "repo": "akitaonrails/ai-memory",
-      "date": "2026-10-09",
+      "date": "2026-10-23",
       "kind": "open-advisories",
-      "reason": "3 open advisory(ies): GHSA-2jrq-p5rw-6wvv low (unpatched), GHSA-7qj3-7wqw-m5w6 moderate (unpatched), GHSA-vh98-jf5c-jw45 low (unpatched) | activity check failed: repo page unreadable (no star count on it)"
+      "reason": "4 open advisory(ies): GHSA-9xw8-cg9v-h9gw high (unpatched), GHSA-2jrq-p5rw-6wvv low (unpatched), GHSA-7qj3-7wqw-m5w6 moderate (unpatched), GHSA-vh98-jf5c-jw45 low (unpatched)"
     },
     {
       "repo": "assafelovic/gpt-researcher",

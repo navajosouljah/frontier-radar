@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-05",
+  "top": "openai-linux-exploits",
+  "items": [
+    {
+      "id": "openai-linux-exploits",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-linux-exploits",
+      "headline": "OpenAI's AI agents found 948 working Linux privilege-escalation exploits, patches sent to maintainers",
+      "summary": "A five-stage AI pipeline audited 7% of the Linux kernel, produced 2,308 candidate findings, validated 1,724, and built 948 distinct local privilege-escalation exploits. API costs totaled about $1.21M. Patches are being sent to maintainers.",
+      "why": "Autonomous AI agents finding nearly a thousand working exploits in the Linux kernel marks a step change in AI-assisted security. The result demonstrates capability that defenders must lead before attackers do.",
+      "published": "2026-11-04T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-images-26",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-images-26",
+      "headline": "OpenAI launches Images 2.6 with animated GIF creation, 50% faster generation, and two new API models",
+      "summary": "Images 2.6 brings GIF creation, 50% faster generation, and saved reference images to ChatGPT. Developers get GPT-Image-2.6 Sunburst (quality) and Flare (speed) API models, plus SVG export.",
+      "published": "2026-11-04T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-images-2-6/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-pierre-acquisition",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-pierre-acquisition",
+      "headline": "OpenAI announces acquisition of Pierre Computer Company, whose tools already power parts of Codex",
+      "summary": "Pierre makes Code Storage and open-source dev tools including Trees and Diffs libraries used in Codex. Open-source projects stay open. Code Storage features will integrate into Codex. Subject to regulatory approval.",
+      "published": "2026-11-04T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/openai-to-acquire-pierre/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-bug-bounty",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-bug-bounty",
+      "headline": "OpenAI raises bug bounty rewards more than 4x, critical findings can earn up to $172K with bonuses",
+      "summary": "Midpoint of reward ranges for medium-to-critical findings more than quadrupled. Critical findings in core products can earn up to $100K, or $172K with quality and loyalty bonuses.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "anthropic-s1-rsi",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo",
+      "headline": "Anthropic warns in amended S-1 that it may be close to recursive self-improvement capability",
+      "summary": "The amended S-1A filing warns future models may imminently meet Anthropic's threshold for AI that dramatically accelerates its own progress. The risk section says such capability could outpace the company's ability to evaluate and safeguard new models.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-message-threads",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-message-threads",
+      "headline": "Anthropic launches message threads beta for the Messages API, cutting latency in long conversations",
+      "summary": "Long conversations and agent loops can send smaller requests via message threads. The API keeps context server-side so each request sends only new messages. Threads expire 5 minutes after last request.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/api", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-flashprove",
+      "ai": "claude",
+      "category": "model",
+      "story": "claude-flashprove",
+      "headline": "Anthropic publishes FlashProve, a zkSNARK system to prove which model produced a response",
+      "summary": "FlashProve lets users verify a specific model generated a given output using zero-knowledge proofs. On one H100, Llama 4 Maverick generates proofs at around 110 tokens/sec. Security claims checked in Lean. Apache 2.0 license.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/provable-inference", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-text-watermark",
+      "ai": "claude",
+      "category": "policy",
+      "story": "claude-text-watermark",
+      "headline": "Anthropic expands text watermark to Claude Mythos 5, Opus 4.7, and Sonnet 4.6",
+      "summary": "Text generated by Claude Mythos 5, Opus 4.7, and Sonnet 4.6 now carries Anthropic's text watermark. On Sonnet 4.6, non-default temperature, top_p, or top_k settings may prevent the watermark from being applied.",
+      "published": "2026-11-03T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/overview", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-25-deprecated",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-25-deprecated",
+      "headline": "Google deprecates Gemini 2.5 Pro and 2.5 Flash, routes to newer models on December 1",
+      "summary": "Gemini 2.5 Pro and 2.5 Flash are no longer selectable in AI Studio. On December 1, API requests route to gemini-3.8-flash and gemini-3.5-flash-lite at those models' rates. Breaking changes in function calling and sampling parameters.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://ai.google.dev/gemini-api/docs/changelog", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-api-office-input",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-api-office-input",
+      "headline": "Gemini API adds Office and OpenDocument file input plus richer tool responses",
+      "summary": "The Gemini API now accepts PPT, ODP, and ODS files. Function responses can return Office docs, audio, and video to the model. DOC files get page-image processing. Available on GenerateContent and Interactions APIs.",
+      "published": "2026-11-05T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://ai.google.dev/gemini-api/docs/changelog", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-tts-voice-remixing",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-tts-voice-remixing",
+      "headline": "Google launches voice remixing for Gemini 3.8 Flash TTS",
+      "summary": "Voice remixing lets developers modify a prebuilt or designed voice with natural-language instructions to create a new stored voice via the API or AI Studio. The voice ID works with both Flash TTS and Flash-Lite TTS.",
+      "published": "2026-11-04T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://ai.google.dev/gemini-api/docs/changelog", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "grok-data-bot",
+      "ai": "grok",
+      "category": "feature",
+      "story": "grok-data-bot",
+      "headline": "SpaceXAI launches Data Bot inside Grok Bot, giving every team an on-demand data scientist",
+      "summary": "Data Bot is a new Team Bot inside Grok Bot that queries data warehouses, runs analyses, and returns reports. SpaceXAI's data team estimates it handled about 70 hours of work in one week. Available via Slack.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://x.ai/news/data-bot", "outlet": "SpaceXAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "grok-image-api-retirement",
+      "ai": "grok",
+      "category": "model",
+      "story": "grok-image-api-retirement",
+      "headline": "SpaceXAI retires grok-imagine-image-quality and image-pro API slugs, redirects to Imagine 2.0",
+      "summary": "After 60 days notice, the old image generation slugs now route to grok-imagine-image-2.0 at low quality. Cost drops by $0.01 per image. Code keeps working without changes but SpaceXAI recommends updating the model field.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.x.ai/docs/release-notes", "outlet": "SpaceXAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "anthropic-mythos-55-leak",
+      "ai": "claude",
+      "category": "model",
+      "story": "anthropic-mythos-55-leak",
+      "headline": "Anthropic appears to be preparing Claude Mythos 5.5 model release, references found on site",
+      "summary": "Mythos 5.5 appeared in Anthropic's Mythos webpage HTML. A claude-fable-5-5 entry briefly appeared in Azure pricing. Described as most capable model class for cybersecurity and biology research.",
+      "published": "2026-11-01T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "chatgpt-gpt62-astra-leak",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "chatgpt-gpt62-astra-leak",
+      "headline": "GPT-6.2 Astra appears in Codex usage analytics ahead of possible launch",
+      "summary": "Codex users found gpt-6.2-astra in their usage pages on Oct 31. Share varied from 1.6% to 37.7% of daily use. OpenAI has not mentioned the model. May be an A/B test or staged rollout.",
+      "published": "2026-11-02T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/gpt-6-2-astra-appears-codex-usage/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    }
+  ]
+}

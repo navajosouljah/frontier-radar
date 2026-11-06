@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-06",
+  "debate": {
+    "title": "Does gating AI cyber tools help or hurt defenders?",
+    "consensus": "Security researchers welcome GPT-6 Cyber's capabilities but critics say restricting access to thousands of vetted defenders while attackers use open models tips the balance wrong.",
+    "story": "gpt6-cyber"
+  },
+  "quotes": [
+    {
+      "person": "Max Justicz",
+      "role": "CTO, Charge Robotics",
+      "outlet": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "quote": "We should expect some extremely crazy bugs to be found and exploited over the next few months",
+      "stance": "impressed",
+      "ai": "chatgpt",
+      "story": "gpt6-cyber",
+      "said": "2026-11-05"
+    }
+  ]
+}

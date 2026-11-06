@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-06",
+  "top": "gpt6-cyber",
+  "items": [
+    {
+      "id": "gpt6-cyber",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt6-cyber",
+      "headline": "OpenAI launches GPT-6 Cyber, its first Critical-rated cybersecurity model, for Daybreak Red teams",
+      "summary": "GPT-6 Cyber scores 48.5% on ExploitGym (up from 32.1% for GPT-5.6 Cyber) and found 81 novel high-severity Firefox vulnerabilities. Available via the API and Codex to approved Daybreak Red customers, with a $1B grant for critical-infrastructure defenders.",
+      "why": "The first AI model to earn a Critical cybersecurity rating demonstrates that specialized models can now discover complex, unknown security flaws at scale. The gated-access approach raises the question of whether defenders will get these tools fast enough.",
+      "published": "2026-11-05T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-gpt-6-cyber", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://siliconangle.com/2026/11/05/openai-launches-gpt-6-cyber-a-gpt-6-astra-model-built-to-keep-vulnerability-research-in-scope/", "outlet": "SiliconANGLE", "kind": "press" },
+        { "url": "https://cyberscoop.com/openai-gpt-6-cyber-security-model/", "outlet": "CyberScoop", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-personal-finance",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-personal-finance",
+      "headline": "Anthropic launches Personal Finance in Claude, letting US subscribers connect bank accounts",
+      "summary": "Pro, Max, and Ultra subscribers in the US can link bank and credit card accounts through Plaid. Claude gets read-only access to balances and up to two years of transactions but cannot move or invest money. Rolling out in beta.",
+      "published": "2026-11-05T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://support.claude.com/en/articles/12138966-release-notes", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-omni-12-flash",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-omni-12-flash",
+      "headline": "Google launches Gemini Omni 1.2 Flash with 15-second video generation and a 30% price cut",
+      "summary": "Gemini Omni 1.2 Flash generates and edits clips up to 15 seconds with conversational prompts, improved consistency across camera angles, and 720p output at $0.07/sec. Omni 1.1 Flash routes to 1.2 on December 3.",
+      "published": "2026-11-05T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/", "outlet": "Google", "kind": "official" },
+        { "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/", "outlet": "The Decoder", "kind": "press" },
+        { "url": "https://thenextweb.com/news/google-gemini-omni-1-2-flash-video-15-seconds-price-cut", "outlet": "TheNextWeb", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-canvas-draw-to-app",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-canvas-draw-to-app",
+      "headline": "Gemini Canvas lets users turn hand-drawn sketches into working interactive apps",
+      "summary": "Users upload a photo of a sketch, select Canvas, and ask Gemini to code the app. The model reads the image, generates code, and shows a live preview. Refinements like color and feature changes happen in real time.",
+      "published": "2026-11-05T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-enterprise-security",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-enterprise-security",
+      "headline": "Anthropic adds IP allowlisting, remote sign-out, and a security center to Claude Enterprise",
+      "summary": "Organizations can set up to 1,000 IP allowlist entries to restrict API access. The Admin API can sign a member out on all devices. Enterprise plans also gain a security center with centralized controls and inference hooks.",
+      "published": "2026-11-05T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://platform.claude.com/docs/en/release-notes/overview", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://support.claude.com/en/articles/12138966-release-notes", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-brockman-ipo-2027",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-brockman-ipo-2027",
+      "headline": "OpenAI president Brockman says the company could be IPO-ready in 2027, acknowledges Claude Code lead",
+      "summary": "At a WSJ conference, Greg Brockman said annualized revenue grew 70% quarter over quarter in Q3, driven by enterprise. He admitted OpenAI was not in the conversation on agentic coding, where Claude Code has gained share.",
+      "published": "2026-11-05T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-valuation",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo",
+      "headline": "Investors push back on Anthropic's $1.5T IPO valuation as tech stocks sell off after midterms",
+      "summary": "Reuters and the WSJ report potential backers doubt the roadshow can start next week as planned. Some investors want a discount below $1.5T, down from an earlier target near $2T. October revenue figures are missing from the updated S-1.",
+      "published": "2026-11-06T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.reuters.com/technology/artificial-intelligence/", "outlet": "Reuters", "kind": "press" },
+        { "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.reuters.com/technology/artificial-intelligence/" }
+      ]
+    },
+    {
+      "id": "openai-infrastructure-compact",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-infrastructure-compact",
+      "headline": "OpenAI publishes a community compact and a policy blueprint for AI data center development",
+      "summary": "The compact pledges OpenAI-operated campuses will cover full energy costs, publish water and power data, avoid NDAs with officials, and invest in local hiring. A companion blueprint proposes federal rules requiring the same of other operators.",
+      "published": "2026-11-05T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://the-decoder.com/after-midterm-rout-openai-tries-to-win-over-communities-it-needs-for-ai-expansion/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    }
+  ]
+}

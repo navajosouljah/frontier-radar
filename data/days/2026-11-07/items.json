@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-07",
+  "top": "anthropic-rsi-threshold",
+  "items": [
+    {
+      "id": "anthropic-rsi-threshold",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-rsi-threshold",
+      "headline": "METR finds Anthropic may have crossed its own AI progress acceleration threshold back in July",
+      "summary": "An independent METR evaluation estimates Anthropic's research productivity roughly doubled since October 2025, with about 80% from AI-assisted research. Anthropic's S-1 called crossing the 2x threshold plausible but publicly reported the factor below 2.",
+      "why": "This is the first time an independent evaluator has found evidence a frontier lab may have triggered its own responsible-scaling safeguard. The finding arrives weeks before Anthropic's planned IPO, raising questions about how acceleration risks are measured and disclosed.",
+      "published": "2026-11-06T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/s1-sec", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-11b-round",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-11b-round",
+      "headline": "Bloomberg: OpenAI raises $11B at a $1.25T valuation, well below its original $30B target",
+      "summary": "The first tranche includes Coatue, T. Rowe Price, SoftBank, Sequoia, Founders Fund and a16z. The round may reach $20B but falls short of the $30B OpenAI sought at $1.4T before an AI-sector selloff.",
+      "published": "2026-11-06T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/", "outlet": "The Decoder", "kind": "press", "repeats": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/" }
+      ]
+    },
+    {
+      "id": "openai-hacktron",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-hacktron",
+      "headline": "OpenAI partners with security firm Hacktron to find vulnerabilities across its AI systems",
+      "summary": "Hacktron researchers will jointly pick high-priority areas with OpenAI engineers, focusing on how OpenAI's systems interact with third-party services. OpenAI is also expanding Hacktron's access to frontier models through Daybreak Red.",
+      "published": "2026-11-06T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/partnering-with-hacktron", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "into-the-unknown-benchmark",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "into-the-unknown-benchmark",
+      "headline": "Nine AI agents fail expert-level autonomous research benchmark from US national labs",
+      "summary": "The 'Into the Unknown' benchmark asked agents to write follow-up studies from existing papers. Of 135 submissions, 114 failed integrity checks. GPT-6 Astra scored best overall, followed by Claude Opus 5.5.",
+      "published": "2026-11-07T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-spending-stalls",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo",
+      "headline": "Anthropic IPO valuation slides toward $1.1T as enterprise AI spending growth stalls",
+      "summary": "Bloomberg reports investors now target $1.1-1.3T for Anthropic, down from $2T a month ago. Ramp data shows enterprise token spending grew just 1.5% in August-September after a 42% July spike as price cuts compress revenue.",
+      "published": "2026-11-06T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    }
+  ]
+}

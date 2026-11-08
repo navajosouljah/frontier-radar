@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-08",
+  "top": "openai-compute-campus",
+  "items": [
+    {
+      "id": "openai-compute-campus",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-compute-campus",
+      "headline": "OpenAI pledges to cover power costs and drop NDAs at future data centers after midterm backlash",
+      "summary": "OpenAI published a National Community Compact for campuses it owns and a policy blueprint for lawmakers. It pledges to pay all power costs, end NDAs with public officials, and report water and electricity use. No penalties for noncompliance are specified.",
+      "why": "After voters rejected data centers in dozens of midterm ballot measures, OpenAI's compact is the first binding set of commitments from a frontier AI builder on infrastructure transparency. Whether enforceable or not, it sets the template other companies will be measured against.",
+      "published": "2026-11-05T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-ft-roadshow",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo",
+      "headline": "FT: Anthropic plans to start IPO roadshow as early as next week, targeting pre-Thanksgiving listing",
+      "summary": "The Financial Times reports Anthropic aims to begin marketing its IPO the week of November 9, with trading before Thanksgiving on November 26. The targeted valuation of $1.25-1.75T is well below the $2T investors hoped for before this week's tech selloff.",
+      "published": "2026-11-07T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.ft.com/" }
+      ]
+    },
+    {
+      "id": "codesign-bench-agents",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "codesign-bench",
+      "headline": "New benchmark finds AI coding agents need human cleanup on nearly three out of four real-world tasks",
+      "summary": "Co-Design Bench tested 10 models on real web-app change requests. GPT-6 Astra met about 70% of requirements but was fully correct on only 26.4% of tasks. Claude Opus 5 placed second and Grok 4.7 ranked last. Larger overhauls dropped all scores.",
+      "published": "2026-11-08T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "cyber-gap-vals",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "cyber-gap-vals",
+      "headline": "Open-weight AI models now reach 90% of top closed models on autonomous cyber-attack benchmarks",
+      "summary": "The Vals AI CyberOffense benchmark found DeepSeek V4.1 Flash scored 72.8% vs GPT-6 Sol Daybreak's 80.8% at roughly one-seventh the cost. The UK AI Security Institute says the gap between open and closed cyber capabilities narrowed to 4-7 months.",
+      "published": "2026-11-07T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    }
+  ]
+}

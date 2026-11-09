@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-09",
+  "top": "anthropic-ipo-roadshow-doubts",
+  "items": [
+    {
+      "id": "anthropic-ipo-roadshow-doubts",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo",
+      "headline": "Anthropic's planned November IPO roadshow faces investor pushback on $1.5T valuation",
+      "summary": "Bloomberg reported Anthropic targets a roadshow starting the week of November 9 with a listing before Thanksgiving. Reuters says four potential investors doubt the timeline and want a lower valuation than the $2T initially discussed, with $1.5T now the working range.",
+      "why": "Anthropic's IPO, expected to be the largest AI listing ever, tests whether public markets will support trillion-dollar valuations for frontier AI companies that have never turned a profit.",
+      "published": "2026-11-06T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2026-10-01/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday", "outlet": "Bloomberg", "kind": "press" },
+        { "url": "https://axios.com/2026/10/26/anthropic-ipo", "outlet": "Axios", "kind": "press" },
+        { "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.ft.com/" }
+      ]
+    },
+    {
+      "id": "anthropic-generator-deal",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-generator-deal",
+      "headline": "FT: Anthropic bought $3.4B in gas-fired generators from OnePWR for AI data centers",
+      "summary": "CNBC reports the Financial Times found Anthropic agreed to buy 1.7 GW of heavy-duty gas generators from OnePWR Solutions in San Antonio for about $3.4B. The deal was struck in late September and includes engineering and construction for installation.",
+      "published": "2026-11-08T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html", "outlet": "CNBC", "kind": "press", "repeats": "https://www.ft.com/" }
+      ]
+    },
+    {
+      "id": "karpathy-hackertube",
+      "ai": "claude",
+      "category": "apps",
+      "story": "karpathy-hackertube",
+      "headline": "Karpathy built HackerTube in about 2 hours with Claude Opus 5.5, filtering 43M HN comments into 6,454 videos",
+      "summary": "Anthropic researcher Andrej Karpathy used Claude Code to distill 20 years of Hacker News comments into 6,454 curated tech videos on hackertube.org. No login required. He then one-shotted TristanTube (47,000 videos) in 3 minutes.",
+      "published": "2026-11-08T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "korea-ai-market-chatgpt",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "korea-ai-market",
+      "headline": "ChatGPT holds 91% of Korea's AI app users; Claude surges 15-fold to second place",
+      "summary": "Seoul Economic Daily reports ChatGPT reached 18.76M monthly users in Korea, up 44% year over year. Claude jumped from 140,000 to 2.1M users, moving from seventh to second. Average monthly use per person rose to 163 minutes from 110.",
+      "published": "2026-11-09T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://en.sedaily.com/finance/2026/11/09/chatgpt-holds-91-percent-of-koreas-ai-app-users-as-claude", "outlet": "Seoul Economic Daily", "kind": "press" }
+      ]
+    }
+  ]
+}

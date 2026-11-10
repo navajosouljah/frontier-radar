@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-10",
+  "debate": {
+    "title": "How much do Fable 5.2's benchmark leaps matter in practice?",
+    "consensus": "Most builders are impressed by the coding and science gains, especially at the 20% lower price. Skeptics note Fable 5.2 still trails in agentic knowledge work, and the timing right before the IPO roadshow invites scrutiny.",
+    "story": "claude-fable-5-2-mythos-5-2"
+  },
+  "quotes": [
+    {
+      "person": "Simon Willison",
+      "role": "Developer, AI tools blogger",
+      "outlet": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "quote": "Clearly their internal benchmarks have become more ambitious!",
+      "stance": "impressed",
+      "ai": "claude",
+      "story": "claude-fable-5-2-mythos-5-2",
+      "said": "2026-11-09"
+    }
+  ]
+}

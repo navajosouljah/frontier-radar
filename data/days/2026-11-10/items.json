@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-10",
+  "top": "claude-fable-5-2-mythos-5-2",
+  "items": [
+    {
+      "id": "claude-fable-5-2-mythos-5-2",
+      "ai": "claude",
+      "category": "model",
+      "story": "claude-fable-5-2-mythos-5-2",
+      "headline": "Anthropic releases Claude Fable 5.2 and Mythos 5.2, tops Artificial Analysis index at 65 points",
+      "summary": "Fable 5.2 leads the Artificial Analysis Intelligence Index at 65 points, ahead of Gemini 4 Carbon (60) and Opus 5.5 (59). Pricing drops 20% to $8/$40 per million tokens with an optional 2.5x fast mode. Mythos 5.2 stays restricted to vetted organizations.",
+      "why": "This is Anthropic's biggest model jump since Fable 5, landing two days before its IPO roadshow. Double-digit benchmark gains in coding and science, a 20% price cut, and new fast mode directly challenge GPT-6 Astra and Gemini 4 Carbon.",
+      "published": "2026-11-09T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/", "outlet": "The Decoder", "kind": "press" },
+        { "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-roadshow",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo",
+      "headline": "Anthropic begins IPO roadshow, targets $70-78 per share on Nasdaq under ticker ANT",
+      "summary": "Anthropic is offering 825M Class A shares on the Nasdaq Global Select Market, with Goldman Sachs and Morgan Stanley leading. The registration statement has been filed with the SEC but is not yet effective.",
+      "published": "2026-11-10T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/roadshow-launch", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-gas-generators",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-gas-generators",
+      "headline": "FT: Anthropic bought $3.4B of pre-ordered gas generators from OnePWR for data center power",
+      "summary": "Anthropic acquired commitments for 1.7 GW of Caterpillar gas generators that OnePWR had pre-ordered two years ago. Piper Sandler confirmed the sale but neither company has publicly named the buyer.",
+      "published": "2026-11-08T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://thenextweb.com/news/anthropic-3-4bn-gas-generators-onepwr-ft", "outlet": "Financial Times (via TNW)", "kind": "press" },
+        { "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/", "outlet": "TechCrunch", "kind": "press", "repeats": "https://thenextweb.com/news/anthropic-3-4bn-gas-generators-onepwr-ft" }
+      ]
+    },
+    {
+      "id": "openai-control-room",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-control-room",
+      "headline": "OpenAI deploys Control Room, a system that can halt any research model workload in 35 seconds",
+      "summary": "Control Room tracks every research inference workload and stops model output within 35 seconds of a halt decision. The system fails closed: if Control Room goes down, all inference requests are denied until it recovers.",
+      "published": "2026-11-09T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/control-room", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-enterprise-aws",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-enterprise-aws",
+      "headline": "ChatGPT Enterprise is now available through AWS Marketplace",
+      "summary": "Organizations can buy and manage ChatGPT Enterprise through existing AWS billing, with eligible spend counting toward AWS commitments. ChatGPT for Healthcare and Financial Services are also listed.",
+      "published": "2026-11-09T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "google-maps-ai-studio-build",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "google-maps-ai-studio-build",
+      "headline": "Google adds Maps Platform to AI Studio Build with prompt-based setup and a free sandbox",
+      "summary": "AI Studio Build now lets developers add Google Maps to Gemini-built apps with text prompts and a free 100-call daily sandbox per API. Supported APIs include Maps, Places, Routes and Environment.",
+      "published": "2026-11-09T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/google-maps-features-come-to-google-ai-studio-build/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    }
+  ]
+}

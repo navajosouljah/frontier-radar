@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-11",
+  "debate": {
+    "title": "Is Gemini 4 Carbon the new model to beat?",
+    "consensus": "Most builders are impressed by Carbon's benchmarks and pricing. Some note that Claude Fable 5.2 still leads the Artificial Analysis index.",
+    "story": "gemini-4-carbon"
+  },
+  "quotes": [
+    {
+      "person": "Simon Willison",
+      "role": "AI developer and blogger",
+      "outlet": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "quote": "Google's best ever Gemini",
+      "stance": "impressed",
+      "ai": "gemini",
+      "story": "gemini-4-carbon",
+      "said": "2026-11-10"
+    }
+  ]
+}

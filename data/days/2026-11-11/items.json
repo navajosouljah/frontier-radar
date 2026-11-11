@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-11",
+  "top": "gemini-4-carbon-ga",
+  "items": [
+    {
+      "id": "gemini-4-carbon-ga",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-4-carbon",
+      "headline": "Google opens Gemini 4 Carbon to all developers and AI Ultra subscribers",
+      "summary": "Gemini 4 Carbon is now generally available through the API in Google AI Studio and Gemini for business, and rolling out to AI Ultra subscribers in the Gemini app. Introductory pricing is $2/$10 per million tokens until Nov 30, then $4/$20.",
+      "why": "General availability of Carbon brings Google's most capable model to all developers at roughly a quarter of Claude Fable 5.2's per-token rate. With top marks on coding and cybersecurity benchmarks and a new /swarm agent-team feature in preview, Google is pushing hard just two days after Anthropic's Fable 5.2 launch.",
+      "published": "2026-11-10T16:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/", "outlet": "Google", "kind": "official" },
+        { "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/", "outlet": "The Decoder", "kind": "press" },
+        { "url": "https://9to5google.com/2026/11/10/gemini-app-4-carbon/", "outlet": "9to5Google", "kind": "community" }
+      ]
+    },
+    {
+      "id": "claude-workspace-suite",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-workspace-suite",
+      "headline": "Anthropic launches Claude Sheets, Whiteboards, Data and Interactive Connectors in beta",
+      "summary": "Claude adds built-in spreadsheets, shared whiteboards and data dashboards connected to warehouses and CRMs. Interactive Connectors embed partner apps like Adobe and Atlassian inside Claude. A Meetings feature for Google Meet is in beta on Team and Enterprise plans.",
+      "published": "2026-11-10T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://claude.com/resources/articles/sheets-whiteboards-data", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://claude.com/resources/articles/interactive-connectors-full-tool", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "chatgpt-businesses",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-businesses",
+      "headline": "OpenAI launches Businesses in ChatGPT with verified profiles and customer-facing agents",
+      "summary": "Businesses can claim and verify their profiles in ChatGPT, add product feeds with pricing, and build agents that answer customer questions. Sponsored agents can serve as destinations for ChatGPT Ads. The beta is limited to US ecommerce and online services.",
+      "published": "2026-11-10T10:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-businesses-chatgpt", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "chatgpt-plus-veterans",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-plus-veterans",
+      "headline": "OpenAI offers free year of ChatGPT Plus to veterans and transitioning servicemembers",
+      "summary": "Veterans and transitioning servicemembers can claim one year of ChatGPT Plus at no cost through ID.me verification. Over 20K people have used the offer in the past year. OpenAI Academy workshops have reached nearly 1K military community members.",
+      "published": "2026-11-11T08:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/chatgpt-plus-for-veterans", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-intelligence-devices",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-intelligence-devices",
+      "headline": "Gemini Intelligence expands to Pixel 10, motorola signature 27 with Rambler and custom widgets",
+      "summary": "The November Pixel Drop brings Gemini Intelligence to Pixel 10 and Pixel 10 Pro models. Motorola's signature 27 is its first Gemini Intelligence device. New features include Rambler (spoken-to-organized text), task automation in the UK, India and Japan, and Create My Widget for custom home screens.",
+      "published": "2026-11-10T19:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "ny-raise-act-portal",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "ny-raise-act",
+      "headline": "New York's RAISE Act registration portal opens; frontier AI developers must register by Jan 1",
+      "summary": "The RAISE Act applies to AI developers with over $500M annual revenue. They must publish safety frameworks, report critical safety incidents within 72 hours, and issue transparency reports. Penalties reach $1M per violation. A new Office of Digital Innovation (DIGIT) will oversee compliance.",
+      "published": "2026-11-10T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    }
+  ]
+}

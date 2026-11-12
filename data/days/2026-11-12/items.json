@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-12",
+  "top": "alphaproof-code-signal",
+  "items": [
+    {
+      "id": "alphaproof-code-signal",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "alphaproof-code-signal",
+      "headline": "Google DeepMind's AlphaProof Code formally verified Signal's cryptographic core in four weeks",
+      "summary": "AlphaProof Code uses Gemini Carbon-powered agents that wrote over six million lines of Lean proof code to verify the encryption protocol used by Signal and Google Messages. The work, which typically takes expert teams years, was completed in about four weeks.",
+      "why": "Formal verification is the highest standard of software security assurance. By compressing a years-long effort into four weeks, DeepMind showed AI can realistically audit cryptographic code that billions of messages depend on, opening a path to verifying critical infrastructure at scale.",
+      "published": "2026-11-10T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://deepmind.google/blog/introducing-alphaproof-code/", "outlet": "Google DeepMind", "kind": "official" },
+        { "url": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-carplay",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-carplay",
+      "headline": "Gemini app launches on Apple CarPlay with hands-free Gemini Live conversations",
+      "summary": "iOS users worldwide can now use Gemini Live on their car's CarPlay display for conversations, calendar and email summaries, local recommendations and brainstorming. Conversations sync to the Gemini iPhone app.",
+      "published": "2026-11-11T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay", "outlet": "Google", "kind": "official" },
+        { "url": "https://engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay", "outlet": "Engadget", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-decisions-api",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-decisions-api",
+      "headline": "Google launches Gemini Decisions API with new Decision 1 model at $0.10 per million tokens",
+      "summary": "The Decisions API evaluates up to 1,000 yes/no, choice and rubric-scoring questions in one pass across text, images, audio, video and PDFs. Gemini Decision 1 returns confidence scores in 150-250 ms with no charge for output tokens.",
+      "published": "2026-11-11T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api", "outlet": "Google", "kind": "official" },
+        { "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1-000-questions-in-a-single-pass/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "chatgpt-voice-retire",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-voice-retire",
+      "headline": "OpenAI to retire Advanced and Standard Voice in ChatGPT on December 11",
+      "summary": "OpenAI will remove both Advanced and Standard voice modes, leaving GPT-Live as the only voice option. Live video and screen-sharing stay on Advanced voice until GPT-Live supports them. OpenAI says virtually all voice users have already moved to Live.",
+      "published": "2026-11-10T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://techradar.com/ai-platforms-assistants/chatgpt/im-beyond-disappointed-because-chatgpt-means-a-lot-to-me-users-are-furious-that-openai-is-retiring-their-favorite-voice-modes", "outlet": "TechRadar", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-q3-revenue",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-q3-revenue",
+      "headline": "OpenAI's quarterly revenue reaches about $10B as enterprise business doubles in Q3",
+      "summary": "Enterprise doubled in Q3 and now accounts for most revenue, says president Greg Brockman. ChatGPT has 1.2B weekly active users and 100M paying subscribers. Adjusted operating loss widened to $10.9B.",
+      "published": "2026-11-11T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "grok-apps-exposure",
+      "ai": "grok",
+      "category": "policy",
+      "story": "grok-apps-exposure",
+      "headline": "Security firm finds 94% of Grok-built web apps publicly accessible, some with patient data",
+      "summary": "Claroc checked 37,571 published Grok-built apps and found 35,578 open to anyone. Exposed data included ICU briefings, hospital employee lists and plaintext passwords. SpaceXAI took 24 employee apps offline but has not contacted other affected owners.",
+      "published": "2026-11-11T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-roadshow",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo",
+      "headline": "Anthropic launches IPO roadshow, with Nasdaq debut possible week of November 16",
+      "summary": "Anthropic began marketing its proposed IPO on November 10. The S-1/A disclosed Nvidia's participation in a $26B conditional private placement. Claude runs on four chip families; the company says it ported to AMD GPUs in about three days using its own AI.",
+      "published": "2026-11-10T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "debate": {
+    "title": "Gemini Decisions API enters the structured-decision space alongside Jev",
+    "consensus": "Developers see Google's multimodal support as a clear advantage over Jev's text-only input. The overlap in API design raises questions about how much Google borrowed from TypeSafe's approach.",
+    "story": "gemini-decisions-api"
+  },
+  "quotes": [
+    {
+      "person": "Simon Willison",
+      "role": "Developer and blogger",
+      "outlet": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "quote": "even reuses Jev's term 'Noul' for a yes/no question",
+      "stance": "other",
+      "ai": "gemini",
+      "story": "gemini-decisions-api",
+      "said": "2026-11-11"
+    }
+  ]
+}

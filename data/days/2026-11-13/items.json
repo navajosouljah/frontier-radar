@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-13",
+  "top": "gemini-4-hydrogen",
+  "items": [
+    {
+      "id": "gemini-4-hydrogen",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-4-hydrogen",
+      "headline": "Google launches Gemini 4 Hydrogen as its new fast model with a free tier and four thinking levels",
+      "summary": "Hydrogen replaces 3.8 Flash as Google's everyday model. It scores 51 on the Artificial Analysis Intelligence Index at default effort, adds an xhigh thinking level, and costs $1.50/$7.50 per million tokens.",
+      "why": "Hydrogen slots in as Google's go-to model for developers and consumers, with benchmark scores edging past Argon at a fraction of the cost. Its free-tier availability and new xhigh thinking mode give Google a direct counter to Anthropic's Fable 5.2 launch days earlier.",
+      "published": "2026-11-12T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/", "outlet": "Google", "kind": "official" },
+        { "url": "https://aistudio.google.com/docs/changelog", "outlet": "Gemini API changelog", "kind": "official" },
+        { "url": "https://www.neowin.net/news/googles-gemini-4-hydrogen-beats-gpt-61-terra-on-most-key-ai-benchmarks/", "outlet": "Neowin", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-selfhosted-agents",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-selfhosted-agents",
+      "headline": "Anthropic launches self-hosted Managed Agents so enterprises can run the full service on their own infrastructure",
+      "summary": "Teams can now store agents, sessions and history locally instead of on Anthropic's servers. Model requests go to the provider of their choice. Access requires contacting the Anthropic account team.",
+      "published": "2026-11-12T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://platform.claude.com/docs/en/release-notes/overview", "outlet": "Anthropic API release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-cot-monitorability",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-cot-monitorability",
+      "headline": "OpenAI safety team finds four training factors erode chain-of-thought monitorability in frontier models",
+      "summary": "Base-model capability, architecture choices, reinforcement learning and distillation all reduce how faithfully models expose their reasoning. Smaller models that reason at length are easier to monitor but cost more compute.",
+      "published": "2026-11-12T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "android-xr-glasses",
+      "ai": "gemini",
+      "category": "apps",
+      "story": "android-xr-glasses",
+      "headline": "Pre-orders open for Samsung's Android XR glasses with Gemini built in",
+      "summary": "Warby Parker and Gentle Monster opened pre-orders Nov 12 for Samsung's first Android XR Intelligent Eyewear. The audio-only frames include Gemini, a camera and work with both Android and iPhone. Ships December.",
+      "published": "2026-11-12T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://9to5google.com/2026/11/05/android-xr-glasses-pre-order/", "outlet": "9to5Google", "kind": "community" },
+        { "url": "https://gagadget.com/en/733154-gentle-monsters-gemini-glasses-open-for-pre-order-on-nov-12/", "outlet": "Gagadget", "kind": "community" }
+      ]
+    }
+  ]
+}

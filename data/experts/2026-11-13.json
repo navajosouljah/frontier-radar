@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-13",
+  "debate": {
+    "title": "Is Gemini 4 Carbon Google's strongest model ever?",
+    "consensus": "Early testers are impressed by Carbon's coding and agentic benchmarks at aggressive introductory pricing. Skeptics note the price doubles after Nov 30.",
+    "story": "gemini-4-carbon-ga"
+  },
+  "quotes": [
+    {
+      "person": "Simon Willison",
+      "role": "AI developer and blogger",
+      "outlet": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "quote": "This is Google's best ever Gemini.",
+      "stance": "impressed",
+      "ai": "gemini",
+      "story": "gemini-4-carbon-ga",
+      "said": "2026-11-10"
+    }
+  ]
+}

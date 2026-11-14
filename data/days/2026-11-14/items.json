@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-14",
+  "top": "chatgpt-wallet",
+  "items": [
+    {
+      "id": "chatgpt-wallet",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-wallet",
+      "headline": "OpenAI launches ChatGPT Wallet so dots agents can make purchases with tokenized card payments",
+      "summary": "Pro subscribers in the US can add a card once and approve each agent purchase via biometric check. Built with American Express, Mastercard and Visa, the wallet uses network-issued tokens so agents never see real card numbers.",
+      "why": "OpenAI is the first frontier lab to ship a real payment rail inside an AI agent. The move turns ChatGPT from a tool that finds things to one that buys them, setting the template for how payment networks and competing labs handle agentic commerce.",
+      "published": "2026-11-13T15:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-chatgpt-wallet", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html", "outlet": "CNBC", "kind": "press" },
+        { "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-wallet-integration",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-wallet-integration",
+      "headline": "Google connects Gemini to Google Wallet for personal finance insights across all US users",
+      "summary": "Gemini app users in the US can now link Google Wallet to get spending charts, subscription tracking and budget help. Users can optionally connect bank and credit card accounts through Plaid. Gemini can only read financial data, not move money.",
+      "published": "2026-11-13T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-manufacturing",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-manufacturing",
+      "headline": "Anthropic ships Claude for Manufacturing plugin with 17 skills connecting to factory software",
+      "summary": "The plugin links Claude to Autodesk Fusion, Oracle NetSuite, Microsoft 365 and Infor so manufacturing teams can draft quotes, quality reports and breakdown diagnoses from live data. Available on Team and Enterprise plans.",
+      "published": "2026-11-13T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://claude.com/solutions/manufacturing", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-safety-eval-guide",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-safety-eval-guide",
+      "headline": "Anthropic publishes guide to building strong safety evaluations, introduces Petri eval toolkit",
+      "summary": "The engineering post draws on psychology's replication reforms and Anthropic's own eval work. It recommends sandboxed multi-turn testing, calibrated LLM graders and preregistered analyses. The post introduces Petri, an open-source toolkit built on the UK AISI's Inspect framework.",
+      "published": "2026-11-13T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/building-strong-safety-evaluations", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-oversubscribed",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo-demand",
+      "headline": "Bloomberg reports Anthropic IPO is six times oversubscribed at $70-$78 per share",
+      "summary": "Orders for the 825 million shares have reached roughly six times the amount on offer, Bloomberg reports. Bankers are considering pricing above range, which could push the valuation past $1.5 trillion. Pricing is expected Nov 18 with trading Nov 19 on Nasdaq under ticker ANT.",
+      "published": "2026-11-12T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.bloomberg.com/ai" }
+      ]
+    },
+    {
+      "id": "openai-robotics-reassignment",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-robotics-reassignment",
+      "headline": "OpenAI reassigns robotics researchers as general-purpose models like Astra may replace specialized robotics AI",
+      "summary": "Research staff join Mark Chen's main research team while applied robotics and hardware join Greg Brockman's Applied org. OpenAI believes GPT-6 Astra can control robots directly, reducing the need for specialized models. Fortune reports Sam Altman targets a public robot demo in 2027.",
+      "published": "2026-11-13T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-china-bar",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo-china-ban",
+      "headline": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+      "summary": "Bloomberg reports that banks managing Anthropic's IPO will not accept orders from investors based in China or Hong Kong, citing US export restrictions on advanced AI technology.",
+      "published": "2026-11-13T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.bloomberg.com/ai" }
+      ]
+    },
+    {
+      "id": "anthropic-mythos-efficiency",
+      "ai": "claude",
+      "category": "model",
+      "story": "anthropic-mythos-efficiency",
+      "headline": "Former researcher Coxon says Anthropic can already retrain Mythos with a fraction of the original compute",
+      "summary": "Jacob Coxon, who left Anthropic after about four months, interprets an IPO roadshow slide as evidence that algorithmic efficiency is improving at a superexponential rate. He says the company could retrain Mythos for far less compute than the original run.",
+      "published": "2026-11-14T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    }
+  ]
+}

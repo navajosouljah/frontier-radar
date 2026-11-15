@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-15",
+  "top": "claude-opus-55-daily-driver",
+  "items": [
+    {
+      "id": "claude-opus-55-daily-driver",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-opus-55-daily-driver",
+      "headline": "Anthropic publishes guide for using Claude Opus 5.5 as daily driver, says old prompting habits waste time",
+      "summary": "The guide recommends dropping 'think hard' prompts, starting at Medium effort and requesting finished work in one message. Anthropic says Opus 5.5 at Medium matched Opus 5 at High in internal tests and finished a financial modeling task in 63 minutes vs 93.",
+      "why": "Anthropic's guide signals a shift in how frontier models should be used: describe the end result and let the model decide the steps. The advice matters because outdated habits from earlier models are costing users both time and money on the most capable tier.",
+      "published": "2026-11-12T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-4-carbon-matharena",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-4-carbon-matharena",
+      "headline": "Gemini 4 Carbon tops MathArena benchmark at 85.4%, ahead of Claude Fable 5.2 and GPT-6.1 Sol",
+      "summary": "Google's model takes the lead on the math competition benchmark. Claude Fable 5.2 places second at 82.8% but costs roughly 40 times more than GPT-6.1 Sol, which scored 80.6% at about $1 per run. Carbon's most common failure is exceeding the time limit.",
+      "published": "2026-11-14T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "amodei-ipo-uncertainty",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo-demand",
+      "headline": "Amodei warns of 'huge uncertainty' in next year's AI outlook at JPMorgan event days before record IPO",
+      "summary": "Anthropic's CEO told a JPMorgan Chase investor event that buying compute one to two years ahead of revenue is the company's deepest dilemma. Bloomberg reports annualized revenue reached $81B at end of October, up from $71B in late September.",
+      "published": "2026-11-14T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.bloomberg.com/ai" }
+      ]
+    }
+  ]
+}

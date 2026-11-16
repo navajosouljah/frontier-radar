@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-16",
+  "top": "anthropic-ipo-debut-week",
+  "items": [
+    {
+      "id": "anthropic-ipo-debut-week",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo-demand",
+      "headline": "Anthropic IPO expected Thursday on Nasdaq under ticker ANT, with $26B from strategic tech investors",
+      "summary": "CNBC reports the debut could raise over $90B at $70-$78 per share, valuing Anthropic around $1.4T. AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC are investing $26B at the IPO price. Semafor says the offering is about six times oversubscribed.",
+      "why": "Anthropic's IPO is the largest by an AI company and a test of whether the market still believes in frontier AI after supply-chain stocks lost $4.2T since June. The $26B commitment from seven chipmakers and cloud providers ties the AI hardware ecosystem directly to Anthropic's fortunes.",
+      "published": "2026-11-15T12:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html", "outlet": "CNBC", "kind": "press" },
+        { "url": "https://www.semafor.com/article/11/15/2026/anthropic-ipo-set-to-define-ai-trade", "outlet": "Semafor", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-fable-painting",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-fable-painting",
+      "headline": "Claude Fable 5.2 creates images by writing Python code that places hundreds of thousands of brushstrokes",
+      "summary": "Unlike diffusion models, Fable 5.2 writes 1,000 to 2,000-line Python programs that simulate individual brushstrokes on a virtual canvas. Anthropic engineers shared examples including a parking garage rendered with about 700K strokes.",
+      "published": "2026-11-15T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-lvmh-partnership",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-lvmh-partnership",
+      "headline": "LVMH media division partners with OpenAI to bring journalism from 17 brands into ChatGPT",
+      "summary": "Groupe Les Echos-Le Parisien, LVMH's media arm with 700 journalists and 27M monthly readers, will deploy ChatGPT Enterprise for newsroom tools. Its content will appear in ChatGPT with attribution and links back to the original articles.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/lvmh-media-division-partnership", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-kings-trust",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-kings-trust",
+      "headline": "OpenAI and the King's Trust launch a £1M partnership to teach AI skills to 25,000 young people in the UK",
+      "summary": "The 18-month program prioritizes young people not in education, employment or training. It builds on OpenAI Academy and will provide practical AI skills training and qualifications.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/the-kings-trust-and-openai", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-science-blog",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-science-blog",
+      "headline": "OpenAI launches a dedicated science blog to publish AI-assisted research findings",
+      "summary": "The new blog will feature research findings, practical guidance and researcher accounts. Early highlights include a Navier-Stokes proof, a quasi-Riemann hypothesis result and work on antibiotic molecule discovery.",
+      "published": "2026-11-15T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/our-new-blog-for-science", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-elevated-errors-nov16",
+      "ai": "claude",
+      "category": "policy",
+      "story": "claude-elevated-errors-nov16",
+      "headline": "Claude services hit elevated errors for Sonnet 5.5 and Fable 5.2, resolved in 90 minutes",
+      "summary": "Errors affected claude.ai, the Claude API, Claude Code and Claude Cowork from 07:32 to 08:45 UTC on November 16. A fix was deployed and the incident was fully resolved by 09:04 UTC.",
+      "published": "2026-11-16T09:04:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://status.claude.com", "outlet": "Claude status", "kind": "official" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-16",
+  "debate": {
+    "title": "Is Anthropic's $1.4T IPO valuation justified?",
+    "consensus": "Most investors say the strategic backing from seven chipmakers validates the price. Skeptics warn that AI revenue forecasts beyond a few years are guesswork.",
+    "story": "anthropic-ipo-demand"
+  },
+  "quotes": [
+    {
+      "person": "Joe Fath",
+      "role": "Partner at Eclipse, former T. Rowe Price portfolio manager",
+      "outlet": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "quote": "The numbers are just staggering",
+      "stance": "other",
+      "ai": "claude",
+      "story": "anthropic-ipo-demand",
+      "said": "2026-11-15"
+    },
+    {
+      "person": "Corey Quinn",
+      "role": "Chief cloud economist at Duckbill",
+      "outlet": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "quote": "Realistically, anything past three to four years, you're basically throwing darts in the dark",
+      "stance": "skeptical",
+      "ai": "claude",
+      "story": "anthropic-ipo-demand",
+      "said": "2026-11-15"
+    },
+    {
+      "person": "Subhadeep Chatterjee",
+      "role": "Former Google cloud partnerships leader",
+      "outlet": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "quote": "Everybody knows that Anthropic is going to be the future of Google",
+      "stance": "impressed",
+      "ai": "claude",
+      "story": "anthropic-ipo-demand",
+      "said": "2026-11-15"
+    }
+  ]
+}

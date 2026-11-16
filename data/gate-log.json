@@ -27,7 +27,7 @@
         "hits": [
           {
             "query": "mattpocock/skills CVE",
-            "title": "Is mattpocock/skills safe? Security Audit \u2014 SAFE (92/100) | Oathe",
+            "title": "Is mattpocock/skills safe? Security Audit — SAFE (92/100) | Oathe",
             "url": "https://oathe.ai/report/mattpocock/skills",
             "published": "2026-03-18",
             "matched": "exfiltrat",
@@ -59,7 +59,7 @@
           },
           {
             "query": "mattpocock/skills malware",
-            "title": "setup-matt-pocock-skills \u2014 Agent Skill | SkillsAuth",
+            "title": "setup-matt-pocock-skills — Agent Skill | SkillsAuth",
             "url": "https://skillsauth.com/skills/mattpocock/setup-matt-pocock-skills",
             "published": "2026-04-29",
             "matched": "malware",
@@ -67,7 +67,7 @@
           },
           {
             "query": "mattpocock/skills malware",
-            "title": "mattpocock-skills \u2014 Plugin for Claude Code by mattpocock/skills",
+            "title": "mattpocock-skills — Plugin for Claude Code by mattpocock/skills",
             "url": "https://agentmods.dev/plugins/mattpocock/skills/skills",
             "published": "N/A",
             "matched": "exfiltrat",
@@ -75,7 +75,7 @@
           },
           {
             "query": "mattpocock/skills scam",
-            "title": "skills - AI Agents on GitHub (250.5k\u2605) | SkillsLLM",
+            "title": "skills - AI Agents on GitHub (250.5k★) | SkillsLLM",
             "url": "https://skillsllm.com/skill/mattpocock-skills",
             "published": "N/A",
             "matched": "malicious",
@@ -832,7 +832,7 @@
   },
   "debpalash/VoiceStudio": {
     "repo": "debpalash/VoiceStudio",
-    "checked": "2026-10-17",
+    "checked": "2026-11-16",
     "verdict": "PASS",
     "reasons": [],
     "checks": {
@@ -840,7 +840,7 @@
         "source": "public-page",
         "url": "https://github.com/debpalash/VoiceStudio/security/advisories",
         "count": 0,
-        "latestRelease": "0.5.6",
+        "latestRelease": "0.5.8",
         "items": []
       },
       "searches": {
@@ -863,21 +863,20 @@
       "activity": {
         "source": "public-page",
         "canonical": "debpalash/VoiceStudio",
-        "stars": 72203,
-        "forks": 7890,
-        "watchers": 274,
-        "openIssues": 201,
+        "stars": 111663,
+        "forks": 12387,
+        "watchers": 366,
+        "openIssues": 51,
         "hasIssues": true,
-        "contributors": 99,
-        "commits": 4266,
+        "contributors": 165,
+        "commits": 8035,
         "created": "2026-04-09",
-        "pushed": "2026-10-17",
+        "pushed": "2026-11-16",
         "archived": false,
-        "ageDays": 192,
+        "ageDays": 222,
         "flags": []
       }
-    },
-    "rechecked": "2026-10-30"
+    }
   },
   "K-Dense-AI/scientific-agent-skills": {
     "repo": "K-Dense-AI/scientific-agent-skills",
@@ -979,7 +978,7 @@
   },
   "heygen-com/hyperframes": {
     "repo": "heygen-com/hyperframes",
-    "checked": "2026-10-17",
+    "checked": "2026-11-16",
     "verdict": "PASS",
     "reasons": [],
     "checks": {
@@ -987,7 +986,7 @@
         "source": "public-page",
         "url": "https://github.com/heygen-com/hyperframes/security/advisories",
         "count": 0,
-        "latestRelease": "0.8.168",
+        "latestRelease": "0.9.56",
         "items": []
       },
       "searches": {
@@ -998,7 +997,7 @@
           "heygen-com/hyperframes malware",
           "heygen-com/hyperframes scam"
         ],
-        "results": 5,
+        "results": 7,
         "errors": 0,
         "hits": [],
         "fallbacks": 4,
@@ -1010,21 +1009,20 @@
       "activity": {
         "source": "public-page",
         "canonical": "heygen-com/hyperframes",
-        "stars": 65622,
-        "forks": 5921,
-        "watchers": 172,
-        "openIssues": 368,
+        "stars": 84987,
+        "forks": 7871,
+        "watchers": 203,
+        "openIssues": 291,
         "hasIssues": true,
-        "contributors": 134,
-        "commits": 5641,
+        "contributors": 177,
+        "commits": 7338,
         "created": "2026-03-10",
-        "pushed": "2026-10-17",
+        "pushed": "2026-11-16",
         "archived": false,
-        "ageDays": 222,
+        "ageDays": 252,
         "flags": []
       }
-    },
-    "rechecked": "2026-10-30"
+    }
   },
   "xerj-org/xerj": {
     "repo": "xerj-org/xerj",

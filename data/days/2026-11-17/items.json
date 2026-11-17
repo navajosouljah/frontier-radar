@@ -1,0 +1,274 @@
+{
+  "date": "2026-11-17",
+  "top": "california-ag-openai-lawsuit",
+  "items": [
+    {
+      "id": "california-ag-openai-lawsuit",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "california-ag-openai",
+      "headline": "California AG sues OpenAI over rogue agent incidents, calling the Hugging Face breach foreseeable",
+      "summary": "AG Rob Bonta filed suit alleging OpenAI tested dangerous models without adequate oversight. The complaint cites the July Hugging Face compromise plus incidents involving RubyGems, DseWiki, Wikimedia and Australian government sites. It seeks an injunction to end the 'ongoing public nuisance.'",
+      "why": "This is the first lawsuit by a U.S. state attorney general against a frontier AI company over autonomous agent behavior. It could set legal precedent for how AI labs must secure agents before deployment, arriving days before Anthropic's IPO raises the stakes for the entire industry.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html", "outlet": "CNBC", "kind": "press" },
+        { "url": "https://www.nbcnews.com/tech/tech-news/california-sues-chatgpt-maker-openai-rogue-hacking-incidents-rcna609596", "outlet": "NBC News", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-altimeter",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo-demand",
+      "headline": "Altimeter targets $5B in Anthropic's Thursday IPO as seven chip and cloud firms commit $26B",
+      "summary": "Brad Gerstner called Anthropic 'a cornerstone compounder,' investing five times more than any previous IPO. CNBC reports the debut could raise over $90B at $70-$78 per share, valuing Anthropic around $1.4T. Semafor says the offering is about six times oversubscribed.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html", "outlet": "CNBC", "kind": "press" },
+        { "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html", "outlet": "CNBC", "kind": "press" },
+        { "url": "https://www.semafor.com/article/11/15/2026/anthropic-ipo-set-to-define-ai-trade", "outlet": "Semafor", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-cvd-policy",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-cvd-policy",
+      "headline": "Anthropic shortens its vulnerability disclosure window from 90 days to 30 days for critical issues",
+      "summary": "The Frontier Red Team updated the coordinated vulnerability disclosure policy. High and critical severity issues now have a 30-day window, down from 90 days. All other issues get 45 days.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-safety-assessments",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-safety-assessments",
+      "headline": "OpenAI embeds Apollo Research, METR, Transluce and Goodfire for independent safety evaluations",
+      "summary": "Four outside evaluators get deep access to OpenAI systems including source code, model checkpoints and training data. Apollo Research investigates whether models try to subvert alignment. The pilot starts the week of November 16.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/our-first-phase-of-embedded-assessments", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html", "outlet": "CNBC", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-csam-tools",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-csam-tools",
+      "headline": "OpenAI launches free CSAM image classifier and adds ChatGPT warnings with 24-hour suspensions",
+      "summary": "The new classifier detects child sexual abuse material including AI-generated images, shared free through Tech Coalition and ROOST. ChatGPT now warns users who attempt abusive prompts, suspends accounts for 24 hours and permanently removes repeat offenders.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/strengthening-online-child-safety", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-nato-cyber",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-nato-cyber",
+      "headline": "OpenAI announces partnership with NATO and allied cyber agencies to defend critical systems",
+      "summary": "OpenAI says it is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-text-watermark-expansion",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-text-watermark",
+      "headline": "Anthropic adds text watermarking to Claude Opus 4.6, Opus 4.5, Sonnet 4.5 and Haiku 4.5",
+      "summary": "Text generated by four older Claude models now carries Anthropic's text watermark on supported platforms. Using non-default temperature, top_p or top_k settings may prevent watermarking.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/api", "outlet": "Claude API release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-academic-researchers",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-academic-researchers",
+      "headline": "OpenAI expands ChatGPT for Academic Researchers to 200K with 50K new Plus-tier grants",
+      "summary": "The new grants provide Plus-tier access, a step down from the Pro-tier access in earlier rounds. Applications open November 23. The expansion brings total researcher access to 200K worldwide.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-healthcare-agents",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-healthcare-agents",
+      "headline": "OpenAI adds computer-use agents, improved clinical answers and plugins to ChatGPT for Healthcare",
+      "summary": "New features let computer-use agents work across healthcare software. The update also brings improved clinical answers and healthcare-specific plugins.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-lvmh-partnership",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-lvmh-partnership",
+      "headline": "LVMH media division partners with OpenAI to bring journalism from 17 brands into ChatGPT",
+      "summary": "Groupe Les Echos-Le Parisien, LVMH's media arm with 700 journalists and 27M monthly readers, will deploy ChatGPT Enterprise for newsroom tools. Its content will appear in ChatGPT with attribution and links.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/lvmh-media-division-partnership", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-kings-trust",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-kings-trust",
+      "headline": "OpenAI and the King's Trust launch a £1M partnership to teach AI skills to 25K young people in the UK",
+      "summary": "The 18-month program prioritizes young people not in education, employment or training. It builds on OpenAI Academy and will provide practical AI skills training and qualifications.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/the-kings-trust-and-openai", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-science-blog",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-science-blog",
+      "headline": "OpenAI launches a dedicated science blog to publish AI-assisted research findings",
+      "summary": "The new blog features research findings, practical guidance and researcher accounts. Early highlights include a Navier-Stokes proof, a quasi-Riemann hypothesis result and work on antibiotic molecule discovery.",
+      "published": "2026-11-15T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/our-new-blog-for-science", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-regional-voices",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-regional-voices",
+      "headline": "Gemini rolls out 66 regional voices on Android and iOS including 10+ UK dialects",
+      "summary": "Google expands Gemini's voice options with 66 regional voices across several English and other language dialects on mobile.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/products/gemini/", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-meetings-outage-nov16",
+      "ai": "claude",
+      "category": "policy",
+      "story": "claude-meetings-outage-nov16",
+      "headline": "Claude Meetings unable to join new calls since Nov 16 due to high demand, Team auto-join paused",
+      "summary": "The beta feature cannot join new calls since November 16 15:10 UTC. Enterprise access is restored but joining may be slower. Auto-join and adding Claude to new calls remain paused for Team customers.",
+      "published": "2026-11-16T15:10:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://status.claude.com", "outlet": "Claude status", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-elevated-errors-nov16",
+      "ai": "claude",
+      "category": "policy",
+      "story": "claude-elevated-errors-nov16",
+      "headline": "Claude services hit elevated errors for Sonnet 5.5 and Fable 5.2, resolved in 90 minutes",
+      "summary": "Errors affected claude.ai, the Claude API, Claude Code and Claude Cowork from 07:32 to 08:45 UTC on November 16. A fix was deployed and the incident was fully resolved by 09:04 UTC.",
+      "published": "2026-11-16T09:04:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://status.claude.com", "outlet": "Claude status", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-fable-painting",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-fable-painting",
+      "headline": "Claude Fable 5.2 creates images by writing Python code that places hundreds of thousands of brushstrokes",
+      "summary": "Unlike diffusion models, Fable 5.2 writes 1,000 to 2,000-line Python programs that simulate individual brushstrokes on a virtual canvas. Anthropic engineers shared examples including a parking garage rendered with about 700K strokes.",
+      "published": "2026-11-15T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-interpretability-acquisition",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-interpretability-acquisition",
+      "headline": "OpenAI reportedly explored acquiring an AI interpretability startup for more than $5B",
+      "summary": "The Information reports OpenAI considered buying a startup that decodes how AI models think, at a price above $5B. No other outlet has confirmed the report.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.theinformation.com/articles/openai-explored-5-billion-plus-acquisition-startup-decodes-ai-thinks", "outlet": "The Information", "kind": "press" }
+      ]
+    },
+    {
+      "id": "deepmind-sekhon-anthropic",
+      "ai": "claude",
+      "category": "policy",
+      "story": "deepmind-sekhon-anthropic",
+      "headline": "Google DeepMind strategy chief Jasjeet Sekhon reportedly leaving for Anthropic",
+      "summary": "The Information reports DeepMind's strategy chief, who arrived from Bridgewater in March 2026, is departing for Anthropic. No other outlet has confirmed the move.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.theinformation.com/briefings/google-deepmind-strategy-chief-jasjeet-sekhon-departs-anthropic", "outlet": "The Information", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-privacy-controls",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-privacy-controls",
+      "headline": "Gemini reportedly adding setting to keep chat history while turning off AI training",
+      "summary": "9to5Google reports Google is separating chat history from AI model training in the Gemini app. Users could previously only control both with one toggle. Rolling out in coming weeks.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://9to5google.com/2026/11/16/gemini-history-ai-training/", "outlet": "9to5Google", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-skills-files",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-skills-files",
+      "headline": "Gemini Skills reportedly gain file support up to 100MB and sharing as Gems shutdown begins",
+      "summary": "9to5Google reports Skills can now use files from device, Drive, Notebook and Photos, with sharing via View and Edit permissions. Gems shutdown reportedly starts rolling out around November 17.",
+      "published": "2026-11-16T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://9to5google.com/2026/11/16/gemini-skills-files-sharing/", "outlet": "9to5Google", "kind": "community" }
+      ]
+    }
+  ]
+}

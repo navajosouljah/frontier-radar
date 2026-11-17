@@ -832,7 +832,7 @@
   },
   "debpalash/VoiceStudio": {
     "repo": "debpalash/VoiceStudio",
-    "checked": "2026-11-16",
+    "checked": "2026-11-17",
     "verdict": "PASS",
     "reasons": [],
     "checks": {
@@ -863,17 +863,17 @@
       "activity": {
         "source": "public-page",
         "canonical": "debpalash/VoiceStudio",
-        "stars": 111663,
-        "forks": 12387,
-        "watchers": 366,
-        "openIssues": 51,
+        "stars": 112363,
+        "forks": 12466,
+        "watchers": 368,
+        "openIssues": 42,
         "hasIssues": true,
-        "contributors": 165,
-        "commits": 8035,
+        "contributors": 168,
+        "commits": 8164,
         "created": "2026-04-09",
         "pushed": "2026-11-16",
         "archived": false,
-        "ageDays": 222,
+        "ageDays": 223,
         "flags": []
       }
     }
@@ -978,7 +978,7 @@
   },
   "heygen-com/hyperframes": {
     "repo": "heygen-com/hyperframes",
-    "checked": "2026-11-16",
+    "checked": "2026-11-17",
     "verdict": "PASS",
     "reasons": [],
     "checks": {
@@ -986,7 +986,7 @@
         "source": "public-page",
         "url": "https://github.com/heygen-com/hyperframes/security/advisories",
         "count": 0,
-        "latestRelease": "0.9.56",
+        "latestRelease": "0.9.61",
         "items": []
       },
       "searches": {
@@ -1009,17 +1009,17 @@
       "activity": {
         "source": "public-page",
         "canonical": "heygen-com/hyperframes",
-        "stars": 84987,
-        "forks": 7871,
+        "stars": 85610,
+        "forks": 7934,
         "watchers": 203,
-        "openIssues": 291,
+        "openIssues": 299,
         "hasIssues": true,
-        "contributors": 177,
-        "commits": 7338,
+        "contributors": 180,
+        "commits": 7439,
         "created": "2026-03-10",
-        "pushed": "2026-11-16",
+        "pushed": "2026-11-17",
         "archived": false,
-        "ageDays": 252,
+        "ageDays": 253,
         "flags": []
       }
     }

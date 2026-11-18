@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-18",
+  "top": "gpt-62-astra-sol",
+  "items": [
+    {
+      "id": "gpt-62-astra-sol",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-62-astra-sol",
+      "headline": "OpenAI releases GPT-6.2 Astra and Sol with lower API prices but mixed benchmark results",
+      "summary": "GPT-6.2 Astra costs $8/$40 per million tokens (20% below GPT-6 Astra) and Sol stays at $2/$10. New 2-hour and 8-hour background completion windows cut costs 30-40%. Astra reached OpenAI's High threshold for AI self-improvement.",
+      "why": "OpenAI's latest models cut API prices by 20% and add cheaper background completion windows, lowering the cost of building AI agents. Early benchmarks show GPT-6.2 Astra trailing Claude Fable 5.2 and Gemini 4 Carbon on some third-party tests, keeping the frontier race tight.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/", "outlet": "The Decoder", "kind": "press" },
+        { "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users/", "outlet": "VentureBeat", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-tasks-free",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-tasks-free",
+      "headline": "Gemini Tasks rolls out free in the US, Japan, Korea, Canada, Australia and India",
+      "summary": "Google drops the premium requirement for Tasks in six countries, running on the new Gemini 4 Hydrogen model. New features include Google Pay checkout, calling businesses on your behalf and email forwarding to gemini@google.com.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/", "outlet": "Google", "kind": "official" },
+        { "url": "https://gemini.google/release-notes/", "outlet": "Gemini release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-pricing",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo-demand",
+      "headline": "Anthropic IPO oversubscribed 6-7x with Amazon at 14.7% and Google at 13.7% post-offering",
+      "summary": "Order books closed Tuesday with pricing expected above the $70-$78 range. Seven chip and cloud firms committed $26B in non-voting stock. Trading begins Thursday on Nasdaq under ticker ANT.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html", "outlet": "CNBC", "kind": "press" },
+        { "url": "https://www.semafor.com/article/11/17/2026/anthropic-momentum-builds-ahead-of-ipo", "outlet": "Semafor", "kind": "press" }
+      ]
+    },
+    {
+      "id": "chatgpt-for-sales",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-for-sales",
+      "headline": "OpenAI launches ChatGPT for Sales with 30+ partner plugins for CRM, prospecting and calls",
+      "summary": "The sales plugin integrates Salesforce, HubSpot, Apollo, Clay, ZoomInfo, Gong and Otter.ai. A dot agent handles meeting briefs and deal tracking automatically.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-chatgpt-for-sales", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-api-multimodal",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-api-multimodal",
+      "headline": "Gemini API adds native Word, PowerPoint, Excel and OpenDocument processing with content slicing",
+      "summary": "Documents, spreadsheets, videos and audio can now be sliced by page, worksheet, cell range, time interval or content layer directly in the Gemini API.",
+      "published": "2026-11-18T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://ai.google.dev/gemini-api/docs/changelog", "outlet": "Gemini API changelog", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-chat-retention",
+      "ai": "gemini",
+      "category": "policy",
+      "story": "gemini-privacy-controls",
+      "headline": "Google reportedly extends Gemini chat retention to 2 months and splits the history toggle",
+      "summary": "TechCrunch reports Google now keeps Gemini chats for 2 months even with history off, up from 72 hours. The update also separates chat history from AI model training into distinct settings.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://9to5google.com/2026/11/16/gemini-history-ai-training/", "outlet": "9to5Google", "kind": "community" }
+      ]
+    },
+    {
+      "id": "claude-linked-billing",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-linked-billing",
+      "headline": "Claude adds linked billing API so partner apps can charge usage to a customer's own org",
+      "summary": "Developers can now let their customers pay for Claude usage through their own Claude organization, with spend caps per request. Uses a new beta API header.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/api", "outlet": "Claude API release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-desktop-channels",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-desktop-channels",
+      "headline": "Claude Desktop adds release channel picker with Stable and Latest update tracks",
+      "summary": "Users can now choose between Stable (less frequent updates, more testing) and Latest (daily updates) release channels in Claude Desktop settings.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/claude-apps", "outlet": "Claude apps release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-figaro",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-figaro",
+      "headline": "Le Groupe Figaro partners with OpenAI to bring its journalism into ChatGPT with attribution",
+      "summary": "Le Figaro's content will appear in ChatGPT as summaries and excerpts with links back to the original articles.",
+      "published": "2026-11-18T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-chile",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-chile",
+      "headline": "OpenAI partners with the Government of Chile for responsible AI adoption and startup support",
+      "summary": "The partnership covers public-sector AI skills training, responsible adoption frameworks and support for Chilean startups building with OpenAI tools.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai-for-chile", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-transcribe-editing",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-transcribe-editing",
+      "headline": "Gemini 3.5 Transcribe adds voice-driven editing, rewriting and formatting capabilities",
+      "summary": "The gemini-3.5-transcribe and gemini-3.5-transcribe-live models now support voice-driven editing and formatting in the Gemini API.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://ai.google.dev/gemini-api/docs/changelog", "outlet": "Gemini API changelog", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-home-live",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-home-live",
+      "headline": "Google Home speakers reportedly getting Gemini Live with faster responses and smart home commands",
+      "summary": "9to5Google reports the upgrade brings mid-session commands for timers and smart home controls. Requires Google Home Premium at $10 per month.",
+      "published": "2026-11-18T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://9to5google.com/2026/11/18/google-home-gemini-live-update-coming/", "outlet": "9to5Google", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-4-neon-leak",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-4-neon-leak",
+      "headline": "Gemini 4 Neon model spotted in Google Cloud SKU catalog and Antigravity CLI",
+      "summary": "TestingCatalog found pricing at $3/$15 per million input/output tokens, positioned as a Pro orchestrator. Google has not announced the model.",
+      "published": "2026-11-18T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/google-prepares-to-release-gemini-4-neon-model-on-apis/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "claude-gdocs-errors-nov18",
+      "ai": "claude",
+      "category": "policy",
+      "story": "claude-gdocs-errors-nov18",
+      "headline": "Claude Google Docs connector hit elevated errors for about 75 minutes, now resolved",
+      "summary": "Editing documents through the Google Docs connector failed on claude.ai, Claude Code and Claude Cowork from 00:19 to 01:33 UTC on November 18. Reading was not affected.",
+      "published": "2026-11-18T01:33:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://status.claude.com", "outlet": "Claude status", "kind": "official" }
+      ]
+    }
+  ]
+}

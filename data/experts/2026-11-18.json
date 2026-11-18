@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-18",
+  "debate": {
+    "title": "Are GPT-6.2 Astra and Sol competitive with the frontier?",
+    "consensus": "Early benchmarks show mixed results. The price cuts are welcome but Astra trails Claude Fable 5.2 and Gemini 4 Carbon on some third-party tests.",
+    "story": "gpt-62-astra-sol"
+  },
+  "quotes": [
+    {
+      "person": "Simon Willison",
+      "role": "Software developer",
+      "outlet": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "quote": "The buzz around these new models is mixed at the moment.",
+      "stance": "skeptical",
+      "ai": "chatgpt",
+      "story": "gpt-62-astra-sol",
+      "said": "2026-11-17"
+    }
+  ]
+}

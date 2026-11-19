@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-19",
+  "debate": {
+    "title": "Does Google's expanding Gemini 4 lineup help or confuse?",
+    "consensus": "Neon's benchmarks are strong, but developers are struggling with an ever-growing lineup of models at shifting price points.",
+    "story": "gemini-4-neon"
+  },
+  "quotes": [
+    {
+      "person": "Simon Willison",
+      "role": "Software developer",
+      "outlet": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "quote": "Neon has somehow made this even worse.",
+      "stance": "skeptical",
+      "ai": "gemini",
+      "story": "gemini-4-neon",
+      "said": "2026-11-18"
+    }
+  ]
+}

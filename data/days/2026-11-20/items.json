@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-20",
+  "top": "gemini-computer-use-mac",
+  "items": [
+    {
+      "id": "gemini-computer-use-mac",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-computer-use-mac",
+      "headline": "Google brings computer use to the Gemini Mac app for multi-step desktop tasks",
+      "summary": "Gemini can now click, type and navigate menus across Mac desktop apps and websites in an isolated background window with live preview. Requires Apple Silicon, macOS 15.0+ and a Google AI Plus, Pro or Ultra plan. US only at launch.",
+      "why": "Gemini's Mac agent moves AI from chatbot to full desktop automation for consumers, closing the gap with Claude Computer Use. The sandboxed design with live previews and per-action approvals sets an early template for how the industry balances agent capability with user control.",
+      "published": "2026-11-19T17:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/", "outlet": "Google", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-debut",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo-demand",
+      "headline": "Anthropic closes Nasdaq debut at $97.17, up 17% from $83 IPO price, with $1.27T market cap",
+      "summary": "ANT opened at $111.50 before fading to close at $97.17 on volume of about 840M shares. Market cap at close was roughly $1.27T. The broader tech index fell 2.2% the same session.",
+      "published": "2026-11-19T21:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://www.bloomberg.com/news/live-blog/2026-11-19/anthropic-trading-debut-live-updates", "outlet": "Bloomberg", "kind": "press" },
+        { "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/", "outlet": "Forbes", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-performance-factory",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-performance-factory",
+      "headline": "OpenAI reveals Performance Factory, a Codex-powered system that auto-investigates regressions",
+      "summary": "The Performance Factory tracked over 1,700 investigations in three months and root-caused over 600, about 17 per day. Manual review found 70% of root-cause suggestions accurate. Adversarial Codex sessions challenge each diagnosis before a fix ships.",
+      "published": "2026-11-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-transfer-chat-history",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-transfer-chat-history",
+      "headline": "Gemini adds tool to import chat history and preferences from other AI assistants",
+      "summary": "Users can export a ZIP of their chat history from another AI assistant and upload it in Gemini settings to continue conversations. A prompt-based summary transfers preferences and context between apps.",
+      "published": "2026-11-19T20:30:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-mobile-redesign",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-mobile-redesign",
+      "headline": "ChatGPT gets new mobile layout with pinned favorites for Codex, Projects and Images",
+      "summary": "OpenAI redesigned the ChatGPT mobile app with a dedicated tab for your dot and pinnable favorites including Codex, Projects and Images. Rolling out first to Pro users 18+ in eligible regions, with a small group of Plus users.",
+      "published": "2026-11-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-health-expansion",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-health-expansion",
+      "headline": "ChatGPT Health expands to Android, desktop, dots and sites with Health Connect",
+      "summary": "Health integration now available on the desktop app, dots, sites and Android through Health Connect for sleep and activity data. Dots give proactive suggestions. Available to Free, Go, Plus and Pro users in the US.",
+      "published": "2026-11-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gpt-live-1-1",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-live-1-1",
+      "headline": "OpenAI releases GPT-Live-1.1 with better multilingual voice and WebRTC standby mode",
+      "summary": "GPT-Live-1.1 improves pronunciation, accent consistency and transcription in multilingual voice conversations. A new standby configuration pauses inference during inactivity in WebRTC sessions and resumes when someone speaks.",
+      "published": "2026-11-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://developers.openai.com/api/docs/changelog", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "genie-4-api-ga",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "genie-4-available",
+      "headline": "Genie 4 API goes generally available on the Interactions API with 24fps streaming",
+      "summary": "Genie 4 is now GA on the Interactions API for real-time interactive world generation, streaming 24fps 16:9 video with 48kHz stereo audio. A tool retrieval preview also lets models search and load function schemas on demand.",
+      "published": "2026-11-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://aistudio.google.com/docs/changelog", "outlet": "Google AI Studio", "kind": "official" }
+      ]
+    },
+    {
+      "id": "spacexai-grok-uk-lawsuit",
+      "ai": "grok",
+      "category": "policy",
+      "story": "spacexai-grok-uk-lawsuit",
+      "headline": "SpaceXAI denies liability in UK lawmaker's lawsuit over sexualized Grok-generated images",
+      "summary": "In an October 29 defense filing, SpaceXAI denied breaching privacy or data protection rights in Jess Asato's case. Asato is seeking a court order requiring permanent technical controls over Grok image generation.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.reuters.com/technology/artificial-intelligence/musks-spacexai-denies-liability-uk-lawmakers-lawsuit-over-grok-images-2026-11-20/", "outlet": "Reuters", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-search-redesign",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-search-redesign",
+      "headline": "Google Search desktop homepage reportedly adds Gemini-powered sidebar and task shortcuts",
+      "summary": "The desktop Google.com homepage now shows Gemini-powered task shortcuts below the search bar and a sidebar with Gemini chat history. Rolling out globally per 9to5Google.",
+      "published": "2026-11-19T22:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://9to5google.com/2026/11/19/google-search-homepage-gemini-sidebar-update", "outlet": "9to5Google", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gpt-6-luna-errors-nov19",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "gpt-6-luna-errors-nov19",
+      "headline": "GPT-6 Luna API hit elevated error rates on November 19, now resolved",
+      "summary": "Elevated error rates affected GPT-6 Luna API Chat Completions and Responses starting around 16:58 UTC on November 19. The incident has been resolved and all services are operational.",
+      "published": "2026-11-19T16:58:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://status.openai.com", "outlet": "OpenAI status", "kind": "official" }
+      ]
+    }
+  ]
+}

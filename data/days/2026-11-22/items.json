@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-22",
+  "top": "claude-computer-use-team",
+  "items": [
+    {
+      "id": "claude-computer-use-team",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-computer-use-team",
+      "headline": "Claude computer use beta now available to Team and Enterprise organizations",
+      "summary": "Computer use lets Claude see a user's screen and work in allowed desktop apps. It is now in beta for Team and Enterprise plans, rolling out gradually. Works in Claude Desktop's new experience and on web and mobile with Computer Access enabled.",
+      "why": "Claude's computer use reaching enterprise plans brings AI desktop automation to the workforce tier where it has the most impact. Coming two days after Gemini launched the same capability on Mac, the parallel rollouts confirm screen-level agent control is becoming standard for frontier AIs.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://support.claude.com/en/articles/12138966-release-notes", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "riemann-claude-proof",
+      "ai": "claude",
+      "category": "model",
+      "story": "riemann-claude-proof",
+      "headline": "Anthropic mathematician claims Claude-assisted proof of the Riemann hypothesis in 17M-line Lean code",
+      "summary": "Levent Alpoge published a claimed proof of the Riemann hypothesis as 17M lines of Lean code, with Claude doing the core mathematical work. The Lean and Mathlib community confirmed the code compiles and the proof is correct. Hours later, Stanford posted a competing all-human draft.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/", "outlet": "The Decoder", "kind": "press" },
+        { "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-close",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo-demand",
+      "headline": "Anthropic closes $119.5B offering as ANT shares fall 9.1% in broader tech sell-off",
+      "summary": "Anthropic sold 1.13B shares at $83 each raising $93.5B, plus a $26B private placement from AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC. ANT then fell 9.1% on its second day as the Nasdaq 100 dropped 5.6% in its worst week since the pandemic.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/ipo-close", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-mobile-redesign-nov",
+      "ai": "claude",
+      "category": "apps",
+      "story": "claude-mobile-redesign-nov",
+      "headline": "Claude Mobile gets refreshed design, rolling out first on iOS",
+      "summary": "A new visual design is rolling out for Claude Mobile, starting with iOS. Chats, projects and plans are unchanged. Requires iOS 26 or later.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://support.claude.com/en/articles/12138966-release-notes", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-space-plus",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-space-plus",
+      "headline": "ChatGPT Space rolls out globally to Plus users, replacing Library",
+      "summary": "Space is now rolling out to Plus users 18+ worldwide. Users can build interactive pages and presentations, invite collaborators and set pages to auto-refresh from connected apps. It replaces Library as the home for pages, slides, images and files.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-medchembench",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "openai-medchembench",
+      "headline": "OpenAI releases MedChemBench, a 99-problem benchmark for AI drug discovery reasoning",
+      "summary": "MedChemBench tests how well AI models reason about medicinal chemistry with 99 problems from 117 published papers. GPT-6.2 Astra scored highest at 84.5%. Models were strong at reconstructing molecular structures but weaker at compound selection and numerical prediction.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-medchembench/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gpt-6-2-prompting-tips",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-6-2-prompting-tips",
+      "headline": "OpenAI publishes prompting guide for GPT-6.2 Astra and Sol with fixes for common issues",
+      "summary": "OpenAI released copy-ready prompt templates addressing overly brief answers, unnecessary follow-up questions and shorthand in final output. Astra is more concise by default so old 'be concise' instructions should be removed. Temperature and top_p are no longer supported.",
+      "published": "2026-11-21T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://developers.openai.com/api/docs/guides/latest-model?model=gpt-6.2-astra", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "google-connected-apps-holiday",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "google-connected-apps-holiday",
+      "headline": "Google rolls out Connected Apps in Search and Gemini for groceries, taxes and home services",
+      "summary": "US users can now build grocery orders via Albertsons, Safeway and Target through Search and Gemini using the Universal Commerce Protocol. Experian credit checks and H&R Block tax estimates are live; Angi and Thumbtack for home services coming soon.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gpt-6-2-transparency",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-6-2-transparency",
+      "headline": "GPT-6.2 Astra scores lower on transparency benchmark than Claude Fable and Opus",
+      "summary": "Artificial Analysis PersonalityBench shows Astra's average answer length dropped 40% from GPT-6 and headings nearly disappeared. Transparency scores: Astra 41, Sol 57, Claude Fable 5.2 81, Claude Opus 5.5 90. Astra's uncertainty admission fell from 96 to 24.",
+      "published": "2026-11-22T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-20T12:16:05.276Z",
+  "fetched": "2026-11-22T12:28:26.521Z",
   "source": "https://raw.githubusercontent.com/navajosouljah/repo-radar/main/data/blocklist.json",
   "repos": [
     {
@@ -265,6 +265,18 @@
       "date": "2026-09-27",
       "kind": "open-advisories",
       "reason": "6 open after registry recheck: GHSA-33c2-g8hf-fxjf low (no fixed version in the advisory data or text); GHSA-wh78-4m24-7957 low (no fixed version in the advisory data or text); GHSA-wjcq-xp37-c947 low (no fixed version in the advisory data or text); GHSA-wjcq-xp37-c947 low (no fixed version in the advisory data or text); GHSA-xgqv-jcxf-qp28 low (no fixed version in the advisory data or text); GHSA"
+    },
+    {
+      "repo": "AgriciDaniel/claude-seo",
+      "date": "2026-11-20",
+      "kind": "open-advisories",
+      "reason": "6 open advisory(ies): GHSA-9pc7-p6cr-942h moderate (unpatched), GHSA-xhpf-w7hf-f6ph low (unpatched), GHSA-xgff-93hv-6369 low (unpatched), GHSA-f8h8-fv8r-g2wh moderate (unpatched), GHSA-hxhx-mm7f-q4qm low (unpatched), GHSA-gc25-jx72-jj4q low (unpatched)"
+    },
+    {
+      "repo": "libracoder/kiri",
+      "date": "2026-11-20",
+      "kind": "open-advisories",
+      "reason": "6 open advisory(ies): GHSA-wpff-823r-3w23 high (unpatched), GHSA-qf7g-72mh-h4fp low (unpatched), GHSA-4g46-535w-4v45 moderate (unpatched), GHSA-pcqf-qg5g-c5j8 critical (unpatched), GHSA-rprm-mrvg-qp96 high (unpatched), GHSA-4xv7-3m63-r6jv moderate (unpatched)"
     }
   ]
 }

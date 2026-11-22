@@ -109,7 +109,7 @@
   },
   "pbakaus/impeccable": {
     "repo": "pbakaus/impeccable",
-    "checked": "2026-10-23",
+    "checked": "2026-11-22",
     "verdict": "PASS",
     "reasons": [],
     "checks": {
@@ -117,7 +117,7 @@
         "source": "public-page",
         "url": "https://github.com/pbakaus/impeccable/security/advisories",
         "count": 0,
-        "latestRelease": "4.7.0",
+        "latestRelease": "0.1.28",
         "items": []
       },
       "searches": {
@@ -140,25 +140,24 @@
       "activity": {
         "source": "public-page",
         "canonical": "pbakaus/impeccable",
-        "stars": 85245,
-        "forks": 5088,
-        "watchers": 198,
-        "openIssues": 45,
+        "stars": 114762,
+        "forks": 6839,
+        "watchers": 219,
+        "openIssues": 75,
         "hasIssues": true,
-        "contributors": 59,
-        "commits": 2533,
+        "contributors": 67,
+        "commits": 3795,
         "created": "2025-11-16",
-        "pushed": "2026-10-23",
+        "pushed": "2026-11-18",
         "archived": false,
-        "ageDays": 342,
+        "ageDays": 372,
         "flags": []
       }
-    },
-    "rechecked": "2026-10-30"
+    }
   },
   "thedotmack/claude-mem": {
     "repo": "thedotmack/claude-mem",
-    "checked": "2026-10-23",
+    "checked": "2026-11-22",
     "verdict": "PASS",
     "reasons": [],
     "checks": {
@@ -166,7 +165,7 @@
         "source": "public-page",
         "url": "https://github.com/thedotmack/claude-mem/security/advisories",
         "count": 0,
-        "latestRelease": "15.0.1",
+        "latestRelease": "16.0.3",
         "items": []
       },
       "searches": {
@@ -177,7 +176,7 @@
           "thedotmack/claude-mem malware",
           "thedotmack/claude-mem scam"
         ],
-        "results": 8,
+        "results": 9,
         "errors": 0,
         "hits": [
           {
@@ -206,17 +205,17 @@
       "activity": {
         "source": "public-page",
         "canonical": "thedotmack/claude-mem",
-        "stars": 102436,
-        "forks": 9038,
-        "watchers": 323,
-        "openIssues": 132,
+        "stars": 118942,
+        "forks": 10339,
+        "watchers": 364,
+        "openIssues": 79,
         "hasIssues": true,
-        "contributors": 294,
-        "commits": 3529,
+        "contributors": 399,
+        "commits": 4864,
         "created": "2025-08-31",
-        "pushed": "2026-10-23",
+        "pushed": "2026-11-21",
         "archived": false,
-        "ageDays": 419,
+        "ageDays": 449,
         "flags": []
       }
     },
@@ -227,8 +226,7 @@
       "reasons": [
         "3 report(s) to read"
       ]
-    },
-    "rechecked": "2026-10-30"
+    }
   },
   "cathrynlavery/diagram-design": {
     "repo": "cathrynlavery/diagram-design",
@@ -460,7 +458,7 @@
   },
   "morluto/rea": {
     "repo": "morluto/rea",
-    "checked": "2026-10-23",
+    "checked": "2026-11-22",
     "verdict": "PASS",
     "reasons": [],
     "checks": {
@@ -468,7 +466,7 @@
         "source": "public-page",
         "url": "https://github.com/morluto/rea/security/advisories",
         "count": 0,
-        "latestRelease": "6.7.0",
+        "latestRelease": "6.10.1",
         "items": []
       },
       "searches": {
@@ -479,7 +477,7 @@
           "morluto/rea malware",
           "morluto/rea scam"
         ],
-        "results": 20,
+        "results": 19,
         "errors": 0,
         "hits": [],
         "fallbacks": 4,
@@ -491,17 +489,17 @@
       "activity": {
         "source": "public-page",
         "canonical": "morluto/rea",
-        "stars": 370213,
-        "forks": 92721,
-        "watchers": 1315,
-        "openIssues": 1696,
+        "stars": 473440,
+        "forks": 115506,
+        "watchers": 1776,
+        "openIssues": 1324,
         "hasIssues": true,
-        "contributors": 330,
-        "commits": 4484,
+        "contributors": 465,
+        "commits": 9556,
         "created": "2026-04-14",
-        "pushed": "2026-10-23",
+        "pushed": "2026-11-22",
         "archived": false,
-        "ageDays": 193,
+        "ageDays": 223,
         "flags": []
       }
     },
@@ -512,8 +510,7 @@
       "reasons": [
         "6 report(s) to read"
       ]
-    },
-    "rechecked": "2026-10-30"
+    }
   },
   "ayghri/i-have-adhd": {
     "repo": "ayghri/i-have-adhd",
@@ -623,7 +620,7 @@
   },
   "coderexpert123/jev-browser-wingman": {
     "repo": "coderexpert123/jev-browser-wingman",
-    "checked": "2026-10-23",
+    "checked": "2026-11-22",
     "verdict": "PASS",
     "reasons": [],
     "checks": {
@@ -631,7 +628,7 @@
         "source": "public-page",
         "url": "https://github.com/coderexpert123/jev-browser-wingman/security/advisories",
         "count": 0,
-        "latestRelease": "0.3.3",
+        "latestRelease": "0.4.2",
         "items": []
       },
       "searches": {
@@ -660,15 +657,14 @@
         "openIssues": 0,
         "hasIssues": true,
         "contributors": 3,
-        "commits": 267,
+        "commits": 280,
         "created": "2026-09-20",
-        "pushed": "2026-10-08",
+        "pushed": "2026-10-30",
         "archived": false,
-        "ageDays": 34,
+        "ageDays": 64,
         "flags": []
       }
-    },
-    "rechecked": "2026-10-30"
+    }
   },
   "openai/math": {
     "repo": "openai/math",
@@ -1290,7 +1286,7 @@
   },
   "anomalyco/opencode": {
     "repo": "anomalyco/opencode",
-    "checked": "2026-10-23",
+    "checked": "2026-11-22",
     "verdict": "PASS",
     "reasons": [],
     "checks": {
@@ -1298,7 +1294,7 @@
         "source": "public-page",
         "url": "https://github.com/anomalyco/opencode/security/advisories",
         "count": 3,
-        "latestRelease": "1.19.4",
+        "latestRelease": "1.19.6",
         "items": [
           {
             "ghsa": "GHSA-632h-h47v-g4x4",
@@ -1309,7 +1305,7 @@
             "patched": "1.18.22",
             "openPackages": [],
             "status": "patched",
-            "latestPublished": "1.19.4"
+            "latestPublished": "1.19.6"
           },
           {
             "ghsa": "GHSA-c83v-7274-4vgp",
@@ -1320,7 +1316,7 @@
             "patched": "1.1.10",
             "openPackages": [],
             "status": "patched",
-            "latestPublished": "1.19.4"
+            "latestPublished": "1.19.6"
           },
           {
             "ghsa": "GHSA-vxw4-wv6m-9hhh",
@@ -1331,7 +1327,7 @@
             "patched": "1.0.216",
             "openPackages": [],
             "status": "patched",
-            "latestPublished": "1.19.4"
+            "latestPublished": "1.19.6"
           }
         ]
       },
@@ -1355,21 +1351,20 @@
       "activity": {
         "source": "public-page",
         "canonical": "anomalyco/opencode",
-        "stars": 220432,
-        "forks": 29475,
-        "watchers": 852,
-        "openIssues": 3684,
+        "stars": 228503,
+        "forks": 31047,
+        "watchers": 878,
+        "openIssues": 4065,
         "hasIssues": true,
-        "contributors": 1066,
-        "commits": 20799,
+        "contributors": 1099,
+        "commits": 23137,
         "created": "2025-04-30",
-        "pushed": "2026-10-23",
+        "pushed": "2026-11-22",
         "archived": false,
-        "ageDays": 542,
+        "ageDays": 572,
         "flags": []
       }
-    },
-    "rechecked": "2026-10-30"
+    }
   },
   "ruvnet/ruflo": {
     "repo": "ruvnet/ruflo",
@@ -1434,7 +1429,7 @@
   },
   "elie222/rakazo": {
     "repo": "elie222/rakazo",
-    "checked": "2026-10-23",
+    "checked": "2026-11-22",
     "verdict": "PASS",
     "reasons": [],
     "checks": {
@@ -1442,7 +1437,7 @@
         "source": "public-page",
         "url": "https://github.com/elie222/rakazo/security/advisories",
         "count": 0,
-        "latestRelease": "0.3.3",
+        "latestRelease": "0.14.0",
         "items": []
       },
       "searches": {
@@ -1465,21 +1460,20 @@
       "activity": {
         "source": "public-page",
         "canonical": "elie222/rakazo",
-        "stars": 5325,
-        "forks": 948,
-        "watchers": 29,
-        "openIssues": 61,
+        "stars": 9455,
+        "forks": 1709,
+        "watchers": 38,
+        "openIssues": 413,
         "hasIssues": true,
-        "contributors": 161,
-        "commits": 1703,
+        "contributors": 272,
+        "commits": 4832,
         "created": "2026-08-13",
-        "pushed": "2026-10-23",
+        "pushed": "2026-11-22",
         "archived": false,
-        "ageDays": 72,
+        "ageDays": 102,
         "flags": []
       }
-    },
-    "rechecked": "2026-10-30"
+    }
   },
   "android/skills": {
     "repo": "android/skills",

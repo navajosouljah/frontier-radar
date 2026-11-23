@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-23",
+  "debate": {
+    "title": "GPT-6.2 Astra: strong benchmarks but hard to use?",
+    "consensus": "Most early testers say Astra's communication style is confusing and it quits coding tasks too early. Its backers point to leading benchmarks and 20% lower cost per task.",
+    "story": "gpt-6-2-launch"
+  },
+  "quotes": [
+    {
+      "person": "Simon Willison",
+      "role": "AI developer and blogger",
+      "outlet": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "quote": "The buzz around these new models is mixed at the moment.",
+      "stance": "other",
+      "ai": "chatgpt",
+      "story": "gpt-6-2-launch",
+      "said": "2026-11-17"
+    }
+  ]
+}

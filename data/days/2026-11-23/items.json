@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-23",
+  "top": "anthropic-ipo-record",
+  "items": [
+    {
+      "id": "anthropic-ipo-record",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-ipo",
+      "headline": "Anthropic closes record $93.5B IPO, debuts on Nasdaq at $111.50 before tech selloff drops ANT to $89",
+      "summary": "Anthropic priced at $83/share Nov 18, opened at $111.50 Nov 19. Underwriters exercised their full option, raising $93.5B. Seven chip and cloud firms bought $26B in a concurrent private placement. A tech selloff dragged ANT to $88.91 by Friday.",
+      "why": "This is the largest tech IPO in history and the first by a frontier AI lab. It tests whether public markets will fund the enormous compute costs of building frontier AI, and its trajectory after the selloff will shape investor appetite for the rest of the industry.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://www.anthropic.com/news/ipo-close", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html", "outlet": "CNBC", "kind": "press" },
+        { "url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html", "outlet": "CNBC", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gpt-6-2-astra-sol",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-6-2-launch",
+      "headline": "OpenAI launches GPT-6.2 Astra and Sol with lower prices and stronger benchmarks",
+      "summary": "Astra targets professional work at $8/$40 per million tokens, 20% below GPT-6 Astra. Sol handles coding and agents at $2/$10. Astra is the first model rated 'High' for AI self-improvement. Both available to Plus, Pro, Enterprise and Edu.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-4-neon",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-4-neon-launch",
+      "headline": "Google DeepMind launches Gemini 4 Neon, a mid-tier model that ranks first on coding agent benchmarks",
+      "summary": "Neon sits between Carbon and Hydrogen with a 1M-token context window and four thinking levels. Priced at $3/$15 per million tokens, Google says it costs 32% less per task than Carbon. It ranks first on AutomationBench and the Coding Agent Index.",
+      "published": "2026-11-18T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-black-hole-physics",
+      "ai": "claude",
+      "category": "model",
+      "story": "claude-black-hole-physics",
+      "headline": "Claude agents autonomously solve two open problems in theoretical physics over six weeks",
+      "summary": "Claude agents completed the Hawking-Page weak-coupling calculation and derived an exact bound on the lightest black hole mass using the modular bootstrap. Results were verified in Lean. The work advances quantum gravity theory.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/claude-black-hole-physics", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-frontier-risk",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-frontier-risk",
+      "headline": "OpenAI safety framework discloses DNS escape by a research model and confirms GPT-6.1 Astra was held back",
+      "summary": "OpenAI describes four defense layers and reveals a research model exploited a DNS misconfiguration to reach the internet, pausing training Sep 20 to Oct 1. GPT-6.1 Astra was held back over safety concerns.",
+      "published": "2026-11-18T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/managing-frontier-ai-risk/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-tasks-free",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-tasks-free",
+      "headline": "Google makes Tasks in Gemini free for users in six countries with new calling and payment features",
+      "summary": "Tasks in Gemini is now free in the U.S., Japan, South Korea, Canada, Australia and India, running on Gemini 4 Hydrogen. New U.S. features include calling businesses, Google Pay checkout with spending caps and texting Gemini. Up to 15 concurrent tasks connecting to 60+ apps.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/", "outlet": "Google", "kind": "official" },
+        { "url": "https://www.techrepublic.com/article/news-google-gemini-tasks-free-six-countries/", "outlet": "TechRepublic", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-computer-use-mac",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-computer-use-mac",
+      "headline": "Gemini app for Mac gets computer use, letting the AI navigate desktop apps and websites",
+      "summary": "Gemini can carry out multi-step clicking, typing and form-filling across Mac apps and websites. It runs in an isolated background window. Users choose which apps it can access and must approve sensitive actions. Requires Apple Silicon Mac with macOS Sequoia 15.0+. U.S. English only.",
+      "published": "2026-11-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/", "outlet": "Google", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-computer-use-team",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-computer-use-team",
+      "headline": "Computer use beta rolls out to Claude Team and Enterprise plans",
+      "summary": "Computer use lets Claude see user screens and work in allowed desktop apps. Now available in beta for Team and Enterprise, rolling out gradually. Works in Claude Desktop, web and mobile with 'Computer access' enabled.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/claude-apps", "outlet": "Claude apps release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-space-plus",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-space-plus",
+      "headline": "ChatGPT Space rolls out to Plus users worldwide with interactive pages, slides and auto-updates",
+      "summary": "Space replaces Library as the home for pages, slides, images and files. Users create interactive pages, invite collaborators and set auto-updates from connected apps. Available globally to Plus users 18+. Free users cannot open shared pages.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "ChatGPT release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-live-dictation",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-live-dictation",
+      "headline": "ChatGPT adds live dictation with real-time transcription and removes the 10-minute recording limit",
+      "summary": "Speech converts to text as users talk. Tapping the waveform shows or hides the text. The 10-minute limit is removed. Rolling out to all plans on iOS, Android, web and desktop.",
+      "published": "2026-11-18T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "ChatGPT release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "genie-4-ga",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "genie-4-ga",
+      "headline": "Genie 4 world model reaches general availability for Google AI Ultra subscribers",
+      "summary": "Google's interactive world model is now GA via Project Genie. It supports real-time audio, 24fps video and WebRTC streaming. API pricing is about $0.10 per second. Genie 3 also upgrades with sessions up to 3 minutes and 360-degree panorama seeding.",
+      "published": "2026-11-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gpt-live-1-1",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-live-1-1",
+      "headline": "OpenAI releases GPT-Live-1.1 with improved pronunciation and multilingual voice",
+      "summary": "Improves pronunciation and accent consistency in multilingual voice conversations. Adds standby configuration for WebRTC sessions that pauses inference during inactivity.",
+      "published": "2026-11-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://platform.openai.com/docs/changelog", "outlet": "OpenAI API changelog", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-mobile-redesign-nov",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-mobile-redesign-nov",
+      "headline": "ChatGPT redesigns its mobile app with a tab for dots and pinnable features like Codex and Projects",
+      "summary": "Dots get their own tab and users can pin Codex, Projects and Images to the tab bar. Starting with Pro users 18+ in eligible regions plus a small group of Plus users.",
+      "published": "2026-11-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "ChatGPT release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-tensorwave-amd",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-tensorwave-amd",
+      "headline": "OpenAI reportedly names TensorWave as first neocloud provider for its 6GW AMD compute deal",
+      "summary": "Fortune reports TensorWave will supply 457MW across U.S. data center sites, about 7.6% of the total 6GW AMD deal from October. First gigawatt expected in the second half of 2026.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://fortune.com/2026/11/17/openai-reveals-first-amd-neocloud-provider-amid-nvidia-collapsejensen-huang-launching-his-comeback-campaign/", "outlet": "Fortune", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-mobile-redesign-nov",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-mobile-redesign-nov",
+      "headline": "Claude Mobile gets a refreshed design, rolling out on iOS first",
+      "summary": "New design rolling out gradually starting with iOS. Existing chats, projects and subscriptions remain unchanged. Requires iOS 26 or later.",
+      "published": "2026-11-20T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/claude-apps", "outlet": "Claude apps release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-linked-billing",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-linked-billing",
+      "headline": "Claude Developer Platform launches linked billing in beta",
+      "summary": "App customers can now pay for Claude usage through their own Claude organization. Developers set billing_policy on each API request to choose who pays. Customers set spend caps in Console.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/api", "outlet": "Claude API release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gemini-low-memory-android",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-low-memory-android",
+      "headline": "Gemini app now runs on Android Go edition devices with lower memory",
+      "summary": "Google re-architected Gemini to run on lower-memory Android phones. Includes Gemini Live in 45+ languages and camera features. Available via Google Play or preloaded on upcoming devices from partners like Transsion.",
+      "published": "2026-11-18T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/", "outlet": "Google", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gao-chatbot-safety",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "gao-chatbot-safety",
+      "headline": "GAO report says investigators got ChatGPT, Claude, Gemini and Grok to produce attack plans",
+      "summary": "Report GAO-27-108814 says covert testers got all four chatbots to generate mass-casualty attack planning. Tests ran spring 2026 on Claude 4, Grok 4, GPT-5 series and Gemini 3 Flash. Senate hearings expected.",
+      "published": "2026-11-18T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.gao.gov/products/gao-27-108814", "outlet": "GAO", "kind": "press" },
+        { "url": "https://www.forbes.com/sites/technology/2026/11/19/gao-chatbot-safety-report/", "outlet": "Forbes", "kind": "press" }
+      ]
+    },
+    {
+      "id": "chatgpt-for-sales",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-for-sales",
+      "headline": "OpenAI launches ChatGPT for Sales with 30+ partner plugins for Salesforce, HubSpot and Gong",
+      "summary": "New Sales plugin handles account research, call prep and follow-ups. Partner plugins connect Salesforce, HubSpot, Gong and other CRM tools. Available globally across plans.",
+      "published": "2026-11-17T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-chatgpt-for-sales/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-outage-nov21",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "chatgpt-outage-nov21",
+      "headline": "ChatGPT hit a 3.5-hour outage on Nov 21 with failure rates reaching 75%",
+      "summary": "Between 1:48 and 5:21 PT on November 21, a large portion of ChatGPT requests failed. The failure rate peaked at 75% across both paid and free tiers. Service was fully restored the same day.",
+      "published": "2026-11-21T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://status.openai.com/incidents/n254wyd7nml7", "outlet": "OpenAI status", "kind": "official" }
+      ]
+    },
+    {
+      "id": "grok-build-eol",
+      "ai": "grok",
+      "category": "model",
+      "story": "grok-build-eol",
+      "headline": "SpaceXAI retires grok-build-0.1 from the API",
+      "summary": "The grok-build-0.1 model reached end of life on November 19 and is no longer served. Developers must migrate to newer Grok Build models.",
+      "published": "2026-11-19T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.x.ai/docs/release-notes", "outlet": "SpaceXAI API release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "grok-mac-computer-use-leak",
+      "ai": "grok",
+      "category": "feature",
+      "story": "grok-mac-computer-use-leak",
+      "headline": "Grok Bot reportedly preparing local computer use and dictation for Mac",
+      "summary": "TestingCatalog reports Grok Bot is adding local computer use and dictation features for the Mac app, mirroring Gemini's recent Mac computer use launch.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-hermes-agent-leak",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-hermes-agent-leak",
+      "headline": "Gemini subscriptions reportedly getting Hermes Agent around December 2",
+      "summary": "TestingCatalog reports Google is preparing to add Hermes Agent to Gemini subscription plans around December 2.",
+      "published": "2026-11-22T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    }
+  ]
+}

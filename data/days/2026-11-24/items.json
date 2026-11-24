@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-24",
+  "top": "claude-ship-launch",
+  "items": [
+    {
+      "id": "claude-ship-launch",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-ship-launch",
+      "headline": "Anthropic launches Claude Ship to review, fix, and approve pull requests in beta",
+      "summary": "Claude Ship handles PR review, CI fixes, merge conflicts, and approval decisions. Code Review is GA; PR Steward and Claude Approvals are in beta. Available on Claude Team and Enterprise plans for GitHub repos.",
+      "why": "Claude Ship is the first AI tool handling the full PR cycle from review through fixes to approval. It could reshape how development teams manage code quality and release velocity.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://claude.com/blog/introducing-claude-ship", "outlet": "Anthropic", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/", "outlet": "TechCrunch", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-quantum-algorithms",
+      "ai": "gemini",
+      "category": "model",
+      "story": "gemini-quantum-algorithms",
+      "headline": "Gemini 4 agents discover faster quantum algorithms, all verified in the Lean theorem prover",
+      "summary": "Teams of Gemini 4 agents found improvements to known quantum algorithms. Key results include an 11.8x cost reduction for a fusion-energy quantum circuit and a 290x speedup for arcsin. Google open-sourced the Lean library and verified solutions.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/", "outlet": "Google DeepMind", "kind": "official" }
+      ]
+    },
+    {
+      "id": "openai-perplexity-safety",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-perplexity-safety",
+      "headline": "OpenAI chief scientist proposes shared perplexity metric and development limits for frontier AI",
+      "summary": "Jakub Pachocki argues cross-entropy loss should be a shared metric for comparing AI progress. OpenAI published internal figures: log-perplexity from 0.99 (GPT-3.5) to below 0.8 for current models. Proposes developers agree on common limits.",
+      "published": "2026-11-22T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/perplexity-and-intelligence", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "gpt-6-2-chat-rollout",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "gpt-6-2-launch",
+      "headline": "Chat-tuned GPT-6.2 rolls out to ChatGPT Plus, Pro, Business, and Enterprise users",
+      "summary": "A version of GPT-6.2 optimized for the Chat tab is rolling out globally. OpenAI reports 71.7% image understanding (vs 47.4% for GPT-6) and 78.1% on difficult instructions (vs 62.5%). Safety adherence at 91-94%. Work and Codex models unchanged.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "outlet": "ChatGPT release notes", "kind": "official" },
+        { "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-shirudo",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-shirudo",
+      "headline": "OpenAI and Cisco launch Shirudo, an open-source eBPF runtime security tool for Linux",
+      "summary": "Shirudo uses Linux eBPF to build shields that block exploit paths without restarts. Licensed BSD 2-Clause. A demo showed Codex generating a shield to block a Java4Shell exploit. December 15 webinar announced.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-shirudo/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "anthropic-working-with-ai",
+      "ai": "claude",
+      "category": "policy",
+      "story": "anthropic-working-with-ai",
+      "headline": "Anthropic study finds AI mostly increases output rather than cutting jobs across 58 companies",
+      "summary": "Based on 66 interviews at 58 U.S. companies (all Anthropic enterprise customers), the report finds AI mostly raises output rather than reducing headcount. About two-thirds of companies hired less. Nine cut contracted workers, mostly offshore.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/working-with-ai", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-opus-45-deprecation",
+      "ai": "claude",
+      "category": "model",
+      "story": "claude-opus-45-deprecation",
+      "headline": "Anthropic deprecates Claude Opus 4.5, sets retirement for January 22, 2027",
+      "summary": "Claude Opus 4.5 (claude-opus-4-5-20251101 and claude-opus-4-5) is deprecated and will be retired from the API on January 22, 2027. Anthropic recommends migrating to Opus 5.5.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/api", "outlet": "Claude API release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-efs-beta",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-efs-beta",
+      "headline": "Claude launches Enterprise Frontier Safeguards beta with zero data retention",
+      "summary": "Enterprise Frontier Safeguards provides zero data retention for eligible organizations. Encrypted safety data copies go to a customer-owned cloud bucket. Available on Claude Platform, AWS, and Google Cloud.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/api", "outlet": "Claude API release notes", "kind": "official" },
+        { "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "spacexai-compute-anthropic",
+      "ai": "grok",
+      "category": "policy",
+      "story": "spacexai-compute-anthropic",
+      "headline": "SpaceXAI reportedly earns $3.1B per month renting compute to Anthropic, scales back own AI products",
+      "summary": "The New York Times reports Anthropic is SpaceXAI's biggest compute customer at roughly $3.1B per month. SpaceXAI is reportedly scaling back some AI products including disbanding the Grok Imagine team and shutting down AI avatars.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "chatgpt-dots-eu",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-dots-eu",
+      "headline": "ChatGPT Dots always-on agents reportedly expanding to EU subscribers",
+      "summary": "TestingCatalog reports that ChatGPT Dots, the always-on agent feature where each Dot has its own computer and works with connected apps, is rolling out to EU users.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/openai-brings-gpt-6-2-sol-to-chatgpt-chat-and-dots-to-eu/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-antigravity-carbon-pro",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-antigravity-carbon-pro",
+      "headline": "Google reportedly adds Gemini 4 Carbon to Antigravity for Pro subscribers with task checklists",
+      "summary": "TestingCatalog and 9to5Google report Gemini 4 Carbon is now available to AI Pro users in Antigravity, previously Ultra-only. New features include live task checklists and orchestrator settings. Argon quota merging into the general bucket.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/google-adds-task-checklists-to-antigravity-and-carbon-for-pro/", "outlet": "TestingCatalog", "kind": "community" },
+        { "url": "https://9to5google.com/2026/11/23/antigravity-gemini-4-carbon/", "outlet": "9to5Google", "kind": "community" }
+      ]
+    }
+  ]
+}

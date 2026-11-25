@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-25",
+  "top": "claude-artifacts-desktop-apps",
+  "items": [
+    {
+      "id": "claude-artifacts-desktop-apps",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-artifacts-desktop-apps",
+      "headline": "Anthropic launches beta to install Claude artifacts as standalone desktop apps on macOS and Windows",
+      "summary": "Artifacts built in Claude can now be installed as standalone apps with their own windows and icons. Apps can use OS APIs, connectors, and Claude itself. Beta for all subscribers except HIPAA-compliant orgs.",
+      "why": "This turns AI-generated tools into real software people keep in their dock. It blurs the line between chatting with AI and building desktop applications, making coding-free app creation accessible to everyone.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/claude-apps", "outlet": "Claude release notes", "kind": "official" },
+        { "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gpt-6-protein-design",
+      "ai": "chatgpt",
+      "category": "model",
+      "story": "gpt-6-protein-design",
+      "headline": "OpenAI reports GPT-6 models can design proteins, with 85% binding rate on some targets",
+      "summary": "A research paper shows GPT-6 family models designing functional proteins using reasoning and code, without specialized biology models. Lab tests confirmed binding in up to 85% of designs for some targets, though structure prediction lags behind specialized tools.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "grok-deepfake-state-lawsuits",
+      "ai": "grok",
+      "category": "policy",
+      "story": "grok-deepfake-state-lawsuits",
+      "headline": "Virginia and Oregon become first US states to sue SpaceX over Grok deepfake imagery",
+      "summary": "Both states filed consumer protection suits alleging SpaceX misled users about Grok's safety and failed to prevent nonconsensual sexual images. Virginia's AG says the company stripped out industry-standard safeguards.",
+      "published": "2026-11-23T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html", "outlet": "CNBC", "kind": "press" },
+        { "url": "https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material", "outlet": "Al Jazeera", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-anthropic-safety-insiders",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-anthropic-safety-insiders",
+      "headline": "Dozens of insiders say unreleased OpenAI and Anthropic models have outgrown safety measures",
+      "summary": "Axios reports more than two dozen sources say both companies have internal models too powerful to safely release. Options debated include halting releases, restricting to internal use, or pausing training. Anthropic says it may slow down or hold back.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks", "outlet": "Axios", "kind": "press" },
+        { "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/", "outlet": "The Decoder", "kind": "press", "repeats": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks" }
+      ]
+    },
+    {
+      "id": "openai-astra-planets",
+      "ai": "chatgpt",
+      "category": "apps",
+      "story": "openai-astra-planets",
+      "headline": "Amateur astronomers use ChatGPT Astra to identify 49 potential exoplanet candidates from NASA data",
+      "summary": "Two researchers used Astra and Codex to analyze data from 19 million stars in NASA's TESS archives. One strong candidate has been sent to TESS researchers for follow-up. A SETI astronomer independently found two matching signals.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://openai.com/index/searching-for-distant-planets-with-astra/", "outlet": "OpenAI", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-monthly-recap-ga",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-monthly-recap-ga",
+      "headline": "Claude monthly recap exits beta, now includes Code and Cowork sessions",
+      "summary": "The monthly Reflect recap is now on Free, Pro, Max, and Ultra plans across web, desktop, and mobile. Recaps can now include Claude Code sessions and Cowork cloud tasks. Users can delete stored recaps.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/claude-apps", "outlet": "Claude release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "claude-file-transfer-beta",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-file-transfer-beta",
+      "headline": "Claude beta lets users send files to connected apps and save files from them",
+      "summary": "Claude can now send files to connected apps or save files the app offers back. Rolling out gradually on Pro, Max, and Ultra plans, and on Team and Enterprise when an admin enables it.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://docs.claude.com/en/release-notes/claude-apps", "outlet": "Claude release notes", "kind": "official" }
+      ]
+    },
+    {
+      "id": "chatgpt-dots-email",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-dots-email",
+      "headline": "OpenAI prepares dedicated email inboxes for ChatGPT Dots agents",
+      "summary": "TestingCatalog found hidden settings for a Dots email feature where each agent gets its own email address. An Email button appears next to Call and Slack in the Dots profile. No release date announced.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/openai-prepares-dedicated-email-inboxes-for-chatgpt-dots/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-messages-tasks",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-messages-tasks",
+      "headline": "Google Messages replaces old Gemini chat with proactive Tasks integration",
+      "summary": "9to5Google reports the Gemini button in Google Messages now opens the Tasks feature via RCS Business Messaging. It sends proactive morning updates on schedules, deals, and package tracking.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://9to5google.com/2026/11/24/google-messages-gemini-tasks/", "outlet": "9to5Google", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-warriors-partnership",
+      "ai": "gemini",
+      "category": "apps",
+      "story": "gemini-warriors-partnership",
+      "headline": "Google names Gemini the official AI partner of the Warriors, Valkyries, and Chase Center",
+      "summary": "Google announced Gemini as the official AI Assistant and Enterprise LLM partner for the Golden State Warriors, the 2026 WNBA Champion Valkyries, and Chase Center arena.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/", "outlet": "Google", "kind": "official" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-26",
+  "top": "anthropic-rust-api-migration",
+  "items": [
+    {
+      "id": "anthropic-rust-api-migration",
+      "ai": "claude",
+      "category": "feature",
+      "story": "anthropic-rust-api-migration",
+      "headline": "Anthropic rewrites Messages API in Rust, cutting CPU use 70% and memory over 80%",
+      "summary": "An engineering blog post details how the team migrated the Messages API from Python to Rust while keeping it live. Results: 70% less CPU per request, over 80% less memory, 20% lower median time to first token. API traffic grew 1,800x from early 2024 to fall 2026.",
+      "why": "The rewrite shows what happens when AI writes most of its own infrastructure. Claude produced over 80% of the merged code, and the team had no prior Rust experience, turning verification into the real bottleneck instead of coding.",
+      "published": "2026-11-25T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://www.anthropic.com/research/migrating-api-to-rust", "outlet": "Anthropic", "kind": "official" }
+      ]
+    },
+    {
+      "id": "amodei-governance-response",
+      "ai": "claude",
+      "category": "policy",
+      "story": "openai-anthropic-safety-insiders",
+      "headline": "Dario Amodei calls accusations that Anthropic wants to surrender human control to AI 'absurd'",
+      "summary": "In a long X post, Amodei rejected rivals' claims he favors giving up human free will to AI, saying 'we should never sacrifice legitimacy or self-determination.' He suggested limits on recursive self-improvement while accusing competitors of vibes-based positioning.",
+      "published": "2026-11-25T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "chatgpt-chat-work-rollout",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "chatgpt-chat-work-merger",
+      "headline": "OpenAI begins rolling out merged Chat and Work experience to Pro subscribers",
+      "summary": "OpenAI is unifying Chat and Work into one ChatGPT experience with a shared usage meter. Rolling out to select Pro users first, with broader rollout in December. Heavy users may hit limits sooner. Conversations using Instant remain unlimited.",
+      "published": "2026-11-25T00:00:00Z",
+      "rumor": false,
+      "sources": [
+        { "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits", "outlet": "OpenAI", "kind": "official" },
+        { "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/", "outlet": "TechCrunch", "kind": "press" },
+        { "url": "https://www.digitaltrends.com/computing/openai-merges-chat-and-work-in-chatgpt/", "outlet": "Digital Trends", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-private-inference-pilot",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-private-inference-pilot",
+      "headline": "OpenAI begins piloting Private Inference with first enterprise customers",
+      "summary": "Sam Altman says OpenAI is piloting the previously announced Private Inference offering. It runs queries on powerful models using isolated hardware without OpenAI accessing the data. Security can be independently verified. Consumer ChatGPT is unaffected.",
+      "published": "2026-11-25T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "deepmind-agents-gemini-experiments",
+      "ai": "gemini",
+      "category": "model",
+      "story": "deepmind-agents-gemini-experiments",
+      "headline": "DeepMind lets AI agents control part of its compute to run experiments for the next Gemini model",
+      "summary": "VP of Research Koray Kavukcuoglu revealed on a podcast that AI agents now run experiments on their own for the next Gemini. The lab does not reward agents' internal reasoning during training to keep it readable. Full recursive self-improvement remains distant.",
+      "published": "2026-11-25T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-opus-56-testing",
+      "ai": "claude",
+      "category": "model",
+      "story": "claude-opus-56-testing",
+      "headline": "Testers report possible Claude Opus 5.6 being A/B tested through an Opus 5.5 Extra route",
+      "summary": "TestingCatalog reports testers on X sharing outputs they believe come from an unreleased Opus 5.6. Side-by-side comparisons show major improvement in visual and SVG generation. Anthropic has not confirmed the model exists.",
+      "published": "2026-11-25T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-antigravity-neon-quota",
+      "ai": "gemini",
+      "category": "pricing",
+      "story": "gemini-antigravity-neon-quota",
+      "headline": "Google raises Gemini 4 Neon usage limits on Antigravity by roughly 75% through caching gains",
+      "summary": "TestingCatalog reports Google raised Neon quota on Antigravity subscriptions by roughly 75% over five days via caching and harness v2.35.0 improvements. Neon uses 12% less quota per task and finishes 17% faster. Auto mode triggers 50% fewer unnecessary approvals.",
+      "published": "2026-11-25T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/google-stretches-antigravity-neon-quota-with-caching-gains/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-chrome-ram-fix",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-chrome-ram-fix",
+      "headline": "Google confirms longstanding Gemini Chrome RAM issue consuming up to 8GB is resolved",
+      "summary": "Google's official support account confirmed on Reddit that a year-old Chrome RAM issue is fixed. Users had reported Gemini's web tab consuming over 5GB of RAM. Google did not explain the cause or what was changed.",
+      "published": "2026-11-26T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.androidauthority.com/google-gemini-chrome-ram-hogging-issue-fixed-3739606/", "outlet": "Android Authority", "kind": "community" }
+      ]
+    }
+  ]
+}

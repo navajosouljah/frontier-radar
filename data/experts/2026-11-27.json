@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-27",
+  "debate": {
+    "title": "Can AI prove the hardest open problems in mathematics?",
+    "consensus": "Leading researchers say recent AI-driven proofs mark a turning point for mathematics. The scale of what AI can now prove has outpaced most predictions.",
+    "story": "riemann-claude-proof"
+  },
+  "quotes": [
+    {
+      "person": "Scott Aaronson",
+      "role": "Complexity theorist, University of Texas at Austin",
+      "outlet": "Shtetl-Optimized (blog)",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "quote": "I now feel in my bones, for the first time ever, that a proof of P ≠ NP is not far.",
+      "stance": "impressed",
+      "ai": "claude",
+      "story": "riemann-claude-proof",
+      "said": "2026-11-25"
+    }
+  ]
+}

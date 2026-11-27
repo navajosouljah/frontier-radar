@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-27",
+  "top": null,
+  "items": [
+    {
+      "id": "gpt-62-billing-fix",
+      "ai": "chatgpt",
+      "category": "pricing",
+      "story": "gpt-62-billing-fix",
+      "headline": "OpenAI fixes GPT-6.2 billing error; Astra users now hit usage limits 40% faster",
+      "summary": "A billing bug at the November 17 launch of GPT-6.2 gave most users incorrect discounts on Astra and Sol. The fix means limits arrive 40% faster on Astra and 25% faster on Sol. OpenAI will not charge retroactively and is giving subscribers one extra banked usage reset.",
+      "published": "2026-11-26T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "claude-drive-file-browser-leak",
+      "ai": "claude",
+      "category": "feature",
+      "story": "claude-drive-file-browser-leak",
+      "headline": "TestingCatalog reports Anthropic is developing a dedicated Google Drive file browser for Claude",
+      "summary": "The leak tracker says Anthropic is building a Drive file browser in Claude's sidebar, letting users browse, search, and filter Google Docs, Sheets, and Slides without leaving Claude. Claude already has a Drive connector but no dedicated browsing UI.",
+      "published": "2026-11-26T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/anthropic-prepares-google-drive-file-browser-for-claude/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "jev-qwen-fine-tune-claim",
+      "ai": "jev",
+      "category": "model",
+      "story": "jev-qwen-fine-tune-claim",
+      "headline": "Research firm Modaic claims TypeSafe's Jev is built on Alibaba's Qwen3.5-35B-A3B",
+      "summary": "Modaic published a report saying Jev's decision model is likely a Qwen3.5-35B-A3B fine-tune, citing tokenizer correlation (Spearman 0.805) and self-identification tests. TypeSafe has not responded. Modaic runs a competing product, Mo Lite.",
+      "published": "2026-11-24T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://news.lavx.hu/article/modaic-traces-typesafe-s-jev-speed-to-a-qwen3-5-backbone", "outlet": "LavX News", "kind": "community" }
+      ]
+    },
+    {
+      "id": "gemini-guided-vision-ios",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-guided-vision-ios",
+      "headline": "Google rolls out Gemini Live Guided Vision to iOS after Android launch last month",
+      "summary": "The camera-based accessibility feature uses real-time audio to describe surroundings, read text, and suggest camera adjustments. It launched on Android in October and is now reaching iPhone users. Google confirmed through the GeminiApp account on X.",
+      "published": "2026-11-25T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://digit.in/news/general/guided-vision-in-gemini-live-now-rolling-out-on-ios-here-is-how-it-can-assist-iphone-users-in-real-time.html", "outlet": "Digit", "kind": "community" }
+      ]
+    }
+  ]
+}

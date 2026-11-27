@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-27",
+  "projects": [
+    {
+      "rank": 1,
+      "kind": "repo",
+      "name": "REA",
+      "ai": "claude",
+      "url": "https://github.com/morluto/rea",
+      "oneliner": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "why": "480K stars, up 110K in a month. Still the most-starred AI reverse engineering tool on GitHub.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 2,
+      "kind": "repo",
+      "name": "Superpowers",
+      "ai": "claude",
+      "url": "https://github.com/obra/superpowers",
+      "oneliner": "An agentic skills framework and software development methodology that works.",
+      "why": "328K stars. The largest skills framework in the Claude ecosystem, still on weekly trending.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 3,
+      "kind": "repo",
+      "name": "OpenCode",
+      "ai": "claude",
+      "url": "https://github.com/anomalyco/opencode",
+      "oneliner": "The open-source coding agent with terminal TUI, desktop app, and IDE extension.",
+      "why": "230K stars. The leading open-source alternative to proprietary coding agents.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 4,
+      "kind": "repo",
+      "name": "TradingAgents",
+      "ai": "chatgpt",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "oneliner": "Multi-agent LLM trading framework that simulates a trading firm with analyst, researcher, and risk manager agents.",
+      "why": "124K stars. The largest open-source AI trading framework.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 5,
+      "kind": "repo",
+      "name": "claude-mem",
+      "ai": "claude",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "oneliner": "Persistent context across sessions for every AI coding agent.",
+      "why": "120K stars, up from 107K last month. The leading agent memory tool as cross-session context becomes standard.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 6,
+      "kind": "repo",
+      "name": "Impeccable",
+      "ai": "claude",
+      "url": "https://github.com/pbakaus/impeccable",
+      "oneliner": "The design vocabulary for your coding agent, with commands to refine and review UI.",
+      "why": "118K stars, up from 98K. Fills the gap between coding agents and visual quality.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 7,
+      "kind": "repo",
+      "name": "Gemini CLI",
+      "ai": "gemini",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "oneliner": "Google's official terminal AI agent powered by the Gemini API.",
+      "why": "109K stars. Google's answer to Claude Code, now with 700+ contributors.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 8,
+      "kind": "repo",
+      "name": "last30days-skill",
+      "ai": "claude",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "oneliner": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web.",
+      "why": "76K stars. New to this week's list; a research skill that shows what agent skills can do at scale.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 9,
+      "kind": "repo",
+      "name": "diagram-design",
+      "ai": "claude",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "oneliner": "Editorial diagram design for Claude Code, Codex, Copilot, Cursor, and other coding agents.",
+      "why": "74K stars. A diagram generation skill covering 52 diagram types as HTML and SVG.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 10,
+      "kind": "repo",
+      "name": "minimind",
+      "ai": "chatgpt",
+      "url": "https://github.com/jingyaogong/minimind",
+      "oneliner": "Train your own 64M-parameter LLM from scratch in about 2 hours.",
+      "why": "72K stars. The go-to educational project for understanding LLM training end to end.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 11,
+      "kind": "repo",
+      "name": "CLI-Anything",
+      "ai": "claude",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "oneliner": "Makes arbitrary software usable by AI agents through CLI interfaces.",
+      "why": "67K stars. From HKU Data Science Lab; turns any desktop app into an agent-controllable tool.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 12,
+      "kind": "repo",
+      "name": "DeepTutor",
+      "ai": "chatgpt",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "oneliner": "Lifelong personalized tutoring agent that adapts to each student over time.",
+      "why": "64K stars. Research-backed AI tutoring from HKU Data Science Lab.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 13,
+      "kind": "repo",
+      "name": "Lightpanda Browser",
+      "ai": "chatgpt",
+      "url": "https://github.com/lightpanda-io/browser",
+      "oneliner": "Headless browser built for AI and automation, designed to be fast and lightweight.",
+      "why": "43K stars. The go-to headless browser for AI agent web tasks.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 14,
+      "kind": "repo",
+      "name": "Knowledge Work Plugins",
+      "ai": "claude",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "oneliner": "Anthropic's official open-source plugins for knowledge workers in Claude Cowork.",
+      "why": "37K stars. Anthropic's growing plugin ecosystem for enterprise and community contributors.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 15,
+      "kind": "repo",
+      "name": "OpenMausBot",
+      "ai": "grok",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "oneliner": "Open-source Grok Bot alternative with a virtual machine that bots can use.",
+      "why": "28K stars, tripled from 9K last month. The leading self-hosted Grok Bot alternative.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 16,
+      "kind": "repo",
+      "name": "SkillSpector",
+      "ai": "claude",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "oneliner": "Security scanner that analyzes AI agent skills for vulnerabilities before they run.",
+      "why": "28K stars. NVIDIA entering the agent-skills security space as the ecosystem matures.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 17,
+      "kind": "repo",
+      "name": "stitch-skills",
+      "ai": "gemini",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "oneliner": "A library of agent skills for the Stitch MCP server, compatible with Gemini CLI and Claude Code.",
+      "why": "13K stars. Google Labs' skill library bridges the Gemini and Claude agent ecosystems.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 18,
+      "kind": "repo",
+      "name": "ThinkRail",
+      "ai": "chatgpt",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "oneliner": "JetBrains' agentic IDE that gets better every time you use it.",
+      "why": "8.5K stars. JetBrains entering the agentic coding space with a dedicated IDE.",
+      "sources": [{ "url": "https://github.com/trending?since=weekly", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 19,
+      "kind": "repo",
+      "name": "fast-anything",
+      "ai": "claude",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "oneliner": "Profiles Python, Node, and Ruby apps, then ports slow functions to Rust with a coding agent.",
+      "why": "4.4K stars with 1,604 new in a single day. The fastest-rising performance-optimization agent skill this week.",
+      "sources": [{ "url": "https://github.com/trending", "outlet": "GitHub trending", "kind": "community" }]
+    },
+    {
+      "rank": 20,
+      "kind": "repo",
+      "name": "opengame",
+      "ai": "claude",
+      "url": "https://github.com/nexu-io/opengame",
+      "oneliner": "Game agent platform with 100+ viral games to remix, supporting 20+ coding agents.",
+      "why": "1.8K stars with 1,719 new in 24 hours. A fast riser bridging AI agents and game development.",
+      "sources": [{ "url": "https://github.com/trending", "outlet": "GitHub trending", "kind": "community" }]
+    }
+  ]
+}

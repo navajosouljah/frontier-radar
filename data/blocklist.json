@@ -4,5 +4,17 @@
     "date": "2026-10-17",
     "kind": "open-advisories",
     "reason": "3 open advisory(ies): GHSA-2jrq-p5rw-6wvv low (unpatched), GHSA-7qj3-7wqw-m5w6 moderate (unpatched), GHSA-vh98-jf5c-jw45 low (unpatched)"
+  },
+  {
+    "repo": "MadsLorentzen/ai-job-search",
+    "date": "2026-11-27",
+    "kind": "open-advisories",
+    "reason": "2 open advisory(ies): GHSA-wq7j-x5jq-pjrw moderate (unpatched), GHSA-2jrr-h8pp-42r8 low (unpatched)"
+  },
+  {
+    "repo": "cursor/plugins",
+    "date": "2026-11-27",
+    "kind": "open-advisories",
+    "reason": "1 open CVE(s) found by search: CVE-2026-83497 high (unpatched)"
   }
 ]

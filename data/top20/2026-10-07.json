@@ -4,27 +4,6 @@
     {
       "rank": 1,
       "kind": "repo",
-      "name": "PhotoCraft",
-      "ai": "claude",
-      "url": "https://github.com/storytold/photocraft",
-      "oneliner": "A clean-room Photoshop in pure Rust, with a command registry any agent can drive over MCP.",
-      "why": "8K stars in its first week; 21 of its recent commits are co-authored by Claude Opus 5.5.",
-      "sources": [
-        {
-          "url": "https://github.com/storytold/photocraft/commits/main",
-          "outlet": "PhotoCraft commit history",
-          "kind": "community"
-        },
-        {
-          "url": "https://x.com/kimmonismus/status/2107618163726921853",
-          "outlet": "Chubby on X",
-          "kind": "community"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "kind": "repo",
       "name": "claude-mem",
       "ai": "claude",
       "url": "https://github.com/thedotmack/claude-mem",
@@ -39,7 +18,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 2,
       "kind": "repo",
       "name": "Impeccable",
       "ai": "claude",
@@ -55,7 +34,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 3,
       "kind": "repo",
       "name": "Diagram Design",
       "ai": "claude",
@@ -71,7 +50,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 4,
       "kind": "repo",
       "name": "REA",
       "ai": "claude",
@@ -87,7 +66,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 5,
       "kind": "repo",
       "name": "text-to-cad",
       "ai": "claude",
@@ -103,7 +82,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "kind": "repo",
       "name": "Agency Agents",
       "ai": "claude",
@@ -119,7 +98,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 7,
       "kind": "repo",
       "name": "i-have-adhd",
       "ai": "claude",
@@ -135,7 +114,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 8,
       "kind": "repo",
       "name": "Vibeconferencing",
       "ai": "claude",
@@ -151,7 +130,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 9,
       "kind": "app",
       "name": "Jotbus",
       "ai": "claude",
@@ -167,7 +146,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 10,
       "kind": "app",
       "name": "HiddenContent.ai",
       "ai": "claude",
@@ -183,7 +162,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 11,
       "kind": "repo",
       "name": "jev-browser-wingman",
       "ai": "jev",

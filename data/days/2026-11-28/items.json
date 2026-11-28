@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-28",
+  "top": null,
+  "items": [
+    {
+      "id": "openai-apple-countersuit",
+      "ai": "chatgpt",
+      "category": "policy",
+      "story": "openai-apple-trade-secrets",
+      "headline": "OpenAI countersues Apple, alleging trade secret theft and coercion of shared suppliers",
+      "summary": "OpenAI filed a countersuit against Apple in California court, accusing it of stealing product plans through a returning employee and pressuring suppliers working with both companies. The suit also alleges Apple uses its market power to stifle competition.",
+      "published": "2026-11-27T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "openai-athena-platform",
+      "ai": "chatgpt",
+      "category": "feature",
+      "story": "openai-athena-platform",
+      "headline": "OpenAI reportedly building 'Athena' data platform to improve AI agent accuracy",
+      "summary": "According to The Information, OpenAI is developing a semantic layer codenamed Athena to give AI agents consistent definitions for business metrics. The platform aims to reduce errors when ChatGPT Work agents analyze company data. No timeline or pricing has been shared.",
+      "published": "2026-11-27T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/", "outlet": "The Decoder", "kind": "press" }
+      ]
+    },
+    {
+      "id": "gemini-antigravity-bundles-agents",
+      "ai": "gemini",
+      "category": "feature",
+      "story": "gemini-antigravity-bundles-agents",
+      "headline": "TestingCatalog spots plugin bundles and agent creation screen in Google's Antigravity",
+      "summary": "Leaked interface elements suggest Google is adding curated plugin bundles for professional workflows, an agent creation screen where users pick an icon and set a goal, and quota reset tokens to Antigravity. A mobile app and personal assistants may also be in development.",
+      "published": "2026-11-27T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://www.testingcatalog.com/google-develops-bundles-and-agent-creation-for-antigravity/", "outlet": "TestingCatalog", "kind": "community" }
+      ]
+    },
+    {
+      "id": "grok-bot-higher-tier",
+      "ai": "grok",
+      "category": "pricing",
+      "story": "grok-bot-higher-tier",
+      "headline": "Musk says a Grok Bot plan with more usage than the $200/month Ultra is coming",
+      "summary": "Responding to a user willing to pay $2,000 to $5,000 a month, Musk said 'Noted, will implement' but gave no price or launch date. SpaceXAI's team reported efficiency gains of 11% more usage per plan on November 26, with up to 50% more for routines.",
+      "published": "2026-11-27T00:00:00Z",
+      "rumor": true,
+      "sources": [
+        { "url": "https://teslanorth.com/2026/11/27/grok-bot-higher-usage-plan-elon-musk/", "outlet": "TeslaNorth", "kind": "press" }
+      ]
+    }
+  ]
+}
